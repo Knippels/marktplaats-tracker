@@ -109,6 +109,7 @@ function renderCategory(cat) {
   main.querySelector(".deal-rule").textContent = cat.deal_threshold === null ? "" :
     `deal = ${metricLabel(cat)} ≤ ${fmtMetric(cat, cat.deal_threshold)} (${cat.deal_rule})`;
   if (cat.kind !== "hdd") main.querySelector(".hdd-only").remove();
+  if (!cat.nas_score) main.querySelector(".nas-only").remove();
   main.querySelector(".new-hint").textContent = `afgelopen ${windowH} uur`;
 
   const hideRes = main.querySelector(".hide-reserved");
@@ -225,12 +226,33 @@ function columnsFor(cat) {
       { label: "€/TB", num: true, key: "metric", sort: (i) => i.metric, cell: (i) => (i.metric == null ? dash : fmtEur2.format(i.metric)) },
       common.city, common.seen];
   }
-  return [common.title, common.brand, common.type,
+  const nas = cat.nas_score ? [
+    { label: "Score", num: true, key: "score", sort: (i) => i.score, cell: scoreCell },
+    { label: "OMV", sort: (i) => ({ ja: 2, omweg: 1, nee: 0 }[i.omv] ?? -1), cell: omvCell },
+    { label: "CPU · RAM", sort: (i) => i.ram_gb, cell: (i) => (i.nas_model ? el("span", { class: "cpu" }, shortCpu(i.cpu), el("span", { class: "sub-num" }, fmtGb(i.ram_gb) + (i.ram_stated ? " (vermeld)" : ""))) : dash) },
+  ] : [];
+  return [common.title, common.brand, common.type, ...nas,
     { label: "Bays", num: true, sort: (i) => i.bays, cell: (i) => num(i.bays) },
     { label: "Aansluitingen", sort: (i) => (i.connections || []).join(" "), cell: (i) => ((i.connections || []).length ? el("span", { class: "conns" }, ...i.connections.map((c) => el("span", { class: "conn" }, c))) : dash) },
     { label: "Meegeleverde opslag", sort: (i) => i.storage_tb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted", title: "Niet vermeld in de advertentie (of niet herkend)" }, "niet vermeld")) },
     { label: "Prijs", num: true, key: "metric", sort: (i) => i.price, cell: (i) => el("span", {}, fmtPrice(i), i.highest_bid ? el("span", { class: "sub-num", title: "Hoogste bod" }, ` bod ${fmtEur.format(i.highest_bid)}`) : null) },
     common.city, common.seen];
+}
+
+function fmtGb(gb) { return gb == null ? dash : gb >= 1 ? `${String(gb).replace(".", ",")} GB RAM` : `${Math.round(gb * 1024)} MB RAM`; }
+function shortCpu(cpu) { return (cpu || "").replace(/^(Intel|AMD|Marvell|Annapurna Labs|Realtek|Freescale|Mindspeed)\s+/, "").replace(/\s+\d+(\.\d+)?GHz$/, ""); }
+
+function scoreCell(i) {
+  if (i.score == null) return el("span", { class: "muted", title: "Model niet herkend of niet in de modellenlijst" }, dash);
+  const cls = i.score >= 7 ? "good" : i.score >= 4 ? "mid" : "low";
+  return el("span", { class: `score ${cls}`, title: (i.score_why || []).join("\n") }, i.score.toFixed(1).replace(".", ","));
+}
+
+function omvCell(i) {
+  if (!i.omv) return el("span", { class: "muted", title: "Model niet herkend" }, dash);
+  const map = { ja: ["✓", "omv-yes"], omweg: ["~", "omv-maybe"], nee: ["✗", "omv-no"] };
+  const [sym, cls] = map[i.omv];
+  return el("span", { class: `omv ${cls}`, title: i.omv_why || "", "aria-label": `OMV: ${i.omv}` }, sym);
 }
 
 function renderTable(main, cat, items, isUnseen) {
@@ -241,8 +263,9 @@ function renderTable(main, cat, items, isUnseen) {
   const hideRes = main.querySelector(".hide-reserved");
   const chips = main.querySelectorAll(".chip");
   const cols = columnsFor(cat);
+  const scoreIdx = cols.findIndex((c) => c.key === "score");
   const metricIdx = cols.findIndex((c) => c.key === "metric");
-  let sort = { idx: metricIdx, asc: true };
+  let sort = scoreIdx >= 0 ? { idx: scoreIdx, asc: false } : { idx: metricIdx, asc: true };
   let only = "all";
 
   headRow.replaceChildren(...cols.map((c, idx) => el("th", { class: c.num ? "num" : "", "data-idx": idx }, c.label)));
@@ -266,7 +289,7 @@ function renderTable(main, cat, items, isUnseen) {
       .filter((i) => showGone.checked || i.active)
       .filter((i) => !hideRes.checked || !i.reserved)
       .filter((i) => only === "all" || (only === "deal" ? i.deal : i.isNew))
-      .filter((i) => !q || `${i.title} ${i.brand || ""} ${i.type || ""} ${i.city || ""} ${(i.connections || []).join(" ")}`.toLowerCase().includes(q))
+      .filter((i) => !q || `${i.title} ${i.brand || ""} ${i.type || ""} ${i.city || ""} ${i.cpu || ""} ${(i.connections || []).join(" ")}`.toLowerCase().includes(q))
       .sort((a, b) => {
         const av = col.sort(a), bv = col.sort(b);
         if (av === null || av === undefined) return 1;
@@ -288,7 +311,7 @@ function renderTable(main, cat, items, isUnseen) {
     const th = e.target.closest("th");
     if (!th) return;
     const idx = Number(th.dataset.idx);
-    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: cols[idx].label !== "Gezien" };
+    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: !["Gezien", "Score", "OMV"].includes(cols[idx].label) };
     draw();
   });
   chips.forEach((b) => b.addEventListener("click", () => {

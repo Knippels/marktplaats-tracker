@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 import yaml
 
-from . import extract, marktplaats
+from . import extract, marktplaats, nas_score
 
 NEW_WINDOW_HOURS = 48          # zo lang telt een advertentie als "nieuw"
 INACTIVE_PRUNE_DAYS = 60       # verdwenen advertenties worden na zoveel dagen opgeruimd
@@ -46,6 +46,10 @@ def enrich(item: dict, cat: dict) -> dict:
     fields = extract.extract(kind_of(cat), item["title"], item.get("description", ""),
                              item.get("price"), item.get("attrs"))
     item.update(fields)
+    if cat.get("nas_score"):
+        item.update(nas_score.evaluate(fields.get("type"), item["title"], item.get("description", "")))
+        if item.get("nas_model") and not item.get("type"):
+            item["type"] = item["nas_model"].title() if " " in item["nas_model"] else item["nas_model"]
     if cat.get("metric", "price") == "price_per_tb":
         item["metric"] = fields.get("price_per_tb")
     else:
@@ -212,6 +216,7 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
         "name": cat["name"],
         "metric": metric,
         "kind": kind_of(cat),
+        "nas_score": bool(cat.get("nas_score")),
         "queries": cat["queries"],
         "deal_threshold": threshold,
         "deal_rule": ("vast" if cat.get("deal_max") is not None

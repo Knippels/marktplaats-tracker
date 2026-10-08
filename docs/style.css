@@ -172,3 +172,12 @@ code { font-size: 12px; background: var(--grid); padding: 1px 5px; border-radius
 .list tr.reserved td { color: var(--muted); }
 .list tr.reserved a { color: var(--text-2); }
 .cards .empty { grid-column: 1 / -1; }
+.score { display: inline-block; min-width: 2.6em; text-align: center; font-weight: 700; padding: 1px 6px; border-radius: 6px; cursor: help; }
+.score.good { background: var(--good-bg); color: var(--good-text); }
+.score.mid { background: var(--drop-bg); color: var(--drop-text); }
+.score.low { background: var(--grid); color: var(--muted); }
+.omv { font-weight: 700; font-size: 15px; cursor: help; }
+.omv-yes { color: var(--good-text); }
+.omv-maybe { color: var(--drop-text); }
+.omv-no { color: var(--muted); }
+.cpu { white-space: nowrap; }

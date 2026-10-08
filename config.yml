@@ -6,6 +6,7 @@
 # Nieuwe zoekterm toevoegen = nieuw blok onder `categories:` kopiëren en aanpassen.
 #
 # Velden per categorie:
+#   nas_score       (optioneel) true = score 0-10 en OMV-kolom op basis van scraper/nas_models.yml
 #   kind            hdd (schijven) of enclosure (DAS/NAS) — bepaalt welke kolommen de tabel toont
 #   id              unieke korte naam (alleen a-z, 0-9 en -), wordt de bestandsnaam
 #   name            naam op de pagina
@@ -91,6 +92,7 @@ categories:
   - id: nas-4-bay
     name: "4-bay NAS"
     kind: enclosure    # tabel: merk, type, bays, aansluitingen, meegeleverde opslag
+    nas_score: true    # bruikbaarheidsscore + OMV-kolom (modellen in scraper/nas_models.yml)
     # Complete NAS'en met 4 schijfsloten (met of zonder schijven). Prijs is inclusief eventuele schijven.
     queries:
       - "4-bay nas"

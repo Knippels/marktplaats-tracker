@@ -1,0 +1,146 @@
+# Specificaties van gangbare 4-bay NAS'en, gebruikt voor de bruikbaarheidsscore en de OMV-kolom.
+#
+# Velden:
+#   cpu        processor (zoals de fabrikant hem noemt)
+#   arch       x86_64 | x86_32 | arm64 | armv7 | armv5 | ppc
+#   cores      aantal kernen
+#   tier       grove prestatieklasse 1 (zeer traag) .. 5 (snel), zie README
+#   ram        standaard geheugen in GB (laagste variant)
+#   ram_max    maximaal geheugen in GB volgens fabrikant
+#   video      hdmi | vga | none   (scherm nodig om een ander OS te installeren)
+#   os         actief | beperkt | eol
+#              actief  = krijgt nog volledige updates van huidige DSM/QTS (model 2020 of later)
+#              beperkt = draait nog DSM 7 / QTS 5, maar ouder model (einde ondersteuning nadert)
+#              eol     = blijft hangen op DSM 6.2 (EOL sinds 1-10-2024) of QTS 4.x
+#   omv        ja | omweg | nee    (OpenMediaVault 7/8 installeerbaar)
+#   net        snelste ingebouwde netwerk (1, 2.5, 10 GbE)
+#   m2         M.2/NVMe-sloten aanwezig (true/false)
+#   src        v = specs gecontroleerd op fabriekspagina; k = uit fabrikantspecs/kennis, niet los gecontroleerd
+#
+# Bronnen: QNAP productpagina's (qnap.com/en/product/<model>/specs/hardware), QTS 5.0.1 release notes
+# (lijst "Applicable Models"), SynoCommunity "Architecture per Synology model", mariushosting DSM 7.0
+# supported devices, blackvoid DSM 6.2 EOL, openmediavault prerequisites, CNX Software (OMV 8 alleen 64-bit).
+
+# ---------------------------------------------------------------- QNAP x86 (HDMI/VGA: ander OS mogelijk)
+TS-439 PRO:     {cpu: Intel Atom N270, arch: x86_32, cores: 1, tier: 1, ram: 1, ram_max: 1, video: vga, os: eol, omv: nee, net: 1, src: k}
+TS-439 PRO II:  {cpu: Intel Atom D410, arch: x86_64, cores: 1, tier: 1, ram: 1, ram_max: 2, video: vga, os: eol, omv: omweg, net: 1, src: k}
+TS-439 PRO II+: {cpu: Intel Atom D425 1.8GHz, arch: x86_64, cores: 1, tier: 1, ram: 1, ram_max: 2, video: vga, os: eol, omv: omweg, net: 1, src: v}
+TS-459 PRO:     {cpu: Intel Atom D510, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 2, video: vga, os: eol, omv: omweg, net: 1, src: k}
+TS-459 PRO+:    {cpu: Intel Atom D525, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: vga, os: eol, omv: omweg, net: 1, src: k}
+TS-459 PRO II:  {cpu: Intel Atom D525 1.8GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: vga, os: eol, omv: omweg, net: 1, src: v}
+TS-469 PRO:     {cpu: Intel Atom D2700 2.13GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: hdmi, os: eol, omv: ja, net: 1, src: k}
+TS-469L:        {cpu: Intel Atom D2701 2.13GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: hdmi, os: eol, omv: ja, net: 1, src: v}
+TS-470:         {cpu: Intel Celeron G550T, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 16, video: hdmi, os: eol, omv: ja, net: 1, src: k}
+TS-470 PRO:     {cpu: Intel Core i3-3220 3.3GHz, arch: x86_64, cores: 2, tier: 4, ram: 2, ram_max: 16, video: hdmi, os: eol, omv: ja, net: 1, src: v}
+TS-451:         {cpu: Intel Celeron J1800 2.41GHz, arch: x86_64, cores: 2, tier: 3, ram: 1, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: v}
+TS-451+:        {cpu: Intel Celeron J1900 2.0GHz, arch: x86_64, cores: 4, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: v}
+TS-451A:        {cpu: Intel Celeron N3060 1.6GHz, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: v}
+TS-451D:        {cpu: Intel Celeron J4005, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+TS-451D2:       {cpu: Intel Celeron J4025, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: actief, omv: ja, net: 1, src: k}
+TS-453 PRO:     {cpu: Intel Celeron J1900 2.0GHz, arch: x86_64, cores: 4, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: v}
+TS-453MINI:     {cpu: Intel Celeron J1900 2.0GHz, arch: x86_64, cores: 4, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+TS-453A:        {cpu: Intel Celeron N3150 1.6GHz, arch: x86_64, cores: 4, tier: 3, ram: 4, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: v}
+TS-453B:        {cpu: Intel Celeron J3455 1.5GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: v}
+TS-453BE:       {cpu: Intel Celeron J3455 1.5GHz, arch: x86_64, cores: 4, tier: 4, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+TS-453BMINI:    {cpu: Intel Celeron J3455 1.5GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+TS-453D:        {cpu: Intel Celeron J4125 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: hdmi, os: actief, omv: ja, net: 2.5, src: v}
+TS-462:         {cpu: Intel Celeron N4505, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 16, video: hdmi, os: actief, omv: ja, net: 2.5, m2: true, src: v}
+TS-464:         {cpu: Intel Celeron N5095, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 16, video: hdmi, os: actief, omv: ja, net: 2.5, m2: true, src: v}
+TS-410E:        {cpu: Intel Celeron J6412, arch: x86_64, cores: 4, tier: 4, ram: 8, ram_max: 8, video: hdmi, os: actief, omv: ja, net: 2.5, src: v}
+TS-473A:        {cpu: AMD Ryzen V1500B 2.2GHz, arch: x86_64, cores: 4, tier: 5, ram: 8, ram_max: 64, video: none, os: actief, omv: omweg, net: 2.5, m2: true, src: v}
+TS-473:         {cpu: AMD RX-421BD, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 64, video: hdmi, os: beperkt, omv: ja, net: 1, m2: true, src: k}
+TVS-471:        {cpu: Intel Core i3-4150, arch: x86_64, cores: 2, tier: 4, ram: 4, ram_max: 16, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+TVS-473:        {cpu: AMD RX-421BD 2.1GHz, arch: x86_64, cores: 4, tier: 4, ram: 8, ram_max: 64, video: hdmi, os: beperkt, omv: ja, net: 1, m2: true, src: v}
+TVS-463:        {cpu: AMD GX-424CC, arch: x86_64, cores: 4, tier: 3, ram: 4, ram_max: 16, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+TS-431X:        {cpu: Annapurna Labs AL-514 1.7GHz, arch: armv7, cores: 4, tier: 3, ram: 2, ram_max: 8, video: none, os: beperkt, omv: nee, net: 10, src: k}
+
+# ---------------------------------------------------------------- QNAP ARM
+TS-410:         {cpu: Marvell 6281 800MHz, arch: armv5, cores: 1, tier: 1, ram: 0.25, ram_max: 0.25, video: none, os: eol, omv: nee, net: 1, src: k}
+TS-412:         {cpu: Marvell 6281 1.2GHz, arch: armv5, cores: 1, tier: 1, ram: 0.25, ram_max: 0.25, video: none, os: eol, omv: nee, net: 1, src: v}
+TS-419P:        {cpu: Marvell 6281 1.2GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+TS-419P+:       {cpu: Marvell 6282 1.6GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+TS-419P II:     {cpu: Marvell 6282 2.0GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+TS-420:         {cpu: Marvell 1.6GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: v}
+TS-421:         {cpu: Marvell 6282 2.0GHz, arch: armv5, cores: 1, tier: 1, ram: 1, ram_max: 1, video: none, os: eol, omv: nee, net: 1, src: k}
+TS-431:         {cpu: Mindspeed Comcerto 2000 1.2GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+TS-431+:        {cpu: Annapurna Labs AL-212 1.4GHz, arch: armv7, cores: 2, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+TS-431P:        {cpu: Annapurna Labs AL-212 1.7GHz, arch: armv7, cores: 2, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: v}
+TS-431K:        {cpu: Annapurna Labs AL-214 1.7GHz, arch: armv7, cores: 4, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+TS-431P2:       {cpu: Annapurna Labs AL-314 1.7GHz, arch: armv7, cores: 4, tier: 3, ram: 1, ram_max: 8, video: none, os: beperkt, omv: nee, net: 1, src: v}
+TS-431P3:       {cpu: Annapurna Labs AL-314 1.7GHz, arch: armv7, cores: 4, tier: 3, ram: 2, ram_max: 16, video: none, os: actief, omv: nee, net: 2.5, src: k}
+TS-431KX:       {cpu: Annapurna Labs AL-214 1.7GHz, arch: armv7, cores: 4, tier: 2, ram: 2, ram_max: 8, video: none, os: actief, omv: nee, net: 10, src: k}
+TS-433:         {cpu: ARM Cortex-A55 2.0GHz, arch: arm64, cores: 4, tier: 3, ram: 4, ram_max: 4, video: none, os: actief, omv: nee, net: 2.5, src: v}
+TS-416:         {cpu: ARM Cortex-A55 1.8GHz, arch: arm64, cores: 4, tier: 3, ram: 4, ram_max: 4, video: none, os: actief, omv: nee, net: 2.5, src: k}
+
+# ---------------------------------------------------------------- Synology (DSM; geen ander OS: geen BIOS/video, dichtgetimmerd)
+CS407:          {cpu: Marvell 88F5281 500MHz, arch: armv5, cores: 1, tier: 1, ram: 0.125, ram_max: 0.125, video: none, os: eol, omv: nee, net: 1, src: k}
+CS407E:         {cpu: Freescale PPC 266MHz, arch: ppc, cores: 1, tier: 1, ram: 0.064, ram_max: 0.064, video: none, os: eol, omv: nee, net: 1, src: k}
+DS409:          {cpu: Marvell 88F6281 1.2GHz, arch: armv5, cores: 1, tier: 1, ram: 0.25, ram_max: 0.25, video: none, os: eol, omv: nee, net: 1, src: k}
+DS410:          {cpu: Freescale MPC8533 800MHz, arch: ppc, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+DS410J:         {cpu: Marvell 88F6281 800MHz, arch: armv5, cores: 1, tier: 1, ram: 0.128, ram_max: 0.128, video: none, os: eol, omv: nee, net: 1, src: k}
+DS411J:         {cpu: Marvell 88F6281 1.2GHz, arch: armv5, cores: 1, tier: 1, ram: 0.128, ram_max: 0.128, video: none, os: eol, omv: nee, net: 1, src: k}
+DS411:          {cpu: Marvell 88F6282 1.6GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+DS411+:         {cpu: Intel Atom D510 1.66GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: none, os: eol, omv: nee, net: 1, src: k}
+DS411+II:       {cpu: Intel Atom D525 1.8GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: none, os: eol, omv: nee, net: 1, src: k}
+DS412+:         {cpu: Intel Atom D2700 2.13GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 2, video: none, os: eol, omv: nee, net: 1, src: k}
+DS413J:         {cpu: Marvell 88F6282 2.0GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+DS413:          {cpu: Freescale QorIQ P1022 1.07GHz, arch: ppc, cores: 2, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+DS414:          {cpu: Marvell Armada XP 1.33GHz, arch: armv7, cores: 2, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS414J:         {cpu: Mindspeed Comcerto 2000 1.2GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS414SLIM:      {cpu: Marvell Armada 370 1.2GHz, arch: armv7, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS415+:         {cpu: Intel Atom C2538 2.4GHz, arch: x86_64, cores: 4, tier: 3, ram: 2, ram_max: 6, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS415PLAY:      {cpu: Intel Atom CE5335 1.6GHz, arch: x86_32, cores: 2, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS416:          {cpu: Annapurna Labs AL-212 1.4GHz, arch: armv7, cores: 2, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS416J:         {cpu: Marvell Armada 385 1.3GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS416SLIM:      {cpu: Marvell Armada 385 1.3GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS416PLAY:      {cpu: Intel Celeron N3060 1.6GHz, arch: x86_64, cores: 2, tier: 3, ram: 1, ram_max: 8, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS916+:         {cpu: Intel Pentium N3710 1.6GHz, arch: x86_64, cores: 4, tier: 3, ram: 2, ram_max: 8, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS418J:         {cpu: Realtek RTD1293 1.4GHz, arch: arm64, cores: 2, tier: 2, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS418:          {cpu: Realtek RTD1296 1.4GHz, arch: arm64, cores: 4, tier: 3, ram: 2, ram_max: 2, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS418PLAY:      {cpu: Intel Celeron J3355 2.0GHz, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 6, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS918+:         {cpu: Intel Celeron J3455 1.5GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: none, os: beperkt, omv: nee, net: 1, m2: true, src: k}
+DS419SLIM:      {cpu: Marvell Armada 385 1.3GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: beperkt, omv: nee, net: 1, src: k}
+DS420J:         {cpu: Realtek RTD1296 1.4GHz, arch: arm64, cores: 4, tier: 3, ram: 1, ram_max: 1, video: none, os: actief, omv: nee, net: 1, src: k}
+DS420+:         {cpu: Intel Celeron J4025 2.0GHz, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 6, video: none, os: actief, omv: nee, net: 1, m2: true, src: k}
+DS920+:         {cpu: Intel Celeron J4125 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: none, os: actief, omv: nee, net: 1, m2: true, src: k}
+DS423:          {cpu: Realtek RTD1619B 1.7GHz, arch: arm64, cores: 4, tier: 3, ram: 2, ram_max: 2, video: none, os: actief, omv: nee, net: 1, m2: true, src: k}
+DS423+:         {cpu: Intel Celeron J4125 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 2, ram_max: 6, video: none, os: actief, omv: nee, net: 1, m2: true, src: k}
+DS424+:         {cpu: Intel Celeron J4125 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 2, ram_max: 6, video: none, os: actief, omv: nee, net: 1, m2: true, src: k}
+DS425+:         {cpu: Intel Celeron J4125 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 2, ram_max: 6, video: none, os: actief, omv: nee, net: 2.5, m2: true, src: k}
+DS923+:         {cpu: AMD Ryzen R1600 2.6GHz, arch: x86_64, cores: 2, tier: 4, ram: 4, ram_max: 32, video: none, os: actief, omv: nee, net: 1, m2: true, src: k}
+DS925+:         {cpu: AMD Ryzen V1500B 2.2GHz, arch: x86_64, cores: 4, tier: 5, ram: 4, ram_max: 32, video: none, os: actief, omv: nee, net: 2.5, m2: true, src: k}
+
+# ---------------------------------------------------------------- TerraMaster (TOS op USB-stick; x86 met HDMI: ander OS mogelijk)
+F4-210:         {cpu: Realtek RTD1296 1.4GHz, arch: arm64, cores: 4, tier: 3, ram: 1, ram_max: 1, video: none, os: beperkt, omv: nee, net: 1, src: k}
+F4-220:         {cpu: Intel Celeron J1800 2.41GHz, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 8, video: none, os: eol, omv: omweg, net: 1, src: k}
+F4-221:         {cpu: Intel Celeron J3355 2.0GHz, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 6, video: none, os: beperkt, omv: omweg, net: 1, src: k}
+F4-422:         {cpu: Intel Atom C3538 2.1GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 32, video: none, os: beperkt, omv: omweg, net: 10, src: k}
+F4-423:         {cpu: Intel Celeron N5105 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 32, video: hdmi, os: actief, omv: ja, net: 2.5, m2: true, src: k}
+F4-424:         {cpu: Intel Processor N95, arch: x86_64, cores: 4, tier: 4, ram: 8, ram_max: 32, video: hdmi, os: actief, omv: ja, net: 2.5, m2: true, src: k}
+F4-424 PRO:     {cpu: Intel Core i3-N300, arch: x86_64, cores: 8, tier: 5, ram: 32, ram_max: 32, video: hdmi, os: actief, omv: ja, net: 2.5, m2: true, src: k}
+F4-424 MAX:     {cpu: Intel Core i5-1235U, arch: x86_64, cores: 10, tier: 5, ram: 16, ram_max: 64, video: hdmi, os: actief, omv: ja, net: 10, m2: true, src: k}
+
+# ---------------------------------------------------------------- Asustor (Intel met HDMI: ander OS officieel mogelijk)
+AS-604T:        {cpu: Intel Atom D2700 2.13GHz, arch: x86_64, cores: 2, tier: 2, ram: 1, ram_max: 3, video: hdmi, os: eol, omv: ja, net: 1, src: k}
+AS5104T:        {cpu: Intel Celeron J1900 2.0GHz, arch: x86_64, cores: 4, tier: 3, ram: 2, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+AS6104T:        {cpu: Intel Celeron J1900 2.0GHz, arch: x86_64, cores: 4, tier: 3, ram: 4, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+AS6204T:        {cpu: Intel Celeron N3150 1.6GHz, arch: x86_64, cores: 4, tier: 3, ram: 4, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+AS6404T:        {cpu: Intel Celeron J3455 1.5GHz, arch: x86_64, cores: 4, tier: 4, ram: 8, ram_max: 8, video: hdmi, os: beperkt, omv: ja, net: 1, src: k}
+AS5304T:        {cpu: Intel Celeron J4105 1.5GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: hdmi, os: actief, omv: ja, net: 2.5, src: k}
+AS6604T:        {cpu: Intel Celeron J4125 2.0GHz, arch: x86_64, cores: 4, tier: 4, ram: 4, ram_max: 8, video: hdmi, os: actief, omv: ja, net: 2.5, m2: true, src: k}
+AS1004T:        {cpu: Marvell Armada 385 1.6GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: beperkt, omv: nee, net: 1, src: k}
+AS1104T:        {cpu: Realtek RTD1296 1.4GHz, arch: arm64, cores: 4, tier: 3, ram: 1, ram_max: 1, video: none, os: actief, omv: nee, net: 1, src: k}
+
+# ---------------------------------------------------------------- Netgear ReadyNAS (product eind 2023 gestopt)
+RN104:          {cpu: Marvell Armada 370 1.2GHz, arch: armv7, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+RN204:          {cpu: Annapurna Labs AL-212 1.4GHz, arch: armv7, cores: 2, tier: 2, ram: 2, ram_max: 2, video: none, os: eol, omv: nee, net: 1, src: k}
+RN214:          {cpu: Annapurna Labs AL-314 1.7GHz, arch: armv7, cores: 4, tier: 3, ram: 2, ram_max: 2, video: none, os: eol, omv: nee, net: 1, src: k}
+RN314:          {cpu: Intel Atom D2700 2.13GHz, arch: x86_64, cores: 2, tier: 2, ram: 2, ram_max: 2, video: none, os: eol, omv: omweg, net: 1, src: k}
+RN424:          {cpu: Intel Atom C3338 1.5GHz, arch: x86_64, cores: 2, tier: 3, ram: 2, ram_max: 2, video: none, os: eol, omv: omweg, net: 1, src: k}
+
+# ---------------------------------------------------------------- overig
+IX4-200D:       {cpu: Marvell 88F6281 1GHz, arch: armv5, cores: 1, tier: 1, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+IX4-300D:       {cpu: Marvell Armada XP 1.3GHz, arch: armv7, cores: 2, tier: 2, ram: 0.5, ram_max: 0.5, video: none, os: eol, omv: nee, net: 1, src: k}
+MICROSERVER GEN8:  {cpu: Intel Celeron G1610T / Xeon E3, arch: x86_64, cores: 2, tier: 4, ram: 2, ram_max: 16, video: vga, os: actief, omv: ja, net: 1, src: k}
+MICROSERVER GEN10: {cpu: AMD Opteron X3216/X3421, arch: x86_64, cores: 2, tier: 3, ram: 8, ram_max: 32, video: vga, os: actief, omv: ja, net: 1, src: k}
+MICROSERVER GEN10 PLUS: {cpu: Intel Pentium G5420 / Xeon E-2224, arch: x86_64, cores: 2, tier: 4, ram: 8, ram_max: 32, video: vga, os: actief, omv: ja, net: 1, src: k}

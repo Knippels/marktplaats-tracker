@@ -7,6 +7,11 @@ Per zoekcategorie toont de pagina:
 - **Tabel (bovenaan)** met deals (groen) en nieuwe advertenties (blauwe rand) gemarkeerd, en snelfilters
   - schijven: merk, type, grootte, aantal, prijs per stuk, totaal, €/TB
   - DAS/NAS: merk, type, bays, aansluitingen (USB-C, USB 3.x, eSATA, Thunderbolt, LAN…), meegeleverde opslag, hoogste bod
+- **NAS-score (0–10) en OMV-kolom** (categorie 4-bay NAS): het model wordt herkend en opgezocht in
+  `scraper/nas_models.yml`. Score = 35% platform (x86-64 met ander OS mogelijk > x86 zonder > ARM64 > ARM32 > ARMv5/PPC),
+  25% processorklasse, 25% geheugen (vermeld in advertentie of standaard), 15% OS-updates (actief/beperkt/EOL),
+  plus bonus voor 2.5/10 GbE en M.2. OMV: ✓ x86-64 met beeldscherm-uitgang, ~ met omweg, ✗ niet (ARM 32-bit, Synology).
+  Model ontbreekt? Voeg een regel toe aan `scraper/nas_models.yml`.
 - **Interessante aanbiedingen**: onder een vaste grens (bijv. ≤ €12/TB) of de goedkoopste 25%
 - **Nieuw binnen**: advertenties van de afgelopen 48 uur; blauwe rand = nieuw sinds je laatste bezoek
 - **Prijsverloop**: dagelijks mediaan, goedkoopste 25% en laagste prijs (voor HDD's in €/TB)
