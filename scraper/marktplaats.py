@@ -1,6 +1,9 @@
 """Marktplaats.nl bron: haalt advertenties op via de zoek-API die de website zelf gebruikt."""
 from __future__ import annotations
 
+import html as htmllib
+import json
+import re
 import time
 
 import requests
@@ -51,6 +54,12 @@ def parse_listing(raw: dict) -> dict | None:
 
     location = raw.get("location") or {}
     seller = raw.get("sellerInformation") or {}
+    attrs = {}
+    for a in (raw.get("extendedAttributes") or []) + (raw.get("attributes") or []):
+        if isinstance(a, dict) and a.get("key") and a.get("value"):
+            attrs.setdefault(a["key"], a["value"])
+    if attrs.get("manufacturerTradename") and not attrs.get("brand"):
+        attrs["brand"] = attrs["manufacturerTradename"]
 
     return {
         "id": f"mp-{item_id}",
@@ -64,7 +73,37 @@ def parse_listing(raw: dict) -> dict | None:
         "city": location.get("cityName"),
         "seller": seller.get("sellerName"),
         "posted": raw.get("date"),
+        "attrs": {k: attrs[k] for k in ("brand", "type", "size", "kind", "condition") if k in attrs},
     }
+
+
+LD_JSON = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.S)
+
+
+def fetch_detail(url: str, session: requests.Session | None = None) -> dict:
+    """Haalt de volledige omschrijving (+ hoogste bod) van de advertentiepagina."""
+    s = session or requests.Session()
+    resp = s.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=30)
+    resp.raise_for_status()
+    page = resp.text
+    out: dict = {}
+    for block in LD_JSON.findall(page):
+        try:
+            data = json.loads(block)
+        except ValueError:
+            continue
+        for obj in data if isinstance(data, list) else [data]:
+            if isinstance(obj, dict) and obj.get("@type") == "Product" and obj.get("description"):
+                out["description"] = htmllib.unescape(obj["description"]).strip()
+    m = re.search(r'"bidsInfo":(\{.*?"bids":\[.*?\]\})', page)
+    if m:
+        try:
+            bids = json.loads(m.group(1)).get("bids") or []
+            if bids:
+                out["highest_bid"] = max(b.get("value", 0) for b in bids) / 100
+        except ValueError:
+            pass
+    return out
 
 
 def search(query: str, *, postcode: str | None = None, distance_km: int | None = None,

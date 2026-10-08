@@ -83,35 +83,36 @@ function renderCategory(cat) {
   const visitKey = `lastVisit:${cat.id}`;
   const lastVisit = storeGet(visitKey);
   storeSet(visitKey, cat.updated);
-  const isUnseen = (it) => lastVisit && it.first_seen > lastVisit;
+  const isUnseen = (it) => Boolean(lastVisit && it.first_seen > lastVisit);
 
-  const items = Object.entries(cat.listings).map(([id, v]) => ({ id, ...v }));
-  const active = items.filter((i) => i.active);
   const windowH = state.index.new_window_hours || 48;
-  const cutoff = new Date(new Date(cat.updated).getTime() - windowH * 3600e3).toISOString();
-  const fresh = active.filter((i) => i.first_seen >= cutoff.replace(".000", ""))
-    .sort((a, b) => b.first_seen.localeCompare(a.first_seen));
+  const cutoff = new Date(new Date(cat.updated).getTime() - windowH * 3600e3).toISOString().replace(".000", "");
+  const items = Object.entries(cat.listings).map(([id, v]) => ({ id, ...v, isNew: v.active && v.first_seen >= cutoff }));
+  const active = items.filter((i) => i.active);
+  const fresh = active.filter((i) => i.isNew).sort((a, b) => b.first_seen.localeCompare(a.first_seen));
   const deals = active.filter((i) => i.deal).sort((a, b) => a.metric - b.metric);
   const vals = active.map((i) => i.metric).filter((v) => v !== null && v !== undefined).sort((a, b) => a - b);
   const median = vals.length ? (vals.length % 2 ? vals[(vals.length - 1) / 2] : (vals[vals.length / 2 - 1] + vals[vals.length / 2]) / 2) : null;
 
-  // KPI's
   main.querySelector(".kpis").replaceChildren(
     kpi("Actief", active.length),
     kpi(`Nieuw (${windowH} u)`, fresh.length),
-    kpi("Interessant", deals.length),
+    kpi("Deals", deals.length),
     kpi(`Mediaan ${metricLabel(cat)}`, fmtMetric(cat, median)),
     kpi(`Laagste ${metricLabel(cat)}`, fmtMetric(cat, vals[0])),
   );
-
+  main.querySelector(".new-h").textContent = `nieuw (${windowH} u)`;
+  main.querySelector(".n-deal").textContent = deals.length;
+  main.querySelector(".n-new").textContent = fresh.length;
   main.querySelector(".deal-rule").textContent = cat.deal_threshold === null ? "" :
-    `${metricLabel(cat)} ≤ ${fmtMetric(cat, cat.deal_threshold)} (${cat.deal_rule})`;
-  main.querySelector(".new-hint").textContent = `afgelopen ${windowH} uur` + (lastVisit ? " · blauwe rand = sinds je laatste bezoek" : "");
+    `deal = ${metricLabel(cat)} ≤ ${fmtMetric(cat, cat.deal_threshold)} (${cat.deal_rule})`;
+  if (cat.kind !== "hdd") main.querySelector(".hdd-only").remove();
+  main.querySelector(".new-hint").textContent = `afgelopen ${windowH} uur`;
 
+  renderTable(main, cat, items, isUnseen);
+  renderChart(main, cat);
   fillCards(main.querySelector(".cards.deals"), deals, cat, isUnseen, "Geen aanbiedingen onder de grens op dit moment.");
   fillCards(main.querySelector(".cards.new"), fresh, cat, isUnseen, "Niets nieuws in deze periode.");
-  renderChart(main, cat);
-  renderTable(main, cat, items, isUnseen);
 }
 
 function kpi(label, value) {
@@ -121,7 +122,7 @@ function kpi(label, value) {
 function fillCards(box, list, cat, isUnseen, emptyText) {
   if (!list.length) { box.replaceWith(el("p", { class: "empty" }, emptyText)); return; }
   box.replaceChildren(...list.slice(0, 12).map((it) => {
-    const showMetric = cat.metric !== "price" && it.metric !== null;
+    const showMetric = cat.metric !== "price" && it.metric !== null && it.metric !== undefined;
     return el("a", { class: "card" + (isUnseen(it) ? " unseen" : ""), href: it.url, target: "_blank", rel: "noopener" },
       el("div", { class: "img", style: it.image ? `background-image:url('${encodeURI(it.image)}')` : "" }),
       el("div", { class: "body" },
@@ -130,7 +131,7 @@ function fillCards(box, list, cat, isUnseen, emptyText) {
           it.deal ? el("span", { class: "badge deal" }, "deal") : null,
           it.price_drop ? el("span", { class: "badge drop" }, "prijs verlaagd") : null),
         el("div", { class: "title", title: it.title }, it.title),
-        el("div", { class: "price" }, fmtPrice(it), showMetric ? el("span", { class: "metric" }, fmtMetric(cat, it.metric)) : null),
+        el("div", { class: "price" }, cat.kind === "hdd" && it.qty > 1 && it.price_each != null ? `${it.qty}× ${fmtEur.format(it.price_each)}` : fmtPrice(it), showMetric ? el("span", { class: "metric" }, fmtMetric(cat, it.metric)) : null),
         el("div", { class: "meta" }, [it.city, "gezien " + fmtDate.format(new Date(it.first_seen))].filter(Boolean).join(" · "))));
   }));
 }
@@ -184,47 +185,101 @@ function renderChart(main, cat) {
   });
 }
 
+const dash = "–";
+const num = (v, unit = "") => (v === null || v === undefined ? dash : `${String(v).replace(".", ",")}${unit}`);
+
+function priceEachCell(i) {
+  if (i.price_each === null || i.price_each === undefined) return fmtPrice(i);
+  const est = i.per_piece === "geschat";
+  return el("span", { title: i.qty > 1 ? `Vraagprijs in advertentie: ${fmtPrice(i)}` + (est ? " — prijs per stuk geschat" : i.per_piece ? " — prijs per stuk vermeld" : " — totaalprijs gedeeld door aantal") : null },
+    (est ? "≈ " : "") + fmtEur.format(i.price_each));
+}
+
+function columnsFor(cat) {
+  const common = {
+    title: { label: "Advertentie", sort: (i) => i.title, cell: null },
+    brand: { label: "Merk", sort: (i) => i.brand, cell: (i) => i.brand || dash },
+    type: { label: "Type", sort: (i) => i.type, cell: (i) => i.type || dash },
+    city: { label: "Plaats", sort: (i) => i.city, cell: (i) => i.city || dash },
+    seen: { label: "Gezien", sort: (i) => i.first_seen, cell: (i) => fmtDate.format(new Date(i.first_seen)) },
+  };
+  if (cat.kind === "hdd") {
+    return [common.title, common.brand, common.type,
+      { label: "Grootte", num: true, sort: (i) => i.size_tb, cell: (i) => num(i.size_tb, " TB") },
+      { label: "Aantal", num: true, sort: (i) => i.qty, cell: (i) => (i.sold_separately ? el("span", { title: "Meerdere beschikbaar, los te koop" }, `${i.qty} (los)`) : num(i.qty)) },
+      { label: "Prijs/stuk", num: true, sort: (i) => i.price_each, cell: priceEachCell },
+      { label: "Totaal", num: true, sort: (i) => i.price_total, cell: (i) => (i.price_total == null ? (i.price_each == null ? dash : (i.sold_separately ? "los" : dash)) : fmtEur.format(i.price_total)) },
+      { label: "€/TB", num: true, key: "metric", sort: (i) => i.metric, cell: (i) => (i.metric == null ? dash : fmtEur2.format(i.metric)) },
+      common.city, common.seen];
+  }
+  return [common.title, common.brand, common.type,
+    { label: "Bays", num: true, sort: (i) => i.bays, cell: (i) => num(i.bays) },
+    { label: "Aansluitingen", sort: (i) => (i.connections || []).join(" "), cell: (i) => ((i.connections || []).length ? el("span", { class: "conns" }, ...i.connections.map((c) => el("span", { class: "conn" }, c))) : dash) },
+    { label: "Meegeleverde opslag", sort: (i) => i.storage_tb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted", title: "Niet vermeld of niet herkend" }, "?")) },
+    { label: "Prijs", num: true, key: "metric", sort: (i) => i.price, cell: (i) => el("span", {}, fmtPrice(i), i.highest_bid ? el("span", { class: "sub-num", title: "Hoogste bod" }, ` bod ${fmtEur.format(i.highest_bid)}`) : null) },
+    common.city, common.seen];
+}
+
 function renderTable(main, cat, items, isUnseen) {
   const tbody = main.querySelector("tbody");
+  const headRow = main.querySelector("thead tr");
   const filter = main.querySelector(".filter");
   const showGone = main.querySelector(".show-gone");
-  const ths = main.querySelectorAll("th[data-sort]");
-  if (cat.metric !== "price_per_tb") main.querySelectorAll(".metric-col").forEach((n) => n.remove());
-  let sort = { key: cat.metric === "price_per_tb" ? "metric" : "price", asc: true };
+  const chips = main.querySelectorAll(".chip");
+  const cols = columnsFor(cat);
+  const metricIdx = cols.findIndex((c) => c.key === "metric");
+  let sort = { idx: metricIdx, asc: true };
+  let only = "all";
+
+  headRow.replaceChildren(...cols.map((c, idx) => el("th", { class: c.num ? "num" : "", "data-idx": idx }, c.label)));
+
+  function titleCell(i) {
+    return el("td", { class: "title-cell" },
+      isUnseen(i) && i.active ? el("span", { class: "dot", title: "Nieuw sinds je laatste bezoek" }) : null,
+      el("a", { href: i.url, target: "_blank", rel: "noopener", title: i.title }, i.title),
+      el("span", { class: "row-badges" },
+        i.deal ? el("span", { class: "badge deal" }, "deal") : null,
+        i.isNew ? el("span", { class: "badge new" }, "nieuw") : null,
+        i.price_drop ? el("span", { class: "badge drop", title: "Prijs verlaagd" }, "↓ prijs") : null,
+        i.active ? null : el("span", { class: "badge gone" }, "verdwenen")));
+  }
 
   function draw() {
     const q = filter.value.trim().toLowerCase();
+    const col = cols[sort.idx];
     const rows = items
       .filter((i) => showGone.checked || i.active)
-      .filter((i) => !q || `${i.title} ${i.city || ""}`.toLowerCase().includes(q))
+      .filter((i) => only === "all" || (only === "deal" ? i.deal : i.isNew))
+      .filter((i) => !q || `${i.title} ${i.brand || ""} ${i.type || ""} ${i.city || ""} ${(i.connections || []).join(" ")}`.toLowerCase().includes(q))
       .sort((a, b) => {
-        const av = a[sort.key], bv = b[sort.key];
+        const av = col.sort(a), bv = col.sort(b);
         if (av === null || av === undefined) return 1;
         if (bv === null || bv === undefined) return -1;
         const r = typeof av === "number" ? av - bv : String(av).localeCompare(String(bv), "nl");
         return sort.asc ? r : -r;
       });
-    tbody.replaceChildren(...rows.map((i) => el("tr", { class: i.active ? "" : "gone" },
-      el("td", {}, el("a", { href: i.url, target: "_blank", rel: "noopener" }, i.title),
-        isUnseen(i) && i.active ? el("span", { class: "badge new" }, "nieuw") : null,
-        i.deal ? el("span", { class: "badge deal" }, "deal") : null,
-        i.price_drop ? el("span", { class: "badge drop" }, "↓") : null,
-        i.active ? null : el("span", { class: "badge gone" }, "verdwenen")),
-      el("td", { class: "num" }, fmtPrice(i)),
-      cat.metric === "price_per_tb" ? el("td", { class: "num" }, fmtMetric(cat, i.metric)) : null,
-      el("td", {}, i.city || "–"),
-      el("td", {}, fmtDate.format(new Date(i.first_seen))))));
-    if (!rows.length) tbody.replaceChildren(el("tr", {}, el("td", { colspan: 5, class: "muted" }, "Geen advertenties.")));
-    for (const th of main.querySelectorAll("th[data-sort]")) {
-      th.classList.toggle("sorted", th.dataset.sort === sort.key);
-      th.classList.toggle("asc", th.dataset.sort === sort.key && sort.asc);
-    }
+    tbody.replaceChildren(...rows.map((i) => {
+      const cls = [i.active ? "" : "gone", i.deal ? "is-deal" : "", i.isNew ? "is-new" : ""].join(" ").trim();
+      return el("tr", { class: cls }, ...cols.map((c) => (c.cell === null ? titleCell(i) : el("td", { class: c.num ? "num" : "" }, c.cell(i)))));
+    }));
+    if (!rows.length) tbody.replaceChildren(el("tr", {}, el("td", { colspan: cols.length, class: "muted" }, "Geen advertenties.")));
+    headRow.querySelectorAll("th").forEach((th, idx) => {
+      th.classList.toggle("sorted", idx === sort.idx);
+      th.classList.toggle("asc", idx === sort.idx && sort.asc);
+    });
   }
-  for (const th of ths) th.addEventListener("click", () => {
-    const k = th.dataset.sort;
-    sort = sort.key === k ? { key: k, asc: !sort.asc } : { key: k, asc: k !== "first_seen" };
+  headRow.addEventListener("click", (e) => {
+    const th = e.target.closest("th");
+    if (!th) return;
+    const idx = Number(th.dataset.idx);
+    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: cols[idx].label !== "Gezien" };
     draw();
   });
+  chips.forEach((b) => b.addEventListener("click", () => {
+    only = b.dataset.only;
+    chips.forEach((c) => c.setAttribute("aria-pressed", String(c === b)));
+    draw();
+  }));
   filter.addEventListener("input", draw);
   showGone.addEventListener("change", draw);
   draw();

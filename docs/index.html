@@ -28,23 +28,35 @@
   </footer>
 
   <template id="cat-tpl">
+    <section class="block table-block">
+      <div class="block-head">
+        <h2>Advertenties</h2>
+        <div class="controls">
+          <div class="chips" role="group" aria-label="Snelfilter">
+            <button type="button" class="chip" data-only="all" aria-pressed="true">Alle</button>
+            <button type="button" class="chip deal" data-only="deal" aria-pressed="false">Deals <span class="n-deal"></span></button>
+            <button type="button" class="chip new" data-only="new" aria-pressed="false">Nieuw <span class="n-new"></span></button>
+          </div>
+          <input type="search" class="filter" placeholder="Filter op titel, merk, type, plaats…" aria-label="Filter">
+          <label class="check"><input type="checkbox" class="show-gone"> verdwenen tonen</label>
+        </div>
+      </div>
+      <p class="legend">
+        <span><i class="sw sw-deal"></i>deal</span>
+        <span><i class="sw sw-new"></i><span class="new-h">nieuw</span></span>
+        <span><span class="dot"></span>sinds je laatste bezoek</span>
+        <span class="hdd-only">≈ = prijs per stuk geschat</span>
+        <span class="deal-rule"></span>
+      </p>
+      <div class="table-wrap">
+        <table class="list">
+          <thead><tr></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
     <section class="kpis"></section>
-
-    <section class="block">
-      <div class="block-head">
-        <h2>Interessante aanbiedingen</h2>
-        <span class="hint deal-rule"></span>
-      </div>
-      <div class="cards deals"></div>
-    </section>
-
-    <section class="block">
-      <div class="block-head">
-        <h2>Nieuw binnen</h2>
-        <span class="hint new-hint"></span>
-      </div>
-      <div class="cards new"></div>
-    </section>
 
     <section class="block">
       <div class="block-head">
@@ -57,24 +69,17 @@
 
     <section class="block">
       <div class="block-head">
-        <h2>Alle advertenties</h2>
-        <div class="controls">
-          <input type="search" class="filter" placeholder="Filter op titel of plaats…" aria-label="Filter">
-          <label class="check"><input type="checkbox" class="show-gone"> verdwenen tonen</label>
-        </div>
+        <h2>Interessante aanbiedingen</h2>
       </div>
-      <div class="table-wrap">
-        <table class="list">
-          <thead><tr>
-            <th data-sort="title">Titel</th>
-            <th data-sort="price" class="num">Prijs</th>
-            <th data-sort="metric" class="num metric-col">€/TB</th>
-            <th data-sort="city">Plaats</th>
-            <th data-sort="first_seen">Gezien sinds</th>
-          </tr></thead>
-          <tbody></tbody>
-        </table>
+      <div class="cards deals"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2>Nieuw binnen</h2>
+        <span class="hint new-hint"></span>
       </div>
+      <div class="cards new"></div>
     </section>
   </template>
 

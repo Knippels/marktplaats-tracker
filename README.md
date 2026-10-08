@@ -4,6 +4,9 @@ Houdt Marktplaats.nl bij voor homelab-onderdelen (SATA-schijven 4TB+, 4-bay DAS,
 overzichtspagina op GitHub Pages: **https://knippels.github.io/marktplaats-tracker/**
 
 Per zoekcategorie toont de pagina:
+- **Tabel (bovenaan)** met deals (groen) en nieuwe advertenties (blauwe rand) gemarkeerd, en snelfilters
+  - schijven: merk, type, grootte, aantal, prijs per stuk, totaal, €/TB
+  - DAS/NAS: merk, type, bays, aansluitingen (USB-C, USB 3.x, eSATA, Thunderbolt, LAN…), meegeleverde opslag, hoogste bod
 - **Interessante aanbiedingen**: onder een vaste grens (bijv. ≤ €12/TB) of de goedkoopste 25%
 - **Nieuw binnen**: advertenties van de afgelopen 48 uur; blauwe rand = nieuw sinds je laatste bezoek
 - **Prijsverloop**: dagelijks mediaan, goedkoopste 25% en laagste prijs (voor HDD's in €/TB)
@@ -49,4 +52,8 @@ python -m http.server -d docs  # http://localhost:8000
 - Alleen Marktplaats.nl. Facebook Marketplace toont zoekresultaten alleen aan ingelogde gebruikers
   en verbiedt geautomatiseerd verzamelen, dus dat zit er niet in.
 - De Marktplaats-zoek-API is niet officieel en kan zonder aankondiging veranderen.
-- Capaciteit (TB) wordt uit de titel gelezen; "2x 8TB" telt als 16 TB.
+- Merk, type, aantal, prijs per stuk, aansluitingen en opslag worden met regels (`scraper/extract.py`) uit titel en
+  volledige omschrijving gehaald. De omschrijving wordt één keer per nieuwe advertentie van de advertentiepagina
+  opgehaald (max. 150 per run). Staat er "per stuk" of "nog 5 aanwezig", dan is de vraagprijs de prijs per stuk;
+  is een totaalprijs onwaarschijnlijk laag (< €4/TB), dan wordt prijs per stuk aangenomen (≈ in de tabel).
+- €/TB voor schijven = prijs per stuk / grootte per schijf.

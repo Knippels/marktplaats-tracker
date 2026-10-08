@@ -16,14 +16,13 @@ from pathlib import Path
 import requests
 import yaml
 
-from . import marktplaats
+from . import extract, marktplaats
 
 NEW_WINDOW_HOURS = 48          # zo lang telt een advertentie als "nieuw"
 INACTIVE_PRUNE_DAYS = 60       # verdwenen advertenties worden na zoveel dagen opgeruimd
 HISTORY_MAX_DAYS = 730
-
-CAP_RE = re.compile(r"(?<![\d.,])(\d{1,2})\s?(?:tb|tib|terabyte)\b", re.I)
-QTY_RE = re.compile(r"\b(\d)\s?[x×]\s?(\d{1,2})\s?(?:tb|tib)\b", re.I)
+DETAIL_BUDGET = 150            # max. detailpagina's per run (alleen voor nieuwe advertenties)
+DESC_MAX = 3000
 
 
 def now_utc() -> datetime:
@@ -38,13 +37,20 @@ def parse_iso(s: str) -> datetime:
     return datetime.fromisoformat(s.replace("Z", "+00:00"))
 
 
-def capacity_tb(text: str) -> float | None:
-    """Totale capaciteit uit de titel: '2x 8TB' -> 16, 'WD Red 4TB' -> 4."""
-    m = QTY_RE.search(text)
-    if m:
-        return float(int(m.group(1)) * int(m.group(2)))
-    caps = [int(c) for c in CAP_RE.findall(text) if 1 <= int(c) <= 30]
-    return float(max(caps)) if caps else None
+def kind_of(cat: dict) -> str:
+    return cat.get("kind") or ("hdd" if cat.get("metric") == "price_per_tb" else "enclosure")
+
+
+def enrich(item: dict, cat: dict) -> dict:
+    """Vult merk/type/grootte/aantal/prijs per stuk/aansluitingen/opslag in (op basis van titel+omschrijving)."""
+    fields = extract.extract(kind_of(cat), item["title"], item.get("description", ""),
+                             item.get("price"), item.get("attrs"))
+    item.update(fields)
+    if cat.get("metric", "price") == "price_per_tb":
+        item["metric"] = fields.get("price_per_tb")
+    else:
+        item["metric"] = item.get("price")
+    return item
 
 
 def matches(listing: dict, cat: dict) -> bool:
@@ -60,19 +66,10 @@ def matches(listing: dict, cat: dict) -> bool:
         if cat.get("max_price") is not None and price > cat["max_price"]:
             return False
     if cat.get("min_tb"):
-        cap = listing.get("capacity_tb")
-        if cap is None or cap < cat["min_tb"]:
+        size = listing.get("size_tb")
+        if size is None or size < cat["min_tb"]:
             return False
     return True
-
-
-def metric_value(item: dict, metric: str) -> float | None:
-    if item.get("price") is None:
-        return None
-    if metric == "price_per_tb":
-        cap = item.get("capacity_tb")
-        return round(item["price"] / cap, 2) if cap else None
-    return item["price"]
 
 
 def percentile(values: list[float], pct: float) -> float:
@@ -97,8 +94,7 @@ def scrape_category(cat: dict, cfg: dict, session: requests.Session) -> tuple[li
         try:
             for item in marktplaats.search(q, postcode=cfg.get("postcode"),
                                            distance_km=cfg.get("distance_km"), session=session):
-                item["capacity_tb"] = capacity_tb(item["title"]) or capacity_tb(item.get("description", ""))
-                if matches(item, cat):
+                if matches(enrich(item, cat), cat):
                     found.setdefault(item["id"], item)
             print(f"  [{cat['id']}] '{q}': totaal {len(found)} passend", flush=True)
         except Exception as exc:  # noqa: BLE001 - één mislukte zoekterm mag de rest niet stoppen
@@ -108,22 +104,24 @@ def scrape_category(cat: dict, cfg: dict, session: requests.Session) -> tuple[li
     return list(found.values()), ok
 
 
-def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path, ts: datetime) -> dict:
+class Budget:
+    def __init__(self, n: int):
+        self.left = n
+
+
+def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path, ts: datetime,
+                    session: requests.Session | None = None, budget: Budget | None = None) -> dict:
     path = out_dir / f"{cat['id']}.json"
     data = load_json(path, {"listings": {}, "history": []})
     listings: dict[str, dict] = data.get("listings", {})
-    # Opgeslagen advertenties die niet meer door aangescherpte filters komen, eruit
-    # (include wordt niet opnieuw getoetst: die keek ook naar de omschrijving, die niet bewaard wordt)
-    recheck = {k: v for k, v in cat.items() if k != "include"}
-    listings = {k: v for k, v in listings.items()
-                if matches({"title": v["title"], "price": v["price"], "capacity_tb": v.get("capacity_tb")}, recheck)}
     metric = cat.get("metric", "price")
     stamp = iso(ts)
     seen_now = set()
+    budget = budget or Budget(0)
 
     for item in fresh:
         seen_now.add(item["id"])
-        prev = listings.get(item["id"])
+        prev = listings.get(item["id"]) or {}
         rec = {
             "title": item["title"],
             "url": item["url"],
@@ -134,11 +132,26 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
             "posted": item["posted"],
             "price": item["price"],
             "price_type": item["price_type"],
-            "capacity_tb": item.get("capacity_tb"),
-            "metric": metric_value(item, metric),
+            "attrs": item.get("attrs") or prev.get("attrs") or {},
+            "description": max([prev.get("description") or "", item.get("description") or ""], key=len),
+            "detail": prev.get("detail", False),
+            "highest_bid": prev.get("highest_bid"),
             "last_seen": stamp,
             "active": True,
         }
+        # Volledige omschrijving eenmalig ophalen (voor aantal, prijs per stuk, aansluitingen, opslag)
+        if not rec["detail"] and session is not None and budget.left > 0 and rec["url"]:
+            budget.left -= 1
+            try:
+                det = marktplaats.fetch_detail(rec["url"], session)
+                if len(det.get("description") or "") > len(rec["description"]):
+                    rec["description"] = det["description"]
+                rec["highest_bid"] = det.get("highest_bid")
+                rec["detail"] = True
+            except Exception as exc:  # noqa: BLE001
+                print(f"    detail mislukt {rec['url']}: {exc}", file=sys.stderr, flush=True)
+            time.sleep(1.5)
+        rec["description"] = rec["description"][:DESC_MAX]
         if prev:
             rec["first_seen"] = prev["first_seen"]
             hist = prev.get("price_history", [])
@@ -151,6 +164,13 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
         prices = [p for _, p in rec["price_history"]]
         rec["price_drop"] = len(prices) > 1 and prices[-1] < max(prices)
         listings[item["id"]] = rec
+
+    # Alle opgeslagen advertenties opnieuw verrijken (verbeteringen in extract.py werken zo met terugwerkende kracht)
+    # en opnieuw toetsen aan de (mogelijk aangescherpte) filters
+    for v in listings.values():
+        v.setdefault("description", "")
+        enrich(v, cat)
+    listings = {k: v for k, v in listings.items() if matches(v, cat)}
 
     # Alleen als ALLE zoekopdrachten lukten weten we zeker wat verdwenen is
     if complete:
@@ -190,6 +210,7 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
         "id": cat["id"],
         "name": cat["name"],
         "metric": metric,
+        "kind": kind_of(cat),
         "queries": cat["queries"],
         "deal_threshold": threshold,
         "deal_rule": ("vast" if cat.get("deal_max") is not None
@@ -214,6 +235,7 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     ts = now_utc()
     session = requests.Session()
+    budget = Budget(DETAIL_BUDGET)
 
     index = []
     any_ok = False
@@ -223,12 +245,13 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Categorie {cat['name']}", flush=True)
         fresh, complete = scrape_category(cat, cfg, session)
         any_ok = any_ok or complete or bool(fresh)
-        res = update_category(cat, fresh, complete, out_dir, ts)
+        res = update_category(cat, fresh, complete, out_dir, ts, session, budget)
         active = [v for v in res["listings"].values() if v["active"]]
         index.append({
             "id": cat["id"],
             "name": cat["name"],
             "metric": res["metric"],
+            "kind": res["kind"],
             "active": len(active),
             "deals": sum(1 for v in active if v["deal"]),
             "new": sum(1 for v in active

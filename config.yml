@@ -6,6 +6,7 @@
 # Nieuwe zoekterm toevoegen = nieuw blok onder `categories:` kopiëren en aanpassen.
 #
 # Velden per categorie:
+#   kind            hdd (schijven) of enclosure (DAS/NAS) — bepaalt welke kolommen de tabel toont
 #   id              unieke korte naam (alleen a-z, 0-9 en -), wordt de bestandsnaam
 #   name            naam op de pagina
 #   queries         één of meer zoekopdrachten op Marktplaats (resultaten worden samengevoegd)
@@ -26,6 +27,7 @@
 categories:
   - id: hdd-sata-4tb-plus
     name: "SATA HDD 4TB+"
+    kind: hdd          # tabel: merk, type, grootte, aantal, prijs per stuk
     queries:
       - "hdd 4tb"
       - "hdd 6tb"
@@ -51,6 +53,7 @@ categories:
 
   - id: das-4-bay
     name: "4-bay DAS"
+    kind: enclosure    # tabel: merk, type, bays, aansluitingen, meegeleverde opslag
     # Zoektermen gebaseerd op hoe DAS-behuizingen echt op Marktplaats staan
     # (categorieën Harde schijven, NAS en Dockingstations; titels als "4-bay behuizing",
     # "4HDD behuizing", "4x 3,5\" SATA ... USB3 eSATA", "Disk Enclosure", "Docking Station")
@@ -87,6 +90,7 @@ categories:
 
   - id: nas-4-bay
     name: "4-bay NAS"
+    kind: enclosure    # tabel: merk, type, bays, aansluitingen, meegeleverde opslag
     # Complete NAS'en met 4 schijfsloten (met of zonder schijven). Prijs is inclusief eventuele schijven.
     queries:
       - "4-bay nas"
@@ -102,7 +106,7 @@ categories:
       - "readynas"
     # 4-bay in titel/omschrijving, of een bekend 4-bay-model
     include: '(\b4[\s-]?(bay|bays|slots?|sleuven|disks?|drives?|schijven)\b|\b4\s?x\s?\d{1,2}\s?tb\b|\bts-?4\d{2}\w*|\bds4\d{2}\w*|\bds9\d{2}\w*|\bf4-\d{3}\w*|\bas\d?4\d{2}\w*|\brn\d?[13]?\d?4\b|\brn[123]4\d{2}\w*|\bix4\b)'
-    exclude: '\b(gezocht|defect\w*|kapot|reparatie|onderdelen|[1235678][\s-]?bays?|1u|2u|rack\w*|rackstation|rs\d{3,4}\w*|rx\d{3}\w*|\w+-rp\+?|ts-?\d{3,4}(u|xu|pxu)\w*|expansion|jbod|netapp|chassis|moederbord|d[1235]-\d{3}\w*|ram\s?modules?|lade|tray|caddy|beugel)\b'
+    exclude: '\b(gezocht|defect\w*|kapot|reparatie|onderdelen|[1235678][\s-]?bays?|1u|2u|rack\w*|rackstation|rs\d{3,4}\w*|rx\d{3}\w*|\w+-rp\+?|ts-?\d{3,4}(u|xu|pxu)\w*|expansion|jbod|netapp|chassis|moederbord|d[1235]-\d{3}\w*|ram\s?modules?|lade|tray|caddy|beugel|das|docking\w*|dock|behuizing|enclosure|kast|esata|usb[\s-]?c|thunderbolt|nvme|lacie|voor\s2[.,]5|sterilisator|uv\w*|hopper)\b'
     min_price: 30
     max_price: 900
     metric: price

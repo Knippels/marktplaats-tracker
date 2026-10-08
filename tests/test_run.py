@@ -36,19 +36,10 @@ def test_parse_bid_without_price():
     assert marktplaats.parse_listing(raw)["price"] is None
 
 
-def test_capacity():
-    assert run.capacity_tb("WD Red 4TB") == 4
-    assert run.capacity_tb("2x 8TB Ironwolf") == 16
-    assert run.capacity_tb("Seagate Exos 16 TB") == 16
-    assert run.capacity_tb("Samsung 1.5TB") is None or run.capacity_tb("Samsung 1.5TB") < 4
-    assert run.capacity_tb("geen capaciteit") is None
-
-
-def _item(title, price, iid="mp-1"):
-    p = marktplaats.parse_listing(dict(RAW, title=title, itemId=iid,
+def _item(title, price, iid="mp-1", desc=""):
+    p = marktplaats.parse_listing(dict(RAW, title=title, itemId=iid, description=desc,
                                        priceInfo={"priceCents": int(price * 100), "priceType": "FIXED"}))
-    p["capacity_tb"] = run.capacity_tb(p["title"])
-    return p
+    return run.enrich(p, load_cats()["hdd-sata-4tb-plus"])
 
 
 def test_hdd_filters():
@@ -135,3 +126,13 @@ def test_nas_4_bay():
               "QNAP TS-453U 4-Bay Rackmount NAS - DEFECT", "SP 4+3 4-Bay NAS Chassis M-ATX Moederbord",
               "TerraMaster D2-320 USB Externe Disk Enclosure NAS", "Gezocht: Synology DS418"]:
         assert not run.matches(_item(t, 150), cat), t
+
+
+def test_update_uses_price_per_piece(tmp_path):
+    cat = load_cats()["hdd-sata-4tb-plus"]
+    t0 = datetime(2026, 10, 1, tzinfo=timezone.utc)
+    it = _item("4x WD Red Pro 8TB NAS Hard Drive", 100, "pp", desc="Prijs is per stuk!!")
+    res = run.update_category(cat, [it], True, tmp_path, t0)
+    rec = res["listings"]["mp-pp"]
+    assert (rec["qty"], rec["price_each"], rec["price_total"], rec["metric"]) == (4, 100, 400, 12.5)
+    assert rec["description"] == "Prijs is per stuk!!"
