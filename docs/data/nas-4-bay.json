@@ -18,7 +18,7 @@
  ],
  "deal_threshold": 128.0,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T20:25:04Z",
+ "updated": "2026-10-08T20:30:27Z",
  "last_run_complete": true,
  "history": [
   {
@@ -43,10 +43,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Synology ds412+ 4-bay nas inclusief 4x seagate 4tb nas harde schijven (16tb totale capaciteit). De nas is volledig werkend en verkeert in goede staat. Alle vier de schijven zijn identieke seagate st40",
-   "detail": true,
+   "description": "Synology DS412+ 4-bay NAS inclusief 4x Seagate 4TB NAS harde schijven (16TB totale capaciteit).\nDe NAS is volledig werkend en verkeert in goede staat. Alle vier de schijven zijn identieke Seagate ST4000VN000 4TB NAS HDD's en worden door Synology DSM als Healthy weergegeven. Alle vier de schijven hebben 0 bad sectors.\nMomenteel geconfigureerd als RAID 5, met circa 10,9 TB bruikbare opslagcapaciteit en bescherming tegen uitval van één schijf.\nSpecificaties:\n• Synology DS412+ 4-bay NAS\n• 4x Seagate 4TB NAS HDD – 16TB raw capaciteit\n• Alle 4 HDD's Healthy / 0 bad sectors\n• RAID 5\n• Intel Atom D2700 dual-core 2.13 GHz\n• 1GB RAM\n• 2x Gigabit Ethernet\n• USB 3.0 / USB 2.0 / eSATA\n• DSM 6.2.4\nDe NAS is jarenlang betrouwbaar gebruikt en werkt zonder problemen. Ik verkoop hem omdat ik ben overgestapt op een nieuwere Synology NAS.\nVoor overdracht worden al mijn persoonlijke gegevens volledig verwijderd en wordt de NAS klaargemaakt voor de nieuwe eigenaar.\nVoeding inbegrepen.",
+   "detail": 2,
    "highest_bid": 250.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -59,7 +59,12 @@
    "brand": "Synology",
    "type": "DS412+",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "USB 3.0",
+    "USB 2.0",
+    "eSATA",
+    "LAN"
+   ],
    "storage": "4× 4 TB (16 TB)",
    "storage_tb": 16.0,
    "price_each": 395.0,
@@ -80,10 +85,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een synology ds916+ nas. Dit is een krachtige 4-bay nas die ideaal is voor thuisgebruik of kleine bedrijven. De nas wordt geleverd zonder harde schijven, zodat u zelf de gewenste o",
-   "detail": true,
+   "description": "Te koop aangeboden: een Synology DS916+ NAS. Dit is een krachtige 4-bay NAS die ideaal is voor thuisgebruik of kleine bedrijven. De NAS wordt geleverd zonder harde schijven, zodat u zelf de gewenste opslagcapaciteit kunt kiezen. Perfect voor het centraal opslaan van bestanden, back-ups, media streaming en meer. De DS916+ staat bekend om zijn betrouwbaarheid en uitgebreide functionaliteiten via Synology's DSM besturingssysteem.",
+   "detail": 2,
    "highest_bid": 115.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -117,10 +122,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Goed onderhouden synology diskstation ds412+ nas met 4gb ram. Dit 4-bay netwerkopslagapparaat is ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare oplossing voor ge",
-   "detail": true,
+   "description": "Goed onderhouden Synology DiskStation DS412+ NAS met 4GB RAM.\nDit 4-bay netwerkopslagapparaat is ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare oplossing voor gegevensopslag, back-ups en mediabeheer.\nDe NAS is in uitstekende staat en functioneert perfect.\nLet op: wordt geleverd zonder harde schijven.\n\nCompleet met voeding\n\nZie foto’s",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -134,8 +139,8 @@
    "type": "DS412+",
    "bays": 4,
    "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "storage": "Geen",
+   "storage_tb": 0.0,
    "price_each": 150.0,
    "price_total": 150.0,
    "metric": 150.0,
@@ -154,10 +159,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "In perfect staat. Synology ds412 + met 4x 2tb western digital disks. Specificaties synology ds412+ 4-bay nas dual core processor 2,13 ghz 1 gb ddr3 geheugen 2× gigabit-netwerkpoorten 2× usb 3.0 1× Usb",
-   "detail": true,
+   "description": "In perfect staat. Synology DS412 + Met 4x 2TB Western Digital disks.\n\n Specificaties Synology DS412+ \n4-bay NAS\nDual Core processor 2,13 GHz\n1 GB DDR3 geheugen\n2× Gigabit-netwerkpoorten\n2× USB 3.0\n1× USB 2.0\neSATA-aansluiting\nHot-swappable drive bays\nOndersteuning voor RAID 0, 1, 5, 6, 10 en JBOD\nSynology DiskStation Manager (DSM)\n\nAf te halen in Hilversum. Minimum vraagprijs 250 euro.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -167,6 +172,8 @@
    "bays": 4,
    "connections": [
     "USB 3.0",
+    "USB 2.0",
+    "eSATA",
     "LAN"
    ],
    "storage": "4× 2 TB (8 TB)",
@@ -190,9 +197,9 @@
     "condition": "Zo goed als nieuw"
    },
    "description": "Prima geschikt voor het maken van backups van desktops fotos etc etc",
-   "detail": true,
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -226,10 +233,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een synology ds920+ 4-bay nas, inclusief twee 8tb toshiba enterprise harde schijven. Deze nas is destijds gebruikt in combinatie met een tweede nas voor backup en archivering van f",
-   "detail": true,
+   "description": "Te koop aangeboden: een Synology DS920+ 4-bay NAS, inclusief twee 8TB Toshiba Enterprise harde schijven.\n\nDeze NAS is destijds gebruikt in combinatie met een tweede NAS voor backup en archivering van foto's, maar is nu overbodig geworden door een systeemwijziging.\n\nDe NAS en de harde schijven zijn in nette staat. De schijven zijn eventueel ook los te koop, evenals de NAS zelf. Zie hiervoor mijn andere advertenties.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -263,10 +270,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Aangeboden: een goed onderhouden synology nas ds418 12tb. Dit 4-bay nas-systeem is ideaal voor thuisgebruikers en kleine kantoren die op zoek zijn naar een betrouwbare oplossing voor gegevensopslag, b",
-   "detail": true,
+   "description": "Aangeboden: een goed onderhouden Synology NAS DS418 12TB. Dit 4-bay NAS-systeem is ideaal voor thuisgebruikers en kleine kantoren die op zoek zijn naar een betrouwbare oplossing voor gegevensopslag, back-up en mediabeheer. De DS418 staat bekend om zijn gebruiksvriendelijke DiskStation Manager (DSM) besturingssysteem, krachtige prestaties en energiezuinigheid. Het apparaat is in uitstekende staat en wordt geleverd inclusief de originele stroomadapter. Inclusief 4x 3TB geïnstalleerde schijven. Een extra Seagate HDD NAS 3.5\" 3TB schijf is inclusief (zie foto van de doos).",
+   "detail": 2,
    "highest_bid": 375.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -280,8 +287,8 @@
    "type": "DS418",
    "bays": 4,
    "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "storage": "4× 3 TB (12 TB)",
+   "storage_tb": 12.0,
    "price_each": 450.0,
    "price_total": 450.0,
    "metric": 450.0,
@@ -300,10 +307,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een synology ds416play nas met zelfs 4 gb ram. Dit krachtige apparaat is uitermate geschikt voor het afspelen van video’s, dankzij de ingebouwde hardware transcodering. Ik heb hem",
-   "detail": true,
+   "description": "Te koop aangeboden: een Synology DS416play NAS met zelfs 4 GB RAM. Dit krachtige apparaat is uitermate geschikt voor het afspelen van video’s, dankzij de ingebouwde hardware transcodering. Ik heb hem als backup-oplossing aangeschaft. De NAS is in uitstekende staat en werkt perfect. Ideaal voor wie een betrouwbare en veelzijdige mediacenter en opslagoplossing zoekt.\nDeze 4-bay netwerkopslagserver is ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare oplossing voor gegevensopslag, back-ups en mediabeheer. De NAS is in prima staat en kan geleverd worden met twee harde schijven van 2 TB elk en een beveiligingskabel (zie foto).\nPrijs is € 120,- zonder de 2 harde schijven en € 200,- met 2 harde schijven van 2 Tb elk",
+   "detail": 2,
    "highest_bid": 175.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -317,8 +324,8 @@
    "type": "DS416play",
    "bays": 4,
    "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "storage": "2× 2 TB (4 TB)",
+   "storage_tb": 4.0,
    "price_each": 200.0,
    "price_total": 200.0,
    "metric": 200.0,
@@ -337,10 +344,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Zoek je een betrouwbare en betaalbare oplossing om al je foto’s, video’s, documenten en backups veilig op één centrale plek in huis op te slaan? Dan is deze synology ds414 nas precies wat je zoekt. Di",
-   "detail": true,
+   "description": "Zoek je een betrouwbare en betaalbare oplossing om al je foto’s, video’s, documenten en backups veilig op één centrale plek in huis op te slaan? Dan is deze Synology DS414 NAS precies wat je zoekt. Dit is een krachtig 4-bay model , wat betekent dat er plek is voor vier harde schijven voor maximale opslagruimte en optimale dataveiligheid (RAID).\nDe NAS wordt volledig compleet geleverd inclusief 4 harde schijven , zodat je direct aan de slag kunt. Je plugt hem in op je router en je hebt direct je eigen veilige cloud in huis, zonder maandelijkse abonnementskosten!\n Waarom kiezen voor de Synology DS414? \n\n\n 🗄️ Plek voor 4 schijven: Perfect om in RAID (bijv. Synology Hybrid RAID of RAID 5) te draaien. Mocht er een schijf kapotgaan, dan gaan er geen gegevens verloren! 🚀 Snelle prestaties: Uitgerust met een dual-core processor met hardwarematige versleuteling en Dual LAN-poorten (met Link Aggregation) voor een extra stabiele en snelle netwerkverbinding. 🌐 Synology DSM: Werkt op het bekende en super gebruiksvriendelijke besturingssysteem van Synology. Apps zoals DS Photo, DS Video en File Station werken fantastisch op je telefoon, tablet of smart-tv. 🔌 Energiezuinig & Stil: Schakelt automatisch over naar een slaapstand als hij niet wordt gebruikt en heeft een zeer stille ventilator. ⚡ USB 3.0 poorten: Aan de achterzijde aanwezig om snel extra externe harde schijven aan te sluiten of backups te maken. \n Specificaties van de harde schijven: \n\n\n Aantal: 4 stuks Merk/Model: [VUL HIER MERK IN, BIJV. WD RED / SEAGATE IRONWOLF] Capaciteit: 4x 2TB Totale capaciteit: 8 TB Opmerking: Alle schijven zijn volledig gecontroleerd en hebben een 100% gezonde S.M.A.R.T.-status (geen bad sectors). \n Staat en levering: \nDe NAS verkeert in perfecte technische en optische staat . Hij heeft altijd in een rookvrije en stofvrije ruimte gestaan. Wordt uiteraard geleverd inclusief de originele stroomadapter en een netwerkkabel . De NAS is teruggezet naar de fabrieksinstellingen, zodat je hem direct zelf naar wens kunt installeren.",
+   "detail": 2,
    "highest_bid": 130.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -353,9 +360,12 @@
    "brand": "Synology",
    "type": "DS414",
    "bays": 4,
-   "connections": [],
-   "storage": "4 schijven (grootte onbekend)",
-   "storage_tb": null,
+   "connections": [
+    "USB 3.0",
+    "LAN"
+   ],
+   "storage": "4× 2 TB (8 TB)",
+   "storage_tb": 8.0,
    "price_each": 150.0,
    "price_total": 150.0,
    "metric": 150.0,
@@ -374,10 +384,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Synology ds416 — 4-bay nas, goede staat, werkt met dsm 7.3 Synology diskstation ds416 in goede staat, volledig werkend en bijgewerkt naar dsm 7.3. Specificaties: dual-core processor, 1,4ghz 1gb ram 4x",
-   "detail": true,
+   "description": "Synology DS416 — 4-bay NAS, goede staat, werkt met DSM 7.3 \n\nSynology DiskStation DS416 in goede staat, volledig werkend en bijgewerkt naar DSM 7.3.\n\n Specificaties: \n\n\n dual-core processor, 1,4GHz 1GB RAM 4x 3,5\" SATA III schijfbay 2x Gigabit Ethernet 3x USB 3.0 \nIdeaal als netwerkopslag voor backups, fotobeheer of mediastreaming.\n\nEventueel zijn er 4 gebruikte 1TB schijven beschikbaar, deze worden gratis meegeleverd. Of 2x 2TB schijven (ongetest).\n\nOp onzinbiedingen wordt niet gereageerd.",
+   "detail": 2,
    "highest_bid": 115.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -390,9 +400,12 @@
    "brand": "Synology",
    "type": "DS416",
    "bays": 4,
-   "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "connections": [
+    "USB 3.0",
+    "LAN"
+   ],
+   "storage": "2× 2 TB (4 TB)",
+   "storage_tb": 4.0,
    "price_each": 150.0,
    "price_total": 150.0,
    "metric": 150.0,
@@ -411,10 +424,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een goed werkende synology ds412+ nas inclusief 4 wd red harde schijven van 2tb, goed voor een totale bruto opslagcapaciteit van 8tb. Deze nas is ideaal als centrale opslag voor th",
-   "detail": true,
+   "description": "Te koop aangeboden: een goed werkende Synology DS412+ NAS inclusief 4 WD Red harde schijven van 2TB , goed voor een totale bruto opslagcapaciteit van 8TB .\nDeze NAS is ideaal als centrale opslag voor thuis, back-ups, foto's, documenten, camera-opnamen of als mediaserver.\nConfiguratie\n\n\n Synology DS412+ 4× WD Red 2TB harde schijven Totale capaciteit: 8TB bruto Alle drive bays gevuld \n Specificaties Synology DS412+ \n\n\n 4-bay NAS Dual Core processor 2,13 GHz 1 GB DDR3 geheugen 2× Gigabit-netwerkpoorten 2× USB 3.0 1× USB 2.0 eSATA-aansluiting Hot-swappable drive bays Ondersteuning voor RAID 0, 1, 5, 6, 10 en JBOD Synology DiskStation Manager (DSM) Geschikt voor automatische back-ups, bestandsdeling, mediaserver en camerabewaking \n Inclusief \n✅ Synology DS412+ NAS\n✅ 4× WD Red 2TB harde schijf\n✅ Voedingskabel\n\n Staat \nDe NAS functioneert naar behoren en heeft altijd betrouwbaar dienst gedaan. Wordt verkocht wegens vervanging door een nieuwer model.\n\n Ophalen / Verzenden \nOphalen heeft de voorkeur. Verzenden is mogelijk in overleg en op risico van de koper.",
+   "detail": 2,
    "highest_bid": 160.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -427,7 +440,12 @@
    "brand": "Synology",
    "type": "DS412+",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "USB 3.0",
+    "USB 2.0",
+    "eSATA",
+    "LAN"
+   ],
    "storage": "4× 2 TB (8 TB)",
    "storage_tb": 8.0,
    "price_each": 249.0,
@@ -448,10 +466,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Wegens aanschaf van kleiner systeem te koop synology diskstation ds413 nas een betrouwbare 4-bay nas voor thuis of klein kantoor. Heeft altijd goed dienst gedaan als back-up-, media- en bestandsserver",
-   "detail": true,
+   "description": "Wegens aanschaf van kleiner systeem te koop Synology DiskStation DS413 NAS\nEen betrouwbare 4-bay NAS voor thuis of klein kantoor.\nHeeft altijd goed dienst gedaan als back-up-, media- en bestandsserver.\n\nSpecificaties\n- 4 bays voor 3,5\" of 2,5\" schijven (hot-swappable)\n- Processor: Freescale QorIQ P1022 dual-core 1,066 GHz\n- Werkgeheugen: 1 GB DDR3\n- 1x Gigabit LAN\n- 2x USB 2.0, 1x eSATA\n- Ondersteunt RAID 0, 1, 5, 6, 10 en SHR\n- Stille en zuinige werking, met hibernation van de schijven\n- Draait op Synology DSM 6\n\nMogelijkheden\n- Centrale opslag en back-up van computers, foto's en documenten\n- Mediaserver (Plex/DLNA, Video Station, Audio Station)\n- Downloadstation, Time Machine-back-up en toegang op afstand (QuickConnect)\n- Beveiligingscamera's beheren met Surveillance Station\n- Aansluiting via USB van externe backup schijf\n\nStaat\n- Werkt prima en is in nette staat, geen beschadigingen aan de behuizing\n- Inclusief voedingsadapter en netwerkkabel\n- Gereset naar fabrieksinstellingen, direct klaar voor gebruik\n- Geleverd met 4 schijven van 3 TB dus totaal 12 TB",
+   "detail": 2,
    "highest_bid": 230.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -464,7 +482,11 @@
    "brand": "Synology",
    "type": "DS413",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "USB 2.0",
+    "eSATA",
+    "LAN"
+   ],
    "storage": "12 TB",
    "storage_tb": 12.0,
    "price_each": 250.0,
@@ -485,10 +507,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Aangeboden: een qnap ts-420 network attached storage (nas) systeem. Dit is een krachtige 4-bay nas, ideaal voor thuisgebruik of kleine bedrijven voor dataopslag, back-ups en mediasharing. Let op: de v",
-   "detail": true,
+   "description": "Aangeboden: een QNAP TS-420 Network Attached Storage (NAS) systeem. Dit is een krachtige 4-bay NAS, ideaal voor thuisgebruik of kleine bedrijven voor dataopslag, back-ups en mediasharing. Let op: de voedingsadapter is niet inbegrepen. Het apparaat is gebruikt, maar functioneert verder naar behoren. Ideaal voor iemand die al een compatibele adapter heeft of er zelf een wil aanschaffen.\n\ngeen hardeschijf",
+   "detail": 2,
    "highest_bid": 25.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -522,10 +544,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Synology ds413 nas 4-bay (zonder schijven) te koop: mijn synology diskstation ds413, een betrouwbare 4-bay nas voor thuis of klein kantoor. Hij heeft altijd goed dienst gedaan als back-up-, media- en",
-   "detail": true,
+   "description": "Synology DS413 NAS 4-bay (zonder schijven) \n\nTe koop: mijn Synology DiskStation DS413, een betrouwbare 4-bay NAS voor thuis of klein kantoor. Hij heeft altijd goed dienst gedaan als back-up-, media- en bestandsserver.\n\n Specificaties \n- 4 bays voor 3,5\" of 2,5\" schijven (hot-swappable)\n- Processor: Freescale QorIQ P1022 dual-core 1,066 GHz\n- Werkgeheugen: 1 GB DDR3\n- 1x Gigabit LAN\n- 2x USB 2.0, 1x eSATA\n- Ondersteunt RAID 0, 1, 5, 6, 10 en SHR\n- Stille en zuinige werking, met hibernation van de schijven\n- Draait op Synology DSM\n\n Mogelijkheden \n- Centrale opslag en back-up van computers, foto's en documenten\n- Mediaserver (Plex/DLNA, Video Station, Audio Station)\n- Downloadstation, Time Machine-back-up en toegang op afstand (QuickConnect)\n- Beveiligingscamera's beheren met Surveillance Station\n\n Staat \n- Werkt prima en is in nette staat, geen beschadigingen aan de behuizing\n- Inclusief voedingsadapter en netwerkkabel\n- Gereset naar fabrieksinstellingen, direct klaar voor gebruik\n- Geleverd zonder schijven \n\n Prijs: € 129\n\nVragen? Stuur gerust een bericht.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -538,7 +560,11 @@
    "brand": "Synology",
    "type": "DS413",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "USB 2.0",
+    "eSATA",
+    "LAN"
+   ],
    "storage": "Geen",
    "storage_tb": 0.0,
    "price_each": 129.0,
@@ -560,10 +586,10 @@
     "type": "HDD",
     "condition": "Gebruikt"
    },
-   "description": "Aangeboden: een gebruikte synology cube station cs407e nas. Dit is een betrouwbare netwerkopslagoplossing, ideaal voor thuisgebruik of kleine kantoren. De nas is voorzien van 4 drive bays en biedt een",
-   "detail": true,
+   "description": "Aangeboden: een gebruikte Synology Cube Station CS407e NAS. Dit is een betrouwbare netwerkopslagoplossing, ideaal voor thuisgebruik of kleine kantoren. De NAS is voorzien van 4 drive bays en biedt een solide basis voor het opslaan en delen van bestanden. Let op: de NAS wordt geleverd zonder harde schijven. De staat is 'Gebruikt', maar functioneert naar behoren. Perfect voor wie op zoek is naar een voordelige NAS-oplossing.\n\nincl 4* 1 TB hard disks",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -597,10 +623,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Sonnet fusion qr-4-bay ds400 apple & windows storage nas 4-bay (zonder hdd maar met stroom kabel) 4-bay ideaal voor video editing looking for an affordable desktop multi-drive storage system? Sonn",
-   "detail": true,
+   "description": "Sonnet Fusion QR-4-Bay DS400 Apple & Windows Storage\n\nNAS 4-Bay (zonder HDD maar met stroom kabel) 4-Bay\n\nideaal voor video editing\n\nLooking for an affordable desktop multi-drive storage system? Sonnet’s Fusion QR should be on your short list.\nThis versatile 4-drive RAID 5 SATA storage system delivers reliable operation, simple configuration, and flexible connection options in a small, budget-friendly package. Available without drives, and in 8TB, 12TB, and 16TB configurations(1), this Sonnet storage system is equipped with a high-performance internal storage controller that manages the enclosed 3.5″ hard drives and offers five drive configuration options (including RAID 5). Its USB 3.0, eSATA, and dual FireWire® 800 ports provide you flexibility in connecting the system to just about any computer. The QR even includes a built-in carrying handle to make this rugged and lightweight system highly portable.\n\nWhat are the Key Features of this HDD Enclosure\nProtected Data—RAID 5 support offers enhanced security for your critical files, providing data protection in case one of the drives fails\nRAID Controller Onboard—Integrated hardware RAID controller supports RAID 5, RAID 0, RAID 10, JBOD, and span drive configurations with no specialized controller card needed\nQuad Interface—Choice of USB 3.0, dual Fire Wire 800, and locking eSATA interfaces; three cables included\nSimple Configuration—A simple switch enables you to select RAID modes and configure the drives to meet your performance and data security needs\nSimple Status Display—Determine operating status at a glance\nHighly Portable—Rugged and lightweight enclosure with built-in handle allows the QR to be picked up and moved easily and securely\nQuiet Fan—Low fan noise level makes this Fusion storage system suitable for use in noise-sensitive environments\nFour 3.5” Swappable Drive Modules\nSimple Drive Configuration and Large Quiet Fan\nSecurity Lock\nQuad Interface\nRAID 5 Controller Onboard – Hardware-Based RAID 5 Storage Controller Onboard",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -608,7 +634,11 @@
    "brand": "Sonnet",
    "type": "DS400",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "USB 3.0",
+    "eSATA",
+    "FireWire"
+   ],
    "storage": "Geen",
    "storage_tb": 0.0,
    "price_each": null,
@@ -629,10 +659,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een goed onderhouden qnap nas server, model ts-469l. Deze 4-bay nas is ideaal voor thuisgebruik die op zoek zijn naar een betrouwbare opslagoplossing. Het apparaat verkeert in goed",
-   "detail": true,
+   "description": "Te koop aangeboden: een goed onderhouden QNAP NAS server, model TS-469L. Deze 4-bay NAS is ideaal voor thuisgebruik die op zoek zijn naar een betrouwbare opslagoplossing. Het apparaat verkeert in goede staat en functioneert naar behoren. Perfect voor het centraal opslaan van bestanden, back-ups, en het streamen van media. Let op: wordt geleverd zonder harde schijven.\n\nDe schijven (4x 3TB) die er in zitten kunnen overgenomen worden. Deze zijn gewist . 1 Schijf geeft problemen (zie foto) en moet vervangen worden.\n\nMet originele ingebouwde voeding en aansluitsnoer, zonder doos.\n\nik heb er een extra geheugen bijgezet uit een laptop van 4gb. het systeem kan maar tot 3gb aan, maar is beter dan de 1gb standaard geheugen",
+   "detail": 2,
    "highest_bid": 100.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -641,8 +671,8 @@
    "type": "TS-469L",
    "bays": 4,
    "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "storage": "4× 3 TB (12 TB)",
+   "storage_tb": 12.0,
    "price_each": null,
    "price_total": null,
    "metric": null,
@@ -661,10 +691,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Aangeboden: een seagate business storage 4-bay nas, model srn04d, inclusief drie 1tb seagate barracuda hdd's (st1000dm003-1ch162). De nas heeft een totale capaciteit van 4tb (met de 3 schijven",
-   "detail": true,
+   "description": "Aangeboden: een Seagate Business Storage 4-Bay NAS, model SRN04D, inclusief drie 1TB Seagate Barracuda HDD's (ST1000DM003-1CH162). De NAS heeft een totale capaciteit van 4TB (met de 3 schijven in RAID 5 configuratie, wat resulteert in 2TB bruikbare opslag). De vierde bay is leeg maar functioneert naar behoren. De schijven zijn in goede staat en de SMART-tests zijn succesvol doorlopen. De NAS is geconfigureerd met RAID 5 en . Ik verkoop dit omdat een desktop beter bij mijn behoeften past. Onpraktisch Biedingen via DM worden niet beantwoord. Verzending is mogelijk op risico van de koper.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -698,10 +728,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Aangeboden: een verbatim mediastation pro n446 nas-behuizing. Dit is een 4-bay nas-systeem, voor het opzetten van een thuisnetwerkopslag of een kleine server. Let op: dit betreft alleen de behuizing,",
-   "detail": true,
+   "description": "Aangeboden: een Verbatim MediaStation Pro N446 NAS-behuizing. Dit is een 4-bay NAS-systeem, voor het opzetten van een thuisnetwerkopslag of een kleine server. Let op: dit betreft alleen de behuizing, er worden geen harde schijven en snoeren meegeleverd.",
+   "detail": 2,
    "highest_bid": 20.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -730,10 +760,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Linksys by cisco nss6000 . Bevat vier schijfcompartimenten voor serial ata (sata)-schijfopslag.ondersteunt raid 0, raid 1, raid 5 en raid 10 functionaliteit. Een oudje maar zeker nog werkbaar. Tegen e",
-   "detail": true,
+   "description": "Linksys by Cisco NSS6000 .\nBevat vier schijfcompartimenten voor Serial ATA (SATA)-schijfopslag.Ondersteunt RAID 0, RAID 1, RAID 5 en RAID 10 functionaliteit.\n\n\nEen oudje maar zeker nog werkbaar.\nTegen elk aannemelijk bod\nAlleen ophalen",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -764,10 +794,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Te koop aangeboden: een goed functionerende synology ds415+ nas. Dit is een krachtige 4-bay nas-server, ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplo",
-   "detail": true,
+   "description": "Te koop aangeboden: een goed functionerende Synology DS415+ NAS. Dit is een krachtige 4-bay NAS-server, ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplossing. Het apparaat wordt geleverd zonder harde schijven, zodat u zelf de gewenste opslagcapaciteit kunt kiezen en installeren. Perfect voor het centraliseren van bestanden, back-ups, media streaming en meer. Inclusief originele stroomadapter.\nHeest DSM 7.1 geïnstalleerd.",
+   "detail": 2,
    "highest_bid": 130.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -801,10 +831,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Qnap ts-431p 4-bay nas – zonder harde schijven – incl. Schroeven & voedingskabel. Te koop aangeboden: qnap ts-431p 4-bay nas, volledig werkend getest. Ideaal voor thuisgebruik, back-ups, centrale",
-   "detail": true,
+   "description": "QNAP TS-431P 4-Bay NAS – Zonder harde schijven – Incl. schroeven & voedingskabel.\n\nTe koop aangeboden: QNAP TS-431P 4-bay NAS , volledig werkend getest.\n\nIdeaal voor thuisgebruik, back-ups, centrale opslag, mediaserver of als eigen thuisserver.\nSpecificaties\n\n\n QNAP TS-431P 4 bays voor 3,5\" harde schijven Gigabit netwerk QNAP QTS besturingssysteem Getest met QTS 5.2.10 Wordt geleverd zonder harde schijven Inclusief schroeven voor montage van de harde schijven Inclusief voedingskabel (niet afgebeeld op de foto) \n\nDe NAS verkeert in nette gebruikte staat en is werkend getest .\n\n📌 Let op: er worden géén harde schijven meegeleverd. \n💰 Vraagprijs: €160,00 \n\nOphalen of verzenden is mogelijk.\nBij interesse of vragen, stuur gerust een bericht!",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -812,7 +842,9 @@
    "brand": "QNAP",
    "type": "TS-431P",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "LAN"
+   ],
    "storage": "Geen",
    "storage_tb": 0.0,
    "price_each": null,
@@ -836,7 +868,7 @@
    "description": "Synology ds425+ – 4-bay nas met 2,5gbe ethernet en twee m.2 Ssd sloten te koop aangeboden: mijn synology ds425+. Dit is een krachtige en compacte 4-bay nas van synology, voorzien van een quad-core int",
    "detail": false,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -873,10 +905,10 @@
    "attrs": {
     "condition": "Nieuw"
    },
-   "description": "Nieuwe seagate business storage 4-bay nas met 8tb opslagcapaciteit (4x 2tb schijven). Dit apparaat is ideaal voor kleine bedrijven of thuisgebruikers die een betrouwbare en configureerbare netwerkopsl",
-   "detail": true,
+   "description": "Nieuwe Seagate Business Storage 4-Bay NAS met 8TB opslagcapaciteit (4x 2TB schijven). Dit apparaat is ideaal voor kleine bedrijven of thuisgebruikers die een betrouwbare en configureerbare netwerkopslagoplossing zoeken. Ondersteunt RAID 0, 1, 5, 10 en JBOD. Compatibel met Mac en PC netwerken.",
+   "detail": 2,
    "highest_bid": 300.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -913,7 +945,7 @@
    "description": "Te koop aangeboden: een synology ds414 nas in uitstekende staat. Deze krachtige 4-bay nas is ideaal voor thuisgebruik of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplossing. De nas",
    "detail": false,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -947,10 +979,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Te koop aangeboden: een goed onderhouden synology diskstation ds413j nas. Dit is een 4-bay netwerkopslagapparaat, ideaal voor thuisgebruikers of kleine kantoren die op zoek zijn naar een betrouwbare o",
-   "detail": true,
+   "description": "Te koop aangeboden: een goed onderhouden Synology DiskStation DS413j NAS. Dit is een 4-bay netwerkopslagapparaat, ideaal voor thuisgebruikers of kleine kantoren die op zoek zijn naar een betrouwbare oplossing voor gegevensopslag, back-ups en mediabeheer. De NAS is in uitstekende staat en werkt perfect. Let op: wordt geleverd zonder harde schijven.",
+   "detail": 2,
    "highest_bid": 75.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -959,8 +991,8 @@
    "type": "DS413j",
    "bays": 4,
    "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "storage": "Geen",
+   "storage_tb": 0.0,
    "price_each": null,
    "price_total": null,
    "metric": null,
@@ -979,10 +1011,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Hierbij bied ik een qnap ts-439 pro ii nas aan. De nas gaat weg in verband met de overstap naar een grotere unit. Hij is volledig gereset, schoongemaakt en klaar voor gebruik. Het betreft een degelijk",
-   "detail": true,
+   "description": "Hierbij bied ik een QNAP TS-439 Pro II NAS aan. De NAS gaat weg in verband met de overstap naar een grotere unit. Hij is volledig gereset, schoongemaakt en klaar voor gebruik.\n\nHet betreft een degelijke 4-bay NAS/server die geschikt is voor centrale opslag, back-ups, mediabestanden, netwerkshares en kleinzakelijk of thuisgebruik. Ideaal als je op zoek bent naar een betrouwbare opslagoplossing met meerdere schijfposities.\n\nOp dit moment wordt de NAS zonder schijven aangeboden. Indien gewenst kan ik er 3x een 3TB harde schijf van Western Digital WD Red NAS series bij leveren, type WD30EFRX. Deze schijven zijn speciaal bedoeld voor NAS-gebruik en kunnen in overleg worden meegeleverd.\n\nDe NAS is netjes gebruikt en komt uit een werkende omgeving. Doe een realistisch bod en stuur gerust een bericht bij interesse of vragen.",
+   "detail": 2,
    "highest_bid": 200.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -1011,10 +1043,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Gebruikte synology nas, model; ds416j. Ruimte voor 4 harddisks en ondersteund dsm versie 7.4. Omschrijving: beheer, beveilig en deel al je bestanden met de synology ds416j nas. Handig voor thuis of vo",
-   "detail": true,
+   "description": "Gebruikte Synology NAS, model; DS416j. Ruimte voor 4 harddisks en ondersteund DSM versie 7.4.\n\nOmschrijving:\nBeheer, beveilig en deel al je bestanden met de Synology DS416j NAS. Handig voor thuis of voor een thuiskantoor. In het uitgebreide package Center van Synology vind je gratis plug-ins waarmee je functionaliteiten toevoegt. Bewaar je bestanden op de NAS en bekijk al je films en series op je tablet, smartphone, tv of laptop. Heb je jouw (thuis)kantoor beveiligd met camera's? De NAS kan ook dienen als surveillance station en heeft de mogelijkheid om beelden op te slaan van maximaal 16 IP camera's.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1048,10 +1080,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Unmatched 4‑bay nas performance: the f4‑424 max is driven by an intel® core™ i5‑1235u 10‑core processor, equipped with 8gb of ddr5 memory, dual 10gbe ports, and dual m.2 Nvme ssd cache slots. With sup",
-   "detail": true,
+   "description": "Unmatched 4‑Bay NAS Performance: The F4‑424 Max is driven by an Intel® Core™ i5‑1235U 10‑core processor, equipped with 8GB of DDR5 memory, dual 10GbE ports, and dual M.2 NVMe SSD cache slots. With support for 20Gbps aggregated bandwidth, it delivers desktop‑level performance for virtualization, databases, and 4K media production.\nEngineered for Quiet Operation: It features a multi‑layer shock‑absorbing and noise‑reduction design, operating 50% quieter than the previous generation, with noise levels as low as 21 dB(A) at idle. Even under full load, it remains cool and quiet, making it ideal for professional office and creative environments.\nLightning‑Fast Speeds for Real‑Time Workflows: Performance is boosted by 220% over the prior generation, with application loading 160% faster and file access 90% quicker. Combined with SMB Multichannel, it achieves sequential write speeds up to 2090 MB/s and 4K random read/write speeds up to 400 MB/s, enabling smooth multi‑workstation 4K editing.\nComprehensive Hybrid Storage and Data Protection: It supports hybrid HDD/SSD configurations with multiple RAID modes and flexible TRAID. The TOS 7 operating system provides multi‑layered protection: TFSS snapshots for instant recovery, Duple Backup for a 3‑2‑1 strategy, and Centralized Backup for business environments.\nProfessional OS with Effortless Expansion: The system comes pre‑installed with TOS 7, supporting Docker, virtual machines, and various business applications. It features tool‑free drive trays and a slide‑open M.2 SSD cover for quick setup, and storage can be easily expanded by connecting TerraMaster DAS devices.\n\nInclusief doos.",
+   "detail": 2,
    "highest_bid": 400.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1087,10 +1119,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Te koop aangeboden: een synology ds920+ nas in uitstekende staat. Harde schijven zijn niet inbegrepen maar is wel bespreekbaar. 4X 3tib. Bieden naar waarde, op onzin berichten of biedingen wordt niet",
-   "detail": true,
+   "description": "Te koop aangeboden: een Synology DS920+ NAS in uitstekende staat. Harde schijven zijn niet inbegrepen maar is wel bespreekbaar. 4x 3TiB.\n\nBieden naar waarde, op onzin berichten of biedingen wordt niet gereageerd.\n\nVanzelfsprekend werkend te zien. Heeft altijd achter een UPS gehangen dus nooit stroomstoringen of anderzijds gehad/gezien.",
+   "detail": 2,
    "highest_bid": 365.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -1119,10 +1151,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een goed functionerende synology diskstation ds411 nas, compleet met vier 1tb samsung hd103si harde schijven. Deze nas biedt een totale opslagcapaciteit van 4tb (4x 1tb) . De ds411",
-   "detail": true,
+   "description": "Te koop aangeboden: een goed functionerende Synology DiskStation DS411 NAS, compleet met vier 1TB Samsung HD103SI harde schijven. Deze NAS biedt een totale opslagcapaciteit van 4TB (4x 1TB) . De DS411 draait op DSM . De harde schijven zijn in goede staat en de NAS is klaar voor gebruik. Inclusief stroomadapter en netwerkkabel.",
+   "detail": 2,
    "highest_bid": 60.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1156,10 +1188,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Te koop aangeboden: een synology diskstation ds411 nas, compleet met nieuwe 4 seagate desktop hdd's van elk 3tb. Dit systeem biedt een totale opslagcapaciteit van 12tb (10.81Tb bruikbaar). De",
-   "detail": true,
+   "description": "Te koop aangeboden: een Synology DiskStation DS411 NAS,\nCompleet met nieuwe 4 Seagate Desktop HDD's van elk 3TB.\nDit systeem biedt een totale opslagcapaciteit van 12TB (10.81TB bruikbaar). De NAS is in uitstekende staat en de harde schijven zijn 'Nieuwe' met lage 'draaiuren', zoals te zien is op de screenshots van de S.M.A.R.T. gegevens. netwerkopslag. Inclusief stroomadapter en netwerkkabel.",
+   "detail": 2,
    "highest_bid": 255.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1193,10 +1225,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Een nette nas van qnap die niet meer wordt gebruikt. Hij heeft 4x een 2tb wd blue harde schijf. De nas is instelbaar in raid, heeft dubbele lan poorten, en werkt gewoon zoals het hoort. Niet meer de n",
-   "detail": true,
+   "description": "Een nette NAS van QNAP die niet meer wordt gebruikt. Hij heeft 4x een 2TB WD Blue harde schijf.\n\nDe nas is instelbaar in RAID, heeft dubbele LAN poorten, en werkt gewoon zoals het hoort. Niet meer de nieuwste en snelste, maar wel een prima NAS.\n\nKomt compleet met de voeding.",
+   "detail": 2,
    "highest_bid": 150.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1232,10 +1264,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop: een goed onderhouden hp proliant microserver gen8. Deze compacte en energiezuinige server is ideaal voor thuisgebruik, kleine bedrijven of als nas/mediaserver. De server is uitgerust met een",
-   "detail": true,
+   "description": "Te koop: Een goed onderhouden HP ProLiant MicroServer Gen8. Deze compacte en energiezuinige server is ideaal voor thuisgebruik, kleine bedrijven of als NAS/mediaserver. De server is uitgerust met een Intel Xeon 1220v2 processor en biedt ruimte voor vier 3.5 inch harde schijven. Perfect voor wie op zoek is naar een betrouwbare en flexibele serveroplossing. Wordt geleverd met een p410 kaart en 4x 2tb sas harde schijven.\n\nde 410 controller heeft 1 Gb ram en een backup batterij",
+   "detail": 2,
    "highest_bid": 175.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1271,10 +1303,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Wegens upgrade naar grotere nas, perfecte 4 schijf nas te koop. Model ds418play, met 4x 2gb schijven de nas schijven zijn ge’wiped’, data is verwijderd en overschreven met random data. Nas os (dsm) is",
-   "detail": true,
+   "description": "Wegens upgrade naar grotere NAS, perfecte 4 schijf NAS te koop.\nModel DS418play, met 4x 2GB schijven\nDe NAS schijven zijn ge’wiped’, data is verwijderd en overschreven met random data. NAS OS (DSM) is opnieuw geïnstalleerd.\nSMART rapport voor de schijven is beschikbaar (Alles OK).",
+   "detail": 2,
    "highest_bid": 280.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1308,10 +1340,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een qnap ts-439 pro nas, ideaal voor thuisgebruik of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplossing. Dit model is een \"all-in-one nas\" en biedt su",
-   "detail": true,
+   "description": "Te koop aangeboden: een QNAP TS-439 Pro NAS, ideaal voor thuisgebruik of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplossing. Dit model is een \"All-in-one NAS\" en biedt superieure prestaties voor geavanceerde gebruikers. De NAS is in goede staat en wordt geleverd exclusief harde schijven, zodat u zelf de gewenste opslagcapaciteit kunt kiezen. Inclusief stroomkabel en netwerkkabel. Zie foto's voor specificaties en de staat van het apparaat.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1345,10 +1377,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Qnap nas ts-419p werkt zoals het moet. Geen hdd's in de slots. Specs: marvell 6281 1.2Ghz 512mb ddrii ram inclusief een k-lock security kabelslot.",
-   "detail": true,
+   "description": "QNAP NAS TS-419P\n\nWerkt zoals het moet. Geen HDD's in de slots.\nSpecs:\nMarvell 6281 1.2GHz\n512MB DDRII RAM\n\nInclusief een K-Lock security kabelslot.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1382,10 +1414,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Qnap ts-412 nas (network attached storage) met vier bays. De nas is gebruikt, maar functioneert nog uitstekend. Wordt geleverd inclusief stroomadapter. Let op: exclusief harde schijven.",
-   "detail": true,
+   "description": "QNAP TS-412 NAS (Network Attached Storage) met vier bays.\n\nDe NAS is gebruikt, maar functioneert nog uitstekend.\nWordt geleverd inclusief stroomadapter.\nLet op: exclusief harde schijven.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1419,10 +1451,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Te koop aangeboden: een qnap ts-451+ nas-systeem, ideaal voor thuisgebruik of kleine kantoren. Dit model is uitgerust met een krachtige intel celeron quad-core processor en ondersteunt tot 8gb ddr3l r",
-   "detail": true,
+   "description": "Te koop aangeboden: een QNAP TS-451+ NAS-systeem, ideaal voor thuisgebruik of kleine kantoren. Dit model is uitgerust met een krachtige Intel Celeron quad-core processor en ondersteunt tot 8GB DDR3L RAM. Het systeem is voorzien van 4 drive bays. De NAS verkeert in goede staat en is perfect voor het opslaan, delen en back-uppen van al uw belangrijke bestanden. Met HDMI-uitgang en de mogelijkheid om virtuele machines te draaien, biedt deze NAS veel functionaliteit. Inclusief stroomadapter. Geen schijven.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1456,10 +1488,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Aangeboden: een gebruikte qnap ts-420 nas (network attached storage) zonder harde schijven. Dit apparaat is ideaal voor het opzetten van een thuis- of klein zakelijk netwerk voor opslag, back-up en me",
-   "detail": true,
+   "description": "Aangeboden: een gebruikte QNAP TS-420 NAS (Network Attached Storage) zonder harde schijven. Dit apparaat is ideaal voor het opzetten van een thuis- of klein zakelijk netwerk voor opslag, back-up en mediabeheer. De NAS is functioneel, maar heeft wel zichtbare gebruikssporen, zoals te zien op de foto's. Wordt geleverd inclusief originele stroomadapter.",
+   "detail": 2,
    "highest_bid": 26.0,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -1489,9 +1521,9 @@
     "condition": "Gebruikt"
    },
    "description": "Werkende qnap ts-439 pro2",
-   "detail": true,
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -1520,10 +1552,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Aangeboden qnap ts-453a nas met 16gb ram ( default 8 gb). Compleet incl doos en alle toebehoren. Geen defect en werkt naar behoren. Verkoop wegens aanschaf andere nas",
-   "detail": true,
+   "description": "Aangeboden QNAP TS-453A nas met 16GB Ram ( default 8 GB). Compleet incl doos en alle toebehoren.\n\nGeen defect en werkt naar behoren.\nVerkoop wegens aanschaf andere NAS",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1560,7 +1592,7 @@
    "description": "Te koop aangeboden: een goed onderhouden qnap ts-453a nas. Dit krachtige network attached storage systeem is ideaal voor thuisgebruikers en kleine bedrijven die op zoek zijn naar een betrouwbare en ve",
    "detail": false,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1594,10 +1626,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Verkeert in nieuwstaat. 2.5Gbe-nas zonder ventilatoren, en dus onhoorbaar stil. 4K hdmi-uitvoer, 4 x 2.5” (Ssd, sata 6 gb/s.",
-   "detail": true,
+   "description": "Verkeert in nieuwstaat.\n\n2.5GbE-NAS zonder ventilatoren, en dus onhoorbaar stil. 4K HDMI-uitvoer, 4 x 2.5” (SSD, SATA 6 Gb/s.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1633,10 +1665,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Network storage with 4 bays and multiple hdd configuration. Perfect to store videos and data and a pro home cinema you can buy the hdd separately at 65e each.",
-   "detail": true,
+   "description": "Network storage with 4 bays and multiple hdd configuration. Perfect to store videos and data and a pro home cinema\n\nYou can buy the hdd separately at 65e each.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1671,9 +1703,9 @@
     "condition": "Zo goed als nieuw"
    },
    "description": "Zo goed als nieuwe qnap ts-431p. Gebruikt maar in perfecte staat. Zonder schijven.",
-   "detail": true,
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1707,10 +1739,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Qnap ts-451+ 8gb ram. 2 Stuks prijs 235,- euro per stuk. Qnap os: qts 5.2.9.3410 Build 20260214 2026-03-04 word nog steeds onder steund door qnap werkt nog 100% goed. Word niet meer gebruikt als backu",
-   "detail": true,
+   "description": "qnap ts-451+ 8GB ram. 2 Stuks prijs 235,- euro per stuk.\n\nQnap os: QTS\n5.2.9.3410 Build 20260214\n2026-03-04 word nog steeds onder steund door qnap werkt nog 100% goed. Word niet meer gebruikt als backup nas. Heb je vragen dan hoor ik het graag. Zonder opslag.\n\nBetaling\nBetalen kan per bank vooraf via een ING Betaalverzoek of een handmatige overschrijving. Ik bied geen andere betaalmogelijkheden.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1724,8 +1756,8 @@
    "type": "TS-451+",
    "bays": 4,
    "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "storage": "Geen",
+   "storage_tb": 0.0,
    "price_each": 235.0,
    "price_total": 235.0,
    "metric": 235.0,
@@ -1744,10 +1776,10 @@
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
-   "description": "Te koop aangeboden, qnap ts-420. Werkt prima, heb hem jarenlang gebruikt als online bestanden-opslag. Nu ben ik overgestapt naar een nieuwere variant, en bied ik deze ter overname aan. Let op: komt zo",
-   "detail": true,
+   "description": "Te koop aangeboden, QNAP TS-420.\n\nWerkt prima, heb hem jarenlang gebruikt als online bestanden-opslag. Nu ben ik overgestapt naar een nieuwere variant, en bied ik deze ter overname aan.\n\nLET OP: komt zonder adapter, die zou je zelf moeten aanschaffen.\n\nSpecificatie:\n4 BAYS voor harde schijven (komt zonder schijven)\n2x USB-A\n2x E-sata",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1760,9 +1792,11 @@
    "brand": "QNAP",
    "type": "TS-420",
    "bays": 4,
-   "connections": [],
-   "storage": null,
-   "storage_tb": null,
+   "connections": [
+    "eSATA"
+   ],
+   "storage": "Geen",
+   "storage_tb": 0.0,
    "price_each": 80.0,
    "price_total": 80.0,
    "metric": 80.0,
@@ -1782,9 +1816,9 @@
     "condition": "Gebruikt"
    },
    "description": "Lege qnap (zonder schijven) model ts-419u ii voeding waarschijnlijk defect",
-   "detail": true,
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
@@ -1813,10 +1847,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Geheugen is geüpgraded naar 20gb ram, ideaal voor zwaardere taken, docker of mediastreaming. Technisch 100% in orde, lichte normale gebruikssporen. Specificaties: 4 bays voor 3,5\" en 2,5\" sc",
-   "detail": true,
+   "description": "Geheugen is geüpgraded naar 20GB RAM, ideaal voor zwaardere taken, Docker of mediastreaming. Technisch 100% in orde, lichte normale gebruikssporen.\nSpecificaties: 4 bays voor 3,5\" en 2,5\" schijven, 20GB RAM, Intel Celeron J4125 Quad-Core, 2x 1GbE LAN, 2x M.2 slots voor SSD-cache en 2x USB 3.0.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1829,7 +1863,10 @@
    "brand": "Synology",
    "type": "DS920+",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "USB 3.0",
+    "LAN"
+   ],
    "storage": null,
    "storage_tb": null,
    "price_each": 250.0,
@@ -1850,10 +1887,10 @@
    "attrs": {
     "condition": "Gebruikt"
    },
-   "description": "Wordt zakelijk verkocht dus incl. Btw factuur voor dit bedrag. Zakelijke kopers kunnen dus weer 21% btw verrekenen. ----- Te koop want verkoop wegens overstap naar ubiquiti nas in uitstekende staat. Z",
-   "detail": true,
+   "description": "Wordt zakelijk verkocht dus incl. BTW factuur voor dit bedrag. Zakelijke kopers kunnen dus weer 21% BTW verrekenen.\n-----\nTe koop want verkoop wegens overstap naar Ubiquiti NAS\n\nIn uitstekende staat. Zie laatste foto's voor health check van de hard disc-en.\n\nGraag even goed lezen:\n Als de advertentie nog als zodanig te koop staat, is ‘ie nog te koop Prijs is vast, bieders worden direct geblokkeerd Bij aankoop van meerdere items tegelijk blijft de prijs per stuk gelijk, s.v.p. niet vragen om “Doe es een prijssie voor 2 stuks?” Optellen kun je prima zelf :-) Prijs is voor ophalen. Verzenden kan, op mijn kosten, maar betaling en verzenden buiten marktplaats om vanwege die rare kopersbescherming die MP nu verplicht stelt maar een wassen neus is. Liever ophalen dus! S.v.p. even zelf Googlen voor als je specifieke vragen over de specs hebt.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1888,10 +1925,10 @@
     "brand": "Synology",
     "condition": "Refurbished"
    },
-   "description": "Nas synology diskstation ds916+ 8gb refurbished super nette nas, met 8gb geschikt voor alle docker images zoals pihole, home assistent, emby, plex etc. Geschikt voor 4 disks die in raid5 de maximale b",
-   "detail": true,
+   "description": "NAS Synology DiskStation DS916+ 8GB refurbished\n\nSuper nette NAS, met 8GB geschikt voor alle docker images zoals PiHole, Home Assistent, Emby, Plex etc.\nGeschikt voor 4 disks die in RAID5 de maximale bescherming bied tegen dataverlies bij diskuitval.\n\nNatuurlijk met onze 6 maanden garantie en met 8GB geheugen voor de meest veeleisende gebruikers ruim voldoende.\n\nSpecificates:\nIntel Pentium N3710 quad-core 2,56GHz\nhardware transcodering\n8GB RAM\nMaximaal 4 schijven (9 met DX517 expansion unit)\nDSM 7.2.x\n2x 1GBit LAN\n\n----------------------------------------------------------------------------------\nWaarom kopen bij De NAS Expert!\nJaren ervaring met installatie van geavanceerde NAS en SAN opslag systemen.\nEigen reparatiedienst voor Synology en QNAP.\nAlle systemen zijn in nieuwstaat gerefurbished.\nWij geven 6 maanden reparatie garantie op verkochte systemen.(*)\nWij kunnen een net inruil voorstel doen\n\nWij repareren ook! Vraag naar de reparatie tarieven.\n----------------------------------------------------------------------------------\n(*) alleen bij verkoop op basis van vraagprijs.\n\n---\nZoektermen: Synology, QNAP, NAS, SAN, Storage, DSM, opslag, iSCSI, NFS, SMB, Samba\nDS916+, DS916\n--",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:25:04Z",
+   "last_seen": "2026-10-08T20:30:27Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1904,7 +1941,9 @@
    "brand": "Synology",
    "type": "DS916+",
    "bays": 4,
-   "connections": [],
+   "connections": [
+    "LAN"
+   ],
    "storage": null,
    "storage_tb": null,
    "price_each": 325.0,
