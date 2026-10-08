@@ -2,6 +2,7 @@
  "id": "das-4-bay",
  "name": "4-bay DAS",
  "metric": "price",
+ "kind": "enclosure",
  "queries": [
   "4-bay",
   "4 bay behuizing",
@@ -28,7 +29,7 @@
  ],
  "deal_threshold": 56.25,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T19:59:00Z",
+ "updated": "2026-10-08T20:16:23Z",
  "last_run_complete": true,
  "history": [
   {
@@ -50,9 +51,13 @@
    "posted": "30 sep 26",
    "price": 245.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 245.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Een asustor das met 4 drive slots",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -62,6 +67,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Asustor",
+   "type": null,
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 245.0,
+   "price_total": 245.0,
+   "metric": 245.0,
    "deal": false
   },
   "mp-m2450714129": {
@@ -74,9 +88,15 @@
    "posted": "Eergisteren",
    "price": 50.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 50.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "brand": "Orico",
+    "type": "HDD",
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een orico 4 bay usb 3.0 Docking station, model 6648us3-c. Dit docking station is geschikt voor zowel 2.5 Inch als 3.5 Inch hdd's en ssd's, en biedt ruimte voor vier",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -86,6 +106,17 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Orico",
+   "type": "6648US3-C",
+   "bays": 4,
+   "connections": [
+    "USB 3.0"
+   ],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 50.0,
+   "price_total": 50.0,
+   "metric": 50.0,
    "deal": true
   },
   "mp-m2448939878": {
@@ -98,9 +129,15 @@
    "posted": "1 okt 26",
    "price": 75.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 75.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "brand": "Mediasonic",
+    "type": "HDD",
+    "condition": "Gebruikt"
+   },
+   "description": "Mediasonic proraid 4-bay 3,5\" sata-hardeschijfbehuizing - usb 3.0 & esata (hfr2-su3s2) let op: dit is een tweedehands product. Ik ben de enige eigenaar geweest. Het vertoont lichte gebruikssp",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:45:30Z",
    "price_history": [
@@ -110,6 +147,18 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Mediasonic",
+   "type": "ProRAID",
+   "bays": 4,
+   "connections": [
+    "USB 3.0",
+    "eSATA"
+   ],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 75.0,
+   "price_total": 75.0,
+   "metric": 75.0,
    "deal": false
   },
   "mp-m2451151370": {
@@ -122,9 +171,16 @@
    "posted": "Gisteren",
    "price": 50.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 50.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "brand": "Lacie",
+    "type": "HDD",
+    "size": "H 20 cm, Br 15 cm en diep: 30 cm",
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Lacie biggest quadra: 4-bay raid-opslagtoren met usb 2.0-, Firewire- en esata-aansluitingen. Opslagcapaciteit: 1,5 tb aansluitingen: 1x esata, 2x firewire 800 (compatibel met firewire 400) en 1x usb 2",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -134,6 +190,19 @@
     ]
    ],
    "price_drop": false,
+   "brand": "LaCie",
+   "type": "Quadra",
+   "bays": 4,
+   "connections": [
+    "USB 2.0",
+    "eSATA",
+    "FireWire"
+   ],
+   "storage": "1.5 TB",
+   "storage_tb": 1.5,
+   "price_each": 50.0,
+   "price_total": 50.0,
+   "metric": 50.0,
    "deal": true
   },
   "mp-m2448023030": {
@@ -146,9 +215,15 @@
    "posted": "29 sep 26",
    "price": 200.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 3.0,
-   "metric": 200.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "brand": "Promise Technology",
+    "kind": "Extern",
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop: promise ds4600 4-bay das storage – 3tb raid-5 beschrijving: te koop aangeboden mijn promise smartstor ds4600 direct attached storage (das) in nette staat deze betrouwbare 4-bay promise ds4600",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -158,6 +233,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Promise",
+   "type": "DS4600",
+   "bays": 4,
+   "connections": [],
+   "storage": "3 TB",
+   "storage_tb": 3.0,
+   "price_each": 200.0,
+   "price_total": 200.0,
+   "metric": 200.0,
    "deal": false
   },
   "mp-m2445211731": {
@@ -170,9 +254,14 @@
    "posted": "21 sep 26",
    "price": 95.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 95.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "type": "HDD",
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Hierbij bied ik de de icy box ib-3640su3 aan. In absolute nieuwestaat, geheel compleet met kabels en toebehoren. De icy box biedt u veel geheugen, want er kunnen tot 4 harde schijven van gelijk welke",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -182,6 +271,18 @@
     ]
    ],
    "price_drop": false,
+   "brand": "ICY BOX",
+   "type": "IB-3640SU3",
+   "bays": 4,
+   "connections": [
+    "USB 3.2",
+    "eSATA"
+   ],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 95.0,
+   "price_total": 95.0,
+   "metric": 95.0,
    "deal": false
   }
  }

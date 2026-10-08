@@ -2,6 +2,7 @@
  "id": "nas-4-bay",
  "name": "4-bay NAS",
  "metric": "price",
+ "kind": "enclosure",
  "queries": [
   "4-bay nas",
   "4 bay nas",
@@ -15,16 +16,16 @@
   "asustor 4 bay",
   "readynas"
  ],
- "deal_threshold": 127.0,
+ "deal_threshold": 128.0,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T19:59:00Z",
+ "updated": "2026-10-08T20:16:23Z",
  "last_run_complete": true,
  "history": [
   {
    "date": "2026-10-08",
-   "count": 43,
+   "count": 40,
    "min": 40.0,
-   "p25": 127.0,
+   "p25": 128.0,
    "median": 200.0
   }
  ],
@@ -39,9 +40,13 @@
    "posted": "Vandaag",
    "price": 395.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 16.0,
-   "metric": 395.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Synology ds412+ 4-bay nas inclusief 4x seagate 4tb nas harde schijven (16tb totale capaciteit). De nas is volledig werkend en verkeert in goede staat. Alle vier de schijven zijn identieke seagate st40",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -51,6 +56,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS412+",
+   "bays": 4,
+   "connections": [],
+   "storage": "4× 4 TB (16 TB)",
+   "storage_tb": 16.0,
+   "price_each": 395.0,
+   "price_total": 395.0,
+   "metric": 395.0,
    "deal": false
   },
   "mp-m2451533461": {
@@ -63,9 +77,13 @@
    "posted": "Vandaag",
    "price": 180.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 180.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een synology ds916+ nas. Dit is een krachtige 4-bay nas die ideaal is voor thuisgebruik of kleine bedrijven. De nas wordt geleverd zonder harde schijven, zodat u zelf de gewenste o",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -75,6 +93,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS916+",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 180.0,
+   "price_total": 180.0,
+   "metric": 180.0,
    "deal": false
   },
   "mp-m2451535131": {
@@ -87,9 +114,13 @@
    "posted": "Vandaag",
    "price": 150.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 150.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Goed onderhouden synology diskstation ds412+ nas met 4gb ram. Dit 4-bay netwerkopslagapparaat is ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare oplossing voor ge",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -99,6 +130,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS412+",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 150.0,
+   "price_total": 150.0,
+   "metric": 150.0,
    "deal": false
   },
   "mp-m2451398277": {
@@ -111,13 +151,29 @@
    "posted": "Vandaag",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": 8.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "In perfect staat. Synology ds412 + met 4x 2tb western digital disks. Specificaties synology ds412+ 4-bay nas dual core processor 2,13 ghz 1 gb ddr3 geheugen 2× gigabit-netwerkpoorten 2× usb 3.0 1× Usb",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS412+",
+   "bays": 4,
+   "connections": [
+    "USB 3.0",
+    "LAN"
+   ],
+   "storage": "4× 2 TB (8 TB)",
+   "storage_tb": 8.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2451371493": {
@@ -130,9 +186,13 @@
    "posted": "Vandaag",
    "price": 50.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 50.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Prima geschikt voor het maken van backups van desktops fotos etc etc",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -142,6 +202,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Netgear",
+   "type": "RN104",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 50.0,
+   "price_total": 50.0,
+   "metric": 50.0,
    "deal": true
   },
   "mp-m2451092443": {
@@ -154,9 +223,13 @@
    "posted": "Gisteren",
    "price": 625.0,
    "price_type": "FIXED",
-   "capacity_tb": 16.0,
-   "metric": 625.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een synology ds920+ 4-bay nas, inclusief twee 8tb toshiba enterprise harde schijven. Deze nas is destijds gebruikt in combinatie met een tweede nas voor backup en archivering van f",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -166,6 +239,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS920+",
+   "bays": 4,
+   "connections": [],
+   "storage": "2× 8 TB (16 TB)",
+   "storage_tb": 16.0,
+   "price_each": 625.0,
+   "price_total": 625.0,
+   "metric": 625.0,
    "deal": false
   },
   "mp-m2451005366": {
@@ -178,9 +260,13 @@
    "posted": "Gisteren",
    "price": 450.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 12.0,
-   "metric": 450.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Aangeboden: een goed onderhouden synology nas ds418 12tb. Dit 4-bay nas-systeem is ideaal voor thuisgebruikers en kleine kantoren die op zoek zijn naar een betrouwbare oplossing voor gegevensopslag, b",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -190,6 +276,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS418",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 450.0,
+   "price_total": 450.0,
+   "metric": 450.0,
    "deal": false
   },
   "mp-m2450477085": {
@@ -202,9 +297,13 @@
    "posted": "5 okt 26",
    "price": 200.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 200.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een synology ds416play nas met zelfs 4 gb ram. Dit krachtige apparaat is uitermate geschikt voor het afspelen van video’s, dankzij de ingebouwde hardware transcodering. Ik heb hem",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -214,6 +313,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS416play",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 200.0,
+   "price_total": 200.0,
+   "metric": 200.0,
    "deal": false
   },
   "mp-m2450024289": {
@@ -226,9 +334,13 @@
    "posted": "4 okt 26",
    "price": 150.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 150.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Zoek je een betrouwbare en betaalbare oplossing om al je foto’s, video’s, documenten en backups veilig op één centrale plek in huis op te slaan? Dan is deze synology ds414 nas precies wat je zoekt. Di",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -238,6 +350,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS414",
+   "bays": 4,
+   "connections": [],
+   "storage": "4 schijven (grootte onbekend)",
+   "storage_tb": null,
+   "price_each": 150.0,
+   "price_total": 150.0,
+   "metric": 150.0,
    "deal": false
   },
   "mp-m2449932090": {
@@ -250,9 +371,13 @@
    "posted": "4 okt 26",
    "price": 150.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 150.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Synology ds416 — 4-bay nas, goede staat, werkt met dsm 7.3 Synology diskstation ds416 in goede staat, volledig werkend en bijgewerkt naar dsm 7.3. Specificaties: dual-core processor, 1,4ghz 1gb ram 4x",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -262,6 +387,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS416",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 150.0,
+   "price_total": 150.0,
+   "metric": 150.0,
    "deal": false
   },
   "mp-m2449898510": {
@@ -274,9 +408,13 @@
    "posted": "4 okt 26",
    "price": 249.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 249.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een goed werkende synology ds412+ nas inclusief 4 wd red harde schijven van 2tb, goed voor een totale bruto opslagcapaciteit van 8tb. Deze nas is ideaal als centrale opslag voor th",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -286,6 +424,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS412+",
+   "bays": null,
+   "connections": [],
+   "storage": "4× 2 TB (8 TB)",
+   "storage_tb": 8.0,
+   "price_each": 249.0,
+   "price_total": 249.0,
+   "metric": 249.0,
    "deal": false
   },
   "mp-m2449577461": {
@@ -298,9 +445,13 @@
    "posted": "3 okt 26",
    "price": 250.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 12.0,
-   "metric": 250.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Wegens aanschaf van kleiner systeem te koop synology diskstation ds413 nas een betrouwbare 4-bay nas voor thuis of klein kantoor. Heeft altijd goed dienst gedaan als back-up-, media- en bestandsserver",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -310,6 +461,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS413",
+   "bays": 4,
+   "connections": [],
+   "storage": "12 TB",
+   "storage_tb": 12.0,
+   "price_each": 250.0,
+   "price_total": 250.0,
+   "metric": 250.0,
    "deal": false
   },
   "mp-m2449414099": {
@@ -322,9 +482,13 @@
    "posted": "3 okt 26",
    "price": 40.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 40.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Aangeboden: een qnap ts-420 network attached storage (nas) systeem. Dit is een krachtige 4-bay nas, ideaal voor thuisgebruik of kleine bedrijven voor dataopslag, back-ups en mediasharing. Let op: de v",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -334,6 +498,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-420",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 40.0,
+   "price_total": 40.0,
+   "metric": 40.0,
    "deal": true
   },
   "mp-m2449185774": {
@@ -346,9 +519,13 @@
    "posted": "2 okt 26",
    "price": 129.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 129.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Synology ds413 nas 4-bay (zonder schijven) te koop: mijn synology diskstation ds413, een betrouwbare 4-bay nas voor thuis of klein kantoor. Hij heeft altijd goed dienst gedaan als back-up-, media- en",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -358,31 +535,16 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS413",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 129.0,
+   "price_total": 129.0,
+   "metric": 129.0,
    "deal": false
-  },
-  "mp-m2448939878": {
-   "title": "Mediasonic PRORAID RAID/NAS 4x 3,5\" SATA HDD USB3 eSATA",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448939878-mediasonic-proraid-raid-nas-4x-3-5-sata-hdd-usb3-esata",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/5d0812bd-f7f6-47e1-9d6b-8b47270f8ccb?rule=ecg_mp_eps$_82.jpg",
-   "city": "Leeuwarden",
-   "seller": "Michael",
-   "source": "marktplaats",
-   "posted": "1 okt 26",
-   "price": 75.0,
-   "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 75.0,
-   "last_seen": "2026-10-08T19:59:00Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:59:00Z",
-   "price_history": [
-    [
-     "2026-10-08T19:59:00Z",
-     75.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
   },
   "mp-m2448623609": {
    "title": "Synology Cube Station CS407e NAS - met 4 TB aan schijven",
@@ -394,9 +556,14 @@
    "posted": "30 sep 26",
    "price": 100.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 4.0,
-   "metric": 100.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "type": "HDD",
+    "condition": "Gebruikt"
+   },
+   "description": "Aangeboden: een gebruikte synology cube station cs407e nas. Dit is een betrouwbare netwerkopslagoplossing, ideaal voor thuisgebruik of kleine kantoren. De nas is voorzien van 4 drive bays en biedt een",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -406,31 +573,16 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "CS407E",
+   "bays": null,
+   "connections": [],
+   "storage": "4 TB",
+   "storage_tb": 4.0,
+   "price_each": 100.0,
+   "price_total": 100.0,
+   "metric": 100.0,
    "deal": true
-  },
-  "mp-m2448551532": {
-   "title": "Asustor DAS 4-bay behuizing",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448551532-asustor-das-4-bay-behuizing",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/bead4b94-0168-4f58-a82a-f867cccc4963?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dronten",
-   "seller": "Lara Oliveira",
-   "source": "marktplaats",
-   "posted": "30 sep 26",
-   "price": 245.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 245.0,
-   "last_seen": "2026-10-08T19:59:00Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:59:00Z",
-   "price_history": [
-    [
-     "2026-10-08T19:59:00Z",
-     245.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
   },
   "mp-m2447911357": {
    "title": "NAS Sonnet Fusion QR-4-Bay DS400 Apple & Windows Storage",
@@ -442,13 +594,26 @@
    "posted": "28 sep 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Sonnet fusion qr-4-bay ds400 apple & windows storage nas 4-bay (zonder hdd maar met stroom kabel) 4-bay ideaal voor video editing looking for an affordable desktop multi-drive storage system? Sonn",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "Sonnet",
+   "type": "DS400",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2447672325": {
@@ -461,13 +626,26 @@
    "posted": "28 sep 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een goed onderhouden qnap nas server, model ts-469l. Deze 4-bay nas is ideaal voor thuisgebruik die op zoek zijn naar een betrouwbare opslagoplossing. Het apparaat verkeert in goed",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-469L",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2446426490": {
@@ -480,9 +658,13 @@
    "posted": "24 sep 26",
    "price": 80.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 3.0,
-   "metric": 80.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Aangeboden: een seagate business storage 4-bay nas, model srn04d, inclusief drie 1tb seagate barracuda hdd's (st1000dm003-1ch162). De nas heeft een totale capaciteit van 4tb (met de 3 schijven",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -492,6 +674,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Seagate",
+   "type": null,
+   "bays": 4,
+   "connections": [],
+   "storage": "3× 1 TB (3 TB)",
+   "storage_tb": 3.0,
+   "price_each": 80.0,
+   "price_total": 80.0,
+   "metric": 80.0,
    "deal": true
   },
   "mp-m2444646730": {
@@ -504,13 +695,26 @@
    "posted": "20 sep 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Aangeboden: een verbatim mediastation pro n446 nas-behuizing. Dit is een 4-bay nas-systeem, voor het opzetten van een thuisnetwerkopslag of een kleine server. Let op: dit betreft alleen de behuizing,",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "Verbatim",
+   "type": "N446",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2444094116": {
@@ -523,13 +727,28 @@
    "posted": "18 sep 26",
    "price": null,
    "price_type": "SEE_DESCRIPTION",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Linksys by cisco nss6000 . Bevat vier schijfcompartimenten voor serial ata (sata)-schijfopslag.ondersteunt raid 0, raid 1, raid 5 en raid 10 functionaliteit. Een oudje maar zeker nog werkbaar. Tegen e",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": null,
+   "type": null,
+   "bays": 4,
+   "connections": [
+    "LAN"
+   ],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2442738029": {
@@ -542,9 +761,13 @@
    "posted": "14 sep 26",
    "price": 165.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 165.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een goed functionerende synology ds415+ nas. Dit is een krachtige 4-bay nas-server, ideaal voor thuisgebruikers of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplo",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -554,6 +777,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS415+",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 165.0,
+   "price_total": 165.0,
+   "metric": 165.0,
    "deal": false
   },
   "mp-m2441296965": {
@@ -566,13 +798,26 @@
    "posted": "10 sep 26",
    "price": null,
    "price_type": "SEE_DESCRIPTION",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Qnap ts-431p 4-bay nas – zonder harde schijven – incl. Schroeven & voedingskabel. Te koop aangeboden: qnap ts-431p 4-bay nas, volledig werkend getest. Ideaal voor thuisgebruik, back-ups, centrale",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-431P",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2440162755": {
@@ -585,9 +830,13 @@
    "posted": "7 sep 26",
    "price": 500.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 500.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Synology ds425+ – 4-bay nas met 2,5gbe ethernet en twee m.2 Ssd sloten te koop aangeboden: mijn synology ds425+. Dit is een krachtige en compacte 4-bay nas van synology, voorzien van een quad-core int",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -597,6 +846,18 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS425+",
+   "bays": 4,
+   "connections": [
+    "2.5GbE",
+    "LAN"
+   ],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 500.0,
+   "price_total": 500.0,
+   "metric": 500.0,
    "deal": false
   },
   "mp-m2435470500": {
@@ -609,9 +870,13 @@
    "posted": "26 aug 26",
    "price": 400.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 400.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Nieuw"
+   },
+   "description": "Nieuwe seagate business storage 4-bay nas met 8tb opslagcapaciteit (4x 2tb schijven). Dit apparaat is ideaal voor kleine bedrijven of thuisgebruikers die een betrouwbare en configureerbare netwerkopsl",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -621,6 +886,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Seagate",
+   "type": null,
+   "bays": 4,
+   "connections": [],
+   "storage": "8 TB",
+   "storage_tb": 8.0,
+   "price_each": 400.0,
+   "price_total": 400.0,
+   "metric": 400.0,
    "deal": false
   },
   "mp-m2432006109": {
@@ -633,9 +907,13 @@
    "posted": "17 aug 26",
    "price": 150.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 150.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een synology ds414 nas in uitstekende staat. Deze krachtige 4-bay nas is ideaal voor thuisgebruik of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplossing. De nas",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -645,6 +923,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS414",
+   "bays": 4,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 150.0,
+   "price_total": 150.0,
+   "metric": 150.0,
    "deal": false
   },
   "mp-m2429508697": {
@@ -657,13 +944,26 @@
    "posted": "10 aug 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een goed onderhouden synology diskstation ds413j nas. Dit is een 4-bay netwerkopslagapparaat, ideaal voor thuisgebruikers of kleine kantoren die op zoek zijn naar een betrouwbare o",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS413j",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2421183269": {
@@ -676,13 +976,26 @@
    "posted": "17 jul 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": 9.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Hierbij bied ik een qnap ts-439 pro ii nas aan. De nas gaat weg in verband met de overstap naar een grotere unit. Hij is volledig gereset, schoongemaakt en klaar voor gebruik. Het betreft een degelijk",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-439 Pro",
+   "bays": 4,
+   "connections": [],
+   "storage": "3× 3 TB (9 TB)",
+   "storage_tb": 9.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2417366036": {
@@ -695,9 +1008,13 @@
    "posted": "5 jul 26",
    "price": 125.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 125.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Gebruikte synology nas, model; ds416j. Ruimte voor 4 harddisks en ondersteund dsm versie 7.4. Omschrijving: beheer, beveilig en deel al je bestanden met de synology ds416j nas. Handig voor thuis of vo",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -707,6 +1024,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS416j",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 125.0,
+   "price_total": 125.0,
+   "metric": 125.0,
    "deal": true
   },
   "mp-m2414809683": {
@@ -719,9 +1045,13 @@
    "posted": "27 jun 26",
    "price": 800.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 800.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Unmatched 4‑bay nas performance: the f4‑424 max is driven by an intel® core™ i5‑1235u 10‑core processor, equipped with 8gb of ddr5 memory, dual 10gbe ports, and dual m.2 Nvme ssd cache slots. With sup",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -731,30 +1061,17 @@
     ]
    ],
    "price_drop": false,
-   "deal": false
-  },
-  "mp-m2446618398": {
-   "title": "Nvme ssd nas",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/servers/m2446618398-nvme-ssd-nas",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1968ce7f-7c05-419a-bf79-7664e8bf80ca?rule=ecg_mp_eps$_82.jpg",
-   "city": "'s-Gravenhage",
-   "seller": "Dennis B",
-   "source": "marktplaats",
-   "posted": "25 sep 26",
-   "price": 399.0,
-   "price_type": "FIXED",
-   "capacity_tb": 1.0,
-   "metric": 399.0,
-   "last_seen": "2026-10-08T19:59:00Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:59:00Z",
-   "price_history": [
-    [
-     "2026-10-08T19:59:00Z",
-     399.0
-    ]
+   "brand": "TerraMaster",
+   "type": "F4-424 Max",
+   "bays": 4,
+   "connections": [
+    "10GbE"
    ],
-   "price_drop": false,
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 800.0,
+   "price_total": 800.0,
+   "metric": 800.0,
    "deal": false
   },
   "mp-m2449920328": {
@@ -767,13 +1084,26 @@
    "posted": "4 okt 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": 12.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een synology ds920+ nas in uitstekende staat. Harde schijven zijn niet inbegrepen maar is wel bespreekbaar. 4X 3tib. Bieden naar waarde, op onzin berichten of biedingen wordt niet",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS920+",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2447954136": {
@@ -786,9 +1116,13 @@
    "posted": "29 sep 26",
    "price": 100.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 4.0,
-   "metric": 100.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een goed functionerende synology diskstation ds411 nas, compleet met vier 1tb samsung hd103si harde schijven. Deze nas biedt een totale opslagcapaciteit van 4tb (4x 1tb) . De ds411",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -798,6 +1132,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS411",
+   "bays": null,
+   "connections": [],
+   "storage": "4× 1 TB (4 TB)",
+   "storage_tb": 4.0,
+   "price_each": 100.0,
+   "price_total": 100.0,
+   "metric": 100.0,
    "deal": true
   },
   "mp-m2447129252": {
@@ -810,9 +1153,13 @@
    "posted": "26 sep 26",
    "price": 300.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 12.0,
-   "metric": 300.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een synology diskstation ds411 nas, compleet met nieuwe 4 seagate desktop hdd's van elk 3tb. Dit systeem biedt een totale opslagcapaciteit van 12tb (10.81Tb bruikbaar). De",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -822,6 +1169,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS411",
+   "bays": null,
+   "connections": [],
+   "storage": "4× 3 TB (12 TB)",
+   "storage_tb": 12.0,
+   "price_each": 300.0,
+   "price_total": 300.0,
+   "metric": 300.0,
    "deal": false
   },
   "mp-m2444049513": {
@@ -834,9 +1190,13 @@
    "posted": "18 sep 26",
    "price": 200.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 200.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Een nette nas van qnap die niet meer wordt gebruikt. Hij heeft 4x een 2tb wd blue harde schijf. De nas is instelbaar in raid, heeft dubbele lan poorten, en werkt gewoon zoals het hoort. Niet meer de n",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -846,6 +1206,17 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-412",
+   "bays": null,
+   "connections": [
+    "LAN"
+   ],
+   "storage": "4× 2 TB (8 TB)",
+   "storage_tb": 8.0,
+   "price_each": 200.0,
+   "price_total": 200.0,
+   "metric": 200.0,
    "deal": false
   },
   "mp-m2444018395": {
@@ -858,9 +1229,13 @@
    "posted": "18 sep 26",
    "price": 175.0,
    "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 175.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop: een goed onderhouden hp proliant microserver gen8. Deze compacte en energiezuinige server is ideaal voor thuisgebruik, kleine bedrijven of als nas/mediaserver. De server is uitgerust met een",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -870,6 +1245,17 @@
     ]
    ],
    "price_drop": false,
+   "brand": null,
+   "type": null,
+   "bays": null,
+   "connections": [
+    "SAS"
+   ],
+   "storage": "4× 2 TB (8 TB)",
+   "storage_tb": 8.0,
+   "price_each": 175.0,
+   "price_total": 175.0,
+   "metric": 175.0,
    "deal": false
   },
   "mp-m2440467210": {
@@ -882,9 +1268,13 @@
    "posted": "8 sep 26",
    "price": 350.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 350.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Wegens upgrade naar grotere nas, perfecte 4 schijf nas te koop. Model ds418play, met 4x 2gb schijven de nas schijven zijn ge’wiped’, data is verwijderd en overschreven met random data. Nas os (dsm) is",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -894,6 +1284,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS418play",
+   "bays": null,
+   "connections": [],
+   "storage": "4 schijven (grootte onbekend)",
+   "storage_tb": null,
+   "price_each": 350.0,
+   "price_total": 350.0,
+   "metric": 350.0,
    "deal": false
   },
   "mp-m2448908192": {
@@ -906,9 +1305,13 @@
    "posted": "1 okt 26",
    "price": 75.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 75.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een qnap ts-439 pro nas, ideaal voor thuisgebruik of kleine bedrijven die op zoek zijn naar een betrouwbare opslagoplossing. Dit model is een \"all-in-one nas\" en biedt su",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -918,6 +1321,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-439 Pro",
+   "bays": null,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 75.0,
+   "price_total": 75.0,
+   "metric": 75.0,
    "deal": true
   },
   "mp-m2447400932": {
@@ -930,9 +1342,13 @@
    "posted": "27 sep 26",
    "price": 75.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 75.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Qnap nas ts-419p werkt zoals het moet. Geen hdd's in de slots. Specs: marvell 6281 1.2Ghz 512mb ddrii ram inclusief een k-lock security kabelslot.",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -942,6 +1358,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-419P",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 75.0,
+   "price_total": 75.0,
+   "metric": 75.0,
    "deal": true
   },
   "mp-m2446365815": {
@@ -954,9 +1379,13 @@
    "posted": "24 sep 26",
    "price": 80.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 80.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Qnap ts-412 nas (network attached storage) met vier bays. De nas is gebruikt, maar functioneert nog uitstekend. Wordt geleverd inclusief stroomadapter. Let op: exclusief harde schijven.",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -966,6 +1395,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-412",
+   "bays": null,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 80.0,
+   "price_total": 80.0,
+   "metric": 80.0,
    "deal": true
   },
   "mp-m2446128345": {
@@ -978,9 +1416,13 @@
    "posted": "24 sep 26",
    "price": 225.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 225.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een qnap ts-451+ nas-systeem, ideaal voor thuisgebruik of kleine kantoren. Dit model is uitgerust met een krachtige intel celeron quad-core processor en ondersteunt tot 8gb ddr3l r",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -990,6 +1432,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-451+",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 225.0,
+   "price_total": 225.0,
+   "metric": 225.0,
    "deal": false
   },
   "mp-m2442904032": {
@@ -1002,13 +1453,26 @@
    "posted": "15 sep 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Aangeboden: een gebruikte qnap ts-420 nas (network attached storage) zonder harde schijven. Dit apparaat is ideaal voor het opzetten van een thuis- of klein zakelijk netwerk voor opslag, back-up en me",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-420",
+   "bays": null,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2442662213": {
@@ -1021,13 +1485,26 @@
    "posted": "14 sep 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Werkende qnap ts-439 pro2",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-439 Pro",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2442196176": {
@@ -1040,9 +1517,13 @@
    "posted": "13 sep 26",
    "price": 325.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 325.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Aangeboden qnap ts-453a nas met 16gb ram ( default 8 gb). Compleet incl doos en alle toebehoren. Geen defect en werkt naar behoren. Verkoop wegens aanschaf andere nas",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1052,6 +1533,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-453A",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 325.0,
+   "price_total": 325.0,
+   "metric": 325.0,
    "deal": false
   },
   "mp-m2431166295": {
@@ -1064,9 +1554,13 @@
    "posted": "12 sep 26",
    "price": 200.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 200.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een goed onderhouden qnap ts-453a nas. Dit krachtige network attached storage systeem is ideaal voor thuisgebruikers en kleine bedrijven die op zoek zijn naar een betrouwbare en ve",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1076,6 +1570,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-453A",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 200.0,
+   "price_total": 200.0,
+   "metric": 200.0,
    "deal": false
   },
   "mp-m2435750751": {
@@ -1088,9 +1591,13 @@
    "posted": "27 aug 26",
    "price": 750.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 750.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Verkeert in nieuwstaat. 2.5Gbe-nas zonder ventilatoren, en dus onhoorbaar stil. 4K hdmi-uitvoer, 4 x 2.5” (Ssd, sata 6 gb/s.",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1100,6 +1607,17 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-410E",
+   "bays": null,
+   "connections": [
+    "2.5GbE"
+   ],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 750.0,
+   "price_total": 750.0,
+   "metric": 750.0,
    "deal": false
   },
   "mp-m2435156457": {
@@ -1112,9 +1630,13 @@
    "posted": "25 aug 26",
    "price": 399.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 399.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Network storage with 4 bays and multiple hdd configuration. Perfect to store videos and data and a pro home cinema you can buy the hdd separately at 65e each.",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1124,6 +1646,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": null,
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 399.0,
+   "price_total": 399.0,
+   "metric": 399.0,
    "deal": false
   },
   "mp-m2428786653": {
@@ -1136,9 +1667,13 @@
    "posted": "8 aug 26",
    "price": 175.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 175.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Zo goed als nieuwe qnap ts-431p. Gebruikt maar in perfecte staat. Zonder schijven.",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1148,6 +1683,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-431P",
+   "bays": null,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": 175.0,
+   "price_total": 175.0,
+   "metric": 175.0,
    "deal": false
   },
   "mp-m2421404868": {
@@ -1160,9 +1704,13 @@
    "posted": "18 jul 26",
    "price": 235.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 235.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Qnap ts-451+ 8gb ram. 2 Stuks prijs 235,- euro per stuk. Qnap os: qts 5.2.9.3410 Build 20260214 2026-03-04 word nog steeds onder steund door qnap werkt nog 100% goed. Word niet meer gebruikt als backu",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1172,6 +1720,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-451+",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 235.0,
+   "price_total": 235.0,
+   "metric": 235.0,
    "deal": false
   },
   "mp-m2416911052": {
@@ -1184,9 +1741,13 @@
    "posted": "4 jul 26",
    "price": 80.0,
    "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 80.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden, qnap ts-420. Werkt prima, heb hem jarenlang gebruikt als online bestanden-opslag. Nu ben ik overgestapt naar een nieuwere variant, en bied ik deze ter overname aan. Let op: komt zo",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1196,6 +1757,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-420",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 80.0,
+   "price_total": 80.0,
+   "metric": 80.0,
    "deal": true
   },
   "mp-m2412468758": {
@@ -1208,13 +1778,26 @@
    "posted": "20 jun 26",
    "price": null,
    "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Lege qnap (zonder schijven) model ts-419u ii voeding waarschijnlijk defect",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [],
    "price_drop": false,
+   "brand": "QNAP",
+   "type": "TS-419U",
+   "bays": null,
+   "connections": [],
+   "storage": "Geen",
+   "storage_tb": 0.0,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
    "deal": false
   },
   "mp-m2451457619": {
@@ -1227,9 +1810,13 @@
    "posted": "Vandaag",
    "price": 250.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 250.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Geheugen is geüpgraded naar 20gb ram, ideaal voor zwaardere taken, docker of mediastreaming. Technisch 100% in orde, lichte normale gebruikssporen. Specificaties: 4 bays voor 3,5\" en 2,5\" sc",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1239,6 +1826,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS920+",
+   "bays": 4,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 250.0,
+   "price_total": 250.0,
+   "metric": 250.0,
    "deal": false
   },
   "mp-m2450480604": {
@@ -1251,9 +1847,13 @@
    "posted": "5 okt 26",
    "price": 599.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 599.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Wordt zakelijk verkocht dus incl. Btw factuur voor dit bedrag. Zakelijke kopers kunnen dus weer 21% btw verrekenen. ----- Te koop want verkoop wegens overstap naar ubiquiti nas in uitstekende staat. Z",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1263,6 +1863,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS916+",
+   "bays": null,
+   "connections": [],
+   "storage": "4× 3 TB (12 TB)",
+   "storage_tb": 12.0,
+   "price_each": 599.0,
+   "price_total": 599.0,
+   "metric": 599.0,
    "deal": false
   },
   "mp-m2289069834": {
@@ -1275,9 +1884,14 @@
    "posted": "5 okt 26",
    "price": 325.0,
    "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 325.0,
-   "last_seen": "2026-10-08T19:59:00Z",
+   "attrs": {
+    "brand": "Synology",
+    "condition": "Refurbished"
+   },
+   "description": "Nas synology diskstation ds916+ 8gb refurbished super nette nas, met 8gb geschikt voor alle docker images zoals pihole, home assistent, emby, plex etc. Geschikt voor 4 disks die in raid5 de maximale b",
+   "detail": false,
+   "highest_bid": null,
+   "last_seen": "2026-10-08T20:16:23Z",
    "active": true,
    "first_seen": "2026-10-08T19:59:00Z",
    "price_history": [
@@ -1287,6 +1901,15 @@
     ]
    ],
    "price_drop": false,
+   "brand": "Synology",
+   "type": "DS916+",
+   "bays": null,
+   "connections": [],
+   "storage": null,
+   "storage_tb": null,
+   "price_each": 325.0,
+   "price_total": 325.0,
+   "metric": 325.0,
    "deal": false
   }
  }
