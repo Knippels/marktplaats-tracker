@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T20:38:06Z",
+ "updated": "2026-10-08T21:09:23Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -26,7 +26,7 @@
    "metric": "price",
    "kind": "enclosure",
    "active": 52,
-   "deals": 10,
+   "deals": 7,
    "new": 52
   }
  ]
