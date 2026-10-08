@@ -122,3 +122,16 @@ def test_stored_listing_dropped_when_filter_tightens(tmp_path):
     run.update_category(cat, [_item("Defecte WD 8TB", 40, "x")], True, tmp_path, t0)
     res = run.update_category(load_cats()["hdd-sata-4tb-plus"], [], True, tmp_path, t0 + timedelta(hours=3))
     assert "mp-x" not in res["listings"]
+
+
+def test_nas_4_bay():
+    cat = load_cats()["nas-4-bay"]
+    for t in ["QNAP TS-412 NAS met 4x 2TB (8TB totaal)", "QNAP TS-420 NAS (zonder adapter)",
+              "Synology DS415+ NAS met 8Gb geheugen (zonder harde schijven)", "Netgear 4 Bay NAS de RN104",
+              "Terramaster F4-424 Max NAS", "iOmega Storcenter ix4-200d NAS"]:
+        assert run.matches(_item(t, 150), cat), t
+    for t in ["QNAP TS-233 2-bay NAS", "Synology DS1815+ NAS Server - 8-bay",
+              "QNAP TS-432PXU-RP NAS Server met Dual M.2", "Synology RackStation RS814 1U 4-Bay NAS",
+              "QNAP TS-453U 4-Bay Rackmount NAS - DEFECT", "SP 4+3 4-Bay NAS Chassis M-ATX Moederbord",
+              "TerraMaster D2-320 USB Externe Disk Enclosure NAS", "Gezocht: Synology DS418"]:
+        assert not run.matches(_item(t, 150), cat), t

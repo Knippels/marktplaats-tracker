@@ -1,6 +1,6 @@
 # Marktplaats-tracker
 
-Houdt Marktplaats.nl bij voor homelab-onderdelen (SATA-schijven 4TB+, 4-bay DAS) en publiceert een
+Houdt Marktplaats.nl bij voor homelab-onderdelen (SATA-schijven 4TB+, 4-bay DAS, 4-bay NAS) en publiceert een
 overzichtspagina op GitHub Pages: **https://knippels.github.io/marktplaats-tracker/**
 
 Per zoekcategorie toont de pagina:

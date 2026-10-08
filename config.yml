@@ -84,3 +84,26 @@ categories:
     max_price: 400
     metric: price
     deal_percentile: 25
+
+  - id: nas-4-bay
+    name: "4-bay NAS"
+    # Complete NAS'en met 4 schijfsloten (met of zonder schijven). Prijs is inclusief eventuele schijven.
+    queries:
+      - "4-bay nas"
+      - "4 bay nas"
+      - "nas 4x"
+      - "qnap ts-4"
+      - "qnap ts"
+      - "synology ds4"
+      - "synology ds9"
+      - "synology 4 bay"
+      - "terramaster f4"
+      - "asustor 4 bay"
+      - "readynas"
+    # 4-bay in titel/omschrijving, of een bekend 4-bay-model
+    include: '(\b4[\s-]?(bay|bays|slots?|sleuven|disks?|drives?|schijven)\b|\b4\s?x\s?\d{1,2}\s?tb\b|\bts-?4\d{2}\w*|\bds4\d{2}\w*|\bds9\d{2}\w*|\bf4-\d{3}\w*|\bas\d?4\d{2}\w*|\brn\d?[13]?\d?4\b|\brn[123]4\d{2}\w*|\bix4\b)'
+    exclude: '\b(gezocht|defect\w*|kapot|reparatie|onderdelen|[1235678][\s-]?bays?|1u|2u|rack\w*|rackstation|rs\d{3,4}\w*|rx\d{3}\w*|\w+-rp\+?|ts-?\d{3,4}(u|xu|pxu)\w*|expansion|jbod|netapp|chassis|moederbord|d[1235]-\d{3}\w*|ram\s?modules?|lade|tray|caddy|beugel)\b'
+    min_price: 30
+    max_price: 900
+    metric: price
+    deal_percentile: 25
