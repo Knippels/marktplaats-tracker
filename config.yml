@@ -51,19 +51,35 @@ categories:
 
   - id: das-4-bay
     name: "4-bay DAS"
+    # Zoektermen gebaseerd op hoe DAS-behuizingen echt op Marktplaats staan
+    # (categorieën Harde schijven, NAS en Dockingstations; titels als "4-bay behuizing",
+    # "4HDD behuizing", "4x 3,5\" SATA ... USB3 eSATA", "Disk Enclosure", "Docking Station")
     queries:
-      - "4 bay das"
+      - "4-bay"
       - "4 bay behuizing"
-      - "4 bay hdd behuizing"
-      - "4 bay docking"
+      - "4hdd behuizing"
+      - "4x 3,5 behuizing"
+      - "das behuizing"
+      - "das storage"
+      - "disk enclosure"
+      - "harde schijf behuizing"
+      - "hdd behuizing 3.5"
+      - "raid behuizing"
+      - "esata behuizing"
+      - "hdd docking station"
+      - "terramaster"
       - "terramaster d4"
-      - "orico 4 bay"
+      - "orico"
+      - "icy box"
+      - "mediasonic"
       - "yottamaster"
+      - "sabrent"
       - "qnap tr-004"
-      - "sabrent 4 bay"
-    include: '(4[\s-]?(bay|bays|slots?|sleuven|voudig)|\bd4-?\d{3}|tr-?004|4\s?x\s?3[.,]5)'
-    # uitgesloten: complete NAS'en, chassis/serverkasten, alleen-2,5"-behuizingen
-    exclude: '\b(gezocht|synology|ds\d{3,4}|ts-\d{3}|nas\s?(chassis|server|systeem)|chassis|moederbord|mediastation|rack|server|voor\s2[.,]5\s?(inch|"|'')\s?(sata|hdd|ssd)?$|2[.,]5\s?(inch|"|'')\s?only)\b'
+      - "fantec"
+      - "raidsonic"
+    include: '(\b4[\s-]?(bay|bays|slots?|sleuven|voudig|hdd|disks?|drives?|schijven)\b|\b4\s?x\s?3[.,]5|\bd4-?\d{3}|tr-?004)'
+    # uitgesloten: complete NAS'en (merken/modellen), servers/chassis, 2,5"-only, NVMe-hybride, niet-IT
+    exclude: '\b(gezocht|synology|diskstation|rackstation|ds\d{3}(?!\d)\w*|rx\d{3}\w*|ts-?\d{3}\w*|tl-d\d+\w*|readynas|rn\d{3,4}\w*|netgear|zyxel|thecus|asustor\s?as|as-?\d{3,4}\w*|f\d-\d{3}\w*|d[1235]-\d{3}\w*|[1235678][\s-]?bays?|business\s?storage|network|netwerk\w*|gigabit|dsm|expansion\s?(module|box|unit)|nas\s?(chassis|server|systeem)|chassis|moederbord|mediastation|rack\w*|server\w*|1u|2u|nvme|m\.2|voor\s2[.,]5\s?(inch|"|'')|2[.,]5\s?(inch|"|'')\s?only|hopper|sterilisator)\b'
     min_price: 20
     max_price: 400
     metric: price

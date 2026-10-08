@@ -62,8 +62,6 @@ def test_hdd_filters():
 
 def test_das_filters():
     cat = load_cats()["das-4-bay"]
-    assert run.matches(_item("Terramaster D4-300 4-bay DAS", 120), cat)
-    assert run.matches(_item("ORICO 4 bay 3.5 inch behuizing USB-C", 90), cat)
     assert not run.matches(_item("Synology DS418 4 bay NAS", 250), cat)
     assert not run.matches(_item("Gezocht: 4 bay das", 50), cat)
 
@@ -104,9 +102,17 @@ def test_hdd_excludes_from_first_run():
 
 def test_das_excludes_from_first_run():
     cat = load_cats()["das-4-bay"]
-    assert run.matches(_item("Asustor DAS 4-bay behuizing", 245), cat)
+    for t in ["Asustor DAS 4-bay behuizing", "Promise DS4600 4-Bay DAS Storage",
+              "ICY BOX 4HDD behuizing 3.5 inch USB 3.2 gen1 eSATA",
+              "Mediasonic PRORAID RAID/NAS 4x 3,5\" SATA HDD USB3 eSATA",
+              "Orico 4 Bay USB 3.0 Docking Station voor 2.5/3.5", "TerraMaster D4-300 4-bay DAS"]:
+        assert run.matches(_item(t, 100), cat), t
     for t in ["SP 4+3 4-Bay NAS Chassis M-ATX Moederbord SFX PSU",
-              "SABRENT 4-bay USB-C docking station voor 2,5 inch SATA"]:
+              "SABRENT 4-bay USB-C docking station voor 2,5 inch SATA",
+              "QNAP TS-431P 4-Bay NAS - Zonder harde schijven", "Synology DS416j - NAS - 4-Bay",
+              "Terramaster F4-424 Max NAS - Krachtige 4-bay opslag",
+              "ACASIS 40Gb/s 4-Bay Hybride HDD en NVMe kast",
+              "NETGEAR ReadyNAS RN2120 4-Bay NAS 1U Rackmount"]:
         assert not run.matches(_item(t, 80), cat), t
 
 
