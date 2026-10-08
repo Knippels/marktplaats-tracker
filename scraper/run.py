@@ -21,7 +21,7 @@ from . import extract, marktplaats
 NEW_WINDOW_HOURS = 48          # zo lang telt een advertentie als "nieuw"
 INACTIVE_PRUNE_DAYS = 60       # verdwenen advertenties worden na zoveel dagen opgeruimd
 HISTORY_MAX_DAYS = 730
-DETAIL_BUDGET = 150            # max. detailpagina's per run (alleen voor nieuwe advertenties)
+DETAIL_BUDGET = 70             # max. detailpagina's per categorie per run (eenmalig per advertentie)
 DESC_MAX = 3000
 
 
@@ -235,7 +235,6 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     ts = now_utc()
     session = requests.Session()
-    budget = Budget(DETAIL_BUDGET)
 
     index = []
     any_ok = False
@@ -245,7 +244,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Categorie {cat['name']}", flush=True)
         fresh, complete = scrape_category(cat, cfg, session)
         any_ok = any_ok or complete or bool(fresh)
-        res = update_category(cat, fresh, complete, out_dir, ts, session, budget)
+        res = update_category(cat, fresh, complete, out_dir, ts, session, Budget(DETAIL_BUDGET))
         active = [v for v in res["listings"].values() if v["active"]]
         index.append({
             "id": cat["id"],

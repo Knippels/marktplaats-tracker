@@ -54,6 +54,6 @@ python -m http.server -d docs  # http://localhost:8000
 - De Marktplaats-zoek-API is niet officieel en kan zonder aankondiging veranderen.
 - Merk, type, aantal, prijs per stuk, aansluitingen en opslag worden met regels (`scraper/extract.py`) uit titel en
   volledige omschrijving gehaald. De omschrijving wordt één keer per nieuwe advertentie van de advertentiepagina
-  opgehaald (max. 150 per run). Staat er "per stuk" of "nog 5 aanwezig", dan is de vraagprijs de prijs per stuk;
+  opgehaald (max. 70 per categorie per run). Staat er "per stuk" of "nog 5 aanwezig", dan is de vraagprijs de prijs per stuk;
   is een totaalprijs onwaarschijnlijk laag (< €4/TB), dan wordt prijs per stuk aangenomen (≈ in de tabel).
 - €/TB voor schijven = prijs per stuk / grootte per schijf.

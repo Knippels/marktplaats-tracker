@@ -44,7 +44,7 @@ categories:
       - "wd ultrastar"
     include: '\b\d{1,2}\s?(tb|tib|terabyte)\b'
     # uitgesloten: SSD/2,5", extern/USB, SAS (niet SATA), defect/SMART-fouten, complete NAS'en, recorders
-    exclude: '\b(ssd|nvme|m\.2|2[.,]5\s?(inch|"|'')|laptop|extern\w*|external|usb|portable|expansion|elements|my\s?book|lacie|g-drive|sas\d?|defect\w*|kapot|smart[\s-]?(fout\w*|error\w*|warning)|warning|waarschuw\w*|slecht|gezocht|ps4|ps5|xbox|playstation|recorder|\d*[\s-]?kanaals?|nas\s?(server|systeem|behuizing)|synology|qnap|ds\d{3,4})\b'
+    exclude: '\b(ssd|nvme|m\.2|2[.,]5\s?(inch|"|'')|laptop|extern\w*|external|usb|portable|expansion|elements|my\s?book|lacie|g-drive|sas\d?|defect\w*|kapot|smart[\s-]?(fout\w*|error\w*|warning)|warning|waarschuw\w*|slecht|gezocht|ps4|ps5|xbox|playstation|recorder|\d*[\s-]?kanaals?|nas\s?(server|systeem|behuizing)|synology|qnap|ds\d{3,4}|\b2[.,]5\b|icy\s?dock|gen\d+|proliant|poweredge|microserver|[md]l\d{3}|server\s?-\s?\d+gb)\b'
     min_tb: 4
     min_price: 10
     max_price: 600

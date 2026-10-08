@@ -27,7 +27,7 @@ ENCLOSURE_BRANDS = [
     (r"lacie", "LaCie"), (r"iomega", "Iomega"), (r"buffalo", "Buffalo"), (r"startech", "StarTech"),
     (r"akitio", "Akitio"), (r"acasis", "Acasis"), (r"inateck", "Inateck"), (r"unitek", "Unitek"),
     (r"sharkoon", "Sharkoon"), (r"zyxel", "Zyxel"), (r"thecus", "Thecus"), (r"verbatim", "Verbatim"),
-    (r"drobo", "Drobo"), (r"\bowc\b", "OWC"), (r"sonnet", "Sonnet"), (r"d-?link", "D-Link"),
+    (r"drobo", "Drobo"), (r"\bowc\b", "OWC"), (r"\bhp\b|hewlett", "HP"), (r"sonnet", "Sonnet"), (r"d-?link", "D-Link"),
     (r"seagate", "Seagate"), (r"western\s?digital|\bwd\b", "WD"), (r"ugreen", "UGREEN"),
 ]
 
@@ -50,7 +50,7 @@ HDD_MODEL = re.compile(
 # ---------------------------------------------------------------- behuizing-modellen
 ENCLOSURE_MODEL = [
     r"\b((?:ds|cs|rs)\d{3,4}[a-z]?\+?(?:play|j|xs\+?)?)(?![\w])",  # Synology
-    r"\b(ts-?\d{3,4}[a-z+]*(?:\s?pro)?)",                  # QNAP
+    r"\b(ts[-\s]?\d{3,4}[a-z+]*(?:\s?pro)?)",              # QNAP
     r"\b(tr-?004)\b",                                      # QNAP DAS
     r"\b([df]\d-\d{3}[a-z]*(?:\s?max)?)\b",                # TerraMaster
     r"\b(as-?\d{3,4}[a-z]*)\b",                            # Asustor
@@ -137,18 +137,19 @@ def drive_size(text: str) -> float | None:
 
 def drive_qty(title: str, desc: str) -> tuple[int, float | None]:
     """(aantal, grootte per schijf) — grootte alleen als die uit het aantal-patroon volgt."""
+    sizes = {int(x) for x in re.findall(r"(?<![\d.,])(\d{1,2})\s?(?:tb|tib)\b", f"{title} {desc}", re.I)}
     for text in (title, desc):
         m = re.search(r"\b(\d{1,2})\s?[x×]\s?(?:[a-z ]{0,25}?)(\d{1,2})\s?(?:tb|tib)\b", text, re.I)
         if m and 2 <= int(m.group(1)) <= 30:
             return int(m.group(1)), float(m.group(2))
         m = re.search(r"\b(\d{1,2})\s?(?:tb|tib)\s?\(?\s?[x×]\s?(\d{1,2})\b", text, re.I)
-        if m and 2 <= int(m.group(2)) <= 30:
+        if m and 2 <= int(m.group(2)) <= 30 and m.group(1) != m.group(2):
             return int(m.group(2)), float(m.group(1))
         m = re.search(r"\(\s?(\d{1,2})\s?[x×]\s?\)|\(\s?[x×]\s?(\d{1,2})\s?\)|"
                       r"(?<![\w.])(\d{1,2})\s?[x×](?=\s*(?:$|[),!.;]|stuks?\b|aanwezig|beschikbaar))", text, re.I)
         if m:
             q = int(m.group(1) or m.group(2) or m.group(3))
-            if 2 <= q <= 30:
+            if 2 <= q <= 30 and q not in sizes:
                 return q, None
         m = re.search(r"\b(\d{1,2}|twee|drie|vier|vijf|zes|acht|tien|two|three|four|six|eight)\s?"
                       r"(?:stuks?|st\.|pcs|exemplaren|identieke|harde\s?schijven|schijven|hdd'?s|drives|disks)\b",
@@ -202,8 +203,11 @@ def extract_hdd(title: str, desc: str, price: float | None, attrs: dict | None =
             price_each, per_piece_reason = price, "vermeld"
             price_total = None if sold_sep else round(price * qty, 2)
         elif size and price / qty / size < 4:
-            # onwaarschijnlijk goedkoop als totaalprijs -> vrijwel zeker prijs per stuk
-            price_each, price_total, per_piece_reason = price, round(price * qty, 2), "geschat"
+            # onwaarschijnlijk goedkoop als totaalprijs -> vrijwel zeker prijs per stuk;
+            # bij 5+ stuks is het vrijwel altijd voorraad (los te koop), dus geen totaal
+            price_each, per_piece_reason = price, "geschat"
+            price_total = None if qty >= 5 else round(price * qty, 2)
+            sold_sep = sold_sep or qty >= 5
         else:
             price_each, price_total = round(price / qty, 2), price
 
@@ -242,6 +246,13 @@ def extract_enclosure(title: str, desc: str, price: float | None, attrs: dict | 
         or re.search(r"\b(\d)\s?x\s?3[.,]5", text, re.I)
     if m:
         bays = int(m.group(1))
+
+    if bays is None and model:
+        mb = re.match(r"(?:TS-?\s?|[DF](?=\d-))(\d)", model)
+        if mb:
+            bays = int(mb.group(1))
+        elif re.match(r"(?:DS|CS)[49]\d\d(?!\d)|RN[123]?\d?4(?!\d)|IX4", model):
+            bays = 4
 
     conns = []
     for pat, label in CONNECTIONS:

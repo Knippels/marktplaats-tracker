@@ -101,3 +101,23 @@ def test_regressions_from_real_listings():
     assert e["storage"] == "4× 2 TB (8 TB)"
     assert enc("Synology DS416j - NAS - 4-Bay")["type"] == "DS416j"
     assert enc("iOmega Storcenter ix4-200d NAS")["type"] == "ix4-200D"
+
+
+def test_model_numbers_are_not_quantities():
+    r = hdd("Seagate Exos 20TB X20 (1 op voorraad)", "seagate exos x20 20tb 1 stuk: 550 euro per stuk", 550)
+    assert r["qty"] == 1 and r["price_each"] == 550
+    r = hdd("Seagate Exos 18tb NAS - Server HDD (nieuw)", "deze enterprise seagate exos (x18) schijven", 450)
+    assert r["qty"] == 1 and r["price_per_tb"] == 25
+
+
+def test_large_stock_estimated_per_piece_has_no_total():
+    r = hdd("Western Digital Ultrastar 10TB", "western digital dc hc330 10tb harde schijf.(13 Stuks) recertified", 350)
+    assert r["qty"] == 13 and r["price_each"] == 350 and r["price_total"] is None and r["sold_separately"]
+
+
+def test_bays_from_model():
+    assert enc("QNAP TS-412 NAS")["bays"] == 4
+    assert enc("QNAP TS 459 Pro")["type"] == "TS 459 Pro" and enc("QNAP TS 459 Pro")["bays"] == 4
+    assert enc("Synology DS916+ 8GB")["bays"] == 4
+    assert enc("Synology Cube Station CS407e NAS")["bays"] == 4
+    assert enc("QNAP TS-251D NAS")["bays"] == 2
