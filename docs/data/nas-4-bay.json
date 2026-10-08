@@ -1,0 +1,1293 @@
+{
+ "id": "nas-4-bay",
+ "name": "4-bay NAS",
+ "metric": "price",
+ "queries": [
+  "4-bay nas",
+  "4 bay nas",
+  "nas 4x",
+  "qnap ts-4",
+  "qnap ts",
+  "synology ds4",
+  "synology ds9",
+  "synology 4 bay",
+  "terramaster f4",
+  "asustor 4 bay",
+  "readynas"
+ ],
+ "deal_threshold": 127.0,
+ "deal_rule": "goedkoopste 25%",
+ "updated": "2026-10-08T19:59:00Z",
+ "last_run_complete": true,
+ "history": [
+  {
+   "date": "2026-10-08",
+   "count": 43,
+   "min": 40.0,
+   "p25": 127.0,
+   "median": 200.0
+  }
+ ],
+ "listings": {
+  "mp-m2451270722": {
+   "title": "Synology DS412+ NAS + 4x 4TB Seagate HDD - 16TB",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451270722-synology-ds412-nas-4x-4tb-seagate-hdd-16tb",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e71dc8af-4741-4295-93aa-c85ad5206aae?rule=ecg_mp_eps$_82.jpg",
+   "city": "'s-Gravenhage",
+   "seller": "Robert",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 395.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 16.0,
+   "metric": 395.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     395.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451533461": {
+   "title": "Synology DS916+ NAS - Zonder schijven",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451533461-synology-ds916-nas-zonder-schijven",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/683d5212-fbad-4b77-9fb9-8818bd42057a?rule=ecg_mp_eps$_82.jpg",
+   "city": "Rotterdam",
+   "seller": "Wim van der Burgh",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 180.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 180.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     180.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451535131": {
+   "title": "Z.G.A.N. Synology DiskStation DS412+ NAS - 4GB RAM - 4-bay",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451535131-z-g-a-n-synology-diskstation-ds412-nas-4gb-ram-4-bay",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/c0649954-59e8-46a3-ba67-3cfe27c4c6c1?rule=ecg_mp_eps$_82.jpg",
+   "city": "Nieuwegein",
+   "seller": "Jurgen",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 150.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 150.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     150.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451398277": {
+   "title": "Synology DS412+ NAS met 4x2TB disks",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451398277-synology-ds412-nas-met-4x2tb-disks",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9a5f99ee-4738-4d5c-9bf5-042d7b734eac?rule=ecg_mp_eps$_82.jpg",
+   "city": "Hilversum",
+   "seller": "MvW",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": 8.0,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451371493": {
+   "title": "Netgear 4 Bay NAS   de RN104",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451371493-netgear-4-bay-nas-de-rn104",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/f834ff75-ed98-42e7-acb9-5130aab5453c?rule=ecg_mp_eps$_82.jpg",
+   "city": "Maarssen",
+   "seller": "Rene",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 50.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 50.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     50.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2451092443": {
+   "title": "Synology DS920+ 4-bay NAS met 2x 8TB Toshiba Enterprise HDD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451092443-synology-ds920-4-bay-nas-met-2x-8tb-toshiba-enterprise-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a1c5e2b0-a216-461b-88ab-b09f8f76a34e?rule=ecg_mp_eps$_82.jpg",
+   "city": "Leeuwarden",
+   "seller": "K.Hoekman",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 625.0,
+   "price_type": "FIXED",
+   "capacity_tb": 16.0,
+   "metric": 625.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     625.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451005366": {
+   "title": "Synology NAS DS418 - Perfect voor thuisopslag",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451005366-synology-nas-ds418-perfect-voor-thuisopslag",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d26daf90-d167-4be9-9833-80527dab3b96?rule=ecg_mp_eps$_82.jpg",
+   "city": "Hilversum",
+   "seller": "Hans",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 450.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 12.0,
+   "metric": 450.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     450.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2450477085": {
+   "title": "Synology DS416play NAS",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2450477085-synology-ds416play-nas",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/94bb4256-0ed4-495e-81d7-89edf1c90555?rule=ecg_mp_eps$_82.jpg",
+   "city": "Wageningen",
+   "seller": "jan",
+   "source": "marktplaats",
+   "posted": "5 okt 26",
+   "price": 200.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 200.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     200.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2450024289": {
+   "title": "Synology DS414 NAS – Compl 4-Bay Netwerkschijf incl. 4x HDD!",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2450024289-synology-ds414-nas-compl-4-bay-netwerkschijf-incl-4x-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e426d023-a731-455f-9997-31d970e974bd?rule=ecg_mp_eps$_82.jpg",
+   "city": "Zwolle",
+   "seller": "Erik Bolhuis",
+   "source": "marktplaats",
+   "posted": "4 okt 26",
+   "price": 150.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 150.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     150.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2449932090": {
+   "title": "Synology DS416",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2449932090-synology-ds416",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/96cf5b2b-a3d1-4dd0-8ac1-e2961983faf5?rule=ecg_mp_eps$_82.jpg",
+   "city": "Eindhoven",
+   "seller": "Stefan R.",
+   "source": "marktplaats",
+   "posted": "4 okt 26",
+   "price": 150.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 150.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     150.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2449898510": {
+   "title": "Synology DS412+ NAS inclusief 4 WD Red 2TB (8TB)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2449898510-synology-ds412-nas-inclusief-4-wd-red-2tb-8tb",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1d868bfa-7d8f-4e56-9120-be3840e3eeca?rule=ecg_mp_eps$_82.jpg",
+   "city": "Schiedam",
+   "seller": "Dan",
+   "source": "marktplaats",
+   "posted": "4 okt 26",
+   "price": 249.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 8.0,
+   "metric": 249.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     249.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2449577461": {
+   "title": "Synology DiskStation DS413 NAS 12 TB",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2449577461-synology-diskstation-ds413-nas-12-tb",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ec1c674f-bc21-4dc7-86e1-d1d45cf5cd46?rule=ecg_mp_eps$_82.jpg",
+   "city": "Enter",
+   "seller": "EJS",
+   "source": "marktplaats",
+   "posted": "3 okt 26",
+   "price": 250.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 12.0,
+   "metric": 250.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     250.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2449414099": {
+   "title": "QNAP TS-420 NAS (zonder adapter)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2449414099-qnap-ts-420-nas-zonder-adapter",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/604308aa-45c8-47b6-a51a-6fb76f30ebe5?rule=ecg_mp_eps$_82.jpg",
+   "city": "Roden",
+   "seller": "W",
+   "source": "marktplaats",
+   "posted": "3 okt 26",
+   "price": 40.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 40.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     40.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2449185774": {
+   "title": "Synology NAS DS413",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2449185774-synology-nas-ds413",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/12348af5-7d48-43e8-a187-53e2dd8ddbf0?rule=ecg_mp_eps$_82.jpg",
+   "city": "Bunde",
+   "seller": "Marco",
+   "source": "marktplaats",
+   "posted": "2 okt 26",
+   "price": 129.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 129.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     129.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2448939878": {
+   "title": "Mediasonic PRORAID RAID/NAS 4x 3,5\" SATA HDD USB3 eSATA",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448939878-mediasonic-proraid-raid-nas-4x-3-5-sata-hdd-usb3-esata",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/5d0812bd-f7f6-47e1-9d6b-8b47270f8ccb?rule=ecg_mp_eps$_82.jpg",
+   "city": "Leeuwarden",
+   "seller": "Michael",
+   "source": "marktplaats",
+   "posted": "1 okt 26",
+   "price": 75.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 75.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     75.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2448623609": {
+   "title": "Synology Cube Station CS407e NAS - met 4 TB aan schijven",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448623609-synology-cube-station-cs407e-nas-met-4-tb-aan-schijven",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/19e09c0a-df2a-4f8d-ac7c-b577aaf247ab?rule=ecg_mp_eps$_82.jpg",
+   "city": "Duiven",
+   "seller": "Jordi",
+   "source": "marktplaats",
+   "posted": "30 sep 26",
+   "price": 100.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 4.0,
+   "metric": 100.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     100.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2448551532": {
+   "title": "Asustor DAS 4-bay behuizing",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448551532-asustor-das-4-bay-behuizing",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/bead4b94-0168-4f58-a82a-f867cccc4963?rule=ecg_mp_eps$_82.jpg",
+   "city": "Dronten",
+   "seller": "Lara Oliveira",
+   "source": "marktplaats",
+   "posted": "30 sep 26",
+   "price": 245.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 245.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     245.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2447911357": {
+   "title": "NAS Sonnet Fusion QR-4-Bay DS400 Apple & Windows Storage",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2447911357-nas-sonnet-fusion-qr-4-bay-ds400-apple-windows-storage",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8beeb0d0-4456-4985-963c-6678d8884696?rule=ecg_mp_eps$_82.jpg",
+   "city": "Roeselare",
+   "seller": "Caenen",
+   "source": "marktplaats",
+   "posted": "28 sep 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2447672325": {
+   "title": "QNAP NAS Server 4-bay (TS-469L)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2447672325-qnap-nas-server-4-bay-ts-469l",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1a7d6bca-2c41-46f4-9d74-e49fcf82190f?rule=ecg_mp_eps$_82.jpg",
+   "city": "Lisse",
+   "seller": "Richard",
+   "source": "marktplaats",
+   "posted": "28 sep 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2446426490": {
+   "title": "Seagate Business Storage 4-Bay NAS met 3x 1TB HDD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2446426490-seagate-business-storage-4-bay-nas-met-3x-1tb-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/855d8748-c0d0-4cfa-9f3a-734cb2de8798?rule=ecg_mp_eps$_82.jpg",
+   "city": "Utrecht",
+   "seller": "Nakhat",
+   "source": "marktplaats",
+   "posted": "24 sep 26",
+   "price": 80.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 3.0,
+   "metric": 80.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     80.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2444646730": {
+   "title": "Verbatim MediaStation Pro N446 NAS - Zonder HDD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2444646730-verbatim-mediastation-pro-n446-nas-zonder-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a8ca860e-8790-4746-a204-6f35e429b195?rule=ecg_mp_eps$_82.jpg",
+   "city": "Meppel",
+   "seller": "Klaver",
+   "source": "marktplaats",
+   "posted": "20 sep 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2444094116": {
+   "title": "4-Bay Advanced Gigabit Network RAID Storage",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2444094116-4-bay-advanced-gigabit-network-raid-storage",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d22dc6eb-b67d-4663-834d-24879a45b052?rule=ecg_mp_eps$_82.jpg",
+   "city": "Roden",
+   "seller": "Prodigiscan",
+   "source": "marktplaats",
+   "posted": "18 sep 26",
+   "price": null,
+   "price_type": "SEE_DESCRIPTION",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2442738029": {
+   "title": "Synology DS415+ NAS met 8Gb geheugen (zonder harde schijven)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2442738029-synology-ds415-nas-met-8gb-geheugen-zonder-harde-schijven",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7a6ef676-5c74-496f-8cc5-3801a4abadc1?rule=ecg_mp_eps$_82.jpg",
+   "city": "Stompetoren",
+   "seller": "Mark Bleijendaal",
+   "source": "marktplaats",
+   "posted": "14 sep 26",
+   "price": 165.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 165.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     165.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2441296965": {
+   "title": "QNAP TS-431P 4-Bay NAS – Zonder harde schijven",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2441296965-qnap-ts-431p-4-bay-nas-zonder-harde-schijven",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b4a36730-aab3-4973-8384-d0cf1f461a4c?rule=ecg_mp_eps$_82.jpg",
+   "city": "Hellevoetsluis",
+   "seller": "Ramon",
+   "source": "marktplaats",
+   "posted": "10 sep 26",
+   "price": null,
+   "price_type": "SEE_DESCRIPTION",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2440162755": {
+   "title": "Vrijwel nieuw in doos: Synology DS425+ NAS, prima staat.",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2440162755-vrijwel-nieuw-in-doos-synology-ds425-nas-prima-staat",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b5636573-b578-4e09-8439-7d15565dae92?rule=ecg_mp_eps$_82.jpg",
+   "city": "Limmen",
+   "seller": "Jos",
+   "source": "marktplaats",
+   "posted": "7 sep 26",
+   "price": 500.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 500.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     500.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2435470500": {
+   "title": "Seagate Business Storage 4-Bay NAS 8TB - Nieuw in doos",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2435470500-seagate-business-storage-4-bay-nas-8tb-nieuw-in-doos",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b473578b-4c18-4c9a-a0c3-56da0083c47d?rule=ecg_mp_eps$_82.jpg",
+   "city": "Creil",
+   "seller": "Minne Stoelwinder",
+   "source": "marktplaats",
+   "posted": "26 aug 26",
+   "price": 400.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 8.0,
+   "metric": 400.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     400.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2432006109": {
+   "title": "Synology DS414 NAS - Zo goed als nieuw (zonder HDD)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2432006109-synology-ds414-nas-zo-goed-als-nieuw-zonder-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/bf601246-6068-4322-860e-475f20e29b03?rule=ecg_mp_eps$_82.jpg",
+   "city": "Rotterdam",
+   "seller": "Johan",
+   "source": "marktplaats",
+   "posted": "17 aug 26",
+   "price": 150.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 150.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     150.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2429508697": {
+   "title": "Synology DiskStation DS413j NAS - 4-bay server",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2429508697-synology-diskstation-ds413j-nas-4-bay-server",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b413ce1b-f54e-4f4c-acf6-af5e4599ba64?rule=ecg_mp_eps$_82.jpg",
+   "city": "Gouda",
+   "seller": "Bas",
+   "source": "marktplaats",
+   "posted": "10 aug 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2421183269": {
+   "title": "QNAP TS-439 Pro II NAS 4-bay server + optie 3x 3TB WD Red",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2421183269-qnap-ts-439-pro-ii-nas-4-bay-server-optie-3x-3tb-wd-red",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/23457424-8ce6-46f5-9dce-8c8f348cb5a1?rule=ecg_mp_eps$_82.jpg",
+   "city": "Almere",
+   "seller": "Mitchel V",
+   "source": "marktplaats",
+   "posted": "17 jul 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": 9.0,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2417366036": {
+   "title": "Synology DS416j - NAS - 4-Bay - DSM 7.4",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2417366036-synology-ds416j-nas-4-bay-dsm-7-4",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/bff15e06-2776-46f0-83d3-97fd6bdccd29?rule=ecg_mp_eps$_82.jpg",
+   "city": "Hendrik-Ido-Ambacht",
+   "seller": "Robbert",
+   "source": "marktplaats",
+   "posted": "5 jul 26",
+   "price": 125.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 125.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     125.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2414809683": {
+   "title": "Terramaster F4-424 Max NAS - Krachtige 4-bay opslag",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2414809683-terramaster-f4-424-max-nas-krachtige-4-bay-opslag",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b9a00a6d-ce91-413d-af7e-9b9918f68a7d?rule=ecg_mp_eps$_82.jpg",
+   "city": "Spijkenisse",
+   "seller": "Tweak",
+   "source": "marktplaats",
+   "posted": "27 jun 26",
+   "price": 800.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 800.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     800.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2446618398": {
+   "title": "Nvme ssd nas",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/servers/m2446618398-nvme-ssd-nas",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1968ce7f-7c05-419a-bf79-7664e8bf80ca?rule=ecg_mp_eps$_82.jpg",
+   "city": "'s-Gravenhage",
+   "seller": "Dennis B",
+   "source": "marktplaats",
+   "posted": "25 sep 26",
+   "price": 399.0,
+   "price_type": "FIXED",
+   "capacity_tb": 1.0,
+   "metric": 399.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     399.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2449920328": {
+   "title": "Synology DS920+ NAS 8gb ram - Zo goed als nieuw",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2449920328-synology-ds920-nas-8gb-ram-zo-goed-als-nieuw",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4391d81d-7f3d-4e4f-a454-90372e1ab29d?rule=ecg_mp_eps$_82.jpg",
+   "city": "Rosmalen",
+   "seller": "PPK",
+   "source": "marktplaats",
+   "posted": "4 okt 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": 12.0,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2447954136": {
+   "title": "Synology DS411 NAS met 4x 1TB Samsung HDD's",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2447954136-synology-ds411-nas-met-4x-1tb-samsung-hdd-s",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6d17601e-e2e1-4876-b351-47c5f17756ca?rule=ecg_mp_eps$_82.jpg",
+   "city": "Enschede",
+   "seller": "Rami",
+   "source": "marktplaats",
+   "posted": "29 sep 26",
+   "price": 100.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 4.0,
+   "metric": 100.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     100.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2447129252": {
+   "title": "Synology DiskStation DS411 NAS met 4x 3TB Seagate HDD's",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2447129252-synology-diskstation-ds411-nas-met-4x-3tb-seagate-hdd-s",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d6e8a73c-1a18-4dee-87f1-eeee5e1fea9b?rule=ecg_mp_eps$_82.jpg",
+   "city": "Enschede",
+   "seller": "Rami",
+   "source": "marktplaats",
+   "posted": "26 sep 26",
+   "price": 300.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 12.0,
+   "metric": 300.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     300.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2444049513": {
+   "title": "QNAP TS-412 NAS met 4x 2TB (8TB totaal)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2444049513-qnap-ts-412-nas-met-4x-2tb-8tb-totaal",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6ae155ff-0a02-43c8-99fd-a72dabe360ff?rule=ecg_mp_eps$_82.jpg",
+   "city": "Rotterdam",
+   "seller": "Danny",
+   "source": "marktplaats",
+   "posted": "18 sep 26",
+   "price": 200.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 8.0,
+   "metric": 200.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     200.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2444018395": {
+   "title": "HP MicroServer Gen8 Xeon 1220v2 8Gb ram 4x2Tb sas hdd",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/servers/m2444018395-hp-microserver-gen8-xeon-1220v2-8gb-ram-4x2tb-sas-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/48974980-18df-4d11-b4de-01d7f328a405?rule=ecg_mp_eps$_82.jpg",
+   "city": "Schiedam",
+   "seller": "K de I",
+   "source": "marktplaats",
+   "posted": "18 sep 26",
+   "price": 175.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 8.0,
+   "metric": 175.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     175.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2440467210": {
+   "title": "NAS: Synology DS418play met 4x 2GB HDD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2440467210-nas-synology-ds418play-met-4x-2gb-hdd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a2eb7ca9-f91f-4ddf-a90d-57f635b243a2?rule=ecg_mp_eps$_82.jpg",
+   "city": "'s-Gravenhage",
+   "seller": "Nite",
+   "source": "marktplaats",
+   "posted": "8 sep 26",
+   "price": 350.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 350.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     350.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2448908192": {
+   "title": "QNAP TS-439 Pro NAS - Exclusief harde schijven",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2448908192-qnap-ts-439-pro-nas-exclusief-harde-schijven",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/87f3e855-293f-4b4e-a11e-23b40703d001?rule=ecg_mp_eps$_82.jpg",
+   "city": "Beekbergen",
+   "seller": "Antonia",
+   "source": "marktplaats",
+   "posted": "1 okt 26",
+   "price": 75.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 75.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     75.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2447400932": {
+   "title": "QNAP NAS TS-419P",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2447400932-qnap-nas-ts-419p",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0f079583-c33f-4314-b93a-025a67c97602?rule=ecg_mp_eps$_82.jpg",
+   "city": "Amstelveen",
+   "seller": "Bart van Lindert",
+   "source": "marktplaats",
+   "posted": "27 sep 26",
+   "price": 75.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 75.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     75.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2446365815": {
+   "title": "QNAP TS-412 NAS",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2446365815-qnap-ts-412-nas",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e7c0e8ee-791e-42b5-a274-246c3366514f?rule=ecg_mp_eps$_82.jpg",
+   "city": "Ede",
+   "seller": "Mark",
+   "source": "marktplaats",
+   "posted": "24 sep 26",
+   "price": 80.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 80.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     80.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2446128345": {
+   "title": "QNAP TS-451+ NAS met Intel Celeron 8GB RAM",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2446128345-qnap-ts-451-nas-met-intel-celeron-8gb-ram",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/86b0387f-7441-4eb1-b64c-31900c26d1c7?rule=ecg_mp_eps$_82.jpg",
+   "city": "Zoetermeer",
+   "seller": "Case",
+   "source": "marktplaats",
+   "posted": "24 sep 26",
+   "price": 225.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 225.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     225.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2442904032": {
+   "title": "QNAP TS-420 NAS zonder harde schijven",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2442904032-qnap-ts-420-nas-zonder-harde-schijven",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/81dcffd1-5bb6-4700-9e5a-90f2d670e11b?rule=ecg_mp_eps$_82.jpg",
+   "city": "Elst Ut",
+   "seller": "pol",
+   "source": "marktplaats",
+   "posted": "15 sep 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2442662213": {
+   "title": "server qnap TS-439 pro2",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/servers/m2442662213-server-qnap-ts-439-pro2",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/dc2af791-b924-4717-94a0-79db8d1d0e93?rule=ecg_mp_eps$_82.jpg",
+   "city": "Bergschenhoek",
+   "seller": "Stefan",
+   "source": "marktplaats",
+   "posted": "14 sep 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2442196176": {
+   "title": "QNAP TS-453A met 16GB Ram upgrade",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2442196176-qnap-ts-453a-met-16gb-ram-upgrade",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4e01b3d5-8084-4327-8199-20f959ae8027?rule=ecg_mp_eps$_82.jpg",
+   "city": "Oss",
+   "seller": "J Smits",
+   "source": "marktplaats",
+   "posted": "13 sep 26",
+   "price": 325.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 325.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     325.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2431166295": {
+   "title": "Qnap TS-453A NAS - Krachtige opslagoplossing",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2431166295-qnap-ts-453a-nas-krachtige-opslagoplossing",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e152fa55-ae8f-4556-b639-6578fd74a859?rule=ecg_mp_eps$_82.jpg",
+   "city": "Groesbeek",
+   "seller": "Mark",
+   "source": "marktplaats",
+   "posted": "12 sep 26",
+   "price": 200.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 200.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     200.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2435750751": {
+   "title": "QNAP TS-410E",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2435750751-qnap-ts-410e",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0d53fb3a-c71e-4027-b735-737861473cd8?rule=ecg_mp_eps$_82.jpg",
+   "city": "Amsterdam",
+   "seller": "Jezza",
+   "source": "marktplaats",
+   "posted": "27 aug 26",
+   "price": 750.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 750.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     750.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2435156457": {
+   "title": "QNAP TS 459 Pro",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2435156457-qnap-ts-459-pro",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2853eae8-9f5a-4842-a00a-f9a470edcd48?rule=ecg_mp_eps$_82.jpg",
+   "city": "Amsterdam",
+   "seller": "Joy",
+   "source": "marktplaats",
+   "posted": "25 aug 26",
+   "price": 399.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 399.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     399.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2428786653": {
+   "title": "Qnap TS-431P",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2428786653-qnap-ts-431p",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/13ffec0c-b57d-477e-9f5c-06ec936e011e?rule=ecg_mp_eps$_82.jpg",
+   "city": "Amersfoort",
+   "seller": "Peter",
+   "source": "marktplaats",
+   "posted": "8 aug 26",
+   "price": 175.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 175.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     175.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2421404868": {
+   "title": "qnap ts-451+ 8GB ram. 2 Stuks",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2421404868-qnap-ts-451-8gb-ram-2-stuks",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7c7380f2-d691-4532-83b8-1bc72396e7e0?rule=ecg_mp_eps$_82.jpg",
+   "city": "Kerkrade",
+   "seller": "Ton",
+   "source": "marktplaats",
+   "posted": "18 jul 26",
+   "price": 235.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 235.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     235.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2416911052": {
+   "title": "QNAP NAS TS-420",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2416911052-qnap-nas-ts-420",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8dd88b1a-17a9-4cb4-8b41-5dc3bd2bbcea?rule=ecg_mp_eps$_82.jpg",
+   "city": "Hengelo",
+   "seller": "T. B.",
+   "source": "marktplaats",
+   "posted": "4 jul 26",
+   "price": 80.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 80.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     80.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2412468758": {
+   "title": "QNAP",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2412468758-qnap",
+   "image": null,
+   "city": "Hilvarenbeek",
+   "seller": "Cornelis",
+   "source": "marktplaats",
+   "posted": "20 jun 26",
+   "price": null,
+   "price_type": "FAST_BID",
+   "capacity_tb": null,
+   "metric": null,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451457619": {
+   "title": "Synology DS920+",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2451457619-synology-ds920",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/c20764f6-cf96-4758-ac7f-c3353b43e6c1?rule=ecg_mp_eps$_82.jpg",
+   "city": "Roermond",
+   "seller": "Liam Dean",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 250.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 250.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     250.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2450480604": {
+   "title": "Synology DS916+ 8GB versie met 4 x 3.0 TB WD Red",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2450480604-synology-ds916-8gb-versie-met-4-x-3-0-tb-wd-red",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4e21bc14-232c-45f6-a3c8-9d8c7d1572d8?rule=ecg_mp_eps$_82.jpg",
+   "city": "'s-Gravenhage",
+   "seller": "Onno",
+   "source": "marktplaats",
+   "posted": "5 okt 26",
+   "price": 599.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 599.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     599.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2289069834": {
+   "title": "NAS Synology DS916+ 8GB refurbished",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2289069834-nas-synology-ds916-8gb-refurbished",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a0/a0bf25aa-2451-4650-8096-dfb606d4e877?rule=ecg_mp_eps$_82.jpg",
+   "city": "Eindhoven",
+   "seller": "Dè NAS Expert",
+   "source": "marktplaats",
+   "posted": "5 okt 26",
+   "price": 325.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 325.0,
+   "last_seen": "2026-10-08T19:59:00Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:59:00Z",
+   "price_history": [
+    [
+     "2026-10-08T19:59:00Z",
+     325.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  }
+ }
+}
