@@ -112,6 +112,11 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
     path = out_dir / f"{cat['id']}.json"
     data = load_json(path, {"listings": {}, "history": []})
     listings: dict[str, dict] = data.get("listings", {})
+    # Opgeslagen advertenties die niet meer door aangescherpte filters komen, eruit
+    # (include wordt niet opnieuw getoetst: die keek ook naar de omschrijving, die niet bewaard wordt)
+    recheck = {k: v for k, v in cat.items() if k != "include"}
+    listings = {k: v for k, v in listings.items()
+                if matches({"title": v["title"], "price": v["price"], "capacity_tb": v.get("capacity_tb")}, recheck)}
     metric = cat.get("metric", "price")
     stamp = iso(ts)
     seen_now = set()

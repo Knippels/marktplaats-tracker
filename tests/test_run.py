@@ -91,3 +91,28 @@ def test_update_cycle(tmp_path):
     res = run.update_category(cat, [], False, tmp_path, t0 + timedelta(days=2))
     assert res["listings"]["mp-a"]["active"] is True
     json.loads((tmp_path / "hdd-sata-4tb-plus.json").read_text())
+
+
+def test_hdd_excludes_from_first_run():
+    cat = load_cats()["hdd-sata-4tb-plus"]
+    assert run.matches(_item("WD Purple 8tb NAS - NVR HDD - WD85PURZ", 90), cat)
+    for t in ["Defecte Seagate Exos 8TB HDD - SMART fouten", "2x 12TB SAS3 12GB 7.2K HDD",
+              "Seagate Expansion 8TB Externe HDD", "Dahua 16kanaals 4K NVR 8TB",
+              "Foscam NVR QHD 8-kanaals recorder 16TB", "Western Digital \"My Book\" 8TB"]:
+        assert not run.matches(_item(t, 80), cat), t
+
+
+def test_das_excludes_from_first_run():
+    cat = load_cats()["das-4-bay"]
+    assert run.matches(_item("Asustor DAS 4-bay behuizing", 245), cat)
+    for t in ["SP 4+3 4-Bay NAS Chassis M-ATX Moederbord SFX PSU",
+              "SABRENT 4-bay USB-C docking station voor 2,5 inch SATA"]:
+        assert not run.matches(_item(t, 80), cat), t
+
+
+def test_stored_listing_dropped_when_filter_tightens(tmp_path):
+    cat = dict(load_cats()["hdd-sata-4tb-plus"], exclude=None)
+    t0 = datetime(2026, 10, 1, tzinfo=timezone.utc)
+    run.update_category(cat, [_item("Defecte WD 8TB", 40, "x")], True, tmp_path, t0)
+    res = run.update_category(load_cats()["hdd-sata-4tb-plus"], [], True, tmp_path, t0 + timedelta(hours=3))
+    assert "mp-x" not in res["listings"]

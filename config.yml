@@ -41,7 +41,8 @@ categories:
       - "seagate exos"
       - "wd ultrastar"
     include: '\b\d{1,2}\s?(tb|tib|terabyte)\b'
-    exclude: '\b(ssd|nvme|m\.2|2[.,]5\s?(inch|"|'')|laptop|extern|external|usb|portable|gezocht|ps4|ps5|xbox|playstation|nas\s?(server|systeem|behuizing)|synology|qnap|ds\d{3,4})\b'
+    # uitgesloten: SSD/2,5", extern/USB, SAS (niet SATA), defect/SMART-fouten, complete NAS'en, recorders
+    exclude: '\b(ssd|nvme|m\.2|2[.,]5\s?(inch|"|'')|laptop|extern\w*|external|usb|portable|expansion|elements|my\s?book|lacie|g-drive|sas\d?|defect\w*|kapot|smart[\s-]?(fout\w*|error\w*|warning)|warning|slecht|gezocht|ps4|ps5|xbox|playstation|recorder|\d*[\s-]?kanaals?|nas\s?(server|systeem|behuizing)|synology|qnap|ds\d{3,4})\b'
     min_tb: 4
     min_price: 10
     max_price: 600
@@ -61,7 +62,8 @@ categories:
       - "qnap tr-004"
       - "sabrent 4 bay"
     include: '(4[\s-]?(bay|bays|slots?|sleuven|voudig)|\bd4-?\d{3}|tr-?004|4\s?x\s?3[.,]5)'
-    exclude: '\b(gezocht|synology|ds\d{3,4}|ts-\d{3}|nas\s?(server|systeem)|rack|server|2[.,]5\s?(inch|"|'')\s?only)\b'
+    # uitgesloten: complete NAS'en, chassis/serverkasten, alleen-2,5"-behuizingen
+    exclude: '\b(gezocht|synology|ds\d{3,4}|ts-\d{3}|nas\s?(chassis|server|systeem)|chassis|moederbord|mediastation|rack|server|voor\s2[.,]5\s?(inch|"|'')\s?(sata|hdd|ssd)?$|2[.,]5\s?(inch|"|'')\s?only)\b'
     min_price: 20
     max_price: 400
     metric: price
