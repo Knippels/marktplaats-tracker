@@ -20,12 +20,12 @@
  ],
  "deal_threshold": 12.0,
  "deal_rule": "vast",
- "updated": "2026-10-08T20:16:23Z",
+ "updated": "2026-10-08T20:25:04Z",
  "last_run_complete": true,
  "history": [
   {
    "date": "2026-10-08",
-   "count": 135,
+   "count": 132,
    "min": 4.17,
    "p25": 20.0,
    "median": 25.0
@@ -50,7 +50,7 @@
    "description": "Deze seagate 4tb barracuda interne harde schijf (model st4000dmz04) biedt een ruime opslagcapaciteit van 4 terabyte, ideaal voor desktopsystemen. Met een sata 6gb/s interface zorgt deze hdd voor snell",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -85,7 +85,7 @@
    "description": "Te koop: western digital red 4tb nieuw 3,5 inch sata disk kijk voor meer disken ook naar mijn andere advertenties",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -125,7 +125,7 @@
    "description": "Te koop wegens overcompleet. €50,- per stuk, alle drie voor €125,-. Schijven zijn getest en 100% in orde, leeftijd onbekend.",
    "detail": true,
    "highest_bid": 125.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -163,7 +163,7 @@
    "description": "Ik verkoop mijn nas, op dit moment in gebruik met truenas scale. Alles werkt prima; ik stap over op iets anders. Liefst als geheel. Specificaties cpu: amd ryzen 5 2600 (6c/12t) met boxed koeler moeder",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -201,7 +201,7 @@
    "description": "Nieuwe en ongebruikte seagate barracuda 4tb harde schijf. - 4Tb opslag - model: st4000dm004 - 3,5 inch sata hdd - nieuw / niet gebruikt overgebleven en daarom te koop. Kan opgehaald worden in dordrech",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -240,7 +240,7 @@
    "description": "Western digital 4tb sata hdd te koop aangeboden: een western digital 4tb sata de schijf is jong gebruikt, maar functioneert nog goed. Ideaal voor extra opslag in een desktop of server. Vaste prijs 100",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -279,7 +279,7 @@
    "description": "Seagate ironwolf 4tb sata hdd (3.5 Inch) te koop aangeboden: seagate ironwolf 4tb sata harde schijven (3.5 Inch), deze schijven hebben ongeveer 42k draaiuren, zoals te zien is op de bijgevoegde screen",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -317,7 +317,7 @@
    "description": "Wegens snelle verkoop aangeboden: een prima gaming pc set inclusief 144hz gaming monitor! Draait populaire games zoals pubg, gta 5, cs:go/cs2, fortnite en meer zonder problemen. Specificaties pc: proc",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -356,7 +356,7 @@
    "description": "Te koop aangeboden: een gebruikte hgst 4tb hdd (harde schijf) met een sata 6.0 Gb/s interface en een rotatiesnelheid van 7200 rpm. Deze interne harde schijf is geschikt voor zowel desktops als laptops",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -378,44 +378,6 @@
    "metric": 15.0,
    "deal": false
   },
-  "mp-m2450935059": {
-   "title": "HP ML110 Gen9 Server - 64GB RAM, 4x 4TB HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/servers/m2450935059-hp-ml110-gen9-server-64gb-ram-4x-4tb-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/cd89a3fa-6bd3-4d04-8777-d600a2c93eba?rule=ecg_mp_eps$_82.jpg",
-   "city": "Berkel en Rodenrijs",
-   "seller": "blokl",
-   "source": "marktplaats",
-   "posted": "Gisteren",
-   "price": 475.0,
-   "price_type": "MIN_BID",
-   "attrs": {
-    "condition": "Gebruikt"
-   },
-   "description": "Te koop aangeboden: een krachtige hp ml110 gen9 server, ideaal voor zakelijk gebruik of als thuisserver. Deze server is uitgerust met 64gb intern geheugen, cpu intel xeon e5-2630lv4 sr2p2 1,80 ghz en",
-   "detail": true,
-   "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     475.0
-    ]
-   ],
-   "price_drop": false,
-   "brand": null,
-   "type": null,
-   "size_tb": 4.0,
-   "qty": 4,
-   "sold_separately": false,
-   "per_piece": null,
-   "price_each": 118.75,
-   "price_total": 475.0,
-   "price_per_tb": 29.69,
-   "metric": 29.69,
-   "deal": false
-  },
   "mp-m2450843720": {
    "title": "Seagate Purple Surveillance HDD 3.5\"  4TB SATA III",
    "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450843720-seagate-purple-surveillance-hdd-3-5-4tb-sata-iii",
@@ -433,7 +395,7 @@
    "description": "Werkt perfect inclusief originele nederlandse factuur schijf is 1 jaar oud, dus nog 1 jaar garantie sku wd43purz",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -472,7 +434,7 @@
    "description": "Te koop aangeboden: toshiba md04aca400 4tb hdd's, ideaal voor gebruik in een pegasus server. Deze interne harde schijven zijn van het type hdd en hebben een sata-aansluiting. Ze zijn geschikt",
    "detail": true,
    "highest_bid": 90.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -511,7 +473,7 @@
    "description": "De schijf is helemaal geformatteerd en werkt goed naar behoren",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -550,7 +512,7 @@
    "description": "Krachtige game pc te koop, perfect voor de enthousiaste gamer. Deze desktop is uitgerust met een intel core i5 9600k processor, 32gb ddr4 ram en een nvidia geforce gtx 1070 videokaart. Voor opslag is",
    "detail": true,
    "highest_bid": 400.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -589,7 +551,7 @@
    "description": "Wd red 4tb 3,5\" sata nas harde schijf, 64mb cache wd40efrx snelheid: 5400rpm komt goed uit extended s.m.a.r.t. Test, zie screenshot. Draaiuren: 53k",
    "detail": true,
    "highest_bid": 60.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -629,7 +591,7 @@
    "description": "Nieuw in ongeopende verpakking seagate skyhawk 8tb harde schijf (st8000vx010) in ongeopende verpakking. Deze hdd is speciaal ontworpen voor bewakingssystemen en voor 24x7 gerbuik in bijvoorbeeld een n",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -669,7 +631,7 @@
    "description": "Te koop aangeboden: een gebruikte seagate desktop hdd van 4tb met een sata-aansluiting en een rotatiesnelheid van 5900 rpm. De harde schijf is getest met crystaldiskinfo en verkeert in goede staat, zo",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -700,7 +662,7 @@
    "description": "Xbox seagate hdd harde schijf 4tb",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -739,7 +701,7 @@
    "description": "Te koop: een zo goed als nieuwe seagate ironwolf 4tb nas harde schijf (model st4000vn006). Deze schijf is speciaal ontworpen voor nas-systemen en biedt betrouwbare prestaties en opslagcapaciteit. Uit",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -779,7 +741,7 @@
    "description": "📌 price is fixed — this ensures a fair chance for all buyers and enables \"buy directly\" with buyer protection. The hdd is in good health and working without issues. Perfect for storing movi",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -818,7 +780,7 @@
    "description": "Te koop: een betrouwbare seagate ironwolf 4tb nas harde schijf (model st4000vn008). Deze interne hdd is speciaal ontworpen voor nas-systemen en biedt uitstekende prestaties en duurzaamheid voor 24/7 g",
    "detail": true,
    "highest_bid": 100.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -857,7 +819,7 @@
    "description": "Te koop: een toshiba mg03sca400 4tb sas harde schijf. Deze interne hdd is ideaal voor servers, desktops of laptops die extra opslagruimte en betrouwbaarheid vereisen. De schijf is van het type hdd. Pe",
    "detail": true,
    "highest_bid": 50.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -896,7 +858,7 @@
    "description": "Nieuwe seagate exos 7e8 4tb harde schijf, geschikt voor servers en desktops.",
    "detail": true,
    "highest_bid": 85.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -918,79 +880,6 @@
    "metric": 25.0,
    "deal": false
   },
-  "mp-m2447100559": {
-   "title": "HP DL160 Gen10 - Xeon Gold - 4TB HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/servers/m2447100559-hp-dl160-gen10-xeon-gold-4tb-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/dadfbe1f-a20e-43f1-87c6-3b599569d0f4?rule=ecg_mp_eps$_82.jpg",
-   "city": "Utrecht",
-   "seller": "Jeroen",
-   "source": "marktplaats",
-   "posted": "26 sep 26",
-   "price": 450.0,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 112.5,
-   "last_seen": "2026-10-08T19:59:00Z",
-   "active": false,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     450.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false,
-   "description": "",
-   "brand": null,
-   "type": "Gold",
-   "size_tb": 4.0,
-   "qty": 1,
-   "sold_separately": false,
-   "per_piece": null,
-   "price_each": 450.0,
-   "price_total": 450.0,
-   "price_per_tb": 112.5
-  },
-  "mp-m2446562322": {
-   "title": "Seagate Barracuda 4TB 2.5\" HDD - Interne harde schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2446562322-seagate-barracuda-4tb-2-5-hdd-interne-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ee9ab4d6-9df7-4794-ac5b-757de64e852f?rule=ecg_mp_eps$_82.jpg",
-   "city": "Hengelo",
-   "seller": "Electrix",
-   "source": "marktplaats",
-   "posted": "25 sep 26",
-   "price": 85.0,
-   "price_type": "MIN_BID",
-   "attrs": {
-    "kind": "Intern",
-    "condition": "Zo goed als nieuw"
-   },
-   "description": "Te koop: een seagate barracuda 4tb 2.5 Inch interne harde schijf (hdd). Deze schijf is ideaal voor het uitbreiden van de opslagruimte van je laptop, desktop of console. Met 4tb capaciteit biedt het vo",
-   "detail": true,
-   "highest_bid": 65.0,
-   "last_seen": "2026-10-08T20:16:23Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     85.0
-    ]
-   ],
-   "price_drop": false,
-   "brand": "Seagate",
-   "type": "BarraCuda",
-   "size_tb": 4.0,
-   "qty": 1,
-   "sold_separately": false,
-   "per_piece": null,
-   "price_each": 85.0,
-   "price_total": 85.0,
-   "price_per_tb": 21.25,
-   "metric": 21.25,
-   "deal": false
-  },
   "mp-m2446356176": {
    "title": "New - Seagate Barracuda Compute -  8TB HDD SATA 6Gb/s",
    "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2446356176-new-seagate-barracuda-compute-8tb-hdd-sata-6gb-s",
@@ -1009,7 +898,7 @@
    "description": "📌 price is fixed — this ensures a fair chance for all buyers and enables \"buy directly\" with buyer protection. The hdd is in good health and working without issues. Perfect for storing movi",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1048,7 +937,7 @@
    "description": "Wd blue 4tb hdd – wd40ezrz op zoek naar extra opslagruimte voor je pc, mediaserver of back-ups? Deze western digital wd blue 4tb (wd40ezrz) biedt maar liefst 4tb opslagcapaciteit en is een prima keuze",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1088,7 +977,7 @@
    "description": "Nederlands (english below) hierbij bied ik 1x een harde schijf (hdd) van 4 tb aan van seagate barracuda. De schijf is nog in goede conditie. De schijf komt uit 20 maart 2023. Ik verzend snel en veilig",
    "detail": true,
    "highest_bid": 70.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -1122,7 +1011,7 @@
    "description": "Seagate harddrive 4tb | nette staat | €159,99 💾 seagate harddrive 4tb op zoek naar extra opslagruimte? Deze seagate harddrive met 4tb capaciteit biedt volop ruimte voor het bewaren van foto&",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1161,7 +1050,7 @@
    "description": "Seagate barracuda 4tb harde schijven. Meerdere stuks beschikbaar. Schijven zijn getest en bevatten geen slechte of beschadigde sectore. 100% Health. Te gebruiken als desktop hdd of eventueel in een ex",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1200,7 +1089,7 @@
    "description": "Seagate ironwolf 4tb nas schijven. Schijven zijn nieuw in gesealde verpakking. Fabrieksgarantie verlopen. Deze schijven van seagate zijn speciaal gemaakt om 24/7 te draaien. Typenr: st4000vn008 specif",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1238,7 +1127,7 @@
    "description": "Bij deze bied ik 9 stuks western digital blue 4tb 3.5-Inch harde schijven aan (model: wd40ezaz). Ideaal voor extra opslag in je pc, een thuisserver, of als back-up schijven. De schijven zijn altijd ne",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1276,7 +1165,7 @@
    "description": "De pc heeft de volgende specs: was gekocht met een intel i5-10400f maar heb later een betere cpu ingezet intel core i7-10700 rtx2060 250gb nvme kingston 4tb hdd 16gb ram 500w psu.",
    "detail": true,
    "highest_bid": 520.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1314,7 +1203,7 @@
    "description": "Deze krachtige gaming pc is perfect voor de enthousiaste gamer. Uitgerust met een intel core i5-7400 processor, 16 gb ddr4 ram op 2666mhz en een robuuste nvidia geforce gtx 1080 ti grafische kaart, le",
    "detail": true,
    "highest_bid": 237.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1354,7 +1243,7 @@
    "description": "Toshiba md04aca400 4tb harde schijf ean 5712505477892 sku md04aca400 pn hdetr11gea51 gebruikt, in goede staat. Volledig 100% gezond, met als gebruik: – 7970 inschakelingen – 11905 draaiuren (= circa 1",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1393,7 +1282,7 @@
    "description": "8 tb capaciteit – veel ruimte voor langdurige opnames.wd purple-serie – geoptimaliseerd voor surveillance (allframe-technologie).24/7 Bedrijfsduur – gemaakt voor continue writes en betrouwbaarheid.ref",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1432,7 +1321,7 @@
    "description": "Hp / seagate exos 7e8 6tb 3.5\" sata hdd – st6000nm002a betrouwbare enterprise harde schijf van seagate / hp met 6tb opslagcapaciteit. Geschikt voor server, workstation, nas, opslagserver of als g",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1471,7 +1360,7 @@
    "description": "Te koop: wd ultrastar dc hc530 data center hard drive, 14 tb (model wuh721414ale6l4). Deze schijf wordt niet meer gebruikt wegens de overstap naar schijven met een grotere capaciteit en is daarom besc",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1510,7 +1399,7 @@
    "description": "Van maart 2025, hebben in een synology gezeten. Uiteraard is de smart goed.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1550,7 +1439,7 @@
    "description": "Wd 6tb blue 2 stuks, beide zelf nieuw gekocht 2-10-2023 (factuur aanwezig). Beide in computers gebruikt, nu overbodig door aankoop nas. In prima staat, nog geen 9000 uur gebruik. Kan per 1 of 2 gekoch",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1590,7 +1479,7 @@
    "description": "2 stuks betrouwbare enterprise grade harde schijven van topkwaliteit.(English version see below) specificaties: merk/serie: hgst ultrastar 7k6000 modelnummer: hus726060ale614 (type: us7sak600) capacit",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1629,7 +1518,7 @@
    "description": "Te koop: een nieuwe western digital ultrastar dc hc550 harde schijf met een opslagcapaciteit van 18tb. Deze interne hdd is ideaal voor servers, desktops en laptops die veel opslagruimte vereisen. De s",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1667,7 +1556,7 @@
    "description": "Wd red schijf 6tb verzenden op kosten van de koper verzendkosten = 10 euro zie andere zoekertjes voor meer schijven schijf ligt in belgië",
    "detail": true,
    "highest_bid": 150.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1705,7 +1594,7 @@
    "description": "Wd red schijf 6tb verzenden op risico van de koper verzendkosten = 10 euro zie andere zoekertjes voor meer schijven schijf ligt in belgië",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1743,7 +1632,7 @@
    "description": "Wd red schijf 6tb verzenden op kosten van de koper verzendkosten = 10 euro zie andere zoekertjes voor meer schijven schijf ligt in belgië",
    "detail": true,
    "highest_bid": 130.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1782,7 +1671,7 @@
    "description": "Nieuwe western digital wd gold 8tb sata 6gb/s harde schijf (model wd8005fryz). Deze interne hdd is ideaal voor servers, desktops of laptops die een grote opslagcapaciteit en betrouwbaarheid vereisen.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1821,7 +1710,7 @@
    "description": "Te koop! Western digital 6tb harddisk, model dc hc310 - 15 starts - 217 uren - smart status goed",
    "detail": true,
    "highest_bid": 90.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -1856,7 +1745,7 @@
    "description": "Wd 6tb blue 2 stuks op voorraad specificaties: • 6tb • sata • 5400 rpm • 3.5 Inch getest, gewiped en volledig werkend of kom langs in onze winkel voor meerdere scherpe aanbiedingen. Mog ict b.v. Boven",
    "detail": true,
    "highest_bid": 80.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1896,7 +1785,7 @@
    "description": "De seagate skyhawk harde schijf voor bewakingsdoeleinden is uitgerust met toptechnologie die speciaal is ontworpen voor de evoluerende vereisten van moderne bewakingssystemen. Deze harde schijf is geo",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1936,7 +1825,7 @@
    "description": "Toshiba md04aca600 6tb harde schijf ean 5712505477908 sku md04aca600 pn hdets10gea51 gebruikt, in goede staat. Volledig 100% gezond, met als gebruik: – 117 inschakelingen – 21956 draaiuren (= circa 2,",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1976,7 +1865,7 @@
    "description": "Wd purple - 6tb - harde schijf - wd64purz - sata-600 - 3.5\" interne harde schijf: 6 tb, grotte: 3.5\", verbinding: sata-600 - 6gb/s, opnamepatroon cmr (conventional magnetic recording), cache",
    "detail": true,
    "highest_bid": 75.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2010,7 +1899,7 @@
    "description": "Te koop aangeboden: vier nieuwe, ongebruikte seagate skyhawk 6tb sata af harde schijven. Deze schijven zijn ideaal voor bewakingssystemen (dvr/nvr) en bieden betrouwbare opslag met hoge capaciteit. Ze",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2045,7 +1934,7 @@
    "description": "Western digital 6tb pc hdd hardeschijf voorraad: 3 draaiuren +- 42000 prijs is per stuk conditie: refurbished/gebruikt betaling: betaling uitsluitend voorafgaand per bank of contant /pin bij afhalen.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2085,7 +1974,7 @@
    "description": "After testing and clearing a whole lot, i am left with 2x wd60efrx drives. Both were pulled from working zfs pools, however both now either fail the long smart test or fail to complete a zero-out form",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2119,7 +2008,7 @@
    "description": "Bid per stuck! Geen onzin biedingen! Reageer ik niet op. Nieuw in originele, gesloten verpakking. Twee nieuwe western digital data center harde schijven van elk 6tb, type hdd met sata-aansluiting. Ide",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2155,7 +2044,7 @@
    "description": "Hgst 6tb sata [hdd-1605] hus726060aln610",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2195,7 +2084,7 @@
    "description": "Western digital gold 6tb sata wd6003fryz [hdd-1571] datacenter harddrive refurbushed in celefaan nog 3 stuks aanwezig, prijs per stuk",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2235,7 +2124,7 @@
    "description": "Western digital black 6tb sata wd6003fzbx [hdd-1570] sata 6gb/s pc ha710 gaming hard drive refurbushed in celefaan",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2276,7 +2165,7 @@
    "description": "Hgst 6tb sata3 6 gb/s [hdd-1547] refurbushed in celefaan 2 stuks aanwezig, prijs per stuk",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2316,7 +2205,7 @@
    "description": "Ben upgegrade naar een nas en heb deze 2 jaar in mijn computer gehad voor grote opslag maar nu overbodig.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2356,7 +2245,7 @@
    "description": "Wd red plus 6tb (256mb cache) wd60efpx harde schijf ean 0718037899800, 0718037900452, 5415247302278 sku wd60efpx mdl wd60efpx-68c5zn0 nx ha510 6tb • 3.5″ Hdd (sata-600) • 5.400Rpm hagelnieuw en ongebr",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2396,7 +2285,7 @@
    "description": "Te koop: seagate exos x16 14tb sata harde schijf (standard model). Deze enterprise-schijven zijn refurbished en draaien als nieuw – ideaal voor nas, server, das of gewone pc-opslag en back-ups. Wat je",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2435,7 +2324,7 @@
    "description": "Te koop: western digital ultrastar dc hc320 8tb sata harde schijf, gerecertificeerd en in zeer goede staat. Merk: western digital (hgst ultrastar-lijn) serie: ultrastar dc hc320 model: hus728t8tale6l4",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2476,7 +2365,7 @@
    "description": "Te koop: seagate exos 7e8 8tb sata harde schijf, 512e standard model. (Nog 1 stuks over) merk: seagate serie: exos 7e8 (enterprise / datacenter) model: st8000nm000a (512e, standard) capaciteit: 8 tb i",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2550,7 +2439,7 @@
    "description": "Te koop: seagate exos x18 18tb harde schijf model: st18000nm000j-2tv103 volledig functioneel. Verkoop ivm upgrade 24tb exos drives. Capaciteit: 18 tb 7200 rpm sata 6 gb/s actuele gegevens volgens crys",
    "detail": true,
    "highest_bid": 250.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2585,7 +2474,7 @@
    "description": "Van maart 2025, hebben in een synology gezeten. Smart is goed.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2624,7 +2513,7 @@
    "description": "Seagate barracuda st8000dm004 - 8tb [hdd-1398] gebruikt, maar nog in orde. Op rare biedingen wordt niet gereageerd. De kenner weet wat ze nog waard zijn nog div aanwezig rond de 34000 power on hours n",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2663,7 +2552,7 @@
    "description": "Seagate archive hdd v2 8tb sata [hdd-1154-03,05,06,07,09,10,11] st8000as0002 nog 5 stuks aanwezig, prijs per stuk",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2703,7 +2592,7 @@
    "description": "Te koop aangeboden: een gloednieuwe wd gold 8tb harde schijf (hdd). De schijf zit nog volledig nieuw in de originele, gesealde antistatische zak (zie foto's). De schijf is online gecontroleerd",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2742,7 +2631,7 @@
    "description": "Prijs is per stuk!! Te koop aangeboden: 4x gebruikte wd red pro 8tb nas hard drive (model wd8001ffwx). Deze harde schijf is speciaal ontworpen voor nas-systemen en biedt betrouwbare opslag met een cap",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2781,7 +2670,7 @@
    "description": "Te koop: een western digital 18tb wd181kfgx harde schijf, speciaal ontworpen voor nas-systemen (nasware 3.0) Of voor in een gewone pc deze hdd is in uitstekende staat, zoals te zien is op de crystaldi",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2820,7 +2709,7 @@
    "description": "Te koop: toshiba mg08ada800e 8tb 3.5” Sata enterprise hdd enterprise harde schijf, geschikt voor nas, server, back-up en grote opslag. Specificaties: capaciteit: 8 tb model: toshiba mg08ada800e interf",
    "detail": true,
    "highest_bid": 160.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2859,7 +2748,7 @@
    "description": "-8tb hdd opslag -seagate barracuda 8tb 256mb -lezen (sequentieel) 190mb/s -schrijven (sequentieel) 190mb/s -perfect voor backups -niet voor gamen! -Nette staat -met garantie direct bestellen? Klik op",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2899,7 +2788,7 @@
    "description": "Seagate ironwolf 8tb st8000vn0022 3.5\" sata - nas hdd 8x beschikbaar gebruikt - 44k uren - geen errors zonder btw prijs per stuk",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2939,7 +2828,7 @@
    "description": "Nederlands (english below) hierbij bied ik 3x een harde schijf (hdd) van 8 tb aan van seagate barracuda. De schijven zijn nog in goede functionerende staat (refurbished). Losse verkoop mogelijk. Biedp",
    "detail": true,
    "highest_bid": 210.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2973,7 +2862,7 @@
    "description": "Professionele 8tb nas harde schijf – 7200 rpm – 256mb cache op zoek naar een betrouwbare en krachtige harde schijf voor je nas? Deze seagate ironwolf pro 8tb (st8000ne0004) is speciaal ontwikkeld voor",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3013,7 +2902,7 @@
    "description": "Op zoek naar veel opslag en betrouwbare prestaties? Deze seagate exos 8tb is een echte enterprise harde schijf, ontworpen voor intensief en 24/7 gebruik. 💾 8 Tb opslagcapaciteit ⚡ 7200 rpm – hoge sne",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3053,7 +2942,7 @@
    "description": "Op zoek naar een betrouwbare harde schijf voor je nas? Deze seagate ironwolf 8tb (st8000vn004) is speciaal ontwikkeld voor nas-systemen en geschikt voor 24/7 gebruik. Met 8tb opslagruimte heb je volop",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3093,7 +2982,7 @@
    "description": "Deze owc gemini dual-drive raid thunderbolt 3 docking station is slechts één dag gebruikt voor demonstratie en verkeert in uitstekende staat. Het apparaat biedt twee bays voor 3.5-Inch of 2.5-Inch sch",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3133,7 +3022,7 @@
    "description": "Te koop aangeboden: wd gold 8tb disk merk: western digital type: wd8000fryz bouwjaar: 2021 draaiuren: 40k s.m.a.r.t. Waarde bij interesse natuurlijk beschikbaar. In totaal 4 stuks beschikbaar ophalen",
    "detail": true,
    "highest_bid": 185.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3173,7 +3062,7 @@
    "description": "Te koop aangeboden: een gebruikte wd red 8tb nas harde schijf (model wd80efzx). Deze schijf heeft ongeveer 65.000 Bedrijfsuren en is ideaal voor gebruik in een nas-systeem of als extra opslag in een d",
    "detail": true,
    "highest_bid": 120.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3213,7 +3102,7 @@
    "description": "Wd ultrastar dc hc320 8tb harde schijf wd ultrastar dc hc320 sata (512e, se, 128mb cache), 8tb ean 5415247182573 sku 0b36452 mdl hus728t8tale6l4 8tb • 3.5″ Hdd (sata-600) • 7.200Rpm gebruikt, in goede",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3252,7 +3141,7 @@
    "description": "Western digital red plus wd80efpx 8tb — gloednieuw en ongeopend, met volledige fabrieksgarantie. Dit is de 8tb-variant met 256mb cache en 5640 rpm, speciaal ontwikkeld voor nas-systemen tot 8 bays. Ge",
    "detail": false,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3291,7 +3180,7 @@
    "description": "Te koop: western digital 8tb sata harde schijven (3.5 Inch). Deze schijven hebben ongeveer 30.000 Draaiuren, zoals te zien is op de bijgevoegde printscreen. Geen defect. Prijs per stuk is 140 euro vas",
    "detail": false,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3331,7 +3220,7 @@
    "description": "Aangeboden: wd red, 8tb (128 mb cache) wd80efzx circa 61000 a 62000 uur gebruikt (dat is circa 7,5 jaar) maar wel in goede staat en geen smart erros . Er is geen fabrieksgarantie meer, maar ik geef 3",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3371,7 +3260,7 @@
    "description": "Op zoek naar een grote, snelle en betrouwbare harde schijf? Deze seagate barracuda pro 8tb biedt maar liefst 8tb opslagruimte en draait op 7200 rpm. Dankzij de cmr-technologie is deze schijf geschikt",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3411,7 +3300,7 @@
    "description": "Wd purple 8tb nas – nvr harde schijf. In nieuwstaat met zeer weinig draaiuren (zie screenshot). Geschikt voor synology en qnap nas, hikvision en unifi apparatuur. Speciaal ontwikkeld voor 24/7 opname",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3451,7 +3340,7 @@
    "description": "Verkaufe eine voll funktionsfähige western digital wd red festplatte mit 8 tb speicher. Modell: wd80efzx 8 tb 3,5\" formfaktor sata iii (6 gb/s) 5.400 U/min 128 mb cache cmr-aufnahmeverfahren 512e",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3491,7 +3380,7 @@
    "description": "Western digital red plus wd80efax 8tb harde schijf ean 0718037854694, 5706998247919, 8032976123010, 8592978101299 sku wd80efax mdl wd80efax-68lhpn0 r/n us7sal080 p/n 2w10209 pn wd80efax nx ha500 8tb •",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3531,7 +3420,7 @@
    "description": "Wd 8tb ultrastar huh72100bale600 harddisk [hdd-1389] 7200rpm wegens upgrade nas de laatste!",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3571,7 +3460,7 @@
    "description": "Ean 0014013772984, 0718037845500, 4053199544745, 5415247082842 sku wd80efzx 8tb • 3.5″ Hdd (sata-600) • 5.400Rpm wd80efzx-68uw8n0 draaiuren 31.000 Tot 41.000 Inschakelingen 3 tot 24 hwpn 805-965 dit i",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3612,7 +3501,7 @@
    "description": "Seagate exos 7e8 8tb sata enterprise hdd (st8000nm000a) bij deze bied ik een seagate exos 7e8 8tb sata enterprise hdd (st8000nm000a) aan. Deze enterprise harde schijf is ontworpen voor betrouwbare 24/",
    "detail": true,
    "highest_bid": 150.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3651,7 +3540,7 @@
    "description": "Te koop aangeboden: een gloednieuwe en ongeopende seagate barracuda pro 8tb harde schijf. Deze interne hdd is ideaal voor desktops en servers die veel opslagruimte vereisen. De schijf is van het type",
    "detail": true,
    "highest_bid": 195.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3690,7 +3579,7 @@
    "description": "12tb enterprise hdd | ⚙️ 0 draaiuren | ✅ getest & werkend 📋 specificaties 🏷️ merk: western digital (hgst)📦 model: ultrastar dc hc520 (huh721212ale600)💾 capaciteit: 12tb🔌 interface: sata 6gb/s",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3730,7 +3619,7 @@
    "description": "Te koop: western digital hgst ultrastar dc hc550 18tb — de enterprise-schijf voor wie écht opslag nodig heeft: nas, server, back-up of archief. Professioneel gerecertificeerd met 0 draaiuren. Niet geb",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3771,7 +3660,7 @@
    "description": "Te koop: western digital se dc hc330 10tb harde schijf.(13 Stuks) ✅ recertified ✅ 10tb opslagcapaciteit ✅ betrouwbare enterprise hdd ✅ geschikt voor nas, server en opslag ideaal voor dataopslag, back-",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3785,10 +3674,10 @@
    "type": "Ultrastar",
    "size_tb": 10.0,
    "qty": 13,
-   "sold_separately": false,
+   "sold_separately": true,
    "per_piece": "geschat",
    "price_each": 350.0,
-   "price_total": 4550.0,
+   "price_total": null,
    "price_per_tb": 35.0,
    "metric": 35.0,
    "deal": false
@@ -3810,7 +3699,7 @@
    "description": "Gebruikt, smart test geeft aan dat de conditie goed is. 1 Stuk nog beschikbaar! Bieden naar waarde.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3846,7 +3735,7 @@
    "description": "Deze western digital 12tb wd120edaz interne harde schijf is getest en werkt perfect. Ik heb een grotere schijf aangeschaft, vandaar dat deze nu beschikbaar is voor een tweede ronde. Ideaal voor uitbre",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3882,7 +3771,7 @@
    "description": "Nederlands (english below) hierbij bied ik 1x een toshiba n300 nas 10tb harde schijf (interne hdd) aan. De schijf is nog in een goed functionerende staat (refurbished). Geschikt voor zowel server als",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3917,7 +3806,7 @@
    "description": "Seagate expansion 10tb consumer/prosumer desktop hdd (7200 rpm, 256mb cache, sata 6gb/s, 3.5\" form factor)",
    "detail": true,
    "highest_bid": 200.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3956,7 +3845,7 @@
    "description": "Te koop aangeboden: een gebruikte seagate ironwolf pro 10tb hdd (model st10000ne0004). Deze interne harde schijf is speciaal ontworpen voor nas-systemen en biedt betrouwbare opslag met een capaciteit",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3994,7 +3883,7 @@
    "description": "Hij ligt al een jaar in de kast het is overbodig. Hij is schoon gewiped en verkeerd nog in een uitstekende staat. İk heb ook nog 2 maal identieke 4 tb 4tb hgst hdd beschikbaar. Los 10tb voor 200&euro",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4033,7 +3922,7 @@
    "description": "Bied hier een seagate ironwolf 10tb nas hdd aan, ideaal voor uw netwerkopslag (nas) systeem. Deze interne harde schijf (hdd) is speciaal ontworpen voor 24/7 gebruik in nas-omgevingen en biedt hoge pre",
    "detail": true,
    "highest_bid": 230.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4068,7 +3957,7 @@
    "description": "2 stuks western digital red plus 10tb (wd101kfbx) 3.5\" hdd enkel gebruikt voor backup, zeer lage power-on uren. Perfecte staat. Zie bijgesloten smart rapport. Ideaal voor uitbreiding van een nas,",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4107,7 +3996,7 @@
    "description": "Wd red 10tb schijven afkomstig van een synology server. Schijven zijn perfect in orde. Alleen een test gedraaid (zie screenshot). Deze harde schijven van western digital staan bekend als zeer snel en",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4146,7 +4035,7 @@
    "description": "Wd red plus nas schijven. Meerdere stuks beschikbaar. Schijven zijn getest en 100% health. Schijven zijn geschikt voor een nas server van synology. Ook geschikt voor qnap of in een desktop pc. Deze sc",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4168,46 +4057,6 @@
    "metric": 30.0,
    "deal": false
   },
-  "mp-m2436204268": {
-   "title": "✅ Icy Dock ToughArmor Seagate HDD 2.5 2x 5TB = 10TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2436204268-icy-dock-tougharmor-seagate-hdd-2-5-2x-5tb-10tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7333f5f7-3ff3-4384-9bed-092bce571c82?rule=ecg_mp_eps$_82.jpg",
-   "city": "Maartensdijk",
-   "seller": "Ferry",
-   "source": "marktplaats",
-   "posted": "28 aug 26",
-   "price": 250.0,
-   "price_type": "FIXED",
-   "attrs": {
-    "size": "10TB",
-    "kind": "Intern",
-    "condition": "Zo goed als nieuw"
-   },
-   "description": "Vaste prijs, ik reageer niet op biedingen onder de vraagprijs of 'wat is de laagste prijs' alleen ophalen, dan kan ik de s.m.a.r.t status (zie ook screenshots) laten zien en kun je uit",
-   "detail": true,
-   "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     250.0
-    ]
-   ],
-   "price_drop": false,
-   "brand": "Seagate",
-   "type": null,
-   "size_tb": 5.0,
-   "qty": 2,
-   "sold_separately": false,
-   "per_piece": null,
-   "price_each": 125.0,
-   "price_total": 250.0,
-   "price_per_tb": 25.0,
-   "metric": 25.0,
-   "deal": false
-  },
   "mp-m2421109968": {
    "title": "HGST Ultrastar Helium He10 10TB Harde Schijf",
    "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2421109968-hgst-ultrastar-helium-he10-10tb-harde-schijf",
@@ -4226,7 +4075,7 @@
    "description": "Hgst ultrastar helium he10 10tb harde schijf hgst ultrastar he10 (sata 6gbps, 512e ise + power disable pin), 10tb ean 0829686005105, 5415247161981, 8717306635684 sku 0f27452, huh721010ale600 type us7s",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4266,7 +4115,7 @@
    "description": "Hgst ultrastar helium he10 10tb harde schijf hgst ultrastar he10 (sata 6gbps, 512e ise + power disable pin), 10tb ean 0829686005105, 5415247161981, 8717306635684 sku 0f27452, huh721010ale600 type us7s",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4304,7 +4153,7 @@
    "description": "Seagate exos x18 12tb harde schijf nieuw in verpakking deze high-capacity schijf is ideaal voor servers, datacenters en andere veeleisende opslagtoepassingen. Hij is nog verzegeld in de antistatische",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4345,7 +4194,7 @@
    "description": "Te koop aangeboden: western digital 12tb datacenter harde schijven. Deze schijven hebben wel aangestaan, maar zijn altijd idle geweest en nooit actief beschreven met data. Ze zijn dus, afgezien van hu",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4385,7 +4234,7 @@
    "description": "Western digital red pro nas hdd. Heeft een totale opslagcapaciteit van 12tb. Heeft meer dan 40.000 Draaiuren. Is veel gebruikt. Zou nog gebruikt kunnen worden voor niet essentiële zaken.",
    "detail": true,
    "highest_bid": 120.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4421,7 +4270,7 @@
    "description": "Western digital 12tb harde schijf, geschikt voor nas, server of back-up. Capaciteit: 12tb crystaldiskinfo: 100% goed geen bad sectors/fouten draaiuren: ±8.200 Uur inschakelingen: 69 5400 rpm helium-fi",
    "detail": true,
    "highest_bid": 245.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4461,7 +4310,7 @@
    "description": "Te koop aangeboden: een seagate ironwolf 12tb nas harde schijf. Deze hdd is ideaal voor nas-systemen en servers, en biedt betrouwbare opslag met een grote capaciteit. De schijf is intern en maakt gebr",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4502,7 +4351,7 @@
    "description": "Een harde schijf van 12tb van seagate ironwolf pro. Niet gebruikt (zover ik weet), komt uit lost ‘n found kluis van hotel.",
    "detail": true,
    "highest_bid": 300.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4540,7 +4389,7 @@
    "description": "Seagate 12tb sata hdd it has to be used with the attached sata adapter. It cannot be removed. Shipping at buyers risk and cost is possible. Pick up in arnhem",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4575,7 +4424,7 @@
    "description": "Harde schijf is in prima staat, zie s.m.a.r.t. Gegevens. Capaciteit: 12tb aansluiting: sata-600 grootte: 3.5 Inch merk: western digital type: wd120edaz, white lable/ o.e.m. Fabricage datum: 30-06-2020",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4615,7 +4464,7 @@
    "description": "Harde schijf is in prima staat, zie s.m.a.r.t. Gegevens. Capaciteit: 12tb aansluiting: sata-600 grootte: 3.5 Inch merk: western digital type: wd120emaz, white lable/ o.e.m. Fabricage datum: 21-09-2019",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4655,7 +4504,7 @@
    "description": "Harde schijf is in prima staat, zie s.m.a.r.t. Gegevens. Capaciteit: 12tb aansluiting: sata-600 grootte: 3.5 Inch merk: western digital type: wd120edbz, white lable/ o.e.m. Fabricage datum: 19-08-2021",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4695,7 +4544,7 @@
    "description": "Harde schijf is in prima staat, zie s.m.a.r.t. Gegevens. Capaciteit: 12tb aansluiting: sata-600 grootte: 3.5 Inch merk: western digital type: wd120edaz, white lable/ o.e.m. Fabricage datum: 02-09-2020",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4735,7 +4584,7 @@
    "description": "Never used, new. From g-technology (sandisk). Professional g-raid 2 12tb aluminum key specificationns: storage capacity12tbusb/tb external2x thunderbolt 3 type-c, 1x usb 3.2 (Gen1, 5gb/s) type-cpower",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4775,7 +4624,7 @@
    "description": "Na 15 jaar is mijn oude account gehacked waar ik meer dan 100 vijf sterren reviews op had, dus dat moeten we nu weer opbouwen. Bij deze in de verkoop vanwege inkrimpen van hobby. Een 14tb western digi",
    "detail": true,
    "highest_bid": 150.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4815,7 +4664,7 @@
    "description": "De hc550 is de enterprise-lijn van western digital: gebouwd voor 24/7 continue inzet in datacenters, nas-systemen en servers. Deze exemplaren zijn gerecertificeerd .gespecialiseerde partij), volledig",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4855,7 +4704,7 @@
    "description": "Te koop wegens overcompleet: 4× toshiba mg07aca14te 14tb enterprise harde schijven. Dit zijn echte enterprise hdd’s, ontworpen voor 24/7 gebruik in servers en storage-systemen. Alle schijven zijn gete",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4894,7 +4743,7 @@
    "description": "Een zgan seagate ironwolf 14tb hdd, ideaal voor nas-systemen en servers. Deze interne harde schijf biedt betrouwbare opslag en is geschikt voor intensief gebruik. Perfect voor desktop of nas uitbreidi",
    "detail": true,
    "highest_bid": 255.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4929,7 +4778,7 @@
    "description": "Western digital red pro 14tb (wd141kfgx) 3.5\" enterprise-class nas hdd dit is het topmodel uit de red-serie: gebouwd voor 24/7 intensief gebruik, voorzien van 7200 rpm, 512mb cache en geschikt vo",
    "detail": true,
    "highest_bid": 220.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4969,7 +4818,7 @@
    "description": "Te koop: western digital 14tb 3.5\" sata harde schijf, model wd140edfz-11a0va0. De schijf is gebruikt en de smart-status is good. Specificaties van het exemplaar op de foto's: merk: wester",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5008,7 +4857,7 @@
    "description": "Seagate exos enterprise nas server schijf. Nieuw 0 uur gedraaid. Hebben spare op de plank gelegen. Fabrieksgarantie verlopen. Uitermate geschikt voor een nas server van synology. Ook geschikt voor qna",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5048,7 +4897,7 @@
    "description": "Verkaufe eine voll funktionsfähige western digital wd gold enterprise-festplatte mit 14 tb speicherkapazität. Modell: wd141kryz 14 tb 3,5\" formfaktor sata iii (6 gb/s) 7.200 U/min 256 mb cache cm",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5088,7 +4937,7 @@
    "description": "Na 15 jaar is mijn oude account gehacked waar ik meer dan 100 vijf sterren reviews op had, dus dat moeten we nu weer opbouwen. Bij deze in de verkoop vanwege inkrimpen van hobby. Een 16tb toshiba hdd.",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5128,7 +4977,7 @@
    "description": "Seagate 16tb exos x16 enterprise kwaliteit, geschikt voor nas, server of grote opslag. 3 Stuks op voorraad specificaties: • 16tb • sata • 7200 rpm • 3.5 Inch getest, gewiped en volledig werkend of kom",
    "detail": true,
    "highest_bid": 250.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5168,7 +5017,7 @@
    "description": "Nederlands (english below) hierbij bied ik 2x een harde schijf (hdd) van 16 tb aan van western digital (wd) ultrastar. De schijven zijn nog in een goede conditie (refurbished) en komen allemaal uit 20",
    "detail": true,
    "highest_bid": 350.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -5201,7 +5050,7 @@
    "description": "Nieuwe seagate ironwolf pro 16tb interne harde schijf (hdd), model st16000nt001. Deze krachtige schijf is ideaal voor nas-systemen en servers, en biedt betrouwbare opslag met hoge capaciteit. Perfect",
    "detail": true,
    "highest_bid": 350.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -5236,7 +5085,7 @@
    "description": "Te koop: seagate exos x16 16tb enterprise hdd, model st16000nm000g-2kh103. Een 3.5\" sata enterprise harde schijf met 7200 rpm. De schijf is gebruikt en de smart-status is good. Specificaties van",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5275,7 +5124,7 @@
    "description": "Te koop aangeboden: een seagate exos x20 16tb harde schijf. Deze hdd is 'factory recertified', wat betekent dat deze door de fabrikant is gecontroleerd en gecertificeerd. De schijf is",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5314,7 +5163,7 @@
    "description": "Nieuw en ongebruikt. Nieuwprijs nu bijna het dubbele, ruim 1400 euro. Glyph blackbox pro raid 16tb, enterprise class, thunderbolt 3 de glyph blackbox pro raid 16tb, enterprise class, thunderbolt 3, is",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5356,7 +5205,7 @@
    "description": "Toshiba 16tb hdd hdepx10gea51 harde schijf bij deze bied ik een toshiba 16tb hdepx10gea51 harde schijf aan. Deze schijf is ideaal voor opslag en nas-toepassingen en staat bekend om zijn betrouwbaarhei",
    "detail": true,
    "highest_bid": 300.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5396,7 +5245,7 @@
    "description": "Nederlands (english below) hierbij bied ik 2x een sata harde schijf (hdd) van 18 tb aan van western digital (wd), nasware 3.0 Van de wd red pro series. De schijven zijn nog in een goede conditie en zi",
    "detail": true,
    "highest_bid": 500.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -5430,7 +5279,7 @@
    "description": "Wd ultrastar nas – server schijven. Inclusief btw. Schijven hebben ca. 30K aan draaiuren en zijn in uitstekende staat. Geen slechte of verplaatste sectoren. 100% Health. De western digital (hgst) ultr",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5470,7 +5319,7 @@
    "description": "Seagate 18tb exos x18 enterprise kwaliteit, geschikt voor nas, server of grote opslag. 3 Stuks op voorraad specificaties: • 18tb • sata • 7200 rpm • 3.5 Inch getest, gewiped en volledig werkend of kom",
    "detail": true,
    "highest_bid": 325.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5509,7 +5358,7 @@
    "description": "Seagate exos 18tb nas - server hdd. Nieuw (0 uur gedraaid - fabrieksgarantie verlopen) deze enterprise kwaliteit seagate exos (x18) schijven staan bekend om hun betrouwbaarheid in combinatie met een a",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5522,11 +5371,11 @@
    "brand": "Seagate",
    "type": "Exos",
    "size_tb": 18.0,
-   "qty": 18,
+   "qty": 1,
    "sold_separately": false,
-   "per_piece": "geschat",
+   "per_piece": null,
    "price_each": 450.0,
-   "price_total": 8100.0,
+   "price_total": 450.0,
    "price_per_tb": 25.0,
    "metric": 25.0,
    "deal": false
@@ -5550,7 +5399,7 @@
    "description": "Te koop aangeboden: seagate exos x18 enterprise 18tb harde schijf professionele enterprise/datacenter hdd met maar liefst 18 tb opslagcapaciteit. Ideaal voor een nas, server, back-upserver, truenas, u",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5590,7 +5439,7 @@
    "description": "Te koop: seagate exos x18 18tb enterprise hdd, model st18000nm000j-2tv103. Een 3.5\" sata enterprise harde schijf met 7200 rpm. De schijf is gebruikt en de smart-status is good. Specificaties van",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5630,7 +5479,7 @@
    "description": "Te koop: western digital 18tb 3.5\" sata harde schijf, model wd180edgz-11b2da0. De schijf is gebruikt en de smart-status is good. Specificaties van het exemplaar op de foto's: merk: wester",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5670,7 +5519,7 @@
    "description": "Western digital wd gold 18tb harde schijf (wd181kryz). Enterprise kwaliteit, geschikt voor nas, server of grote opslag. • 18Tb • sata • 7200 rpm • 3.5 Inch • getest en volledig werkend afkomstig uit p",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5710,7 +5559,7 @@
    "description": "Te koop: 4x toshiba mg09aca18te 18tb enterprise harde schijf, geschikt voor nas, server of thuislab. Dit zijn echte enterprise-schijven, gebouwd voor 24/7 gebruik in datacenters. Cmr-technologie (géén",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5749,7 +5598,7 @@
    "description": "Te koop aangeboden: - toshiba 18tb hdd goede conditie zie rapport. De schijf is overbodig geworden.",
    "detail": true,
    "highest_bid": 380.0,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -5783,7 +5632,7 @@
    "description": "2 voor 500 seagate exos x18 18tb harde schijf (st18000nm000j). Enterprise kwaliteit, geschikt voor nas, server of grote opslag. • 18Tb • sata • 7200 rpm • 3.5 Inch • seagate exos x18 • getest en volle",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5822,7 +5671,7 @@
    "description": "Nederlands (english below) hierbij bied ik meerdere 20tb sata harde schijfven aan (hdd) van diverse merken. De partij omvat: 20tb western digital (1 stuks) 20tb seagate exos x20 (5 stuks) 20tb seagate",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -5856,7 +5705,7 @@
    "description": "Wd ultrastar nas - server schijven. Schijven hebben een korte periode gedraaid voor een project. Geen slechte of beschadigde sectoren. De western digital (hgst) ultrastar schijven komen al sinds jaren",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5894,9 +5743,9 @@
     "condition": "Gebruikt"
    },
    "description": "Aangeboden (vaste prijs, afdingen word niet op prijs gesteld): seagate exos x20 (sata, standard), 20tb 1 stuk uit een synology nas met 12901 uur (circa 1,5 jaar) op de teller: 550 euro per stuk. De sc",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5909,11 +5758,11 @@
    "brand": "Seagate",
    "type": "Exos",
    "size_tb": 20.0,
-   "qty": 20,
+   "qty": 1,
    "sold_separately": false,
-   "per_piece": "vermeld",
+   "per_piece": null,
    "price_each": 550.0,
-   "price_total": 11000.0,
+   "price_total": 550.0,
    "price_per_tb": 27.5,
    "metric": 27.5,
    "deal": false
@@ -5933,9 +5782,9 @@
     "condition": "Zo goed als nieuw"
    },
    "description": "Wd ultrastar nas - server schijven. Schijven hebben een korte periode gedraaid voor een project. Geen slechte of beschadigde sectoren. De western digital (hgst) ultrastar schijven komen al sinds jaren",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -5969,9 +5818,9 @@
    "price_type": "FAST_BID",
    "attrs": {},
    "description": "Seagate 10tb ironwolf nas",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -6003,9 +5852,9 @@
     "condition": "Nieuw"
    },
    "description": "Seagate 8tb ironwolf pro internal nas hard drive sata (st8000ntz01) bought a couple months ago for nas, there is one left and unsued in the original packaging.",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -6042,9 +5891,9 @@
     "condition": "Gebruikt"
    },
    "description": "Te koop aangeboden: seagate ironwolf pro 22tb harde schijf, model st22000nt001. De schijf heeft slechts 1.206 Bedrijfsuren en is 211 keer ingeschakeld. Crystaldiskinfo geeft momenteel wel een smart-wa",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -6082,9 +5931,9 @@
     "condition": "Gebruikt"
    },
    "description": "Deze seagate ironwolf harde schijf biedt 4tb opslagruimte en is ideaal voor nas-systemen. Met een rotatiesnelheid van 5400rpm en 256mb cachegeheugen levert deze hdd betrouwbare prestaties voor 24/7 ge",
-   "detail": false,
-   "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "detail": true,
+   "highest_bid": 250.0,
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -6120,9 +5969,9 @@
     "condition": "Gebruikt"
    },
    "description": "Te koop aangeboden: meerdere gebruikte harde schijven. Modellen sata: • 3 x seagate ironwolf pro 14tb (st14000ne0008) vraagprijs €345,- per stuk • 3x seagate exos x16 12tb (st12000nm001g) vraagpr",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -6151,9 +6000,9 @@
    "price_type": "FAST_BID",
    "attrs": {},
    "description": "Seagate exos 22tb enterprise hdd st22000nm000c – factory recertified – sata cmr tekst te koop wegens wijziging van mijn server/storageconfiguratie: seagate exos 22 tb factory recertified enterprise hd",
-   "detail": false,
-   "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "detail": true,
+   "highest_bid": 360.0,
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -6185,9 +6034,9 @@
     "condition": "Nieuw"
    },
    "description": "Aangeboden seagate exos x18 12 tb sata stl014 nog 1 stuk beschikbaar schijf is nieuw zoals te zien op foto 3 richtprijs is €380 per stuk. Eventuele verzendkosten en risico zijn voor de koper.",
-   "detail": false,
-   "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "detail": true,
+   "highest_bid": 300.0,
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -6225,9 +6074,9 @@
     "condition": "Gebruikt"
    },
    "description": "Western digital (wd) ultrastar nas / server hdd 4tb. Deze topline enterprise schijven van wd zijn volgens de testen al sinds jaren de meest betrouwbare schijven op de markt (ultrastar). Schijven zijn",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -6266,7 +6115,7 @@
    "description": "Te koop aangeboden: twee seagate exos x20 20tb harde schijven. Deze schijven zijn zeer weinig gebruikt, minder dan 1000 uur, en bevatten geen bad sectors. Ik stop met mijn hobby, vandaar de verkoop. D",
    "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T20:16:23Z",
    "price_history": [

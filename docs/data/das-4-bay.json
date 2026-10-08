@@ -29,7 +29,7 @@
  ],
  "deal_threshold": 56.25,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T20:16:23Z",
+ "updated": "2026-10-08T20:25:04Z",
  "last_run_complete": true,
  "history": [
   {
@@ -55,9 +55,9 @@
     "condition": "Gebruikt"
    },
    "description": "Een asustor das met 4 drive slots",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -94,9 +94,9 @@
     "condition": "Zo goed als nieuw"
    },
    "description": "Te koop aangeboden: een orico 4 bay usb 3.0 Docking station, model 6648us3-c. Dit docking station is geschikt voor zowel 2.5 Inch als 3.5 Inch hdd's en ssd's, en biedt ruimte voor vier",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -135,9 +135,9 @@
     "condition": "Gebruikt"
    },
    "description": "Mediasonic proraid 4-bay 3,5\" sata-hardeschijfbehuizing - usb 3.0 & esata (hfr2-su3s2) let op: dit is een tweedehands product. Ik ben de enige eigenaar geweest. Het vertoont lichte gebruikssp",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:45:30Z",
    "price_history": [
@@ -178,9 +178,9 @@
     "condition": "Zo goed als nieuw"
    },
    "description": "Lacie biggest quadra: 4-bay raid-opslagtoren met usb 2.0-, Firewire- en esata-aansluitingen. Opslagcapaciteit: 1,5 tb aansluitingen: 1x esata, 2x firewire 800 (compatibel met firewire 400) en 1x usb 2",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -221,9 +221,9 @@
     "condition": "Gebruikt"
    },
    "description": "Te koop: promise ds4600 4-bay das storage – 3tb raid-5 beschrijving: te koop aangeboden mijn promise smartstor ds4600 direct attached storage (das) in nette staat deze betrouwbare 4-bay promise ds4600",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -259,9 +259,9 @@
     "condition": "Zo goed als nieuw"
    },
    "description": "Hierbij bied ik de de icy box ib-3640su3 aan. In absolute nieuwestaat, geheel compleet met kabels en toebehoren. De icy box biedt u veel geheugen, want er kunnen tot 4 harde schijven van gelijk welke",
-   "detail": false,
+   "detail": true,
    "highest_bid": null,
-   "last_seen": "2026-10-08T20:16:23Z",
+   "last_seen": "2026-10-08T20:25:04Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
