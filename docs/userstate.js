@@ -129,8 +129,6 @@ const UserState = (() => {
     isFav: (id) => Boolean(items[id]?.f),
     toggleSeen: (id) => set(id, "s", !items[id]?.s),
     toggleFav: (id) => set(id, "f", !items[id]?.f),
-    markSeen: (id) => { if (!items[id]?.s) set(id, "s", 1); },
-    markAllSeen: (ids) => setMany(ids.filter((id) => !items[id]?.s), "s", 1),
     onChange: (fn) => listeners.add(fn),
     status: () => ({ status, statusMsg, hasToken: Boolean(token()) }),
     setToken: (t) => { ls.set(LS_TOKEN, t ? t.trim() : null); sync(); },

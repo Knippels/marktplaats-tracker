@@ -138,7 +138,10 @@ function renderCategory(cat) {
   hideRes.checked = hideReservedPref();
   const nRes = active.filter((i) => i.reserved).length;
   main.querySelector(".n-res").textContent = nRes ? `(${nRes})` : "";
-  const visible = (list) => (hideRes.checked ? list.filter((i) => !i.reserved) : list);
+  const hideSeenPref = () => storeGet("hideSeen") === "1";
+  const visible = (list) => list
+    .filter((i) => !hideRes.checked || !i.reserved || UserState.isFav(i.id))
+    .filter((i) => !hideSeenPref() || !UserState.isSeen(i.id) || UserState.isFav(i.id));
   const drawCards = () => {
     fillCards(main.querySelector(".cards.deals"), visible(deals), cat, isUnseen, "Geen aanbiedingen onder de grens op dit moment.");
     fillCards(main.querySelector(".cards.new"), visible(fresh), cat, isUnseen, "Niets nieuws in deze periode.");
@@ -147,14 +150,12 @@ function renderCategory(cat) {
   for (const box of main.querySelectorAll(".cards")) {
     box.addEventListener("click", (e) => {
       const b = e.target.closest("button[data-act]");
-      if (b) { UserState.toggleFav(b.dataset.id); return; }
-      const a = e.target.closest("a.ad-link");
-      if (a) UserState.markSeen(a.dataset.id);
+      if (b) UserState.toggleFav(b.dataset.id);
     });
   }
   UserState.onChange(() => { if (document.body.contains(main.querySelector(".cards"))) drawCards(); });
 
-  renderTable(main, cat, items, isUnseen);
+  renderTable(main, cat, items, isUnseen, drawCards);
   renderChart(main, cat);
   drawCards();
 }
@@ -290,14 +291,13 @@ function omvCell(i) {
   return el("span", { class: `omv ${cls}`, title: i.omv_why || "", "aria-label": `OMV: ${i.omv}` }, sym);
 }
 
-function renderTable(main, cat, items, isUnseen) {
+function renderTable(main, cat, items, isUnseen, onFilterChange = () => {}) {
   const tbody = main.querySelector("tbody");
   const headRow = main.querySelector("thead tr");
   const filter = main.querySelector(".filter");
   const showGone = main.querySelector(".show-gone");
   const hideRes = main.querySelector(".hide-reserved");
   const hideSeen = main.querySelector(".hide-seen");
-  const markAll = main.querySelector(".mark-all");
   const nFav = main.querySelector(".n-fav");
   const nSeen = main.querySelector(".n-seen");
   const chips = main.querySelectorAll(".chip");
@@ -337,7 +337,7 @@ function renderTable(main, cat, items, isUnseen) {
     const q = filter.value.trim().toLowerCase();
     const col = cols[sort.idx];
     nFav.textContent = items.filter((i) => UserState.isFav(i.id)).length || "";
-    const nS = items.filter((i) => i.active && UserState.isSeen(i.id)).length;
+    const nS = items.filter((i) => i.active && UserState.isSeen(i.id) && !UserState.isFav(i.id)).length;  // wat verborgen wordt
     nSeen.textContent = nS ? `(${nS})` : "";
     const rows = items
       .filter((i) => showGone.checked || i.active || (only === "fav" && UserState.isFav(i.id)))
@@ -379,16 +379,12 @@ function renderTable(main, cat, items, isUnseen) {
   }));
   tbody.addEventListener("click", (e) => {
     const b = e.target.closest("button[data-act]");
-    if (b) { b.dataset.act === "fav" ? UserState.toggleFav(b.dataset.id) : UserState.toggleSeen(b.dataset.id); return; }
-    const a = e.target.closest("a.ad-link");
-    if (a) UserState.markSeen(a.dataset.id);      // advertentie geopend = gezien
+    if (b) b.dataset.act === "fav" ? UserState.toggleFav(b.dataset.id) : UserState.toggleSeen(b.dataset.id);
   });
-  tbody.addEventListener("auxclick", (e) => { const a = e.target.closest("a.ad-link"); if (a) UserState.markSeen(a.dataset.id); });
-  markAll.addEventListener("click", () => UserState.markAllSeen(shown.filter((i) => i.active).map((i) => i.id)));
-  hideSeen.addEventListener("change", () => { storeSet("hideSeen", hideSeen.checked ? "1" : "0"); draw(); });
+  hideSeen.addEventListener("change", () => { storeSet("hideSeen", hideSeen.checked ? "1" : "0"); draw(); onFilterChange(); });
   filter.addEventListener("input", draw);
   showGone.addEventListener("change", draw);
-  hideRes.addEventListener("change", draw);
+  hideRes.addEventListener("change", draw);  // kaarten volgen via eigen listener
   UserState.onChange(() => { if (document.body.contains(tbody)) draw(); });
   draw();
 }

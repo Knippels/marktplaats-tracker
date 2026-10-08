@@ -12,8 +12,8 @@ Per zoekcategorie toont de pagina:
   25% processorklasse, 25% geheugen (vermeld in advertentie of standaard), 15% OS-updates (actief/beperkt/EOL),
   plus bonus voor 2.5/10 GbE en M.2. OMV: ✓ x86-64 met beeldscherm-uitgang, ~ met omweg, ✗ niet (ARM 32-bit, Synology).
   Model ontbreekt? Voeg een regel toe aan `scraper/nas_models.yml`.
-- **Gezien & favorieten**: per advertentie ☆ (favoriet) en ✓ (gezien); een advertentie openen markeert hem ook als gezien.
-  Snelfilter "★ Favorieten", vinkje "gezien verbergen" en knop "Alles gezien". Favorieten blijven zichtbaar als ze
+- **Gezien & favorieten**: per advertentie ☆ (favoriet) en ✓ (gezien), alleen handmatig.
+  Snelfilter "★ Favorieten" en vinkje "gezien verbergen". Favorieten blijven altijd zichtbaar, ook als ze gezien,
   gereserveerd of verdwenen zijn. Synchronisatie tussen apparaten via de knop naast "Bijgewerkt": plak een
   fine-grained GitHub-token (alleen deze repo, Contents: read & write). De markeringen staan in `state.json` op de
   branch `user-state` (die branch start geen scraper-run). Zonder token blijft alles in de browser.
