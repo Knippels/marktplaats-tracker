@@ -181,3 +181,35 @@ code { font-size: 12px; background: var(--grid); padding: 1px 5px; border-radius
 .omv-maybe { color: var(--drop-text); }
 .omv-no { color: var(--muted); }
 .cpu { white-space: nowrap; }
+
+/* ---- gezien / favorieten / sync ---- */
+.sync-btn { appearance: none; border: 1px solid var(--border); background: var(--bg); color: var(--muted); font: inherit; font-size: 12px;
+  padding: 1px 8px; border-radius: 999px; margin-left: 8px; cursor: pointer; }
+.sync-btn[data-status="ok"] { color: var(--good-text); }
+.sync-btn[data-status="fout"] { color: var(--drop-text); }
+.act-col { width: 64px; white-space: nowrap; padding-right: 0 !important; }
+.icon-btn { appearance: none; border: 0; background: none; cursor: pointer; font: inherit; font-size: 16px; line-height: 1;
+  width: 28px; height: 28px; border-radius: 6px; color: var(--muted); }
+.icon-btn:hover { background: var(--grid); color: var(--text); }
+.fav-btn.on, .card-fav.on { color: #d99a00; }
+.seen-btn.on { color: var(--good-text); }
+.list tbody tr.is-seen td:not(.act-col) { opacity: .5; }
+.list tbody tr.is-seen.is-fav td:not(.act-col) { opacity: .8; }
+.chip.fav[aria-pressed="true"] { color: #b07d00; }
+.btn { appearance: none; border: 1px solid var(--border); background: var(--surface); color: var(--text); font: inherit; font-size: 13px;
+  padding: 5px 12px; border-radius: 8px; cursor: pointer; }
+.btn.small { padding: 3px 10px; font-size: 12px; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.card-wrap { position: relative; display: flex; }
+.card-wrap > .card { flex: 1; }
+.card-wrap.is-seen > .card { opacity: .55; }
+.card-fav { position: absolute; top: 6px; right: 6px; z-index: 1; background: var(--surface); box-shadow: 0 0 0 1px var(--border); }
+dialog#sync-dlg { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); color: var(--text); max-width: 560px; width: calc(100% - 32px); padding: 0; }
+dialog#sync-dlg::backdrop { background: rgb(0 0 0 / .4); }
+.dlg { padding: 20px; font-size: 14px; }
+.dlg h2 { margin: 0 0 8px; font-size: 17px; }
+.dlg ol { padding-left: 20px; }
+.dlg .tok { display: flex; flex-direction: column; gap: 4px; font-weight: 600; margin: 12px 0 4px; }
+.dlg .tok input { font: inherit; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); }
+.dlg .small { font-size: 12px; margin: 6px 0; }
+.dlg-btns { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; margin-top: 14px; }

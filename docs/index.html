@@ -12,7 +12,8 @@
     <div class="wrap">
       <div class="brand">
         <h1>Homelab Deal Tracker</h1>
-        <p class="sub" id="updated">Laden…</p>
+        <p class="sub"><span id="updated">Laden…</span>
+          <button type="button" id="sync-btn" class="sync-btn" title="Synchronisatie van gezien/favorieten">●&nbsp;lokaal</button></p>
       </div>
       <nav class="tabs" id="tabs" role="tablist"></nav>
     </div>
@@ -27,6 +28,28 @@
       zoektermen aanpassen in <code>config.yml</code></p>
   </footer>
 
+  <dialog id="sync-dlg">
+    <form method="dialog" class="dlg">
+      <h2>Gezien &amp; favorieten synchroniseren</h2>
+      <p>Markeringen worden altijd in deze browser bewaard. Met een GitHub-token worden ze ook opgeslagen in de repo
+        (bestand <code>state.json</code> op branch <code>user-state</code>), zodat je ze op al je apparaten ziet.</p>
+      <ol>
+        <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained token aanmaken</a>.</li>
+        <li>Repository access: <b>Only select repositories</b> → <code>marktplaats-tracker</code>.</li>
+        <li>Permissions → Repository → <b>Contents: Read and write</b>. Verder niets.</li>
+        <li>Kies een vervaldatum, maak het token en plak het hieronder (per apparaat één keer).</li>
+      </ol>
+      <label class="tok">Token <input type="password" id="tok" autocomplete="off" placeholder="github_pat_…"></label>
+      <p class="muted small" id="sync-status"></p>
+      <p class="muted small">Let op: de repo is openbaar, dus je lijst met gezien/favorieten ook. Het token zelf blijft alleen in deze browser.</p>
+      <div class="dlg-btns">
+        <button value="clear" id="tok-clear" type="button" class="btn">Token wissen</button>
+        <button value="cancel" class="btn">Sluiten</button>
+        <button value="save" id="tok-save" type="button" class="btn primary">Opslaan &amp; synchroniseren</button>
+      </div>
+    </form>
+  </dialog>
+
   <template id="cat-tpl">
     <section class="block table-block">
       <div class="block-head">
@@ -36,8 +59,11 @@
             <button type="button" class="chip" data-only="all" aria-pressed="true">Alle</button>
             <button type="button" class="chip deal" data-only="deal" aria-pressed="false">Deals <span class="n-deal"></span></button>
             <button type="button" class="chip new" data-only="new" aria-pressed="false">Nieuw <span class="n-new"></span></button>
+            <button type="button" class="chip fav" data-only="fav" aria-pressed="false">★ Favorieten <span class="n-fav"></span></button>
           </div>
           <input type="search" class="filter" placeholder="Filter op titel, merk, type, plaats…" aria-label="Filter">
+          <label class="check"><input type="checkbox" class="hide-seen"> gezien verbergen <span class="n-seen muted"></span></label>
+          <button type="button" class="btn small mark-all" title="Markeer alle advertenties die nu in de tabel staan als gezien">Alles gezien</button>
           <label class="check"><input type="checkbox" class="hide-reserved"> gereserveerd verbergen <span class="n-res muted"></span></label>
           <label class="check"><input type="checkbox" class="show-gone"> verdwenen tonen</label>
         </div>
@@ -85,6 +111,7 @@
     </section>
   </template>
 
+  <script src="userstate.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

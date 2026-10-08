@@ -12,6 +12,11 @@ Per zoekcategorie toont de pagina:
   25% processorklasse, 25% geheugen (vermeld in advertentie of standaard), 15% OS-updates (actief/beperkt/EOL),
   plus bonus voor 2.5/10 GbE en M.2. OMV: ✓ x86-64 met beeldscherm-uitgang, ~ met omweg, ✗ niet (ARM 32-bit, Synology).
   Model ontbreekt? Voeg een regel toe aan `scraper/nas_models.yml`.
+- **Gezien & favorieten**: per advertentie ☆ (favoriet) en ✓ (gezien); een advertentie openen markeert hem ook als gezien.
+  Snelfilter "★ Favorieten", vinkje "gezien verbergen" en knop "Alles gezien". Favorieten blijven zichtbaar als ze
+  gereserveerd of verdwenen zijn. Synchronisatie tussen apparaten via de knop naast "Bijgewerkt": plak een
+  fine-grained GitHub-token (alleen deze repo, Contents: read & write). De markeringen staan in `state.json` op de
+  branch `user-state` (die branch start geen scraper-run). Zonder token blijft alles in de browser.
 - **Interessante aanbiedingen**: onder een vaste grens (bijv. ≤ €12/TB) of de goedkoopste 25%
 - **Nieuw binnen**: advertenties van de afgelopen 48 uur; blauwe rand = nieuw sinds je laatste bezoek
 - **Prijsverloop**: dagelijks mediaan, goedkoopste 25% en laagste prijs (voor HDD's in €/TB)

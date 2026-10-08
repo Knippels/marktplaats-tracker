@@ -50,8 +50,30 @@ async function init() {
   }
   document.getElementById("updated").textContent = "Bijgewerkt " + fmtDate.format(new Date(state.index.updated));
   renderTabs();
+  setupSync();
   window.addEventListener("hashchange", () => show(location.hash.slice(1)));
   show(location.hash.slice(1));
+  UserState.sync();
+}
+
+function setupSync() {
+  const btn = document.getElementById("sync-btn");
+  const dlg = document.getElementById("sync-dlg");
+  const tok = document.getElementById("tok");
+  const stat = document.getElementById("sync-status");
+  const labels = { lokaal: "lokaal", laden: "synchroniseren…", ok: "gesynchroniseerd", "alleen-lezen": "alleen lokaal", fout: "sync-fout" };
+  const paint = () => {
+    const st = UserState.status();
+    btn.textContent = `● ${labels[st.status] || st.status}`;
+    btn.dataset.status = st.status;
+    btn.title = st.statusMsg || "Synchronisatie van gezien/favorieten";
+    stat.textContent = (st.hasToken ? "Token ingesteld. " : "Geen token ingesteld. ") + (st.statusMsg || "");
+  };
+  UserState.onChange(paint);
+  paint();
+  btn.addEventListener("click", () => { tok.value = ""; paint(); dlg.showModal(); });
+  document.getElementById("tok-save").addEventListener("click", () => { if (tok.value.trim()) UserState.setToken(tok.value); dlg.close(); });
+  document.getElementById("tok-clear").addEventListener("click", () => { UserState.setToken(null); paint(); });
 }
 
 function renderTabs() {
@@ -122,6 +144,15 @@ function renderCategory(cat) {
     fillCards(main.querySelector(".cards.new"), visible(fresh), cat, isUnseen, "Niets nieuws in deze periode.");
   };
   hideRes.addEventListener("change", () => { storeSet("hideReserved", hideRes.checked ? "1" : "0"); drawCards(); });
+  for (const box of main.querySelectorAll(".cards")) {
+    box.addEventListener("click", (e) => {
+      const b = e.target.closest("button[data-act]");
+      if (b) { UserState.toggleFav(b.dataset.id); return; }
+      const a = e.target.closest("a.ad-link");
+      if (a) UserState.markSeen(a.dataset.id);
+    });
+  }
+  UserState.onChange(() => { if (document.body.contains(main.querySelector(".cards"))) drawCards(); });
 
   renderTable(main, cat, items, isUnseen);
   renderChart(main, cat);
@@ -136,7 +167,11 @@ function fillCards(box, list, cat, isUnseen, emptyText) {
   if (!list.length) { box.replaceChildren(el("p", { class: "empty" }, emptyText)); return; }
   box.replaceChildren(...list.slice(0, 12).map((it) => {
     const showMetric = cat.metric !== "price" && it.metric !== null && it.metric !== undefined;
-    return el("a", { class: "card" + (isUnseen(it) ? " unseen" : ""), href: it.url, target: "_blank", rel: "noopener" },
+    const fav = UserState.isFav(it.id);
+    return el("div", { class: "card-wrap" + (UserState.isSeen(it.id) ? " is-seen" : "") },
+      el("button", { type: "button", class: "icon-btn card-fav" + (fav ? " on" : ""), "data-act": "fav", "data-id": it.id,
+        "aria-pressed": String(fav), title: fav ? "Uit favorieten" : "Favoriet maken" }, fav ? "★" : "☆"),
+      el("a", { class: "card ad-link" + (isUnseen(it) ? " unseen" : ""), href: it.url, target: "_blank", rel: "noopener", "data-id": it.id },
       el("div", { class: "img", style: it.image ? `background-image:url('${encodeURI(it.image)}')` : "" }),
       el("div", { class: "body" },
         el("div", { class: "badges" },
@@ -146,7 +181,7 @@ function fillCards(box, list, cat, isUnseen, emptyText) {
           it.reserved ? el("span", { class: "badge gone" }, "gereserveerd") : null),
         el("div", { class: "title", title: it.title }, it.title),
         el("div", { class: "price" }, cat.kind === "hdd" && it.qty > 1 && it.price_each != null ? `${it.qty}× ${fmtEur.format(it.price_each)}` : fmtPrice(it), showMetric ? el("span", { class: "metric" }, fmtMetric(cat, it.metric)) : null),
-        el("div", { class: "meta" }, [it.city, "gezien " + fmtDate.format(new Date(it.first_seen))].filter(Boolean).join(" · "))));
+        el("div", { class: "meta" }, [it.city, "online sinds " + fmtDate.format(new Date(it.first_seen)), UserState.isSeen(it.id) ? "gezien" : null].filter(Boolean).join(" · ")))));
   }));
 }
 
@@ -215,7 +250,7 @@ function columnsFor(cat) {
     brand: { label: "Merk", sort: (i) => i.brand, cell: (i) => i.brand || dash },
     type: { label: "Type", sort: (i) => i.type, cell: (i) => i.type || dash },
     city: { label: "Plaats", sort: (i) => i.city, cell: (i) => i.city || dash },
-    seen: { label: "Gezien", sort: (i) => i.first_seen, cell: (i) => fmtDate.format(new Date(i.first_seen)) },
+    seen: { label: "Online sinds", sort: (i) => i.first_seen, cell: (i) => fmtDate.format(new Date(i.first_seen)) },
   };
   if (cat.kind === "hdd") {
     return [common.title, common.brand, common.type,
@@ -261,19 +296,35 @@ function renderTable(main, cat, items, isUnseen) {
   const filter = main.querySelector(".filter");
   const showGone = main.querySelector(".show-gone");
   const hideRes = main.querySelector(".hide-reserved");
+  const hideSeen = main.querySelector(".hide-seen");
+  const markAll = main.querySelector(".mark-all");
+  const nFav = main.querySelector(".n-fav");
+  const nSeen = main.querySelector(".n-seen");
   const chips = main.querySelectorAll(".chip");
+  hideSeen.checked = storeGet("hideSeen") === "1";
+  let shown = [];
   const cols = columnsFor(cat);
   const scoreIdx = cols.findIndex((c) => c.key === "score");
   const metricIdx = cols.findIndex((c) => c.key === "metric");
   let sort = scoreIdx >= 0 ? { idx: scoreIdx, asc: false } : { idx: metricIdx, asc: true };
   let only = "all";
 
-  headRow.replaceChildren(...cols.map((c, idx) => el("th", { class: c.num ? "num" : "", "data-idx": idx }, c.label)));
+  headRow.replaceChildren(el("th", { class: "act-col", "aria-label": "Acties" }),
+    ...cols.map((c, idx) => el("th", { class: c.num ? "num" : "", "data-idx": idx }, c.label)));
+
+  function actionCell(i) {
+    const fav = UserState.isFav(i.id), seen = UserState.isSeen(i.id);
+    return el("td", { class: "act-col" },
+      el("button", { type: "button", class: "icon-btn fav-btn" + (fav ? " on" : ""), "data-act": "fav", "data-id": i.id,
+        "aria-pressed": String(fav), title: fav ? "Uit favorieten" : "Favoriet maken" }, fav ? "★" : "☆"),
+      el("button", { type: "button", class: "icon-btn seen-btn" + (seen ? " on" : ""), "data-act": "seen", "data-id": i.id,
+        "aria-pressed": String(seen), title: seen ? "Markeer als niet gezien" : "Markeer als gezien" }, "✓"));
+  }
 
   function titleCell(i) {
     return el("td", { class: "title-cell" },
       isUnseen(i) && i.active ? el("span", { class: "dot", title: "Nieuw sinds je laatste bezoek" }) : null,
-      el("a", { href: i.url, target: "_blank", rel: "noopener", title: i.title }, i.title),
+      el("a", { href: i.url, target: "_blank", rel: "noopener", title: i.title, "data-id": i.id, class: "ad-link" }, i.title),
       el("span", { class: "row-badges" },
         i.deal ? el("span", { class: "badge deal" }, "deal") : null,
         i.isNew ? el("span", { class: "badge new" }, "nieuw") : null,
@@ -285,10 +336,14 @@ function renderTable(main, cat, items, isUnseen) {
   function draw() {
     const q = filter.value.trim().toLowerCase();
     const col = cols[sort.idx];
+    nFav.textContent = items.filter((i) => UserState.isFav(i.id)).length || "";
+    const nS = items.filter((i) => i.active && UserState.isSeen(i.id)).length;
+    nSeen.textContent = nS ? `(${nS})` : "";
     const rows = items
-      .filter((i) => showGone.checked || i.active)
-      .filter((i) => !hideRes.checked || !i.reserved)
-      .filter((i) => only === "all" || (only === "deal" ? i.deal : i.isNew))
+      .filter((i) => showGone.checked || i.active || (only === "fav" && UserState.isFav(i.id)))
+      .filter((i) => !hideRes.checked || !i.reserved || UserState.isFav(i.id))
+      .filter((i) => !hideSeen.checked || !UserState.isSeen(i.id) || UserState.isFav(i.id))
+      .filter((i) => only === "all" || (only === "deal" ? i.deal : only === "new" ? i.isNew : UserState.isFav(i.id)))
       .filter((i) => !q || `${i.title} ${i.brand || ""} ${i.type || ""} ${i.city || ""} ${i.cpu || ""} ${(i.connections || []).join(" ")}`.toLowerCase().includes(q))
       .sort((a, b) => {
         const av = col.sort(a), bv = col.sort(b);
@@ -297,21 +352,24 @@ function renderTable(main, cat, items, isUnseen) {
         const r = typeof av === "number" ? av - bv : String(av).localeCompare(String(bv), "nl");
         return sort.asc ? r : -r;
       });
+    shown = rows;
     tbody.replaceChildren(...rows.map((i) => {
-      const cls = [i.active ? "" : "gone", i.reserved ? "reserved" : "", i.deal ? "is-deal" : "", i.isNew ? "is-new" : ""].join(" ").trim();
-      return el("tr", { class: cls }, ...cols.map((c) => (c.cell === null ? titleCell(i) : el("td", { class: c.num ? "num" : "" }, c.cell(i)))));
+      const cls = [i.active ? "" : "gone", i.reserved ? "reserved" : "", i.deal ? "is-deal" : "", i.isNew ? "is-new" : "",
+        UserState.isSeen(i.id) ? "is-seen" : "", UserState.isFav(i.id) ? "is-fav" : ""].join(" ").trim();
+      return el("tr", { class: cls }, actionCell(i), ...cols.map((c) => (c.cell === null ? titleCell(i) : el("td", { class: c.num ? "num" : "" }, c.cell(i)))));
     }));
-    if (!rows.length) tbody.replaceChildren(el("tr", {}, el("td", { colspan: cols.length, class: "muted" }, "Geen advertenties.")));
-    headRow.querySelectorAll("th").forEach((th, idx) => {
+    if (!rows.length) tbody.replaceChildren(el("tr", {}, el("td", { colspan: cols.length + 1, class: "muted" }, only === "fav" ? "Nog geen favorieten. Klik op ☆ bij een advertentie." : "Geen advertenties.")));
+    headRow.querySelectorAll("th[data-idx]").forEach((th) => {
+      const idx = Number(th.dataset.idx);
       th.classList.toggle("sorted", idx === sort.idx);
       th.classList.toggle("asc", idx === sort.idx && sort.asc);
     });
   }
   headRow.addEventListener("click", (e) => {
-    const th = e.target.closest("th");
+    const th = e.target.closest("th[data-idx]");
     if (!th) return;
     const idx = Number(th.dataset.idx);
-    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: !["Gezien", "Score", "OMV"].includes(cols[idx].label) };
+    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: !["Online sinds", "Score", "OMV"].includes(cols[idx].label) };
     draw();
   });
   chips.forEach((b) => b.addEventListener("click", () => {
@@ -319,9 +377,19 @@ function renderTable(main, cat, items, isUnseen) {
     chips.forEach((c) => c.setAttribute("aria-pressed", String(c === b)));
     draw();
   }));
+  tbody.addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-act]");
+    if (b) { b.dataset.act === "fav" ? UserState.toggleFav(b.dataset.id) : UserState.toggleSeen(b.dataset.id); return; }
+    const a = e.target.closest("a.ad-link");
+    if (a) UserState.markSeen(a.dataset.id);      // advertentie geopend = gezien
+  });
+  tbody.addEventListener("auxclick", (e) => { const a = e.target.closest("a.ad-link"); if (a) UserState.markSeen(a.dataset.id); });
+  markAll.addEventListener("click", () => UserState.markAllSeen(shown.filter((i) => i.active).map((i) => i.id)));
+  hideSeen.addEventListener("change", () => { storeSet("hideSeen", hideSeen.checked ? "1" : "0"); draw(); });
   filter.addEventListener("input", draw);
   showGone.addEventListener("change", draw);
   hideRes.addEventListener("change", draw);
+  UserState.onChange(() => { if (document.body.contains(tbody)) draw(); });
   draw();
 }
 
