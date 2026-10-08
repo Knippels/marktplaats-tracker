@@ -3,27 +3,40 @@
  "name": "4-bay DAS",
  "metric": "price",
  "queries": [
-  "4 bay das",
+  "4-bay",
   "4 bay behuizing",
-  "4 bay hdd behuizing",
-  "4 bay docking",
+  "4hdd behuizing",
+  "4x 3,5 behuizing",
+  "das behuizing",
+  "das storage",
+  "disk enclosure",
+  "harde schijf behuizing",
+  "hdd behuizing 3.5",
+  "raid behuizing",
+  "esata behuizing",
+  "hdd docking station",
+  "terramaster",
   "terramaster d4",
-  "orico 4 bay",
+  "orico",
+  "icy box",
+  "mediasonic",
   "yottamaster",
+  "sabrent",
   "qnap tr-004",
-  "sabrent 4 bay"
+  "fantec",
+  "raidsonic"
  ],
- "deal_threshold": 62.5,
+ "deal_threshold": 56.25,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T19:45:30Z",
+ "updated": "2026-10-08T19:48:05Z",
  "last_run_complete": true,
  "history": [
   {
    "date": "2026-10-08",
-   "count": 3,
+   "count": 6,
    "min": 50.0,
-   "p25": 62.5,
-   "median": 75.0
+   "p25": 56.25,
+   "median": 85.0
   }
  ],
  "listings": {
@@ -39,7 +52,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": null,
    "metric": 245.0,
-   "last_seen": "2026-10-08T19:45:30Z",
+   "last_seen": "2026-10-08T19:48:05Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -63,7 +76,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": null,
    "metric": 50.0,
-   "last_seen": "2026-10-08T19:45:30Z",
+   "last_seen": "2026-10-08T19:48:05Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -87,13 +100,85 @@
    "price_type": "FIXED",
    "capacity_tb": null,
    "metric": 75.0,
-   "last_seen": "2026-10-08T19:45:30Z",
+   "last_seen": "2026-10-08T19:48:05Z",
    "active": true,
    "first_seen": "2026-10-08T19:45:30Z",
    "price_history": [
     [
      "2026-10-08T19:45:30Z",
      75.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2451151370": {
+   "title": "LaCie Biggest Quadra 1,5 TB",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2451151370-lacie-biggest-quadra-1-5-tb",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/3c5b0894-dfee-4f08-8a48-f976befef32b?rule=ecg_mp_eps$_82.jpg",
+   "city": "Nijmegen",
+   "seller": "Texeler",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 50.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": null,
+   "metric": 50.0,
+   "last_seen": "2026-10-08T19:48:05Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:48:05Z",
+   "price_history": [
+    [
+     "2026-10-08T19:48:05Z",
+     50.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": true
+  },
+  "mp-m2448023030": {
+   "title": "Promise DS4600 4-Bay DAS Storage – 3TB RAID-5",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448023030-promise-ds4600-4-bay-das-storage-3tb-raid-5",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/933a5cc7-8392-4af8-a9d4-4a0396a9f3a7?rule=ecg_mp_eps$_82.jpg",
+   "city": "Spijk",
+   "seller": "Home",
+   "source": "marktplaats",
+   "posted": "29 sep 26",
+   "price": 200.0,
+   "price_type": "MIN_BID",
+   "capacity_tb": 3.0,
+   "metric": 200.0,
+   "last_seen": "2026-10-08T19:48:05Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:48:05Z",
+   "price_history": [
+    [
+     "2026-10-08T19:48:05Z",
+     200.0
+    ]
+   ],
+   "price_drop": false,
+   "deal": false
+  },
+  "mp-m2445211731": {
+   "title": "ICY BOX 4HDD behuizing 3.5 inch USB 3.2 gen1 eSATA",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2445211731-icy-box-4hdd-behuizing-3-5-inch-usb-3-2-gen1-esata",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ecb89cda-afcf-4164-a6f6-90a3b695d262?rule=ecg_mp_eps$_82.jpg",
+   "city": "Rotterdam",
+   "seller": "Willem",
+   "source": "marktplaats",
+   "posted": "21 sep 26",
+   "price": 95.0,
+   "price_type": "FIXED",
+   "capacity_tb": null,
+   "metric": 95.0,
+   "last_seen": "2026-10-08T19:48:05Z",
+   "active": true,
+   "first_seen": "2026-10-08T19:48:05Z",
+   "price_history": [
+    [
+     "2026-10-08T19:48:05Z",
+     95.0
     ]
    ],
    "price_drop": false,
