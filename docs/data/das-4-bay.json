@@ -15,7 +15,7 @@
  ],
  "deal_threshold": 98.75,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T19:37:24Z",
+ "updated": "2026-10-08T19:39:17Z",
  "last_run_complete": true,
  "history": [
   {
@@ -39,7 +39,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": null,
    "metric": 245.0,
-   "last_seen": "2026-10-08T19:37:24Z",
+   "last_seen": "2026-10-08T19:39:17Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -63,7 +63,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": null,
    "metric": 50.0,
-   "last_seen": "2026-10-08T19:37:24Z",
+   "last_seen": "2026-10-08T19:39:17Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
