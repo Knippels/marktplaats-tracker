@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T19:39:17Z",
+ "updated": "2026-10-08T19:45:30Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -14,9 +14,9 @@
    "id": "das-4-bay",
    "name": "4-bay DAS",
    "metric": "price",
-   "active": 2,
+   "active": 3,
    "deals": 1,
-   "new": 2
+   "new": 3
   }
  ]
 }
