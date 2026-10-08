@@ -1,0 +1,68 @@
+# Marktplaats-tracker configuratie
+#
+# Elke categorie wordt een eigen tab op de pagina, met eigen prijshistorie
+# en eigen "interessante aanbiedingen".
+#
+# Nieuwe zoekterm toevoegen = nieuw blok onder `categories:` kopiëren en aanpassen.
+#
+# Velden per categorie:
+#   id              unieke korte naam (alleen a-z, 0-9 en -), wordt de bestandsnaam
+#   name            naam op de pagina
+#   queries         één of meer zoekopdrachten op Marktplaats (resultaten worden samengevoegd)
+#   include         (optioneel) regex: titel+omschrijving MOET hierop matchen
+#   exclude         (optioneel) regex: advertentie wordt overgeslagen als dit matcht
+#   min_price/max_price  (optioneel) in euro's; buiten dit bereik wordt genegeerd
+#   min_tb          (optioneel) minimale capaciteit in TB (gelezen uit de titel)
+#   metric          "price" (standaard) of "price_per_tb" — waarop grafiek en deals gebaseerd zijn
+#   deal_max        (optioneel) vaste grens: alles op of onder deze waarde (in de metric) is "interessant"
+#   deal_percentile (optioneel, standaard 25) als deal_max ontbreekt: goedkoopste X% van actieve advertenties
+#
+# Regexen zijn hoofdletterongevoelig en worden toegepast op titel + omschrijving.
+
+# Optioneel: alleen zoeken binnen een straal rond een postcode
+# postcode: "2181AA"
+# distance_km: 50
+
+categories:
+  - id: hdd-sata-4tb-plus
+    name: "SATA HDD 4TB+"
+    queries:
+      - "hdd 4tb"
+      - "hdd 6tb"
+      - "hdd 8tb"
+      - "hdd 10tb"
+      - "hdd 12tb"
+      - "hdd 14tb"
+      - "hdd 16tb"
+      - "hdd 18tb"
+      - "hdd 20tb"
+      - "wd red"
+      - "seagate ironwolf"
+      - "seagate exos"
+      - "wd ultrastar"
+    include: '\b\d{1,2}\s?(tb|tib|terabyte)\b'
+    exclude: '\b(ssd|nvme|m\.2|2[.,]5\s?(inch|"|'')|laptop|extern|external|usb|portable|gezocht|ps4|ps5|xbox|playstation|nas\s?(server|systeem|behuizing)|synology|qnap|ds\d{3,4})\b'
+    min_tb: 4
+    min_price: 10
+    max_price: 600
+    metric: price_per_tb
+    deal_max: 12   # €/TB
+
+  - id: das-4-bay
+    name: "4-bay DAS"
+    queries:
+      - "4 bay das"
+      - "4 bay behuizing"
+      - "4 bay hdd behuizing"
+      - "4 bay docking"
+      - "terramaster d4"
+      - "orico 4 bay"
+      - "yottamaster"
+      - "qnap tr-004"
+      - "sabrent 4 bay"
+    include: '(4[\s-]?(bay|bays|slots?|sleuven|voudig)|\bd4-?\d{3}|tr-?004|4\s?x\s?3[.,]5)'
+    exclude: '\b(gezocht|synology|ds\d{3,4}|ts-\d{3}|nas\s?(server|systeem)|rack|server|2[.,]5\s?(inch|"|'')\s?only)\b'
+    min_price: 20
+    max_price: 400
+    metric: price
+    deal_percentile: 25

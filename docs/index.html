@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homelab Deal Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <h1>Homelab Deal Tracker</h1>
+        <p class="sub" id="updated">Laden…</p>
+      </div>
+      <nav class="tabs" id="tabs" role="tablist"></nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <p class="muted">Gegevens laden…</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Bron: Marktplaats.nl · wordt elke 3 uur bijgewerkt via GitHub Actions ·
+      zoektermen aanpassen in <code>config.yml</code></p>
+  </footer>
+
+  <template id="cat-tpl">
+    <section class="kpis"></section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2>Interessante aanbiedingen</h2>
+        <span class="hint deal-rule"></span>
+      </div>
+      <div class="cards deals"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2>Nieuw binnen</h2>
+        <span class="hint new-hint"></span>
+      </div>
+      <div class="cards new"></div>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2>Prijsverloop</h2>
+        <span class="hint chart-hint"></span>
+      </div>
+      <div class="chart-box"><canvas></canvas></div>
+      <p class="muted chart-empty" hidden>Nog niet genoeg historie — na een paar dagen verschijnt hier de grafiek.</p>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2>Alle advertenties</h2>
+        <div class="controls">
+          <input type="search" class="filter" placeholder="Filter op titel of plaats…" aria-label="Filter">
+          <label class="check"><input type="checkbox" class="show-gone"> verdwenen tonen</label>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="list">
+          <thead><tr>
+            <th data-sort="title">Titel</th>
+            <th data-sort="price" class="num">Prijs</th>
+            <th data-sort="metric" class="num metric-col">€/TB</th>
+            <th data-sort="city">Plaats</th>
+            <th data-sort="first_seen">Gezien sinds</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
