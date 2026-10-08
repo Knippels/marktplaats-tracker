@@ -215,7 +215,7 @@ function columnsFor(cat) {
   return [common.title, common.brand, common.type,
     { label: "Bays", num: true, sort: (i) => i.bays, cell: (i) => num(i.bays) },
     { label: "Aansluitingen", sort: (i) => (i.connections || []).join(" "), cell: (i) => ((i.connections || []).length ? el("span", { class: "conns" }, ...i.connections.map((c) => el("span", { class: "conn" }, c))) : dash) },
-    { label: "Meegeleverde opslag", sort: (i) => i.storage_tb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted", title: "Niet vermeld of niet herkend" }, "?")) },
+    { label: "Meegeleverde opslag", sort: (i) => i.storage_tb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted", title: "Niet vermeld in de advertentie (of niet herkend)" }, "niet vermeld")) },
     { label: "Prijs", num: true, key: "metric", sort: (i) => i.price, cell: (i) => el("span", {}, fmtPrice(i), i.highest_bid ? el("span", { class: "sub-num", title: "Hoogste bod" }, ` bod ${fmtEur.format(i.highest_bid)}`) : null) },
     common.city, common.seen];
 }
