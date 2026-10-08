@@ -19,14 +19,14 @@
  ],
  "deal_threshold": 12.0,
  "deal_rule": "vast",
- "updated": "2026-10-08T19:34:58Z",
+ "updated": "2026-10-08T19:37:24Z",
  "last_run_complete": true,
  "history": [
   {
    "date": "2026-10-08",
-   "count": 175,
-   "min": 1.25,
-   "p25": 20.0,
+   "count": 137,
+   "min": 10.0,
+   "p25": 21.25,
    "median": 25.0
   }
  ],
@@ -43,7 +43,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 4.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -62,7 +62,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 15.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -86,7 +86,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 31.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -97,30 +97,6 @@
    ],
    "price_drop": false,
    "deal": false
-  },
-  "mp-m2451334259": {
-   "title": "partij sata/sas harde schijven 3.5 inch 8TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2451334259-partij-sata-sas-harde-schijven-3-5-inch-8tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/70c8b440-6575-42b2-bb4e-dbfb8cbdcb8f?rule=ecg_mp_eps$_82.jpg",
-   "city": "antwerpen",
-   "seller": "N.",
-   "source": "marktplaats",
-   "posted": "Vandaag",
-   "price": 70.0,
-   "price_type": "FIXED",
-   "capacity_tb": 8.0,
-   "metric": 8.75,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     70.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
   },
   "mp-m2451309521": {
    "title": "Complete NAS / homelab – Ryzen 5 2600, 13TB HDD, 16GB RAM",
@@ -134,7 +110,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 13.0,
    "metric": 30.77,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -158,7 +134,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 36.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -182,7 +158,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -206,7 +182,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -230,7 +206,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 75.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -254,7 +230,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 15.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -278,7 +254,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 16.0,
    "metric": 29.69,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -302,37 +278,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 35.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      140.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2450802086": {
-   "title": "Seagate Backup Plus Slim 4TB Externe Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450802086-seagate-backup-plus-slim-4tb-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/5b90a03c-5da2-4ebf-9679-1fe1b0e0348a?rule=ecg_mp_eps$_82.jpg",
-   "city": "Leiden",
-   "seller": "BeekBonafide",
-   "source": "marktplaats",
-   "posted": "Eergisteren",
-   "price": 110.0,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 27.5,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     110.0
     ]
    ],
    "price_drop": false,
@@ -350,61 +302,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 37.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      150.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2449552669": {
-   "title": "2x Dell Constellation ES.3 4TB SAS HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2449552669-2x-dell-constellation-es-3-4tb-sas-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/198df470-cf00-4bd3-9d00-512159d1f847?rule=ecg_mp_eps$_82.jpg",
-   "city": "'s-Gravenhage",
-   "seller": "Kennon Severo Rodrigues",
-   "source": "marktplaats",
-   "posted": "Eergisteren",
-   "price": 40.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 4.0,
-   "metric": 10.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     40.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
-  },
-  "mp-m2450699658": {
-   "title": "WD Gaming Drive 4TB Externe Hardeschijf Blauw | Met garantie",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450699658-wd-gaming-drive-4tb-externe-hardeschijf-blauw-met-garantie",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0e537b3f-c563-4053-b62d-d4919c177b28?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dordrecht",
-   "seller": "Used Products Dordrecht",
-   "source": "marktplaats",
-   "posted": "Eergisteren",
-   "price": 129.99,
-   "price_type": "MIN_BID",
-   "capacity_tb": 4.0,
-   "metric": 32.5,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     129.99
     ]
    ],
    "price_drop": false,
@@ -422,37 +326,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      100.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2450403391": {
-   "title": "Seagate Expansion 4TB Externe HDD - Nieuwstaat",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450403391-seagate-expansion-4tb-externe-hdd-nieuwstaat",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6542649f-04ee-4c17-bfbb-c999c99c3aff?rule=ecg_mp_eps$_82.jpg",
-   "city": "Zierikzee",
-   "seller": "Ruud",
-   "source": "marktplaats",
-   "posted": "5 okt 26",
-   "price": 95.0,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 23.75,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     95.0
     ]
    ],
    "price_drop": false,
@@ -470,7 +350,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 5.0,
    "metric": 100.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -494,7 +374,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 18.75,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -518,7 +398,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 34.38,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -542,34 +422,10 @@
    "price_type": "FAST_BID",
    "capacity_tb": 4.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448578689": {
-   "title": "Seagate 4 tb Expansion HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448578689-seagate-4-tb-expansion-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ad3f08d8-6fd0-42e7-b8f9-66f9b6d93e59?rule=ecg_mp_eps$_82.jpg",
-   "city": "Brielle",
-   "seller": "van der Tuin",
-   "source": "marktplaats",
-   "posted": "30 sep 26",
-   "price": 90.0,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 22.5,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     90.0
-    ]
-   ],
    "price_drop": false,
    "deal": false
   },
@@ -585,7 +441,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 30.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -594,25 +450,6 @@
      120.0
     ]
    ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448247462": {
-   "title": "Partij (20 stuks) 8 TB HGST HDD SAS (losse verkoop mogelijk)",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448247462-partij-20-stuks-8-tb-hgst-hdd-sas-losse-verkoop-mogelijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/5f2d0940-8ca1-4acf-b4a0-d36d518bdc77?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dedemsvaart",
-   "seller": "Stan vdk",
-   "source": "marktplaats",
-   "posted": "29 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 8.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
    "price_drop": false,
    "deal": false
   },
@@ -628,37 +465,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 42.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      170.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448014259": {
-   "title": "Externe harde schijf LaCie Rugged Mini 4 TB (HDD)",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448014259-externe-harde-schijf-lacie-rugged-mini-4-tb-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9f66f593-a638-4642-b605-533ccbe70a71?rule=ecg_mp_eps$_82.jpg",
-   "city": "Appelscha",
-   "seller": "j",
-   "source": "marktplaats",
-   "posted": "29 sep 26",
-   "price": 180.0,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 45.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     180.0
     ]
    ],
    "price_drop": false,
@@ -676,7 +489,7 @@
    "price_type": "FIXED",
    "capacity_tb": 5.0,
    "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -700,7 +513,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 37.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -724,7 +537,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -748,61 +561,13 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      100.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2447294070": {
-   "title": "4TB Dell Enterprise Plus 3.5 inch 12Gbps SAS 0V7DY9",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2447294070-4tb-dell-enterprise-plus-3-5-inch-12gbps-sas-0v7dy9",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9e1812a0-4574-4947-956e-48876834320b?rule=ecg_mp_eps$_82.jpg",
-   "city": "Montfoort",
-   "seller": "ServerZaak.nl",
-   "source": "marktplaats",
-   "posted": "27 sep 26",
-   "price": 107.69,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 26.92,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     107.69
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2447176980": {
-   "title": "4TB Dell Enterprise Plus 3.5 inch 6Gbps SAS 0DRMYH OUTLET",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/overige-computers-en-software/m2447176980-4tb-dell-enterprise-plus-3-5-inch-6gbps-sas-0drmyh-outlet",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a14e26b9-1de0-4c4e-a060-719713957f9a?rule=ecg_mp_eps$_82.jpg",
-   "city": "Montfoort",
-   "seller": "ServerZaak",
-   "source": "marktplaats",
-   "posted": "27 sep 26",
-   "price": 60.44,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 15.11,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     60.44
     ]
    ],
    "price_drop": false,
@@ -820,7 +585,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 112.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -844,7 +609,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 21.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -868,7 +633,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -892,61 +657,13 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 30.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      120.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2445514500": {
-   "title": "Lacie Rugged 4TB Externe Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2445514500-lacie-rugged-4tb-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/1243b872-898d-4cb4-ac37-8334f467c10d?rule=ecg_mp_eps$_82.jpg",
-   "city": "Amersfoort",
-   "seller": "Toby",
-   "source": "marktplaats",
-   "posted": "22 sep 26",
-   "price": 140.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 4.0,
-   "metric": 35.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     140.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2445274130": {
-   "title": "Nieuwe HPE - 4TB SAS Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2445274130-nieuwe-hpe-4tb-sas-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/67981a31-ba7a-468c-9535-13ecd7b36f5b?rule=ecg_mp_eps$_82.jpg",
-   "city": "Utrecht",
-   "seller": "Bünyamin",
-   "source": "marktplaats",
-   "posted": "21 sep 26",
-   "price": 100.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 4.0,
-   "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     100.0
     ]
    ],
    "price_drop": false,
@@ -964,7 +681,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 4.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -983,7 +700,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 40.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1007,7 +724,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 22.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1031,7 +748,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 40.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1055,7 +772,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 37.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1079,7 +796,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 125.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1103,37 +820,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 98.75,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      395.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2441873313": {
-   "title": "WD My Passport 4TB Rood Externe Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2441873313-wd-my-passport-4tb-rood-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/df4b18f3-9bde-48f6-85bd-6ad480359124?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dirksland",
-   "seller": "HardwareParadijs V.O.F.",
-   "source": "marktplaats",
-   "posted": "12 sep 26",
-   "price": 136.95,
-   "price_type": "FIXED",
-   "capacity_tb": 4.0,
-   "metric": 34.24,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     136.95
     ]
    ],
    "price_drop": false,
@@ -1151,7 +844,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 29.99,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1175,7 +868,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 30.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1199,7 +892,7 @@
    "price_type": "FIXED",
    "capacity_tb": 6.0,
    "metric": 26.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1223,37 +916,13 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 17.86,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      250.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2450694520": {
-   "title": "Western Digital  \"My Book\"  6TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450694520-western-digital-my-book-6tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d6ec640d-f8d9-4454-8aea-e3be827afee4?rule=ecg_mp_eps$_82.jpg",
-   "city": "Amsterdam",
-   "seller": "Rob",
-   "source": "marktplaats",
-   "posted": "Eergisteren",
-   "price": 189.0,
-   "price_type": "FIXED",
-   "capacity_tb": 6.0,
-   "metric": 31.5,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     189.0
     ]
    ],
    "price_drop": false,
@@ -1271,7 +940,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 24.38,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1295,7 +964,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 29.17,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1319,37 +988,13 @@
    "price_type": "FIXED",
    "capacity_tb": 6.0,
    "metric": 21.67,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      130.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2449480810": {
-   "title": "Western Digital  \"My Book\"  8TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2449480810-western-digital-my-book-8tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b6641bc9-c524-408e-88cd-3da2168c4b3c?rule=ecg_mp_eps$_82.jpg",
-   "city": "Amsterdam",
-   "seller": "Rob",
-   "source": "marktplaats",
-   "posted": "3 okt 26",
-   "price": 219.0,
-   "price_type": "FIXED",
-   "capacity_tb": 8.0,
-   "metric": 27.38,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     219.0
     ]
    ],
    "price_drop": false,
@@ -1367,7 +1012,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 18.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1391,7 +1036,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 33.33,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1415,7 +1060,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 33.33,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1439,7 +1084,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 33.33,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1463,37 +1108,13 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      200.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2449053931": {
-   "title": "Western Digital  \"My Book\"  10TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2449053931-western-digital-my-book-10tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a3d07d86-9e2f-436b-9d38-735bad11655c?rule=ecg_mp_eps$_82.jpg",
-   "city": "Amsterdam",
-   "seller": "Rob",
-   "source": "marktplaats",
-   "posted": "2 okt 26",
-   "price": 295.0,
-   "price_type": "FIXED",
-   "capacity_tb": 10.0,
-   "metric": 29.5,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     295.0
     ]
    ],
    "price_drop": false,
@@ -1511,7 +1132,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 10.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1522,54 +1143,6 @@
    ],
    "price_drop": false,
    "deal": true
-  },
-  "mp-m2448768242": {
-   "title": "Defecte Seagate Exos 8TB HDD - SMART fouten",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448768242-defecte-seagate-exos-8tb-hdd-smart-fouten",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0954346a-0f19-46da-8162-22b02bb972f6?rule=ecg_mp_eps$_82.jpg",
-   "city": "Alkmaar",
-   "seller": "HOSTKEY",
-   "source": "marktplaats",
-   "posted": "1 okt 26",
-   "price": 10.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 1.25,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     10.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
-  },
-  "mp-m2447518514": {
-   "title": "Dell Enterprise Capacity 3.5 HDD v4 6TB SAS",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2447518514-dell-enterprise-capacity-3-5-hdd-v4-6tb-sas",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/404f8743-c9e5-4ba5-8f0c-3ac4a8f8a943?rule=ecg_mp_eps$_82.jpg",
-   "city": "Overberg",
-   "seller": "Daniel",
-   "source": "marktplaats",
-   "posted": "30 sep 26",
-   "price": 90.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 6.0,
-   "metric": 15.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     90.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
   },
   "mp-m2447225799": {
    "title": "Western Digital 6TB Harddisk",
@@ -1583,53 +1156,10 @@
    "price_type": "FAST_BID",
    "capacity_tb": 6.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2400012582": {
-   "title": "Nieuwe Seagate Exos 7E10 SAS 6TB nooit gebruikt",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2400012582-nieuwe-seagate-exos-7e10-sas-6tb-nooit-gebruikt",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2ec877c4-68e9-4ac9-9180-e40b39acb1f1?rule=ecg_mp_eps$_82.jpg",
-   "city": "Helmond",
-   "seller": "j.dortmans",
-   "source": "marktplaats",
-   "posted": "26 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 6.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2445640788": {
-   "title": "Mybook Duo 12TB Perfect health",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2445640788-mybook-duo-12tb-perfect-health",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7f92d62f-6d58-4b55-957e-3d39ad790111?rule=ecg_mp_eps$_82.jpg",
-   "city": "'s-Gravenhage",
-   "seller": "dchronakis",
-   "source": "marktplaats",
-   "posted": "23 sep 26",
-   "price": 325.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 12.0,
-   "metric": 27.08,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     325.0
-    ]
-   ],
    "price_drop": false,
    "deal": false
   },
@@ -1645,7 +1175,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1669,61 +1199,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 29.17,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      175.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2444249126": {
-   "title": "3x 2TB SAS HDD -  HP MB2000FBZPN 7200 rpm (6TB totaal)",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2444249126-3x-2tb-sas-hdd-hp-mb2000fbzpn-7200-rpm-6tb-totaal",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/359e509d-5349-4cbb-b783-a183af166724?rule=ecg_mp_eps$_82.jpg",
-   "city": "Oss",
-   "seller": "govers.sebas",
-   "source": "marktplaats",
-   "posted": "22 sep 26",
-   "price": 120.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 6.0,
-   "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     120.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2444358383": {
-   "title": "SanDisk G-DRIVE Externe Harde Schijf - 6TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2444358383-sandisk-g-drive-externe-harde-schijf-6tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/55fec3ac-98bd-4a55-9637-bd96612fcd2b?rule=ecg_mp_eps$_82.jpg",
-   "city": "Maarssen",
-   "seller": "Nedparks",
-   "source": "marktplaats",
-   "posted": "19 sep 26",
-   "price": 100.0,
-   "price_type": "FIXED",
-   "capacity_tb": 6.0,
-   "metric": 16.67,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     100.0
     ]
    ],
    "price_drop": false,
@@ -1741,7 +1223,7 @@
    "price_type": "FIXED",
    "capacity_tb": 6.0,
    "metric": 28.32,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1765,7 +1247,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 6.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -1784,7 +1266,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 6.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -1803,7 +1285,7 @@
    "price_type": "FIXED",
    "capacity_tb": 6.0,
    "metric": 21.67,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1827,34 +1309,10 @@
    "price_type": "SEE_DESCRIPTION",
    "capacity_tb": 6.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2429111987": {
-   "title": "Intenso memory center 6 TB externe harde schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2429111987-intenso-memory-center-6-tb-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4a01614b-55a0-49dc-a7a7-c7ec9f8a3e12?rule=ecg_mp_eps$_82.jpg",
-   "city": "Hoogvliet Rotterdam",
-   "seller": "joanne_yc",
-   "source": "marktplaats",
-   "posted": "9 aug 26",
-   "price": 155.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 6.0,
-   "metric": 25.83,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     155.0
-    ]
-   ],
    "price_drop": false,
    "deal": false
   },
@@ -1870,7 +1328,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 6.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -1889,7 +1347,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1913,7 +1371,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 33.33,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1937,7 +1395,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1961,7 +1419,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 6.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -1985,7 +1443,7 @@
    "price_type": "FIXED",
    "capacity_tb": 6.0,
    "metric": 30.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2009,7 +1467,7 @@
    "price_type": "FIXED",
    "capacity_tb": 6.0,
    "metric": 38.32,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2033,7 +1491,7 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 25.71,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2057,7 +1515,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 37.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2081,7 +1539,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 33.12,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2105,7 +1563,7 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 25.71,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2129,7 +1587,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 18.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2148,7 +1606,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 24.38,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2159,73 +1617,6 @@
    ],
    "price_drop": false,
    "deal": false
-  },
-  "mp-m2450294121": {
-   "title": "3x Seagate Barracuda HDD's met 2x externe behuizing",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450294121-3x-seagate-barracuda-hdd-s-met-2x-externe-behuizing",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/eb4cbf4b-b369-4fd9-a39a-6edf9a2482fb?rule=ecg_mp_eps$_82.jpg",
-   "city": "Rotterdam",
-   "seller": "Fer",
-   "source": "marktplaats",
-   "posted": "5 okt 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 8.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2450236107": {
-   "title": "2 Seagate Enterprise 8TB SAS – nieuw en ongebruikt",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2450236107-2-seagate-enterprise-8tb-sas-nieuw-en-ongebruikt",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/225c8ed9-4bcb-4f1b-bd0a-427d4c377b99?rule=ecg_mp_eps$_82.jpg",
-   "city": "Assen",
-   "seller": "VanDerVeen",
-   "source": "marktplaats",
-   "posted": "5 okt 26",
-   "price": 150.0,
-   "price_type": "FIXED",
-   "capacity_tb": 8.0,
-   "metric": 18.75,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     150.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448769464": {
-   "title": "Defecte HDD 8TB met slecht SMART, werkt nog goed",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448769464-defecte-hdd-8tb-met-slecht-smart-werkt-nog-goed",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4a78f156-5d90-4eba-b822-279589fa5ffb?rule=ecg_mp_eps$_82.jpg",
-   "city": "Alkmaar",
-   "seller": "HOSTKEY",
-   "source": "marktplaats",
-   "posted": "1 okt 26",
-   "price": 40.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 5.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     40.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
   },
   "mp-m2448539278": {
    "title": "Seagate Barracuda ST8000DM004 - 8TB [HDD-1398] 30-9",
@@ -2239,7 +1630,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 21.88,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2263,37 +1654,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 21.88,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      175.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448438987": {
-   "title": "Seagate Expansion Desktop Drive 8TB Externe HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448438987-seagate-expansion-desktop-drive-8tb-externe-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e064bca9-70c7-42af-86c6-bc6236599579?rule=ecg_mp_eps$_82.jpg",
-   "city": "Leiden",
-   "seller": "BeekBonafide",
-   "source": "marktplaats",
-   "posted": "30 sep 26",
-   "price": 200.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     200.0
     ]
    ],
    "price_drop": false,
@@ -2311,56 +1678,13 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 34.88,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      279.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2447584574": {
-   "title": "Seagate Expansion 8TB Externe HDD voor PC en Mac",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2447584574-seagate-expansion-8tb-externe-hdd-voor-pc-en-mac",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b50e00a2-fdd7-42b8-942e-494a7ee9831b?rule=ecg_mp_eps$_82.jpg",
-   "city": "Utrecht",
-   "seller": "Justin",
-   "source": "marktplaats",
-   "posted": "28 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 8.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2407871528": {
-   "title": "Dahua 16kanaals 4K NVR DHI-NVR5416-4KS2",
-   "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/videobewaking/m2407871528-dahua-16kanaals-4k-nvr-dhi-nvr5416-4ks2",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d1010bf6-2127-4710-90e8-74415e8dd86d?rule=ecg_mp_eps$_82.jpg",
-   "city": "Breda",
-   "seller": "S&D Electronics",
-   "source": "marktplaats",
-   "posted": "26 sep 26",
-   "price": 349.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 43.62,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     349.0
     ]
    ],
    "price_drop": false,
@@ -2378,7 +1702,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 12.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2402,7 +1726,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 23.33,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2411,25 +1735,6 @@
      420.0
     ]
    ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2446128585": {
-   "title": "3x 8TB SAS HGST",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2446128585-3x-8tb-sas-hgst",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/bfc1919b-2ee4-47f5-9ad8-38477450d28f?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dedemsvaart",
-   "seller": "Stan vdk",
-   "source": "marktplaats",
-   "posted": "24 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 24.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
    "price_drop": false,
    "deal": false
   },
@@ -2445,7 +1750,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 23.75,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2469,7 +1774,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2480,30 +1785,6 @@
    ],
    "price_drop": false,
    "deal": false
-  },
-  "mp-m2445571868": {
-   "title": "Seagate Ironwolf 8TB NAS HDD's (6x) - warning",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2445571868-seagate-ironwolf-8tb-nas-hdd-s-6x-warning",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/30186306-a6a9-49e2-a8c4-0800033396eb?rule=ecg_mp_eps$_82.jpg",
-   "city": "Utrecht",
-   "seller": "Jeroen",
-   "source": "marktplaats",
-   "posted": "22 sep 26",
-   "price": 80.0,
-   "price_type": "FIXED",
-   "capacity_tb": 8.0,
-   "metric": 10.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     80.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
   },
   "mp-m2445567994": {
    "title": "Seagate Ironwolf 8TB NAS HDD's (8x)",
@@ -2517,7 +1798,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2541,7 +1822,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 24.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2560,7 +1841,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2584,7 +1865,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 36.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2608,7 +1889,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 36.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2632,7 +1913,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 74.88,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2656,7 +1937,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 24.88,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2680,7 +1961,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 17.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2704,7 +1985,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 27.49,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2728,7 +2009,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 48.62,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2752,7 +2033,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 17.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2776,7 +2057,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2800,7 +2081,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 8.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -2819,7 +2100,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 34.38,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2843,7 +2124,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 37.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2867,7 +2148,7 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2891,37 +2172,13 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 33.74,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      269.95
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2428760951": {
-   "title": "WD Black D10 8TB externe harde schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2428760951-wd-black-d10-8tb-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ba352f48-f293-4b69-a3e8-86a68ecc0608?rule=ecg_mp_eps$_82.jpg",
-   "city": "Bilthoven",
-   "seller": "Sarfaty",
-   "source": "marktplaats",
-   "posted": "8 aug 26",
-   "price": 190.0,
-   "price_type": "FIXED",
-   "capacity_tb": 8.0,
-   "metric": 23.75,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     190.0
     ]
    ],
    "price_drop": false,
@@ -2939,7 +2196,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -2963,56 +2220,13 @@
    "price_type": "FIXED",
    "capacity_tb": 8.0,
    "metric": 27.49,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      219.95
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2426316946": {
-   "title": "Seagate Expansion 8TB Externe HDD - Nieuw in doos",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2426316946-seagate-expansion-8tb-externe-hdd-nieuw-in-doos",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/74fc15e2-0e34-4d54-a26c-40bdc1b6aff6?rule=ecg_mp_eps$_82.jpg",
-   "city": "Vlaardingen",
-   "seller": "Mitch",
-   "source": "marktplaats",
-   "posted": "4 aug 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 8.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2425460420": {
-   "title": "MY Book 2x 4TB (8TB) externe HDD voor PC in NIEUWSTAAT",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2425460420-my-book-2x-4tb-8tb-externe-hdd-voor-pc-in-nieuwstaat",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d7283832-a8d2-42f6-ac8a-30742d75510f?rule=ecg_mp_eps$_82.jpg",
-   "city": "Rotterdam",
-   "seller": "Bennie",
-   "source": "marktplaats",
-   "posted": "29 jul 26",
-   "price": 210.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 8.0,
-   "metric": 26.25,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     210.0
     ]
    ],
    "price_drop": false,
@@ -3030,7 +2244,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3054,7 +2268,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 26.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3078,7 +2292,7 @@
    "price_type": "FIXED",
    "capacity_tb": 12.0,
    "metric": 47.08,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3102,7 +2316,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 31.39,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3126,7 +2340,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 35.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3150,7 +2364,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 10.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3169,64 +2383,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 12.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448419163": {
-   "title": "Partij 10TB SAS HDD van HGST (losse verkoop mogelijk)",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448419163-partij-10tb-sas-hdd-van-hgst-losse-verkoop-mogelijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6a24307c-446b-43c8-b349-b32c5e8f8b82?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dedemsvaart",
-   "seller": "Stan vdk",
-   "source": "marktplaats",
-   "posted": "30 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 10.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448251590": {
-   "title": "10TB SAS HDD van DELL",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448251590-10tb-sas-hdd-van-dell",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ebda5926-af51-43da-8c9c-e7044ca8d8cb?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dedemsvaart",
-   "seller": "Stan vdk",
-   "source": "marktplaats",
-   "posted": "29 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 10.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2448249339": {
-   "title": "10TB HDD van Hewlett Packard (HP) SAS",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2448249339-10tb-hdd-van-hewlett-packard-hp-sas",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/86e1f769-44de-4b57-936a-d96925b259e3?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dedemsvaart",
-   "seller": "Stan vdk",
-   "source": "marktplaats",
-   "posted": "29 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 10.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3245,7 +2402,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 10.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3264,61 +2421,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": 10.0,
    "metric": 17.8,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      178.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2443289164": {
-   "title": "LaCie d2 Professional 10TB Externe Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2443289164-lacie-d2-professional-10tb-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/f2e1d170-3a1e-41df-a923-877287908bd6?rule=ecg_mp_eps$_82.jpg",
-   "city": "Maarssen",
-   "seller": "Nedparks",
-   "source": "marktplaats",
-   "posted": "16 sep 26",
-   "price": 160.0,
-   "price_type": "FIXED",
-   "capacity_tb": 10.0,
-   "metric": 16.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     160.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2443288945": {
-   "title": "LaCie d2 Professional 10TB Externe Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2443288945-lacie-d2-professional-10tb-externe-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e7866161-e2eb-4287-a27e-05006650f8b1?rule=ecg_mp_eps$_82.jpg",
-   "city": "Maarssen",
-   "seller": "Nedparks",
-   "source": "marktplaats",
-   "posted": "16 sep 26",
-   "price": 150.0,
-   "price_type": "FIXED",
-   "capacity_tb": 10.0,
-   "metric": 15.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     150.0
     ]
    ],
    "price_drop": false,
@@ -3336,37 +2445,13 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      250.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2442252254": {
-   "title": "Hard Disk WD My Book, 10TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2442252254-hard-disk-wd-my-book-10tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b687836d-1387-40fc-b0ef-bc8f58aaf7d1?rule=ecg_mp_eps$_82.jpg",
-   "city": "Rotterdam",
-   "seller": "Massimiliano_Vizzini",
-   "source": "marktplaats",
-   "posted": "13 sep 26",
-   "price": 200.0,
-   "price_type": "FIXED",
-   "capacity_tb": 10.0,
-   "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     200.0
     ]
    ],
    "price_drop": false,
@@ -3384,7 +2469,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 20.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3408,7 +2493,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 10.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3427,7 +2512,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 10.0,
    "metric": 40.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3451,7 +2536,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 32.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3475,7 +2560,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 30.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3499,7 +2584,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3523,7 +2608,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 31.99,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3547,7 +2632,7 @@
    "price_type": "FIXED",
    "capacity_tb": 10.0,
    "metric": 31.99,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3571,7 +2656,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 32.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3580,25 +2665,6 @@
      390.0
     ]
    ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2437297631": {
-   "title": "Nieuwe Seagate Exos X18 12TB SAS Harde Schijf",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2437297631-nieuwe-seagate-exos-x18-12tb-sas-harde-schijf",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/827b5508-d923-497e-97a2-ae11ac53d0c2?rule=ecg_mp_eps$_82.jpg",
-   "city": "Voorhout",
-   "seller": "Wim",
-   "source": "marktplaats",
-   "posted": "2 okt 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 12.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
    "price_drop": false,
    "deal": false
   },
@@ -3614,7 +2680,7 @@
    "price_type": "FIXED",
    "capacity_tb": 12.0,
    "metric": 20.83,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3638,34 +2704,10 @@
    "price_type": "FAST_BID",
    "capacity_tb": 12.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2443460759": {
-   "title": "WD My Book Duo 24TB - RAID 0 - Healthy - SMART Good",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2443460759-wd-my-book-duo-24tb-raid-0-healthy-smart-good",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a0cf974a-02ee-4b9f-8e00-2ff98e8049d4?rule=ecg_mp_eps$_82.jpg",
-   "city": "Leiden",
-   "seller": "Michael",
-   "source": "marktplaats",
-   "posted": "16 sep 26",
-   "price": 549.0,
-   "price_type": "FIXED",
-   "capacity_tb": 24.0,
-   "metric": 22.88,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     549.0
-    ]
-   ],
    "price_drop": false,
    "deal": false
   },
@@ -3681,7 +2723,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 22.92,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3705,7 +2747,7 @@
    "price_type": "FIXED",
    "capacity_tb": 12.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3729,7 +2771,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 29.17,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3740,30 +2782,6 @@
    ],
    "price_drop": false,
    "deal": false
-  },
-  "mp-m2435919510": {
-   "title": "2x 12TB SAS3 12GB 7.2K HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2435919510-2x-12tb-sas3-12gb-7-2k-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/f6256934-33eb-47ec-9e36-4dbf34a357fe?rule=ecg_mp_eps$_82.jpg",
-   "city": "Twello",
-   "seller": "Tom",
-   "source": "marktplaats",
-   "posted": "27 aug 26",
-   "price": 210.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 24.0,
-   "metric": 8.75,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     210.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
   },
   "mp-m2435320802": {
    "title": "Seagate Ironwolf NAS 12TB SATA HDD",
@@ -3777,7 +2795,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 12.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -3796,7 +2814,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 19.58,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3820,7 +2838,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 18.75,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3844,7 +2862,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 20.42,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3868,7 +2886,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 19.58,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3892,7 +2910,7 @@
    "price_type": "FIXED",
    "capacity_tb": 12.0,
    "metric": 47.92,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3916,7 +2934,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 14.0,
    "metric": 14.29,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3940,7 +2958,7 @@
    "price_type": "FIXED",
    "capacity_tb": 16.0,
    "metric": 32.19,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -3964,61 +2982,13 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 19.64,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      275.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2444336482": {
-   "title": "14TB Seagate Expansion HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2444336482-14tb-seagate-expansion-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e1476aab-8c9c-452e-9334-f8c194b1af61?rule=ecg_mp_eps$_82.jpg",
-   "city": "Rotterdam",
-   "seller": "Badr",
-   "source": "marktplaats",
-   "posted": "19 sep 26",
-   "price": 275.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 14.0,
-   "metric": 19.64,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     275.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2443282340": {
-   "title": "Western Digital My Book 14TB",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2443282340-western-digital-my-book-14tb",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4ff15fec-f713-4b8b-a656-ae4ceb9e6870?rule=ecg_mp_eps$_82.jpg",
-   "city": "Rotterdam",
-   "seller": "Brian",
-   "source": "marktplaats",
-   "posted": "16 sep 26",
-   "price": 310.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 14.0,
-   "metric": 22.14,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     310.0
     ]
    ],
    "price_drop": false,
@@ -4036,7 +3006,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 14.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4055,7 +3025,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 14.0,
    "metric": 17.86,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4079,7 +3049,7 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 17.86,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4103,7 +3073,7 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 27.14,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4127,7 +3097,7 @@
    "price_type": "FIXED",
    "capacity_tb": 14.0,
    "metric": 21.43,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4151,7 +3121,7 @@
    "price_type": "FIXED",
    "capacity_tb": 16.0,
    "metric": 12.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4160,25 +3130,6 @@
      200.0
     ]
    ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2444417980": {
-   "title": "(x14) Dell Seagate Exos X16 16TB SAS",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2444417980-x14-dell-seagate-exos-x16-16tb-sas",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/257da5d6-dda1-49a4-9867-8ea2e5e01927?rule=ecg_mp_eps$_82.jpg",
-   "city": "Amsterdam",
-   "seller": "Sebastiaan",
-   "source": "marktplaats",
-   "posted": "22 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": 16.0,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
    "price_drop": false,
    "deal": false
   },
@@ -4194,7 +3145,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 16.0,
    "metric": 18.75,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4218,7 +3169,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 32.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4237,34 +3188,10 @@
    "price_type": "FAST_BID",
    "capacity_tb": 16.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2441008049": {
-   "title": "Seagate 16TB Externe HDD - Ruime Opslag voor al uw Data",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2441008049-seagate-16tb-externe-hdd-ruime-opslag-voor-al-uw-data",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8c1fc4f6-5d8f-4904-b2ca-f3206da8d49e?rule=ecg_mp_eps$_82.jpg",
-   "city": "Hattem",
-   "seller": "Huizing",
-   "source": "marktplaats",
-   "posted": "10 sep 26",
-   "price": 400.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": 16.0,
-   "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     400.0
-    ]
-   ],
    "price_drop": false,
    "deal": false
   },
@@ -4280,7 +3207,7 @@
    "price_type": "FIXED",
    "capacity_tb": 16.0,
    "metric": 18.06,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4304,7 +3231,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 16.0,
    "metric": 26.25,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4315,30 +3242,6 @@
    ],
    "price_drop": false,
    "deal": false
-  },
-  "mp-m2426415100": {
-   "title": "Foscam NVR QHD 8-kanaals recorder (FN9108HE)",
-   "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/overige-audio-tv-en-foto/m2426415100-foscam-nvr-qhd-8-kanaals-recorder-fn9108he",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/60ebd0c6-f23e-4261-bb01-095a7dadea2a?rule=ecg_mp_eps$_82.jpg",
-   "city": "Amersfoort",
-   "seller": "SeM",
-   "source": "marktplaats",
-   "posted": "1 aug 26",
-   "price": 100.0,
-   "price_type": "FIXED",
-   "capacity_tb": 16.0,
-   "metric": 6.25,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     100.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": true
   },
   "mp-m2426295949": {
    "title": "Glyph Blackbox PRO RAID 16TB, Opslag HDD Thunderbolt 3 NIEUW",
@@ -4352,7 +3255,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 16.0,
    "metric": 37.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4376,7 +3279,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 16.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4400,7 +3303,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 36.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4419,7 +3322,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 21.11,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4443,7 +3346,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 18.0,
    "metric": 18.06,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4467,7 +3370,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4491,7 +3394,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 18.0,
    "metric": 16.67,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4515,7 +3418,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 18.89,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4539,7 +3442,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 18.33,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4563,7 +3466,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 15.28,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4587,7 +3490,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 18.0,
    "metric": 30.56,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4611,7 +3514,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 18.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4630,7 +3533,7 @@
    "price_type": "FIXED",
    "capacity_tb": 18.0,
    "metric": 15.28,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4654,7 +3557,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 20.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4673,7 +3576,7 @@
    "price_type": "FIXED",
    "capacity_tb": 20.0,
    "metric": 26.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4697,7 +3600,7 @@
    "price_type": "FIXED",
    "capacity_tb": 20.0,
    "metric": 27.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4721,7 +3624,7 @@
    "price_type": "FIXED",
    "capacity_tb": 20.0,
    "metric": 24.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4745,7 +3648,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 6.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4764,7 +3667,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 10.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4783,7 +3686,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 8.0,
    "metric": 45.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4807,7 +3710,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 22.0,
    "metric": 14.77,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4831,7 +3734,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 4.0,
    "metric": 32.5,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4855,34 +3758,10 @@
    "price_type": "SEE_DESCRIPTION",
    "capacity_tb": 14.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2443813159": {
-   "title": "24TB SAS Seagate Exos X24 3.5\"",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/harde-schijven/m2443813159-24tb-sas-seagate-exos-x24-3-5",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e64b8318-3362-41d2-91b5-675fd528e267?rule=ecg_mp_eps$_82.jpg",
-   "city": "Susteren",
-   "seller": "D.D.R.7000",
-   "source": "marktplaats",
-   "posted": "17 sep 26",
-   "price": 500.0,
-   "price_type": "FIXED",
-   "capacity_tb": 24.0,
-   "metric": 20.83,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     500.0
-    ]
-   ],
    "price_drop": false,
    "deal": false
   },
@@ -4898,7 +3777,7 @@
    "price_type": "FAST_BID",
    "capacity_tb": 22.0,
    "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [],
@@ -4917,7 +3796,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": 12.0,
    "metric": 31.67,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -4941,7 +3820,7 @@
    "price_type": "FIXED",
    "capacity_tb": 4.0,
    "metric": 25.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [

@@ -13,17 +13,17 @@
   "qnap tr-004",
   "sabrent 4 bay"
  ],
- "deal_threshold": 72.5,
+ "deal_threshold": 98.75,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-08T19:34:58Z",
+ "updated": "2026-10-08T19:37:24Z",
  "last_run_complete": true,
  "history": [
   {
    "date": "2026-10-08",
-   "count": 4,
+   "count": 2,
    "min": 50.0,
-   "p25": 72.5,
-   "median": 84.5
+   "p25": 98.75,
+   "median": 147.5
   }
  ],
  "listings": {
@@ -39,80 +39,13 @@
    "price_type": "MIN_BID",
    "capacity_tb": null,
    "metric": 245.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
     [
      "2026-10-08T19:34:58Z",
      245.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2444646730": {
-   "title": "Verbatim MediaStation Pro N446 NAS - Zonder HDD",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2444646730-verbatim-mediastation-pro-n446-nas-zonder-hdd",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a8ca860e-8790-4746-a204-6f35e429b195?rule=ecg_mp_eps$_82.jpg",
-   "city": "Meppel",
-   "seller": "Klaver",
-   "source": "marktplaats",
-   "posted": "20 sep 26",
-   "price": null,
-   "price_type": "FAST_BID",
-   "capacity_tb": null,
-   "metric": null,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2438183874": {
-   "title": "SP 4+3 4-Bay NAS Chassis M-ATX Moederbord SFX PSU",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2438183874-sp-4-3-4-bay-nas-chassis-m-atx-moederbord-sfx-psu",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/05122169-c4eb-4213-94e9-fa2a6651f80f?rule=ecg_mp_eps$_82.jpg",
-   "city": "Dongen",
-   "seller": "Edwin Brokx",
-   "source": "marktplaats",
-   "posted": "2 sep 26",
-   "price": 80.0,
-   "price_type": "FIXED",
-   "capacity_tb": null,
-   "metric": 80.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     80.0
-    ]
-   ],
-   "price_drop": false,
-   "deal": false
-  },
-  "mp-m2431689556": {
-   "title": "SABRENT 4-bay USB-C docking station voor 2,5 inch SATA",
-   "url": "https://www.marktplaats.nl/v/computers-en-software/dockingstations/m2431689556-sabrent-4-bay-usb-c-docking-station-voor-2-5-inch-sata",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9d4d7452-14f2-4ae1-aaf1-4939eb4cf8da?rule=ecg_mp_eps$_82.jpg",
-   "city": "Wetteren",
-   "seller": "Marnix Verschraegen",
-   "source": "marktplaats",
-   "posted": "Vandaag",
-   "price": 89.0,
-   "price_type": "MIN_BID",
-   "capacity_tb": null,
-   "metric": 89.0,
-   "last_seen": "2026-10-08T19:34:58Z",
-   "active": true,
-   "first_seen": "2026-10-08T19:34:58Z",
-   "price_history": [
-    [
-     "2026-10-08T19:34:58Z",
-     89.0
     ]
    ],
    "price_drop": false,
@@ -130,7 +63,7 @@
    "price_type": "MIN_BID",
    "capacity_tb": null,
    "metric": 50.0,
-   "last_seen": "2026-10-08T19:34:58Z",
+   "last_seen": "2026-10-08T19:37:24Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
