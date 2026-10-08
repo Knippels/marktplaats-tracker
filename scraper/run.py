@@ -134,20 +134,20 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
             "price_type": item["price_type"],
             "attrs": item.get("attrs") or prev.get("attrs") or {},
             "description": max([prev.get("description") or "", item.get("description") or ""], key=len),
-            "detail": prev.get("detail", False),
+            "detail": prev.get("detail") if prev.get("detail") is not True else 1,
             "highest_bid": prev.get("highest_bid"),
             "last_seen": stamp,
             "active": True,
         }
         # Volledige omschrijving eenmalig ophalen (voor aantal, prijs per stuk, aansluitingen, opslag)
-        if not rec["detail"] and session is not None and budget.left > 0 and rec["url"]:
+        if (rec["detail"] or 0) < marktplaats.DETAIL_VERSION and session is not None and budget.left > 0 and rec["url"]:
             budget.left -= 1
             try:
                 det = marktplaats.fetch_detail(rec["url"], session)
                 if len(det.get("description") or "") > len(rec["description"]):
                     rec["description"] = det["description"]
                 rec["highest_bid"] = det.get("highest_bid")
-                rec["detail"] = True
+                rec["detail"] = marktplaats.DETAIL_VERSION
             except Exception as exc:  # noqa: BLE001
                 print(f"    detail mislukt {rec['url']}: {exc}", file=sys.stderr, flush=True)
             time.sleep(1.5)

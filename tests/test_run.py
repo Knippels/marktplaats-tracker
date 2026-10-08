@@ -136,3 +136,14 @@ def test_update_uses_price_per_piece(tmp_path):
     rec = res["listings"]["mp-pp"]
     assert (rec["qty"], rec["price_each"], rec["price_total"], rec["metric"]) == (4, 100, 400, 12.5)
     assert rec["description"] == "Prijs is per stuk!!"
+
+
+def test_fetch_detail_full_description():
+    from pathlib import Path
+    from unittest import mock
+    page = (Path(__file__).parent / "fixtures" / "vip_sample.html").read_text(encoding="utf-8")
+    sess = mock.Mock()
+    sess.get.return_value = mock.Mock(text=page, raise_for_status=lambda: None)
+    det = marktplaats.fetch_detail("https://example/v/x", sess)
+    assert "ST4000VN000" in det["description"] and len(det["description"]) > 300
+    assert det["highest_bid"] == 250

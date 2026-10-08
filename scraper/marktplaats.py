@@ -77,6 +77,16 @@ def parse_listing(raw: dict) -> dict | None:
     }
 
 
+DESC_DIV = re.compile(r'data-collapsable="description"[^>]*>(.*?)</div>', re.S)
+DETAIL_VERSION = 2  # verhogen = alle advertenties één keer opnieuw ophalen
+
+
+def _html_text(fragment: str) -> str:
+    text = re.sub(r"<br\s*/?>", "\n", fragment)
+    text = re.sub(r"<[^>]+>", " ", text)
+    return re.sub(r"[ \t]+", " ", htmllib.unescape(text)).strip()
+
+
 LD_JSON = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.S)
 
 
@@ -95,6 +105,11 @@ def fetch_detail(url: str, session: requests.Session | None = None) -> dict:
         for obj in data if isinstance(data, list) else [data]:
             if isinstance(obj, dict) and obj.get("@type") == "Product" and obj.get("description"):
                 out["description"] = htmllib.unescape(obj["description"]).strip()
+    m = DESC_DIV.search(page)  # volledige omschrijving (JSON-LD is afgekapt op ~200 tekens)
+    if m:
+        full = _html_text(m.group(1))
+        if len(full) > len(out.get("description") or ""):
+            out["description"] = full
     m = re.search(r'"bidsInfo":(\{.*?"bids":\[.*?\]\})', page)
     if m:
         try:
