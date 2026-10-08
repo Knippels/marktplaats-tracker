@@ -132,6 +132,7 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
             "posted": item["posted"],
             "price": item["price"],
             "price_type": item["price_type"],
+            "reserved": bool(item.get("reserved")),
             "attrs": item.get("attrs") or prev.get("attrs") or {},
             "description": max([prev.get("description") or "", item.get("description") or ""], key=len),
             "detail": prev.get("detail") if prev.get("detail") is not True else 1,
@@ -191,7 +192,7 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
     else:
         threshold = None
     for v in listings.values():
-        v["deal"] = bool(v["active"] and threshold is not None and v["metric"] is not None
+        v["deal"] = bool(v["active"] and not v.get("reserved") and threshold is not None and v["metric"] is not None
                          and v["metric"] <= threshold)
 
     # Dagelijkse snapshot (laatste run van de dag overschrijft)

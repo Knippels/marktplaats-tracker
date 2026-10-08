@@ -76,6 +76,8 @@ async function show(id) {
   renderCategory(state.cache[id]);
 }
 
+const hideReservedPref = () => storeGet("hideReserved") !== "0";
+
 function renderCategory(cat) {
   const main = document.getElementById("main");
   main.replaceChildren(document.getElementById("cat-tpl").content.cloneNode(true));
@@ -109,10 +111,20 @@ function renderCategory(cat) {
   if (cat.kind !== "hdd") main.querySelector(".hdd-only").remove();
   main.querySelector(".new-hint").textContent = `afgelopen ${windowH} uur`;
 
+  const hideRes = main.querySelector(".hide-reserved");
+  hideRes.checked = hideReservedPref();
+  const nRes = active.filter((i) => i.reserved).length;
+  main.querySelector(".n-res").textContent = nRes ? `(${nRes})` : "";
+  const visible = (list) => (hideRes.checked ? list.filter((i) => !i.reserved) : list);
+  const drawCards = () => {
+    fillCards(main.querySelector(".cards.deals"), visible(deals), cat, isUnseen, "Geen aanbiedingen onder de grens op dit moment.");
+    fillCards(main.querySelector(".cards.new"), visible(fresh), cat, isUnseen, "Niets nieuws in deze periode.");
+  };
+  hideRes.addEventListener("change", () => { storeSet("hideReserved", hideRes.checked ? "1" : "0"); drawCards(); });
+
   renderTable(main, cat, items, isUnseen);
   renderChart(main, cat);
-  fillCards(main.querySelector(".cards.deals"), deals, cat, isUnseen, "Geen aanbiedingen onder de grens op dit moment.");
-  fillCards(main.querySelector(".cards.new"), fresh, cat, isUnseen, "Niets nieuws in deze periode.");
+  drawCards();
 }
 
 function kpi(label, value) {
@@ -120,7 +132,7 @@ function kpi(label, value) {
 }
 
 function fillCards(box, list, cat, isUnseen, emptyText) {
-  if (!list.length) { box.replaceWith(el("p", { class: "empty" }, emptyText)); return; }
+  if (!list.length) { box.replaceChildren(el("p", { class: "empty" }, emptyText)); return; }
   box.replaceChildren(...list.slice(0, 12).map((it) => {
     const showMetric = cat.metric !== "price" && it.metric !== null && it.metric !== undefined;
     return el("a", { class: "card" + (isUnseen(it) ? " unseen" : ""), href: it.url, target: "_blank", rel: "noopener" },
@@ -129,7 +141,8 @@ function fillCards(box, list, cat, isUnseen, emptyText) {
         el("div", { class: "badges" },
           isUnseen(it) ? el("span", { class: "badge new" }, "nieuw") : null,
           it.deal ? el("span", { class: "badge deal" }, "deal") : null,
-          it.price_drop ? el("span", { class: "badge drop" }, "prijs verlaagd") : null),
+          it.price_drop ? el("span", { class: "badge drop" }, "prijs verlaagd") : null,
+          it.reserved ? el("span", { class: "badge gone" }, "gereserveerd") : null),
         el("div", { class: "title", title: it.title }, it.title),
         el("div", { class: "price" }, cat.kind === "hdd" && it.qty > 1 && it.price_each != null ? `${it.qty}× ${fmtEur.format(it.price_each)}` : fmtPrice(it), showMetric ? el("span", { class: "metric" }, fmtMetric(cat, it.metric)) : null),
         el("div", { class: "meta" }, [it.city, "gezien " + fmtDate.format(new Date(it.first_seen))].filter(Boolean).join(" · "))));
@@ -225,6 +238,7 @@ function renderTable(main, cat, items, isUnseen) {
   const headRow = main.querySelector("thead tr");
   const filter = main.querySelector(".filter");
   const showGone = main.querySelector(".show-gone");
+  const hideRes = main.querySelector(".hide-reserved");
   const chips = main.querySelectorAll(".chip");
   const cols = columnsFor(cat);
   const metricIdx = cols.findIndex((c) => c.key === "metric");
@@ -241,6 +255,7 @@ function renderTable(main, cat, items, isUnseen) {
         i.deal ? el("span", { class: "badge deal" }, "deal") : null,
         i.isNew ? el("span", { class: "badge new" }, "nieuw") : null,
         i.price_drop ? el("span", { class: "badge drop", title: "Prijs verlaagd" }, "↓ prijs") : null,
+        i.reserved ? el("span", { class: "badge gone" }, "gereserveerd") : null,
         i.active ? null : el("span", { class: "badge gone" }, "verdwenen")));
   }
 
@@ -249,6 +264,7 @@ function renderTable(main, cat, items, isUnseen) {
     const col = cols[sort.idx];
     const rows = items
       .filter((i) => showGone.checked || i.active)
+      .filter((i) => !hideRes.checked || !i.reserved)
       .filter((i) => only === "all" || (only === "deal" ? i.deal : i.isNew))
       .filter((i) => !q || `${i.title} ${i.brand || ""} ${i.type || ""} ${i.city || ""} ${(i.connections || []).join(" ")}`.toLowerCase().includes(q))
       .sort((a, b) => {
@@ -259,7 +275,7 @@ function renderTable(main, cat, items, isUnseen) {
         return sort.asc ? r : -r;
       });
     tbody.replaceChildren(...rows.map((i) => {
-      const cls = [i.active ? "" : "gone", i.deal ? "is-deal" : "", i.isNew ? "is-new" : ""].join(" ").trim();
+      const cls = [i.active ? "" : "gone", i.reserved ? "reserved" : "", i.deal ? "is-deal" : "", i.isNew ? "is-new" : ""].join(" ").trim();
       return el("tr", { class: cls }, ...cols.map((c) => (c.cell === null ? titleCell(i) : el("td", { class: c.num ? "num" : "" }, c.cell(i)))));
     }));
     if (!rows.length) tbody.replaceChildren(el("tr", {}, el("td", { colspan: cols.length, class: "muted" }, "Geen advertenties.")));
@@ -282,6 +298,7 @@ function renderTable(main, cat, items, isUnseen) {
   }));
   filter.addEventListener("input", draw);
   showGone.addEventListener("change", draw);
+  hideRes.addEventListener("change", draw);
   draw();
 }
 

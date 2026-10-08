@@ -68,6 +68,7 @@ def parse_listing(raw: dict) -> dict | None:
         "description": (raw.get("description") or raw.get("categorySpecificDescription") or "").strip(),
         "price": price,
         "price_type": price_type,
+        "reserved": bool(raw.get("reserved")) or price_type == "RESERVED",
         "url": _abs_url(raw.get("vipUrl")),
         "image": _abs_url(image),
         "city": location.get("cityName"),

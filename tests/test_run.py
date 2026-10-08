@@ -147,3 +147,14 @@ def test_fetch_detail_full_description():
     det = marktplaats.fetch_detail("https://example/v/x", sess)
     assert "ST4000VN000" in det["description"] and len(det["description"]) > 300
     assert det["highest_bid"] == 250
+
+
+def test_reserved_flag_and_not_a_deal(tmp_path):
+    raw = dict(RAW, itemId="r1", title="WD Red 8TB", reserved=True,
+               priceInfo={"priceCents": 4000, "priceType": "FIXED"})
+    it = run.enrich(marktplaats.parse_listing(raw), load_cats()["hdd-sata-4tb-plus"])
+    assert it["reserved"] is True
+    res = run.update_category(load_cats()["hdd-sata-4tb-plus"], [it], True, tmp_path,
+                              datetime(2026, 10, 1, tzinfo=timezone.utc))
+    rec = res["listings"]["mp-r1"]
+    assert rec["reserved"] and rec["metric"] == 5 and rec["deal"] is False

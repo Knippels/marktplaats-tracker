@@ -169,3 +169,6 @@ code { font-size: 12px; background: var(--grid); padding: 1px 5px; border-radius
 .table-wrap { max-height: 70vh; overflow: auto; border-top: 1px solid var(--border); }
 .list thead th { position: sticky; top: 0; background: var(--surface); z-index: 1; }
 .kpis { margin-top: 4px; }
+.list tr.reserved td { color: var(--muted); }
+.list tr.reserved a { color: var(--text-2); }
+.cards .empty { grid-column: 1 / -1; }
