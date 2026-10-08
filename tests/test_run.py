@@ -97,7 +97,7 @@ def test_hdd_excludes_from_first_run():
     cat = load_cats()["hdd-sata-4tb-plus"]
     assert run.matches(_item("WD Purple 8tb NAS - NVR HDD - WD85PURZ", 90), cat)
     for t in ["Defecte Seagate Exos 8TB HDD - SMART fouten", "2x 12TB SAS3 12GB 7.2K HDD",
-              "Seagate Expansion 8TB Externe HDD", "Dahua 16kanaals 4K NVR 8TB",
+              "Seagate Expansion 8TB Externe HDD", "8TB SATA HDD met SMART waarschuwing", "Dahua 16kanaals 4K NVR 8TB",
               "Foscam NVR QHD 8-kanaals recorder 16TB", "Western Digital \"My Book\" 8TB"]:
         assert not run.matches(_item(t, 80), cat), t
 
