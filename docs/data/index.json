@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T19:33:40Z",
+ "updated": "2026-10-12T00:32:29Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -7,9 +7,9 @@
    "name": "SATA HDD 4TB+",
    "metric": "price_per_tb",
    "kind": "hdd",
-   "active": 142,
+   "active": 141,
    "deals": 2,
-   "new": 26
+   "new": 27
   },
   {
    "id": "das-4-bay",
