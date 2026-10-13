@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T02:36:23Z",
+ "updated": "2026-10-13T10:35:51Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -7,9 +7,9 @@
    "name": "SATA HDD 4TB+",
    "metric": "price_per_tb",
    "kind": "hdd",
-   "active": 141,
-   "deals": 3,
-   "new": 19
+   "active": 143,
+   "deals": 2,
+   "new": 20
   },
   {
    "id": "das-4-bay",
@@ -25,7 +25,7 @@
    "name": "4-bay NAS",
    "metric": "price",
    "kind": "enclosure",
-   "active": 58,
+   "active": 57,
    "deals": 8,
    "new": 9
   }
