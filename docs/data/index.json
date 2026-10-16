@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T11:24:32Z",
+ "updated": "2026-10-16T16:40:00Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -8,8 +8,8 @@
    "metric": "price_per_tb",
    "kind": "hdd",
    "active": 148,
-   "deals": 1,
-   "new": 23
+   "deals": 2,
+   "new": 25
   },
   {
    "id": "das-4-bay",
@@ -26,8 +26,8 @@
    "metric": "price",
    "kind": "enclosure",
    "active": 50,
-   "deals": 7,
-   "new": 9
+   "deals": 8,
+   "new": 6
   }
  ]
 }
