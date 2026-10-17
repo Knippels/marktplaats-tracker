@@ -30,7 +30,7 @@
  ],
  "deal_threshold": 50.0,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-10-17T15:34:47Z",
+ "updated": "2026-10-17T20:36:56Z",
  "last_run_complete": true,
  "history": [
   {
@@ -98,10 +98,10 @@
   },
   {
    "date": "2026-10-17",
-   "count": 7,
+   "count": 6,
    "min": 50.0,
    "p25": 50.0,
-   "median": 75.0
+   "median": 62.5
   }
  ],
  "listings": {
@@ -122,7 +122,7 @@
    "description": "Een asustor das met 4 drive slots",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-17T15:34:47Z",
+   "last_seen": "2026-10-17T20:36:56Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -162,7 +162,7 @@
    "description": "Te koop aangeboden: een Orico 4 Bay USB 3.0 Docking Station, model 6648US3-C. Dit docking station is geschikt voor zowel 2.5 inch als 3.5 inch HDD's en SSD's, en biedt ruimte voor vier schijven. Ideaal voor dataoverdracht, back-ups of het klonen van schijven. Het apparaat is extern en maakt verbinding via USB 3.0, wat zorgt voor snelle gegevensoverdracht. Het is in uitstekende staat en werkt perfect. Inclusief voedingsadapter.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-17T15:34:47Z",
+   "last_seen": "2026-10-17T20:36:56Z",
    "active": true,
    "first_seen": "2026-10-08T19:34:58Z",
    "price_history": [
@@ -204,7 +204,7 @@
    "description": "Mediasonic PRORAID 4-bay 3,5\" SATA-hardeschijfbehuizing - USB 3.0 & eSATA (HFR2-SU3S2)\n\nLet op: dit is een tweedehands product. Ik ben de enige eigenaar geweest. Het vertoont lichte gebruikssporen, maar verkeert in uitstekende staat. Bekijk de foto's voor de huidige staat.\n\nInbegrepen:\n1x Mediasonic PRORAID 4-bay 3,5\" SATA-hardeschijfbehuizing\n1x USB-kabel\n1x Voedingsadapter\n1x Stroomkabel\n1x Stekkeradapter\n4x Handgrepen voor harde schijven\n8x Schroeven voor handgrepen\n\nKenmerken:\n- Ondersteunt 3,5\" SATA I/II/III-harde schijven tot 30 TB per schijf; ondersteunt overdrachtssnelheden tot SATA III-niveau. Ingebouwde hardware-RAID-controller met bediening via één knop.\n- RAID-bediening via één knop ondersteunt: Single Drive Mode, RAID 0 (Spanning/JBOD), RAID 0 (Striping), RAID 1 (Mirroring), RAID 3 (Striping met toegewezen pariteit), RAID 5 (Striping met verdeelde pariteit), RAID 10 (Mirroring + Striping).\n- Overdrachtssnelheid tot 5,0 Gbps via USB 3.0, tot 3,0 Gbps via eSATA.\n- Slimme ventilator met ingebouwde temperatuursensor, automatische en handmatige modi, en 3 snelheidsniveaus.\n- Compatibel met Mac OS X 10.8 of nieuwer en Windows 10 / 11.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-17T15:34:47Z",
+   "last_seen": "2026-10-17T20:36:56Z",
    "active": true,
    "first_seen": "2026-10-08T19:45:30Z",
    "price_history": [
@@ -248,7 +248,7 @@
    "description": "LaCie Biggest Quadra: 4-bay RAID-opslagtoren met USB 2.0-, FireWire- en eSATA-aansluitingen.\n\n Opslagcapaciteit: 1,5 TB Aansluitingen: 1x eSATA, 2x FireWire 800 (compatibel met FireWire 400) en 1x USB 2.0. RAID-ondersteuning: Schijven: Bevat vier verwisselbare en vergrendelbare harde schijven. Ziet er prima uit. Geschikt voor computer en servers.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-17T15:34:47Z",
+   "last_seen": "2026-10-17T20:36:56Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -292,7 +292,7 @@
    "description": "Te Koop: Promise DS4600 4-Bay DAS Storage – 3TB RAID-5\n\nBeschrijving:\nTe koop aangeboden mijn Promise SmartStor DS4600 Direct Attached Storage (DAS) in nette staat\n\nDeze betrouwbare 4-bay Promise DS4600 is een high-performance RAID-oplossing voor lokale dataopslag, backups en mediaproductie. De unit is voor professioneel gebruikt, werkt perfect en heeft gefungeerd als offline opslag\n\nWat zit er bij?\nPromise DS4600 4-bay DAS-behuizing\n4× WD Black WD1001FALS 1TB SATA-schijven\nRAID 5 configuratie → circa 3TB bruikbare capaciteit\nInclusief alle benodigde kabels\n\nSpecificaties:\n\nAlgemeen\nModel Promise SmartStor DS4600 DAS\nBehuizing met 4 hot-swappable 3,5″ drive bays\nRAID-controller ondersteunt RAID 0, 1, 5, 5+spare en 10\n\ninclusief USB 3.0 adapter to eSATA for faster transfer\n\nInterface (Host Connectie)\nUSB 2.0 (High-Speed)\neSATA II\nFireWire 400\n2× FireWire 800\n\nOpslag & RAID\n\nAantal schijven: 4 (3,5″ SATA, hot-swappable)\nRAID-modi: RAID-0/1/5/5+spare/10\nSchijfinterconnectie: SATA II (3 Gb/s)\nRAID-beheer via SmartNAVI software (Windows/Mac)\n\nFysiek & Omgeving\nAfmetingen: ca. 188 × 152 × 230 mm\nGewicht zonder schijven: ±2,5 kg\nVoeding: externe adapter ingebouwd (100–230 V)\nStil en energiezuinig ontwerp met spin-down en eco-modus\n\nOS-compatibiliteit\nWerkt met Windows, macOS en Linux (via host filesystem)",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-17T15:34:47Z",
+   "last_seen": "2026-10-17T20:36:56Z",
    "active": true,
    "first_seen": "2026-10-08T19:48:05Z",
    "price_history": [
@@ -379,7 +379,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-10-17T15:34:47Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-10-09T10:33:26Z",
    "price_history": [
     [
@@ -419,7 +419,7 @@
    "description": "Voorzien van 4 hot-swap drive caddys met sloten aan de voorkant en de bekende transparante piramidekap. Intern voorzien van een 4X1 Hardware Port Multiplier (HPM). Gebruikt op externe e-sata poort op Windows computer.\nGeen sleutels wel handleiding en e-sata kabel.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-10-17T15:34:47Z",
+   "last_seen": "2026-10-17T20:36:56Z",
    "active": true,
    "first_seen": "2026-10-16T11:24:32Z",
    "price_history": [
