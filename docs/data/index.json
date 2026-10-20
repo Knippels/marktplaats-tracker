@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T08:32:25Z",
+ "updated": "2026-10-20T10:54:30Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -12,22 +12,13 @@
    "new": 21
   },
   {
-   "id": "das-4-bay",
-   "name": "4-bay DAS",
-   "metric": "price",
-   "kind": "enclosure",
-   "active": 7,
-   "deals": 3,
-   "new": 1
-  },
-  {
-   "id": "nas-4-bay",
-   "name": "4-bay NAS",
-   "metric": "price",
-   "kind": "enclosure",
-   "active": 51,
-   "deals": 9,
-   "new": 8
+   "id": "mini-pc",
+   "name": "Mini-pc's",
+   "metric": "price_per_score",
+   "kind": "minipc",
+   "active": 298,
+   "deals": 49,
+   "new": 298
   }
  ]
 }
