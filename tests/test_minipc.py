@@ -73,3 +73,11 @@ def test_parts_are_excluded():
               "65W CPU Cooling Fan 01EF556 BAZA0815B2U Replacement"]:
         assert not run.matches(item(t, 50), cat), t
     assert run.matches(item("Lenovo Thinkcentre M720Q I5-8500T 3.5GHz 16GB DDR4", 200), cat)
+
+
+def test_expansion_fields():
+    r = evaluate("Lenovo ThinkCentre M920q Tiny i5-8500T 16GB", "")
+    assert r["pcie"] is True and r["nvme_slots"] == 1 and r["bay25"] is True
+    assert evaluate("Dell OptiPlex 7060 Micro i5-8500T", "")["pcie"] is False
+    m = evaluate("Minisforum UM790 Pro Ryzen 9 7940HS 32GB", "USB4 en OCuLink poort")
+    assert m["oculink"] and m["tb_usb4"]

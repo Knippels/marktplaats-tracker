@@ -271,6 +271,7 @@ function columnsFor(cat) {
       { label: "Processor", sort: (i) => i.cpu_gen_num ?? genNum(i), cell: cpuCell },
       { label: "RAM", num: true, sort: (i) => i.ram_gb, cell: (i) => el("span", {}, i.ram_gb == null ? el("span", { class: "muted" }, "niet vermeld") : i.ram_gb === 0 ? "geen" : `${num(i.ram_gb)} GB`,
           i.ram_max ? el("span", { class: "sub-num" }, `max ${i.ram_max} GB`) : null) },
+      { label: "Uitbreiding", sort: (i) => expandRank(i), cell: expandCell },
       { label: "Opslag", sort: (i) => i.ssd_gb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted" }, "niet vermeld")) },
       { label: "Prijs", num: true, sort: (i) => i.price, cell: (i) => el("span", {}, fmtPrice(i), i.highest_bid ? el("span", { class: "sub-num", title: "Hoogste bod" }, ` bod ${fmtEur.format(i.highest_bid)}`) : null) },
       { label: "€/punt", num: true, key: "metric", sort: (i) => i.metric, cell: (i) => (i.metric == null ? dash : fmtEur2.format(i.metric)) },
@@ -291,6 +292,21 @@ function scoreCell(i) {
   if (i.score == null) return el("span", { class: "muted", title: "Model niet herkend of niet in de modellenlijst" }, dash);
   const cls = i.score >= 7 ? "good" : i.score >= 4 ? "mid" : "low";
   return el("span", { class: `score ${cls}`, title: (i.score_why || []).join("\n") }, i.score.toFixed(1).replace(".", ","));
+}
+
+function expandRank(i) {
+  return (i.pcie ? 4 : 0) + (i.oculink ? 3 : 0) + (i.tb_usb4 ? 2 : 0) + (i.nvme_slots || 0) + (i.bay25 ? 1 : 0);
+}
+
+function expandCell(i) {
+  const chips = [];
+  if (i.pcie) chips.push(["PCIe", "PCIe-uitbreidingsslot (low-profile, via riser): geschikt voor een netwerkkaart (2.5/10 GbE) of HBA; te weinig ruimte en stroom voor een normale videokaart"]);
+  if (i.oculink) chips.push(["OCuLink", "OCuLink-poort: externe videokaart via een dock mogelijk"]);
+  if (i.tb_usb4) chips.push(["TB/USB4", "Thunderbolt/USB4: externe videokaart via een eGPU-behuizing mogelijk (langzamer dan OCuLink)"]);
+  if (i.nvme_slots) chips.push([`${i.nvme_slots}× NVMe`, `${i.nvme_slots} M.2 NVMe-slot(s) voor opslag`]);
+  if (i.bay25) chips.push(['2,5"', '2,5"-SATA-bay voor een extra SSD/HDD']);
+  if (!chips.length) return el("span", { class: "muted", title: "Model niet herkend of geen uitbreiding bekend" }, dash);
+  return el("span", { class: "conns" }, ...chips.map(([t, tip]) => el("span", { class: "conn" + (t === "PCIe" || t === "OCuLink" ? " conn-strong" : ""), title: tip }, t)));
 }
 
 function genNum(i) {

@@ -246,8 +246,15 @@ def evaluate(title: str, desc: str) -> dict:
     if storage is None:
         storage, ssd_gb, disks = parse_storage(title, ram, loose=True)
 
+    expansion = {
+        "pcie": mspec.get("pcie"),
+        "nvme_slots": mspec.get("nvme"),
+        "bay25": mspec.get("bay25"),
+        "oculink": bool(re.search(r"ocu[\s-]?link", text, re.I)),
+        "tb_usb4": bool(re.search(r"thunderbolt\s?[345]|\busb\s?4\b", text, re.I)),
+    }
     if not cpu:
-        return {"brand": brand, "model": mname, "cpu": None, "ram_gb": ram, "storage": storage, "score": None}
+        return {**expansion, "brand": brand, "model": mname, "cpu": None, "ram_gb": ram, "storage": storage, "score": None}
 
     c = cpu_points(cpu)
     t, t_txt = transcode(cpu)
@@ -286,6 +293,7 @@ def evaluate(title: str, desc: str) -> dict:
     if mspec.get("src") == "k":
         why.append("Modelgegevens uit fabrikantspecificaties, niet los gecontroleerd")
     return {
+        **expansion,
         "brand": brand, "model": mname, "cpu": cpu["name"], "cpu_gen": gen_label, "cpu_assumed": cpu_assumed,
         "qsv": t_txt, "ram_gb": ram, "ram_max": ram_max, "storage": storage, "ssd_gb": ssd_gb,
         "score": score, "score_why": why,

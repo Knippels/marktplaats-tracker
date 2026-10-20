@@ -209,3 +209,5 @@ dialog#sync-dlg::backdrop { background: rgb(0 0 0 / .4); }
 .dlg .tok input { font: inherit; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); }
 .dlg .small { font-size: 12px; margin: 6px 0; }
 .dlg-btns { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; margin-top: 14px; }
+.conn-strong { border-color: var(--accent); color: var(--accent); }
+.list td .conns { min-width: 150px; }
