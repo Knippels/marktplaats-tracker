@@ -16,7 +16,7 @@ from pathlib import Path
 import requests
 import yaml
 
-from . import extract, marktplaats, nas_score
+from . import extract, marktplaats, minipc
 
 NEW_WINDOW_HOURS = 48          # zo lang telt een advertentie als "nieuw"
 INACTIVE_PRUNE_DAYS = 60       # verdwenen advertenties worden na zoveel dagen opgeruimd
@@ -42,16 +42,19 @@ def kind_of(cat: dict) -> str:
 
 
 def enrich(item: dict, cat: dict) -> dict:
-    """Vult merk/type/grootte/aantal/prijs per stuk/aansluitingen/opslag in (op basis van titel+omschrijving)."""
-    fields = extract.extract(kind_of(cat), item["title"], item.get("description", ""),
-                             item.get("price"), item.get("attrs"))
-    item.update(fields)
-    if cat.get("nas_score"):
-        item.update(nas_score.evaluate(fields.get("type"), item["title"], item.get("description", "")))
-        if item.get("nas_model") and not item.get("type"):
-            item["type"] = item["nas_model"].title() if " " in item["nas_model"] else item["nas_model"]
-    if cat.get("metric", "price") == "price_per_tb":
-        item["metric"] = fields.get("price_per_tb")
+    """Vult de velden per soort in (op basis van titel+omschrijving)."""
+    kind = kind_of(cat)
+    if kind == "minipc":
+        item.update(minipc.evaluate(item["title"], item.get("description", "")))
+    else:
+        item.update(extract.extract(kind, item["title"], item.get("description", ""),
+                                    item.get("price"), item.get("attrs")))
+    metric = cat.get("metric", "price")
+    if metric == "price_per_tb":
+        item["metric"] = item.get("price_per_tb")
+    elif metric == "price_per_score":
+        sc, pr = item.get("score"), item.get("price")
+        item["metric"] = round(pr / sc, 2) if sc and pr else None
     else:
         item["metric"] = item.get("price")
     return item
@@ -69,6 +72,8 @@ def matches(listing: dict, cat: dict) -> bool:
             return False
         if cat.get("max_price") is not None and price > cat["max_price"]:
             return False
+    if kind_of(cat) == "minipc" and not (listing.get("model") or listing.get("cpu")):
+        return False      # geen herkenbaar model of processor: waarschijnlijk geen mini-pc
     if cat.get("min_tb"):
         size = listing.get("size_tb")
         if size is None or size < cat["min_tb"]:
@@ -216,7 +221,6 @@ def update_category(cat: dict, fresh: list[dict], complete: bool, out_dir: Path,
         "name": cat["name"],
         "metric": metric,
         "kind": kind_of(cat),
-        "nas_score": bool(cat.get("nas_score")),
         "queries": cat["queries"],
         "deal_threshold": threshold,
         "deal_rule": ("vast" if cat.get("deal_max") is not None

@@ -1,0 +1,85 @@
+# Gangbare zakelijke mini-pc's (1-liter "TinyMiniMicro") en hun platform.
+#
+# Velden:
+#   pattern     regex op titel + omschrijving (hoofdletterongevoelig)
+#   brand       merk
+#   gen         Intel Core-generatie (of "ryzen2"/"ryzen3"/"ryzen4" voor AMD) die meestal in dit model zit;
+#               gebruikt als de processor niet in de advertentie staat
+#   cpu         meest voorkomende processor (aanname als niets vermeld is)
+#   ram_max     maximaal geheugen (GB). Lenovo/Kingston noemen officieel 32 GB voor de 8e/9e-gen Tiny's;
+#               64 GB (2x 32 GB) werkt in de praktijk (ServeTheHome) maar staat hier niet.
+#   nvme        aantal M.2 NVMe-sloten voor opslag
+#   bay25       2,5"-SATA-bay aanwezig (true/false)
+#   pcie        PCIe-uitbreidingsslot (bijv. extra netwerkkaart) aanwezig
+#   gen_by_suffix (optioneel) "Gen 2" in de naam -> andere CPU-generatie
+#   src         v = gecontroleerd (Kingston / ServeTheHome), k = fabrikantgegevens, niet los gecontroleerd
+
+# ---------------------------------------------------------------- Lenovo ThinkCentre Tiny
+M700 Tiny:  {pattern: '\bm700\s?(tiny|q)\b', brand: Lenovo, gen: 6, cpu: i5-6400T, ram_max: 32, nvme: 0, bay25: true, pcie: false, src: k}
+M900 Tiny:  {pattern: '\bm900\s?(tiny|q)\b|\bm900\b.{0,30}\btiny\b', brand: Lenovo, gen: 6, cpu: i5-6500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+M710q:      {pattern: '\bm710\s?q\b|\bm710\s?tiny\b', brand: Lenovo, gen: 7, cpu: i5-7400T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+M910q:      {pattern: '\bm910\s?q\b|\bm910\s?tiny\b', brand: Lenovo, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+M715q:      {pattern: '\bm715\s?q\b', brand: Lenovo, gen: ryzen2, cpu: Ryzen 5 PRO 2400GE, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+M720q:      {pattern: '\bm720\s?q\b|\bm720\s?tiny\b', brand: Lenovo, gen: 8, cpu: i5-8400T, ram_max: 32, nvme: 1, bay25: true, pcie: true, src: k}
+M920q:      {pattern: '\bm920\s?q\b|\bm920\s?tiny\b', brand: Lenovo, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 1, bay25: true, pcie: true, src: v}
+M920x:      {pattern: '\bm920\s?x\b', brand: Lenovo, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 2, bay25: true, pcie: true, src: k}
+M75q:       {pattern: '\bm75q\b', brand: Lenovo, gen: ryzen3, cpu: Ryzen 5 PRO 3400GE, ram_max: 32, nvme: 1, bay25: true, pcie: false, gen_by_suffix: {"2": ryzen4}, src: k}
+M70q:       {pattern: '\bm70\s?q\b', brand: Lenovo, gen: 10, cpu: i5-10400T, ram_max: 64, nvme: 1, bay25: true, pcie: false, gen_by_suffix: {"2": 11, "3": 12, "4": 13, "5": 14}, src: k}
+M80q:       {pattern: '\bm80\s?q\b', brand: Lenovo, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, gen_by_suffix: {"2": 11, "3": 12, "4": 13, "5": 14}, src: k}
+M90q:       {pattern: '\bm90\s?q\b', brand: Lenovo, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 2, bay25: true, pcie: true, gen_by_suffix: {"2": 11, "3": 12, "4": 13, "5": 14}, src: k}
+
+Neo 50q:    {pattern: '\bneo\s?50q\b', brand: Lenovo, gen: 13, cpu: i5-13420H, ram_max: 64, nvme: 1, bay25: false, pcie: false, src: k}
+
+# ---------------------------------------------------------------- Dell OptiPlex Micro
+OptiPlex 3040 Micro: {pattern: 'optiplex\s?3040\s?(micro|m\b|mff)', brand: Dell, gen: 6, cpu: i5-6500T, ram_max: 16, nvme: 0, bay25: true, pcie: false, src: k}
+OptiPlex 3050 Micro: {pattern: 'optiplex\s?3050\s?(micro|m\b|mff)', brand: Dell, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 5050 Micro: {pattern: 'optiplex\s?5050\s?(micro|m\b|mff)', brand: Dell, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7050 Micro: {pattern: 'optiplex\s?7050\s?(micro|m\b|mff)', brand: Dell, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 3060 Micro: {pattern: 'optiplex\s?3060\s?(micro|m\b|mff)', brand: Dell, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 5060 Micro: {pattern: 'optiplex\s?5060\s?(micro|m\b|mff)', brand: Dell, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7060 Micro: {pattern: 'optiplex\s?7060\s?(micro|m\b|mff)', brand: Dell, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 3070 Micro: {pattern: 'optiplex\s?3070\s?(micro|m\b|mff)', brand: Dell, gen: 9, cpu: i5-9500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 5070 Micro: {pattern: 'optiplex\s?5070\s?(micro|m\b|mff)', brand: Dell, gen: 9, cpu: i5-9500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7070 Micro: {pattern: 'optiplex\s?7070\s?(micro|m\b|mff)', brand: Dell, gen: 9, cpu: i5-9500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 3080 Micro: {pattern: 'optiplex\s?3080\s?(micro|m\b|mff)', brand: Dell, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 5080 Micro: {pattern: 'optiplex\s?5080\s?(micro|m\b|mff)', brand: Dell, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7080 Micro: {pattern: 'optiplex\s?7080\s?(micro|m\b|mff)', brand: Dell, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7090 Micro: {pattern: 'optiplex\s?7090\s?(micro|m\b|mff)', brand: Dell, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 3020 Micro: {pattern: 'optiplex\s?(3020|9020)\s?(micro|m\b|mff)', brand: Dell, gen: 4, cpu: i5-4590T, ram_max: 16, nvme: 0, bay25: true, pcie: false, src: k}
+OptiPlex 3090 Micro: {pattern: 'optiplex\s?3090\s?(micro|m\b|mff)', brand: Dell, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 3000 Micro: {pattern: 'optiplex\s?3000\s?(micro|m\b|mff)|\bdell\s?3000\s?mini', brand: Dell, gen: 12, cpu: i5-12500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7000 Micro: {pattern: 'optiplex\s?7000\s?(micro|m\b|mff)', brand: Dell, gen: 12, cpu: i5-12500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7010 Micro: {pattern: 'optiplex\s?(micro\s?)?7010\s?(micro|m\b|mff)?', brand: Dell, gen: 13, cpu: i5-13500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex 7020 Micro: {pattern: 'optiplex\s?(micro\s?)?7020\s?(micro|m\b|mff)?', brand: Dell, gen: 14, cpu: i5-14500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+OptiPlex Micro:      {pattern: 'optiplex.{0,20}\b(micro|mff)\b', brand: Dell, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+
+# ---------------------------------------------------------------- HP EliteDesk / ProDesk Mini (G-nummer bepaalt generatie)
+EliteDesk 800 G1 Mini: {pattern: 'elitedesk\s?800\s?g1\b', brand: HP, gen: 4, cpu: i5-4590T, ram_max: 16, nvme: 0, bay25: true, pcie: false, src: k}
+EliteDesk 800 G8 Mini: {pattern: 'elitedesk\s?800\s?g8\b', brand: HP, gen: 11, cpu: i5-11500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, src: k}
+EliteDesk 800 G9 Mini: {pattern: 'elitedesk\s?800\s?g9\b', brand: HP, gen: 12, cpu: i5-12500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, src: k}
+EliteDesk 705 G4 Mini: {pattern: 'elitedesk\s?705\s?g4\b', brand: HP, gen: ryzen2, cpu: Ryzen 5 PRO 2400GE, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+EliteDesk 705 G5 Mini: {pattern: 'elitedesk\s?705\s?g5\b', brand: HP, gen: ryzen3, cpu: Ryzen 5 PRO 3400GE, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 600 G1 Mini:   {pattern: 'prodesk\s?600\s?g1\b', brand: HP, gen: 4, cpu: i5-4590T, ram_max: 16, nvme: 0, bay25: true, pcie: false, src: k}
+ProDesk 400 G2 Mini:   {pattern: 'prodesk\s?(400\s?)?g2\b', brand: HP, gen: 6, cpu: i5-6500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 400 G6 Mini:   {pattern: 'prodesk\s?400\s?g6\b', brand: HP, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 1, bay25: true, pcie: false, src: k}
+EliteDesk 800 G2 Mini: {pattern: 'elitedesk\s?800\s?g2\b', brand: HP, gen: 6, cpu: i5-6500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+EliteDesk 800 G3 Mini: {pattern: 'elitedesk\s?800\s?g3\b', brand: HP, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+EliteDesk 800 G4 Mini: {pattern: 'elitedesk\s?800\s?g4\b', brand: HP, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 2, bay25: true, pcie: false, src: k}
+EliteDesk 800 G5 Mini: {pattern: 'elitedesk\s?800\s?g5\b', brand: HP, gen: 9, cpu: i5-9500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, src: k}
+EliteDesk 800 G6 Mini: {pattern: 'elitedesk\s?800\s?g6\b', brand: HP, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, src: k}
+ProDesk 400 G3 Mini:   {pattern: 'prodesk\s?400\s?g3\b', brand: HP, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 400 G4 Mini:   {pattern: 'prodesk\s?400\s?g4\b', brand: HP, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 400 G5 Mini:   {pattern: 'prodesk\s?400\s?g5\b', brand: HP, gen: 9, cpu: i5-9500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 600 G2 Mini:   {pattern: 'prodesk\s?600\s?g2\b', brand: HP, gen: 6, cpu: i5-6500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 600 G3 Mini:   {pattern: 'prodesk\s?600\s?g3\b', brand: HP, gen: 7, cpu: i5-7500T, ram_max: 32, nvme: 1, bay25: true, pcie: false, src: k}
+ProDesk 600 G4 Mini:   {pattern: 'prodesk\s?600\s?g4\b', brand: HP, gen: 8, cpu: i5-8500T, ram_max: 32, nvme: 2, bay25: true, pcie: false, src: k}
+ProDesk 600 G5 Mini:   {pattern: 'prodesk\s?600\s?g5\b', brand: HP, gen: 9, cpu: i5-9500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, src: k}
+ProDesk 600 G6 Mini:   {pattern: 'prodesk\s?600\s?g6\b', brand: HP, gen: 10, cpu: i5-10500T, ram_max: 64, nvme: 2, bay25: true, pcie: false, src: k}
+
+# ---------------------------------------------------------------- Intel NUC (nummer = generatie)
+NUC7:  {pattern: '\bnuc\s?7', brand: Intel, gen: 7, cpu: i5-7260U, ram_max: 32, nvme: 1, bay25: null, pcie: false, src: k}
+NUC8:  {pattern: '\bnuc\s?8', brand: Intel, gen: 8, cpu: i5-8259U, ram_max: 32, nvme: 1, bay25: null, pcie: false, src: k}
+NUC10: {pattern: '\bnuc\s?10', brand: Intel, gen: 10, cpu: i5-10210U, ram_max: 64, nvme: 1, bay25: null, pcie: false, src: k}
+NUC11: {pattern: '\bnuc\s?11', brand: Intel, gen: 11, cpu: i5-1135G7, ram_max: 64, nvme: 1, bay25: null, pcie: false, src: k}
+NUC12: {pattern: '\bnuc\s?12', brand: Intel, gen: 12, cpu: i5-1240P, ram_max: 64, nvme: 1, bay25: null, pcie: false, src: k}
+NUC13: {pattern: '\bnuc\s?13', brand: Intel, gen: 13, cpu: i5-1340P, ram_max: 64, nvme: 1, bay25: null, pcie: false, src: k}

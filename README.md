@@ -1,17 +1,18 @@
 # Marktplaats-tracker
 
-Houdt Marktplaats.nl bij voor homelab-onderdelen (SATA-schijven 4TB+, 4-bay DAS, 4-bay NAS) en publiceert een
+Houdt Marktplaats.nl bij voor homelab-onderdelen (SATA-schijven 4TB+ en mini-pc's) en publiceert een
 overzichtspagina op GitHub Pages: **https://knippels.github.io/marktplaats-tracker/**
 
 Per zoekcategorie toont de pagina:
 - **Tabel (bovenaan)** met deals (groen) en nieuwe advertenties (blauwe rand) gemarkeerd, en snelfilters
   - schijven: merk, type, grootte, aantal, prijs per stuk, totaal, €/TB
-  - DAS/NAS: merk, type, bays, aansluitingen (USB-C, USB 3.x, eSATA, Thunderbolt, LAN…), meegeleverde opslag, hoogste bod
-- **NAS-score (0–10) en OMV-kolom** (categorie 4-bay NAS): het model wordt herkend en opgezocht in
-  `scraper/nas_models.yml`. Score = 35% platform (x86-64 met ander OS mogelijk > x86 zonder > ARM64 > ARM32 > ARMv5/PPC),
-  25% processorklasse, 25% geheugen (vermeld in advertentie of standaard), 15% OS-updates (actief/beperkt/EOL),
-  plus bonus voor 2.5/10 GbE en M.2. OMV: ✓ x86-64 met beeldscherm-uitgang, ~ met omweg, ✗ niet (ARM 32-bit, Synology).
-  Model ontbreekt? Voeg een regel toe aan `scraper/nas_models.yml`.
+  - mini-pc's: merk, model, score, processor + generatie, RAM (en maximum), opslag, prijs, € per scorepunt
+- **Mini-pc-score (0–10) voor Proxmox + Jellyfin** (`scraper/minipc.py`, modellen in `scraper/minipc_models.yml`):
+  30% processor (klasse + generatie), 25% Jellyfin-transcodering via de iGPU (volgens de Jellyfin-documentatie:
+  6e gen geen HEVC 10-bit, 7e–10e gen HEVC 10-bit, 11e gen/N100 ook AV1-decode, F-processors geen iGPU, AMD lager),
+  20% RAM (vermeld, met bonus als uitbreiden tot 32 GB+ kan), 10% opslag (SSD/NVMe), 15% uitbreiding
+  (2 schijfsloten, PCIe-slot zoals in M720q/M920q/M90q). Staat de processor niet in de advertentie, dan wordt de meest
+  voorkomende processor van dat model aangenomen ("aanname"). Deals = goedkoopste 25% in euro per scorepunt.
 - **Gezien & favorieten**: per advertentie ☆ (favoriet) en ✓ (gezien), alleen handmatig.
   Snelfilter "★ Favorieten" en vinkje "gezien verbergen". Favorieten blijven altijd zichtbaar, ook als ze gezien,
   gereserveerd of verdwenen zijn. Synchronisatie tussen apparaten via de knop naast "Bijgewerkt": plak een

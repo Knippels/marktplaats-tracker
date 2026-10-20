@@ -6,8 +6,8 @@
 # Nieuwe zoekterm toevoegen = nieuw blok onder `categories:` kopiëren en aanpassen.
 #
 # Velden per categorie:
-#   nas_score       (optioneel) true = score 0-10 en OMV-kolom op basis van scraper/nas_models.yml
-#   kind            hdd (schijven) of enclosure (DAS/NAS) — bepaalt welke kolommen de tabel toont
+#   kind            hdd (schijven), minipc (mini-pc's met Proxmox/Jellyfin-score) of enclosure (DAS/NAS)
+#                   — bepaalt welke kolommen de tabel toont
 #   id              unieke korte naam (alleen a-z, 0-9 en -), wordt de bestandsnaam
 #   name            naam op de pagina
 #   queries         één of meer zoekopdrachten op Marktplaats (resultaten worden samengevoegd)
@@ -15,7 +15,7 @@
 #   exclude         (optioneel) regex: advertentie wordt overgeslagen als dit matcht
 #   min_price/max_price  (optioneel) in euro's; buiten dit bereik wordt genegeerd
 #   min_tb          (optioneel) minimale capaciteit in TB (gelezen uit de titel)
-#   metric          "price" (standaard) of "price_per_tb" — waarop grafiek en deals gebaseerd zijn
+#   metric          "price" (standaard), "price_per_tb" of "price_per_score" (€ per scorepunt) — waarop grafiek en deals gebaseerd zijn
 #   deal_max        (optioneel) vaste grens: alles op of onder deze waarde (in de metric) is "interessant"
 #   deal_percentile (optioneel, standaard 25) als deal_max ontbreekt: goedkoopste X% van actieve advertenties
 #
@@ -52,64 +52,35 @@ categories:
     metric: price_per_tb
     deal_max: 12   # €/TB
 
-  - id: das-4-bay
-    name: "4-bay DAS"
-    kind: enclosure    # tabel: merk, type, bays, aansluitingen, meegeleverde opslag
-    # Zoektermen gebaseerd op hoe DAS-behuizingen echt op Marktplaats staan
-    # (categorieën Harde schijven, NAS en Dockingstations; titels als "4-bay behuizing",
-    # "4HDD behuizing", "4x 3,5\" SATA ... USB3 eSATA", "Disk Enclosure", "Docking Station")
+  - id: mini-pc
+    name: "Mini-pc's"
+    kind: minipc       # tabel: merk, model, score, processor + generatie, RAM, opslag
     queries:
-      - "4-bay"
-      - "4 bay behuizing"
-      - "4hdd behuizing"
-      - "4x 3,5 behuizing"
-      - "das behuizing"
-      - "das storage"
-      - "disk enclosure"
-      - "harde schijf behuizing"
-      - "hdd behuizing 3.5"
-      - "raid behuizing"
-      - "esata behuizing"
-      - "hdd docking station"
-      - "terramaster"
-      - "terramaster d4"
-      - "orico"
-      - "icy box"
-      - "mediasonic"
-      - "yottamaster"
-      - "sabrent"
-      - "qnap tr-004"
-      - "fantec"
-      - "raidsonic"
-    include: '(\b4[\s-]?(bay|bays|slots?|sleuven|voudig|hdd|disks?|drives?|schijven)\b|\b4\s?x\s?3[.,]5|\bd4-?\d{3}|tr-?004)'
-    # uitgesloten: complete NAS'en (merken/modellen), servers/chassis, 2,5"-only, NVMe-hybride, niet-IT
-    exclude: '\b(gezocht|synology|diskstation|rackstation|ds\d{3}(?!\d)\w*|rx\d{3}\w*|ts-?\d{3}\w*|tl-d\d+\w*|readynas|rn\d{3,4}\w*|netgear|zyxel|thecus|asustor\s?as|as-?\d{3,4}\w*|f\d-\d{3}\w*|d[1235]-\d{3}\w*|[1235678][\s-]?bays?|business\s?storage|network|netwerk\w*|gigabit|dsm|expansion\s?(module|box|unit)|nas\s?(chassis|server|systeem)|chassis|moederbord|mediastation|rack\w*|server\w*|1u|2u|nvme|m\.2|voor\s2[.,]5\s?(inch|"|'')|2[.,]5\s?(inch|"|'')\s?only|hopper|sterilisator)\b'
-    min_price: 20
-    max_price: 400
-    metric: price
-    deal_percentile: 25
-
-  - id: nas-4-bay
-    name: "4-bay NAS"
-    kind: enclosure    # tabel: merk, type, bays, aansluitingen, meegeleverde opslag
-    nas_score: true    # bruikbaarheidsscore + OMV-kolom (modellen in scraper/nas_models.yml)
-    # Complete NAS'en met 4 schijfsloten (met of zonder schijven). Prijs is inclusief eventuele schijven.
-    queries:
-      - "4-bay nas"
-      - "4 bay nas"
-      - "nas 4x"
-      - "qnap ts-4"
-      - "qnap ts"
-      - "synology ds4"
-      - "synology ds9"
-      - "synology 4 bay"
-      - "terramaster f4"
-      - "asustor 4 bay"
-      - "readynas"
-    # 4-bay in titel/omschrijving, of een bekend 4-bay-model
-    include: '(\b4[\s-]?(bay|bays|slots?|sleuven|disks?|drives?|schijven)\b|\b4\s?x\s?\d{1,2}\s?tb\b|\bts-?4\d{2}\w*|\bds4\d{2}\w*|\bds9\d{2}\w*|\bf4-\d{3}\w*|\bas\d?4\d{2}\w*|\brn\d?[13]?\d?4\b|\brn[123]4\d{2}\w*|\bix4\b)'
-    exclude: '\b(gezocht|defect\w*|kapot|reparatie|onderdelen|[1235678][\s-]?bays?|1u|2u|rack\w*|rackstation|rs\d{3,4}\w*|rx\d{3}\w*|\w+-rp\+?|ts-?\d{3,4}(u|xu|pxu)\w*|expansion|jbod|netapp|chassis|moederbord|d[1235]-\d{3}\w*|ram\s?modules?|lade|tray|caddy|beugel|das|docking\w*|dock|behuizing|enclosure|kast|esata|usb[\s-]?c|thunderbolt|nvme|lacie|voor\s2[.,]5|sterilisator|uv\w*|hopper)\b'
-    min_price: 30
-    max_price: 900
-    metric: price
+      - "lenovo tiny"
+      - "thinkcentre tiny"
+      - "m900 tiny"
+      - "m910q"
+      - "m920q"
+      - "m720q"
+      - "m710q"
+      - "m70q"
+      - "m80q"
+      - "m90q"
+      - "m75q"
+      - "optiplex micro"
+      - "optiplex 7060 micro"
+      - "optiplex 7070 micro"
+      - "optiplex 3070 micro"
+      - "elitedesk mini"
+      - "prodesk mini"
+      - "intel nuc"
+      - "mini pc n100"
+      - "beelink"
+      - "minisforum"
+    include: '(tiny|\bm\d{2,3}q\b|\bneo\s?\d{2}q\b|micro|\bmff\b|\bmini\b|\bdm\b|\bnuc\d*|beelink|minisforum|gmktec|trigkey|mini[\s-]?pc)'
+    # uitgesloten: onderdelen/accessoires, grotere behuizingen, laptops, niet-x86
+    exclude: '\b(gezocht|defect\w*|kapot|onderdelen|moederbord|voeding|adapter|lader|behuizing|vesa|beugel|bracket|riser|koeler|fan|ventilator|monitor|scherm|toetsenbord|muis|kabel|sff|tower|laptop|notebook|thinkpad|raspberry|android|tv[\s-]?box|mini[\s-]?(dp|displayport|hdmi|usb)|speaker|camera|aio|all[\s-]?in[\s-]?one|tiny[\s-]?in[\s-]?one|tio[\s-]?\d{2})\b'
+    min_price: 40
+    max_price: 800
+    metric: price_per_score   # deals = goedkoopste 25% in euro per scorepunt
     deal_percentile: 25

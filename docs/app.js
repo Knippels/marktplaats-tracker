@@ -21,10 +21,12 @@ function el(tag, attrs = {}, ...children) {
   return n;
 }
 
-function metricLabel(cat) { return cat.metric === "price_per_tb" ? "€/TB" : "prijs"; }
+function metricLabel(cat) { return { price_per_tb: "€/TB", price_per_score: "€ per scorepunt" }[cat.metric] || "prijs"; }
 function fmtMetric(cat, v) {
   if (v === null || v === undefined) return "–";
-  return cat.metric === "price_per_tb" ? fmtEur2.format(v) + "/TB" : fmtEur.format(v);
+  if (cat.metric === "price_per_tb") return fmtEur2.format(v) + "/TB";
+  if (cat.metric === "price_per_score") return fmtEur2.format(v) + "/punt";
+  return fmtEur.format(v);
 }
 function fmtPrice(item) {
   if (item.price === null || item.price === undefined) {
@@ -131,7 +133,7 @@ function renderCategory(cat) {
   main.querySelector(".deal-rule").textContent = cat.deal_threshold === null ? "" :
     `deal = ${metricLabel(cat)} ≤ ${fmtMetric(cat, cat.deal_threshold)} (${cat.deal_rule})`;
   if (cat.kind !== "hdd") main.querySelector(".hdd-only").remove();
-  if (!cat.nas_score) main.querySelector(".nas-only").remove();
+  if (cat.kind !== "minipc") main.querySelector(".minipc-only").remove();
   main.querySelector(".new-hint").textContent = `afgelopen ${windowH} uur`;
 
   const hideRes = main.querySelector(".hide-reserved");
@@ -182,7 +184,7 @@ function fillCards(box, list, cat, isUnseen, emptyText) {
           it.reserved ? el("span", { class: "badge gone" }, "gereserveerd") : null),
         el("div", { class: "title", title: it.title }, it.title),
         el("div", { class: "price" }, cat.kind === "hdd" && it.qty > 1 && it.price_each != null ? `${it.qty}× ${fmtEur.format(it.price_each)}` : fmtPrice(it), showMetric ? el("span", { class: "metric" }, fmtMetric(cat, it.metric)) : null),
-        el("div", { class: "meta" }, [it.city, "online sinds " + fmtDate.format(new Date(it.first_seen)), UserState.isSeen(it.id) ? "gezien" : null].filter(Boolean).join(" · ")))));
+        el("div", { class: "meta" }, [cat.kind === "minipc" && it.score != null ? `score ${it.score.toFixed(1).replace(".", ",")}` : null, it.city, "online sinds " + fmtDate.format(new Date(it.first_seen)), UserState.isSeen(it.id) ? "gezien" : null].filter(Boolean).join(" · ")))));
   }));
 }
 
@@ -262,12 +264,19 @@ function columnsFor(cat) {
       { label: "€/TB", num: true, key: "metric", sort: (i) => i.metric, cell: (i) => (i.metric == null ? dash : fmtEur2.format(i.metric)) },
       common.city, common.seen];
   }
-  const nas = cat.nas_score ? [
-    { label: "Score", num: true, key: "score", sort: (i) => i.score, cell: scoreCell },
-    { label: "OMV", sort: (i) => ({ ja: 2, omweg: 1, nee: 0 }[i.omv] ?? -1), cell: omvCell },
-    { label: "CPU · RAM", sort: (i) => i.ram_gb, cell: (i) => (i.nas_model ? el("span", { class: "cpu" }, shortCpu(i.cpu), el("span", { class: "sub-num" }, fmtGb(i.ram_gb) + (i.ram_stated ? " (vermeld)" : ""))) : dash) },
-  ] : [];
-  return [common.title, common.brand, common.type, ...nas,
+  if (cat.kind === "minipc") {
+    return [common.title, common.brand,
+      { label: "Model", sort: (i) => i.model, cell: (i) => i.model || dash },
+      { label: "Score", num: true, key: "score", sort: (i) => i.score, cell: scoreCell },
+      { label: "Processor", sort: (i) => i.cpu_gen_num ?? genNum(i), cell: cpuCell },
+      { label: "RAM", num: true, sort: (i) => i.ram_gb, cell: (i) => el("span", {}, i.ram_gb == null ? el("span", { class: "muted" }, "niet vermeld") : i.ram_gb === 0 ? "geen" : `${num(i.ram_gb)} GB`,
+          i.ram_max ? el("span", { class: "sub-num" }, `max ${i.ram_max} GB`) : null) },
+      { label: "Opslag", sort: (i) => i.ssd_gb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted" }, "niet vermeld")) },
+      { label: "Prijs", num: true, sort: (i) => i.price, cell: (i) => el("span", {}, fmtPrice(i), i.highest_bid ? el("span", { class: "sub-num", title: "Hoogste bod" }, ` bod ${fmtEur.format(i.highest_bid)}`) : null) },
+      { label: "€/punt", num: true, key: "metric", sort: (i) => i.metric, cell: (i) => (i.metric == null ? dash : fmtEur2.format(i.metric)) },
+      common.city, common.seen];
+  }
+  return [common.title, common.brand, common.type,
     { label: "Bays", num: true, sort: (i) => i.bays, cell: (i) => num(i.bays) },
     { label: "Aansluitingen", sort: (i) => (i.connections || []).join(" "), cell: (i) => ((i.connections || []).length ? el("span", { class: "conns" }, ...i.connections.map((c) => el("span", { class: "conn" }, c))) : dash) },
     { label: "Meegeleverde opslag", sort: (i) => i.storage_tb, cell: (i) => (i.storage ? el("span", { class: i.storage === "Geen" ? "muted" : "" }, i.storage) : el("span", { class: "muted", title: "Niet vermeld in de advertentie (of niet herkend)" }, "niet vermeld")) },
@@ -284,11 +293,16 @@ function scoreCell(i) {
   return el("span", { class: `score ${cls}`, title: (i.score_why || []).join("\n") }, i.score.toFixed(1).replace(".", ","));
 }
 
-function omvCell(i) {
-  if (!i.omv) return el("span", { class: "muted", title: "Model niet herkend" }, dash);
-  const map = { ja: ["✓", "omv-yes"], omweg: ["~", "omv-maybe"], nee: ["✗", "omv-no"] };
-  const [sym, cls] = map[i.omv];
-  return el("span", { class: `omv ${cls}`, title: i.omv_why || "", "aria-label": `OMV: ${i.omv}` }, sym);
+function genNum(i) {
+  const m = /^(\d+)e gen/.exec(i.cpu_gen || "");
+  return m ? Number(m[1]) : i.cpu_gen === "Alder Lake-N" ? 12 : null;
+}
+
+function cpuCell(i) {
+  if (!i.cpu) return el("span", { class: "muted" }, "niet herkend");
+  return el("span", { class: "cpu", title: i.qsv || "" },
+    i.cpu, i.cpu_assumed ? el("span", { class: "muted", title: "Niet in de advertentie; meest voorkomende processor voor dit model" }, " (aanname)") : null,
+    el("span", { class: "sub-num" }, i.cpu_gen || ""));
 }
 
 function renderTable(main, cat, items, isUnseen, onFilterChange = () => {}) {
@@ -369,7 +383,7 @@ function renderTable(main, cat, items, isUnseen, onFilterChange = () => {}) {
     const th = e.target.closest("th[data-idx]");
     if (!th) return;
     const idx = Number(th.dataset.idx);
-    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: !["Online sinds", "Score", "OMV"].includes(cols[idx].label) };
+    sort = sort.idx === idx ? { idx, asc: !sort.asc } : { idx, asc: !["Online sinds", "Score"].includes(cols[idx].label) };
     draw();
   });
   chips.forEach((b) => b.addEventListener("click", () => {

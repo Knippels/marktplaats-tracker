@@ -176,10 +176,6 @@ code { font-size: 12px; background: var(--grid); padding: 1px 5px; border-radius
 .score.good { background: var(--good-bg); color: var(--good-text); }
 .score.mid { background: var(--drop-bg); color: var(--drop-text); }
 .score.low { background: var(--grid); color: var(--muted); }
-.omv { font-weight: 700; font-size: 15px; cursor: help; }
-.omv-yes { color: var(--good-text); }
-.omv-maybe { color: var(--drop-text); }
-.omv-no { color: var(--muted); }
 .cpu { white-space: nowrap; }
 
 /* ---- gezien / favorieten / sync ---- */

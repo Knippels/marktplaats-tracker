@@ -51,12 +51,6 @@ def test_hdd_filters():
     assert not run.matches(_item("Synology DS918+ met 4x 4TB", 500), cat)
 
 
-def test_das_filters():
-    cat = load_cats()["das-4-bay"]
-    assert not run.matches(_item("Synology DS418 4 bay NAS", 250), cat)
-    assert not run.matches(_item("Gezocht: 4 bay das", 50), cat)
-
-
 def test_update_cycle(tmp_path):
     cat = load_cats()["hdd-sata-4tb-plus"]
     t0 = datetime(2026, 10, 1, 12, tzinfo=timezone.utc)
@@ -91,41 +85,12 @@ def test_hdd_excludes_from_first_run():
         assert not run.matches(_item(t, 80), cat), t
 
 
-def test_das_excludes_from_first_run():
-    cat = load_cats()["das-4-bay"]
-    for t in ["Asustor DAS 4-bay behuizing", "Promise DS4600 4-Bay DAS Storage",
-              "ICY BOX 4HDD behuizing 3.5 inch USB 3.2 gen1 eSATA",
-              "Mediasonic PRORAID RAID/NAS 4x 3,5\" SATA HDD USB3 eSATA",
-              "Orico 4 Bay USB 3.0 Docking Station voor 2.5/3.5", "TerraMaster D4-300 4-bay DAS"]:
-        assert run.matches(_item(t, 100), cat), t
-    for t in ["SP 4+3 4-Bay NAS Chassis M-ATX Moederbord SFX PSU",
-              "SABRENT 4-bay USB-C docking station voor 2,5 inch SATA",
-              "QNAP TS-431P 4-Bay NAS - Zonder harde schijven", "Synology DS416j - NAS - 4-Bay",
-              "Terramaster F4-424 Max NAS - Krachtige 4-bay opslag",
-              "ACASIS 40Gb/s 4-Bay Hybride HDD en NVMe kast",
-              "NETGEAR ReadyNAS RN2120 4-Bay NAS 1U Rackmount"]:
-        assert not run.matches(_item(t, 80), cat), t
-
-
 def test_stored_listing_dropped_when_filter_tightens(tmp_path):
     cat = dict(load_cats()["hdd-sata-4tb-plus"], exclude=None)
     t0 = datetime(2026, 10, 1, tzinfo=timezone.utc)
     run.update_category(cat, [_item("Defecte WD 8TB", 40, "x")], True, tmp_path, t0)
     res = run.update_category(load_cats()["hdd-sata-4tb-plus"], [], True, tmp_path, t0 + timedelta(hours=3))
     assert "mp-x" not in res["listings"]
-
-
-def test_nas_4_bay():
-    cat = load_cats()["nas-4-bay"]
-    for t in ["QNAP TS-412 NAS met 4x 2TB (8TB totaal)", "QNAP TS-420 NAS (zonder adapter)",
-              "Synology DS415+ NAS met 8Gb geheugen (zonder harde schijven)", "Netgear 4 Bay NAS de RN104",
-              "Terramaster F4-424 Max NAS", "iOmega Storcenter ix4-200d NAS"]:
-        assert run.matches(_item(t, 150), cat), t
-    for t in ["QNAP TS-233 2-bay NAS", "Synology DS1815+ NAS Server - 8-bay",
-              "QNAP TS-432PXU-RP NAS Server met Dual M.2", "Synology RackStation RS814 1U 4-Bay NAS",
-              "QNAP TS-453U 4-Bay Rackmount NAS - DEFECT", "SP 4+3 4-Bay NAS Chassis M-ATX Moederbord",
-              "TerraMaster D2-320 USB Externe Disk Enclosure NAS", "Gezocht: Synology DS418"]:
-        assert not run.matches(_item(t, 150), cat), t
 
 
 def test_update_uses_price_per_piece(tmp_path):
