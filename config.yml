@@ -79,7 +79,7 @@ categories:
       - "minisforum"
     include: '(tiny|\bm\d{2,3}q\b|\bneo\s?\d{2}q\b|micro|\bmff\b|\bmini\b|\bdm\b|\bnuc\d*|beelink|minisforum|gmktec|trigkey|mini[\s-]?pc)'
     # uitgesloten: onderdelen/accessoires, grotere behuizingen, laptops, niet-x86
-    exclude: '\b(gezocht|defect\w*|kapot|onderdelen|moederbord|voeding|adapter|lader|behuizing|vesa|beugel|bracket|riser|koeler|fan|ventilator|monitor|scherm|toetsenbord|muis|kabel|sff|tower|laptop|notebook|thinkpad|raspberry|android|tv[\s-]?box|mini[\s-]?(dp|displayport|hdmi|usb)|speaker|camera|aio|all[\s-]?in[\s-]?one|tiny[\s-]?in[\s-]?one|tio[\s-]?\d{2})\b'
+    exclude: '\b(gezocht|defect\w*|kapot|onderdelen|moederbord|voeding|adapter|lader|behuizing|vesa|beugel|bracket|riser|koeler|fan|ventilator|monitor|scherm|toetsenbord|muis|kabel|sff|tower|laptop|notebook|thinkpad|raspberry|android|tv[\s-]?box|mini[\s-]?(dp|displayport|hdmi|usb)|speaker|camera|motherboard|mainboard|so-?dimm|heatsink|aio|all[\s-]?in[\s-]?one|tiny[\s-]?in[\s-]?one|tio[\s-]?\d{2})\b'
     min_price: 40
     max_price: 800
     metric: price_per_score   # deals = goedkoopste 25% in euro per scorepunt

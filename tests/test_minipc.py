@@ -59,3 +59,17 @@ def test_scores_rank_sensibly():
 def test_assumed_cpu_when_not_stated():
     r = evaluate("Lenovo ThinkCentre M920q Tiny 16GB", "")
     assert r["cpu_assumed"] and r["cpu"] == "i5-8500T"
+
+
+def test_parts_are_excluded():
+    import yaml
+    from scraper import marktplaats, run
+    cat = {c["id"]: c for c in yaml.safe_load(open("config.yml"))["categories"]}["mini-pc"]
+    def item(t, p):
+        raw = {"itemId": "m1", "title": t, "description": "", "priceInfo": {"priceCents": p * 100, "priceType": "FIXED"}, "vipUrl": "/v/x"}
+        return run.enrich(marktplaats.parse_listing(raw), cat)
+    for t in ["Lenovo ThinkCentre IQ2X0IH M710q M910q Motherboard", "DDR4 8GB (2x 4GB) SODIMM PC3200 geheugen",
+              "Lenovo ThinkCentre Tiny-In-One 22 Gen 3 21.5\" FHD Monitor", "Gezocht: mini PC Micro Tiny met Intel i5-10500T",
+              "65W CPU Cooling Fan 01EF556 BAZA0815B2U Replacement"]:
+        assert not run.matches(item(t, 50), cat), t
+    assert run.matches(item("Lenovo Thinkcentre M720Q I5-8500T 3.5GHz 16GB DDR4", 200), cat)
