@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T23:52:50Z",
+ "updated": "2026-10-21T04:46:56Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -16,9 +16,9 @@
    "name": "Mini-pc's",
    "metric": "price_per_score",
    "kind": "minipc",
-   "active": 323,
+   "active": 324,
    "deals": 52,
-   "new": 323
+   "new": 324
   }
  ]
 }
