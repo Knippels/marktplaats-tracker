@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T21:24:37Z",
+ "updated": "2026-10-24T04:36:37Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -9,7 +9,7 @@
    "kind": "hdd",
    "active": 156,
    "deals": 3,
-   "new": 22
+   "new": 20
   },
   {
    "id": "mini-pc",
@@ -18,7 +18,7 @@
    "kind": "minipc",
    "active": 321,
    "deals": 42,
-   "new": 30
+   "new": 28
   }
  ]
 }
