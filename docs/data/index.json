@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:26:41Z",
+ "updated": "2026-11-14T10:25:28Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -7,18 +7,18 @@
    "name": "SATA HDD 4TB+",
    "metric": "price_per_tb",
    "kind": "hdd",
-   "active": 210,
-   "deals": 7,
-   "new": 31
+   "active": 209,
+   "deals": 9,
+   "new": 32
   },
   {
    "id": "mini-pc",
    "name": "Mini-pc's",
    "metric": "price_per_score",
    "kind": "minipc",
-   "active": 346,
+   "active": 344,
    "deals": 54,
-   "new": 48
+   "new": 52
   }
  ]
 }
