@@ -315,4 +315,7 @@ def extract_enclosure(title: str, desc: str, price: float | None, attrs: dict | 
 def extract(kind: str, title: str, desc: str, price: float | None, attrs: dict | None = None) -> dict:
     if kind == "hdd":
         return extract_hdd(title, desc, price, attrs)
+    if kind == "algemeen":
+        # Eigen zoekopdracht zonder vaste kolommen: alleen de prijs telt.
+        return {"brand": (attrs or {}).get("brand"), "price_each": price, "price_total": price}
     return extract_enclosure(title, desc, price, attrs)

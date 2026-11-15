@@ -81,3 +81,12 @@ def test_expansion_fields():
     assert evaluate("Dell OptiPlex 7060 Micro i5-8500T", "")["pcie"] is False
     m = evaluate("Minisforum UM790 Pro Ryzen 9 7940HS 32GB", "USB4 en OCuLink poort")
     assert m["oculink"] and m["tb_usb4"]
+
+
+def test_score_parts_add_up_to_score():
+    r = evaluate("Lenovo ThinkCentre M720q Gen 3 | i5-12400T | 16GB | 256GB SSD", "")
+    parts = r["score_parts"]
+    assert [p["key"] for p in parts] == ["cpu", "jellyfin", "ram", "opslag", "uitbreiding"]
+    assert abs(sum(p["weight"] for p in parts) - 1.0) < 1e-9
+    assert abs(sum(p["weight"] * p["points"] for p in parts) - r["score"]) < 0.06
+    assert all(0 <= p["points"] <= 10 and p["text"] and not p["text"].endswith("/10)") for p in parts)

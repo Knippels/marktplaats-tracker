@@ -13,26 +13,31 @@ Per zoekcategorie toont de pagina:
   20% RAM (vermeld, met bonus als uitbreiden tot 32 GB+ kan), 10% opslag (SSD/NVMe), 15% uitbreiding
   (2 schijfsloten, PCIe-slot zoals in M720q/M920q/M90q). Staat de processor niet in de advertentie, dan wordt de meest
   voorkomende processor van dat model aangenomen ("aanname"). Deals = goedkoopste 25% in euro per scorepunt.
-- **Gezien & favorieten**: per advertentie ☆ (favoriet) en ✓ (gezien), alleen handmatig.
-  Snelfilter "★ Favorieten" en vinkje "gezien verbergen". Favorieten blijven altijd zichtbaar, ook als ze gezien,
-  gereserveerd of verdwenen zijn. Synchronisatie tussen apparaten via de knop naast "Bijgewerkt": plak een
-  fine-grained GitHub-token (alleen deze repo, Contents: read & write). De markeringen staan in `state.json` op de
-  branch `user-state` (die branch start geen scraper-run). Zonder token blijft alles in de browser.
-- **Interessante aanbiedingen**: onder een vaste grens (bijv. ≤ €12/TB) of de goedkoopste 25%
-- **Nieuw binnen**: advertenties van de afgelopen 48 uur; blauwe rand = nieuw sinds je laatste bezoek
+- **Interessant en gezien**: per advertentie een ster (interessant) en een vinkje (gezien, dus niet interessant),
+  alleen handmatig. Het ene wist het andere. Snelfilter "Interessant" en in "Weergave" de optie "Gezien verbergen";
+  interessante advertenties blijven altijd zichtbaar. Synchronisatie tussen apparaten via de knop naast "Bijgewerkt":
+  plak een fine-grained GitHub-token (alleen deze repo, Contents: read & write). De markeringen staan in `state.json`
+  op de branch `user-state` (die branch start geen scraper-run). Zonder token blijft alles in de browser.
+- **Tabel**: schone rijen. Klik op een rij voor de details (foto, opbouw van het cijfer, sterke en zwakke punten,
+  verborgen kolommen, omschrijving). Filter per kolom in de rij onder de kopjes, sorteren door op een kopje te klikken,
+  kolommen slepen of via "Kolommen" verbergen, tonen en herschikken (wordt per tabblad onthouden in de browser).
+  De tabel past zich aan de schermbreedte aan; op een telefoon worden het kaartjes.
+- **Score uitgelegd**: klik of hover op een score of op €/punt of €/TB voor de berekening. Per onderdeel staat het
+  gewicht, het cijfer en de reden; dit komt uit `score_parts` in de data (`scraper/minipc.py`).
+- **Vergelijken**: vink 2 tot 4 advertenties aan en kies "Vergelijk"; de beste waarde per rij is groen.
+- **Deals**: onder een vaste grens (bijv. ≤ €12/TB) of de goedkoopste 25%
+- **Nieuw**: advertenties van de afgelopen 48 uur; blauwe rand/stip = nieuw sinds je laatste bezoek
 - **Prijsverloop**: dagelijks mediaan, goedkoopste 25% en laagste prijs (voor HDD's in €/TB)
-- **Alle advertenties**: sorteerbaar en filterbaar, inclusief prijsverlagingen en verdwenen advertenties
 
-## Zo werkt het
+## Tabbladen beheren
 
-1. GitHub Actions (`.github/workflows/scrape.yml`) draait elke 3 uur `python -m scraper.run`.
-2. De scraper zoekt op Marktplaats (nieuwste eerst, max. 100 per zoekterm), filtert met de regels uit
-   `config.yml` en werkt `docs/data/<categorie>.json` bij (eerste/laatste keer gezien, prijshistorie, deals).
-3. De data wordt gecommit en `docs/` wordt gepubliceerd op GitHub Pages.
+Via de pagina zelf: het plusje achter de tabbladen, "Tabbladen beheren" of "Tabblad bewerken". Dat past `config.yml`
+aan met hetzelfde GitHub-token als hierboven (Contents: read & write geldt voor alle branches). Verwijderen kan met
+"ongedaan maken"; de bewaarde gegevens van een verwijderd tabblad blijven in `docs/data/` staan. Na het opslaan
+draait de workflow vanzelf; een nieuw tabblad toont de resultaten na een paar minuten. Soorten: `algemeen` (alleen
+prijs), `hdd`, `minipc` en `enclosure`.
 
-Handmatig draaien: tab **Actions → Scrape & publiceer → Run workflow**.
-
-## Zoekterm toevoegen
+## Zoekterm toevoegen (handmatig)
 
 Voeg in `config.yml` een blok toe onder `categories:`, bijvoorbeeld:
 

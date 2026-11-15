@@ -123,3 +123,13 @@ def test_reserved_flag_and_not_a_deal(tmp_path):
                               datetime(2026, 10, 1, tzinfo=timezone.utc))
     rec = res["listings"]["mp-r1"]
     assert rec["reserved"] and rec["metric"] == 5 and rec["deal"] is False
+
+
+def test_algemeen_kind_uses_price():
+    cat = {"id": "pi", "name": "Pi", "kind": "algemeen", "queries": ["raspberry pi 5"], "metric": "price"}
+    p = marktplaats.parse_listing(dict(RAW, title="Raspberry Pi 5 8GB", itemId="pi1",
+                                       priceInfo={"priceCents": 6500, "priceType": "FIXED"}))
+    item = run.enrich(p, cat)
+    assert run.kind_of(cat) == "algemeen"
+    assert item["metric"] == 65.0 and item["price_each"] == 65.0
+    assert run.matches(item, cat)

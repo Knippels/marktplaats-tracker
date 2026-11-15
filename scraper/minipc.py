@@ -292,9 +292,18 @@ def evaluate(title: str, desc: str) -> dict:
     ]
     if mspec.get("src") == "k":
         why.append("Modelgegevens uit fabrikantspecificaties, niet los gecontroleerd")
+    # Deelpunten voor de uitleg op de pagina: gewicht, punten (0-10) en de reden per onderdeel.
+    # De tekst is dezelfde als in score_why, zonder het label en de "(x/10)" erachter.
+    parts = [("cpu", "Processor", 0.30, c), ("jellyfin", "Jellyfin-transcodering", 0.25, t),
+             ("ram", "Geheugen", 0.20, r), ("opslag", "Opslag", 0.10, s), ("uitbreiding", "Uitbreiding", 0.15, e)]
+    score_parts = []
+    for (key, label, weight, pts), line in zip(parts, why):
+        text = re.sub(r"^[^:]+:\s*", "", line)
+        text = re.sub(r"\s*\(\d+/10\)$", "", text)
+        score_parts.append({"key": key, "label": label, "weight": weight, "points": round(pts * 10, 1), "text": text})
     return {
         **expansion,
         "brand": brand, "model": mname, "cpu": cpu["name"], "cpu_gen": gen_label, "cpu_assumed": cpu_assumed,
         "qsv": t_txt, "ram_gb": ram, "ram_max": ram_max, "storage": storage, "ssd_gb": ssd_gb,
-        "score": score, "score_why": why,
+        "score": score, "score_why": why, "score_parts": score_parts,
     }
