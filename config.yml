@@ -84,3 +84,19 @@ categories:
     max_price: 800
     metric: price_per_score   # deals = goedkoopste 25% in euro per scorepunt
     deal_percentile: 25
+
+  - id: ram-ddr4
+    name: "RAM DDR4"
+    kind: algemeen
+    queries:
+      - "SODIM"
+      - "DDR4"
+      - "RAM"
+      - "Geheugen"
+      - "8 GB"
+      - "16 GB"
+      - "32 GB"
+    exclude: "\\b(defect|fouten|kapot)\\b"
+    min_price: 0
+    max_price: 200
+    metric: price
