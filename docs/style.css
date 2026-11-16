@@ -317,3 +317,8 @@ table.cmp { border-collapse: collapse; width: 100%; font-size: 14px; }
   .pop { position: fixed; left: 12px; right: 12px; top: auto; bottom: 12px; width: auto; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.t-clip { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bulk-prev { margin-top: 8px; }
+.bulk-count { margin: 0 0 4px; font-weight: 600; }
+.cond .fld { margin: 6px 0; }

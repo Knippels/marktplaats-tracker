@@ -25,6 +25,10 @@ Per zoekcategorie toont de pagina:
 - **Score uitgelegd**: klik of hover op een score of op €/punt of €/TB voor de berekening. Per onderdeel staat het
   gewicht, het cijfer en de reden; dit komt uit `score_parts` in de data (`scraper/minipc.py`).
 - **Vergelijken**: vink 2 tot 4 advertenties aan en kies "Vergelijk"; de beste waarde per rij is groen.
+- **Bulk bewerken**: knop "Bulk" boven de tabel. Voorwaarden op prijs, score en €/punt of €/TB, met voorbeeld en teller,
+  en dan alles tegelijk als gezien, interessant of gewist markeren. Met ongedaan maken.
+- **Gegevens aanpassen**: in de uitklap van een rij. Corrigeer wat de scraper verkeerd las (prijs, score, RAM, aantal, enz.).
+  Dit is een correctie in jouw weergave (veld `o` in `state.json`), de scraperdata blijft ongewijzigd; "Origineel herstellen" zet het terug.
 - **Deals**: onder een vaste grens (bijv. ≤ €12/TB) of de goedkoopste 25%
 - **Nieuw**: advertenties van de afgelopen 48 uur; blauwe rand/stip = nieuw sinds je laatste bezoek
 - **Prijsverloop**: dagelijks mediaan, goedkoopste 25% en laagste prijs (voor HDD's in €/TB)

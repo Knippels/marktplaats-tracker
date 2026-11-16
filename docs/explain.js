@@ -25,6 +25,11 @@ const Explain = (() => {
   const pct = (w) => `${Math.round(w * 100)}%`;
 
   function scoreBreakdown(i, cat) {
+    if (i.score_manual) {
+      return el("div", { class: "ex" }, el("p", { class: "ex-title" }, `Score ${f1(i.score)} van 10, handmatig aangepast`),
+        el("p", { class: "ex-sub" }, i.score_orig != null ? `De scraper berekende ${f1(i.score_orig)}. Jij hebt dit zelf op ${f1(i.score)} gezet.` : "Jij hebt deze score zelf ingevuld."),
+        el("p", { class: "ex-foot" }, metricSentence(i, cat)));
+    }
     const parts = scoreParts(i);
     if (i.score == null || !parts.length) {
       return el("div", { class: "ex" }, el("p", { class: "ex-title" }, "Nog geen score"),
@@ -65,6 +70,8 @@ const Explain = (() => {
         lines.push(`€/TB = prijs per stuk ÷ grootte = ${fmtEur2.format(i.price_each)} ÷ ${num(i.size_tb)} TB = ${fmtEur2.format(i.metric)}/TB`);
       }
       if (i.per_piece === "geschat") lines.push("De prijs per stuk is geschat: de vraagprijs lijkt te laag voor het totaal en is daarom per stuk gerekend.");
+      else if (i.per_piece === "handmatig") lines.push("De prijs per stuk heb je zelf ingevuld.");
+      else if (i.per_piece === "berekend") lines.push(`De vraagprijs ${fmtPrice(i)} is gedeeld door het aantal (${i.qty}).`);
       else if (i.per_piece) lines.push("De prijs per stuk staat zo in de advertentie.");
       else if (i.qty > 1) lines.push(`Geen prijs per stuk genoemd: de vraagprijs ${fmtPrice(i)} is gedeeld door ${i.qty} stuks.`);
     } else if (cat.metric === "price_per_score") {

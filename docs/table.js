@@ -128,7 +128,8 @@ const DealTable = (() => {
   }
 
   /* ---------------- tabel koppelen aan een tabblad ---------------- */
-  function mount(host, cat, items, ctx) {
+  function mount(host, cat, itemsIn, ctx) {
+    let items = itemsIn;
     const cols = columnsFor(cat);
     const byId = Object.fromEntries(cols.map((c) => [c.id, c]));
     const prefKey = `cols:${cat.id}`;
@@ -151,7 +152,7 @@ const DealTable = (() => {
     const hideSeen = () => storeGet("hideSeen") === "1";
     const visibleCols = () => st.prefs.order.filter((id) => !st.prefs.hidden.includes(id)).map((id) => byId[id]);
     const savePrefs = () => storeSet(prefKey, JSON.stringify(st.prefs));
-    const itemById = new Map(items.map((i) => [i.id, i]));
+    let itemById = new Map(items.map((i) => [i.id, i]));
     const searchText = (i) => `${i.title} ${i.brand || ""} ${i.type || ""} ${i.model || ""} ${i.city || ""} ${i.cpu || ""} ${(i.connections || []).join(" ")}`.toLowerCase();
 
     function passes(i) {
@@ -196,6 +197,7 @@ const DealTable = (() => {
           i.deal ? el("span", { class: "badge deal" }, "deal") : null,
           i.isNew ? el("span", { class: "badge new" }, "nieuw") : null,
           i.price_drop ? el("span", { class: "badge drop", title: "Prijs verlaagd" }, "prijs lager") : null,
+          i.edited ? el("span", { class: "badge", title: "Je hebt gegevens van deze advertentie zelf aangepast" }, "aangepast") : null,
           i.reserved ? el("span", { class: "badge gone" }, "gereserveerd") : null,
           i.active ? null : el("span", { class: "badge gone" }, "verdwenen")));
     }
@@ -243,6 +245,7 @@ const DealTable = (() => {
           desc ? el("details", { class: "d-desc" }, el("summary", {}, "Omschrijving van de verkoper"), el("p", {}, desc.length > 700 ? desc.slice(0, 700) + "…" : desc)) : null,
           el("div", { class: "d-btns" },
             el("a", { class: "btn primary", href: i.url, target: "_blank", rel: "noopener" }, btnLabel("open", "Open op Marktplaats")),
+            el("button", { type: "button", class: "btn", "data-act": "editdata", "data-id": i.id }, btnLabel("edit", "Gegevens aanpassen")),
             el("button", { type: "button", class: "btn" + (fav ? " on" : ""), "data-act": "fav", "data-id": i.id, "aria-pressed": String(fav) }, btnLabel("star", "Interessant")),
             el("button", { type: "button", class: "btn" + (seen ? " on" : ""), "data-act": "seen", "data-id": i.id, "aria-pressed": String(seen) }, btnLabel("check", "Gezien, niet interessant")))));
     }
@@ -263,6 +266,7 @@ const DealTable = (() => {
       sortSel = el("select", { class: "sortsel", "aria-label": "Sorteren op" });
       const popWrap = el("div", { class: "tb-btns" },
         el("button", { type: "button", class: "btn only-narrow", "data-pop": "filters" }, btnLabel("filter", "Filters")),
+        el("button", { type: "button", class: "btn", "data-act": "bulk" }, btnLabel("check", "Bulk")),
         el("button", { type: "button", class: "btn", "data-pop": "cols" }, btnLabel("columns", "Kolommen")),
         el("button", { type: "button", class: "btn", "data-pop": "view" }, btnLabel("tune", "Weergave")));
       top.replaceChildren(el("div", { class: "chips", role: "group", "aria-label": "Snelfilter" }, chipBtns), qInput,
@@ -275,6 +279,7 @@ const DealTable = (() => {
       popWrap.addEventListener("click", (e) => { const b = e.target.closest("[data-pop]"); if (b) togglePop(b); });
       top.addEventListener("click", (e) => {
         if (e.target.closest('[data-act="sortdir"]')) { st.sort.asc = !st.sort.asc; renderFull(); }
+      if (e.target.closest('[data-act="bulk"]')) { closePop(); Edit.openBulk({ cat, items, visibleIds: () => items.filter(passes).map((i) => i.id) }); }
       });
     }
 
@@ -503,7 +508,8 @@ const DealTable = (() => {
       const act = e.target.closest("[data-act]");
       if (act) {
         e.stopPropagation();
-        if (act.dataset.act === "fav") markInteresting(act.dataset.id);
+        if (act.dataset.act === "editdata") Edit.openEdit({ item: itemById.get(act.dataset.id), cat, original: ctx.original(act.dataset.id) });
+        else if (act.dataset.act === "fav") markInteresting(act.dataset.id);
         else if (act.dataset.act === "seen") markSeen(act.dataset.id);
         return;
       }
@@ -594,7 +600,13 @@ const DealTable = (() => {
     buildTop();
     renderFull();
     NARROW.addEventListener("change", () => { if (document.body.contains(host)) renderFull(); });
-    UserState.onChange(() => { if (document.body.contains(host)) { renderRows(); fillPop(); } });
+    UserState.onChange(() => {
+      if (!document.body.contains(host)) return;
+      items = ctx.rebuild();
+      itemById = new Map(items.map((i) => [i.id, i]));
+      renderRows();
+      fillPop();
+    });
   }
 
   return { mount };

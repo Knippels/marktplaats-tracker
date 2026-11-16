@@ -109,7 +109,8 @@ function renderCategory(cat) {
 
   const windowH = state.index.new_window_hours || 48;
   const cutoff = new Date(new Date(cat.updated).getTime() - windowH * 3600e3).toISOString().replace(".000", "");
-  const items = Object.entries(cat.listings).map(([id, v]) => ({ id, ...v, isNew: v.active && v.first_seen >= cutoff }));
+  const build = () => Object.entries(cat.listings).map(([id, v]) => Edit.apply(cat, { id, ...v, isNew: v.active && v.first_seen >= cutoff }));
+  const items = build();
   const active = items.filter((i) => i.active);
   const fresh = active.filter((i) => i.isNew);
   const deals = active.filter((i) => i.deal);
@@ -126,7 +127,7 @@ function renderCategory(cat) {
   const head = el("div", { class: "cat-head" },
     el("div", {}, el("h2", {}, cat.name), el("p", { class: "muted small" }, dealNote,
       cat.queries && cat.queries.length ? ` Zoekt op ${cat.queries.length} zoekopdracht${cat.queries.length > 1 ? "en" : ""}.` : "")),
-    el("button", { type: "button", class: "btn", onclick: () => ConfigEditor.hasToken() ? ConfigEditor.edit(cat.id, state.categories, tabsChanged) : manageTabs() },
+    el("button", { type: "button", class: "btn", onclick: () => ConfigEditor.hasToken() ? ConfigEditor.edit(cat.id, () => state.categories, tabsChanged) : manageTabs() },
       btnLabel("edit", "Tabblad bewerken")));
 
   const tableHost = el("div", { class: "table-host" });
@@ -136,7 +137,7 @@ function renderCategory(cat) {
     el("p", { class: "muted chart-empty", hidden: true }, "Nog niet genoeg historie. Na een paar dagen verschijnt hier de grafiek."));
 
   main.replaceChildren(head, kpis, el("section", { class: "block table-block" }, tableHost), chartBlock);
-  DealTable.mount(tableHost, cat, items, { median: med, isUnseen, onViewChange: () => {} });
+  DealTable.mount(tableHost, cat, items, { median: med, isUnseen, onViewChange: () => {}, rebuild: build, original: (id) => cat.listings[id] });
   renderChart(chartBlock, cat);
 }
 

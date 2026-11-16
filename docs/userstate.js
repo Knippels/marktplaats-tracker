@@ -20,7 +20,7 @@ const UserState = (() => {
     set(k, v) { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch { /* geen opslag */ } },
   };
 
-  let items = {};          // id -> { s: 0|1 (gezien), f: 0|1 (favoriet), t: ms }
+  let items = {};          // id -> { s: 0|1 (gezien), f: 0|1 (favoriet), o: {veld: waarde} (eigen correcties), t: ms }
   let sha = null;          // versie van state.json op GitHub
   let status = "lokaal";   // lokaal | laden | ok | alleen-lezen | fout
   let statusMsg = "";
@@ -121,6 +121,26 @@ const UserState = (() => {
     timer = setTimeout(sync, 1500);
   }
 
+  const touch = () => { saveLocal(); emit(); clearTimeout(timer); timer = setTimeout(sync, 1500); };
+  /* Meerdere advertenties tegelijk wijzigen (bulk) */
+  function patch(ids, fields) {
+    const t = Date.now();
+    for (const id of ids) items[id] = { s: 0, f: 0, ...(items[id] || {}), ...fields, t };
+    touch();
+  }
+  /* Terugzetten naar een eerder getoonde stand (ongedaan maken); null = nog geen markering */
+  function restore(snap) {
+    const t = Date.now();
+    for (const [id, raw] of Object.entries(snap)) items[id] = { s: 0, f: 0, ...(raw || {}), t };
+    touch();
+  }
+  function setOverride(id, o) {
+    const next = { s: 0, f: 0, ...(items[id] || {}), t: Date.now() };
+    if (o && Object.keys(o).length) next.o = o; else delete next.o;
+    items[id] = next;
+    touch();
+  }
+
   window.addEventListener("beforeunload", () => { if (timer) { clearTimeout(timer); sync(); } });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") sync(); });
 
@@ -131,6 +151,9 @@ const UserState = (() => {
     toggleFav: (id) => set(id, "f", !items[id]?.f),
     onChange: (fn) => listeners.add(fn),
     getToken: () => token(),
+    getRaw: (id) => (items[id] ? JSON.parse(JSON.stringify(items[id])) : null),
+    override: (id) => items[id]?.o || null,
+    patch, restore, setOverride,
     status: () => ({ status, statusMsg, hasToken: Boolean(token()) }),
     setToken: (t) => { ls.set(LS_TOKEN, t ? t.trim() : null); sync(); },
     sync,
