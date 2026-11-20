@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:37:04Z",
+ "updated": "2026-11-20T02:19:12Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -7,27 +7,27 @@
    "name": "SATA HDD 4TB+",
    "metric": "price_per_tb",
    "kind": "hdd",
-   "active": 216,
-   "deals": 7,
-   "new": 46
+   "active": 213,
+   "deals": 6,
+   "new": 38
   },
   {
    "id": "mini-pc",
    "name": "Mini-pc's",
    "metric": "price_per_score",
    "kind": "minipc",
-   "active": 349,
-   "deals": 45,
-   "new": 55
+   "active": 350,
+   "deals": 43,
+   "new": 48
   },
   {
    "id": "ram-ddr4",
    "name": "RAM DDR4",
    "metric": "price",
    "kind": "algemeen",
-   "active": 176,
-   "deals": 20,
-   "new": 122
+   "active": 177,
+   "deals": 22,
+   "new": 124
   }
  ]
 }
