@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:39:14Z",
+ "updated": "2026-11-20T20:19:01Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -9,25 +9,25 @@
    "kind": "hdd",
    "active": 212,
    "deals": 6,
-   "new": 42
+   "new": 39
   },
   {
    "id": "mini-pc",
    "name": "Mini-pc's",
    "metric": "price_per_score",
    "kind": "minipc",
-   "active": 350,
-   "deals": 44,
-   "new": 56
+   "active": 356,
+   "deals": 46,
+   "new": 71
   },
   {
    "id": "ram-ddr4",
    "name": "RAM DDR4",
    "metric": "price",
    "kind": "algemeen",
-   "active": 186,
-   "deals": 21,
-   "new": 134
+   "active": 175,
+   "deals": 19,
+   "new": 128
   }
  ]
 }
