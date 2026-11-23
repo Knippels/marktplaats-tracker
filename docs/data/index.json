@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:43:14Z",
+ "updated": "2026-11-23T12:39:33Z",
  "new_window_hours": 48,
  "categories": [
   {
@@ -16,9 +16,9 @@
    "name": "Mini-pc's",
    "metric": "price_per_score",
    "kind": "minipc",
-   "active": 344,
-   "deals": 48,
-   "new": 32
+   "active": 341,
+   "deals": 46,
+   "new": 30
   },
   {
    "id": "ram-ddr4",
@@ -26,8 +26,8 @@
    "metric": "price",
    "kind": "algemeen",
    "active": 191,
-   "deals": 25,
-   "new": 134
+   "deals": 26,
+   "new": 129
   }
  ]
 }
