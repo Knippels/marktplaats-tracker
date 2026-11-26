@@ -12,9 +12,9 @@
   "16 GB",
   "32 GB"
  ],
- "deal_threshold": 45.0,
+ "deal_threshold": 56.46,
  "deal_rule": "goedkoopste 25%",
- "updated": "2026-11-25T19:15:27Z",
+ "updated": "2026-11-26T03:34:16Z",
  "last_run_complete": true,
  "history": [
   {
@@ -86,6 +86,13 @@
    "min": 7.5,
    "p25": 45.0,
    "median": 100.0
+  },
+  {
+   "date": "2026-11-26",
+   "count": 100,
+   "min": 7.5,
+   "p25": 56.46,
+   "median": 107.5
   }
  ],
  "listings": {
@@ -525,7 +532,7 @@
    "description": "Ddr3 so-dim hynix 2gb 1rx8 pc3-12800s-11-11-b2 ram geheugenmodule",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [
@@ -595,7 +602,7 @@
    "description": "Sodim Ram 8GB DDR4 Geheugen\n\n\nSamsung 2666Mhz DDR4 8GB (Werkt)\nCrucial 2400Mhz DDR4 8 GB (Werkt) CL17\nMicron 3200Mhz DDR4 8GB (Werkt)\n\n\n\n\n(Los is mogelijk)\nSodim RAM 8 GB Samsung Crucial Micron 8GB Geheugen Ram Dimm Ram DDR4",
    "detail": 2,
    "highest_bid": 20.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -623,7 +630,7 @@
    "description": "Ram sodim ddr5 16gb 4800mhz laptop&pc ik gebruikte het op pc",
    "detail": 2,
    "highest_bid": 100.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -679,7 +686,7 @@
    "description": "1x8gb sodim ram laptop geheugen snelheid onbekend uit laptop gehaald door upgrade",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -707,7 +714,7 @@
    "description": "2x4gb laptop geheugen 2 verschillende sticks met verschillende snelheden",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -735,7 +742,7 @@
    "description": "Te koop: laptop geheugen 1x 16gb 3200mhz\n\nSpecificaties:\n\nTotaal geheugen: 16 GB\nDDR4\n3200MHZ\nGeschikt voor laptops met ddr4 ondersteuning\n\nHad er twee gekocht voor mijn laptop, een is overbodig.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [
@@ -768,7 +775,7 @@
    "description": "I am selling this ram. They are in best condition. I used them for a while in my laptop. One is samsung other one is apacer. They work together good because they have same specs.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [
@@ -923,7 +930,7 @@
    "description": "Kan als een upgrade kit verkocht worden bijvoorbeeld moederbord cpu en ram\nMaar heb deze pc een half jaar in gebruik doet het perfect maar ben toe aan beter\n\n\nUpgrade kit 600 totaal vraagprijs\nCpu los 270vraagprijs (word niet meer gemaakt)\nRam 2x16gb 200 vraagprijs\nMoederbord 120 vraagprijs\n\nDe aio kan er bij verkocht worden voor 50\n\nCpu ryzen 7 5700x3d\nRam 2x 16gb 3200mhz cl 28\nMoederbord ROG STRIX B550-F gaming wifi ll",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -1035,7 +1042,7 @@
    "description": "Zo goed als nieuw en helemaal gewist met weer een schone Windows 11 Pro installatie erop. Bios, Drivers en Windows zijn ook helemaal up to date. De laptop is alleen op te halen.\n\n Specificaties; \n\nProcessor; Tiende Generatie Intel Core i5 10310U bij 4,4 GHz\n\nOpslag; 256GB M.2 NVME SSD\n\nWerkgeheugen; 16GB DDR4\n\nVideokaart; Intel UHD Graphics\n\nBeeldscherm; AntiGloss FHD van 14\"\n\nOplader en Accu; Origineel en zo goed als nieuw\n\nAansluitingen; Wifi6, Bluetooth, USB-C met Thunderbolt, HDMI, Smartcardreader, 2x USB-A, VGA, Ethernet, Koptelefoon/Microfoon en Oplaadport.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [
@@ -2521,7 +2528,7 @@
    "description": "Keuken wrappen – geef je keuken een compleet nieuwe uitstraling! ✨\nWij wrappen keukenkasten, deuren en zijpanelen met hoogwaardige folie. Water-, hitte- en krasbestendig en makkelijk schoon te maken.\nStuur gerust foto’s van je keuken voor een vrijblijvende prijsopgave. 📸\n📞 WhatsApp: 0639072436",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -2577,7 +2584,7 @@
    "description": "Voor deze vier leuke koppeltjes ben ik op zoek naar een liefdevol, blijvend thuis waar ze alle ruimte krijgen om lekker konijn te zijn!\n\nAlle koppeltjes bestaan uit een voedster en een (nog te castreren of al gecastreerde) ram. Ze zijn allemaal gevaccineerd tegen RHD1, RHD2 en Myxomatose. Er is geen vaccinatieboekje aanwezig.\n\n🐰 Foto 1, 5 & 6 – Quail & Raisin\n\nBeide ongeveer 8 weken oud.\nTwee jonge, gezellige Minilops.\nQuail moet nog gecastreerd worden. Dit wordt uiteraard door mij geregeld en is bij de prijs inbegrepen. Prijs van dit koppel is €250,-\nZe mogen alvast samen verhuizen, maar Quail komt op een later moment terug voor zijn castratie.\n\n🐰 Foto 2, 7 & 8 – Black Beauty & Minion\n\nBeide ongeveer 1 jaar oud.\nBlack Beauty is een Minilop en Minion een Teddy Dwerg.\nMinion heeft vanwege zijn langere vacht regelmatig vachtverzorging nodig.\nDe ram is al gecastreerd.\n\n🐰 Foto 3, 9 & 10 – Isa & Hooligan\n\nBeide ongeveer 1 jaar oud.\nTwee prachtige Minilops.\nDe ram is al gecastreerd.\n\n🐰 Foto 4, 11 & 12 – Runa & Olivier\n\nRuna is bijna 1 jaar oud.\nOlivier is ongeveer 12 weken oud.\nBeide Minilops.\nDe ram is al gecastreerd.\n\n💚 Prijs: €200 per koppeltje\n\nDeze prijs is inclusief de vaccinaties en de castratie van de ram.\n\n🏡 Wat zoek ik voor ze?\n\nAl deze konijnen zijn gewend aan veel ruimte en bewegingsvrijheid. Ik vind het ontzettend belangrijk dat ze er in hun nieuwe thuis niet op achteruitgaan. Een ruim, veilig verblijf met voldoende mogelijkheden om te rennen, springen, graven en ontdekken is daarom een absolute voorwaarde.\n\nIk zoek mensen die bewust kiezen voor konijnen en begrijpen hoeveel verzorging, ruimte en aandacht ze nodig hebben. Geen impulsaankopen dus! Ze verdienen stuk voor stuk een fijn thuis voor de rest van hun leven.\n\nHeeft u interesse in een van deze koppeltjes? Stuur dan gerust een berichtje waarin u zichzelf even voorstelt en vertelt wat u de konijnen te bieden heeft. Foto’s van het toekomstige verblijf ontvang ik ook heel graag!\n\nEen goed thuis is voor mij belangrijker dan een snelle verhuizing. 💚",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -2605,7 +2612,7 @@
    "description": "We hebben nog enkele hele lieve raszuivere konijntjes beschikbaar.\n\nMogen gereserveerd worden:\nFoto 1: feh siam ram\nFoto 2: blauw siam ram\nFoto 3: blauw bont ram\nFoto 4: wit ram\nFoto 5: feh siam bont ram\n\nMogen verhuizen:\nFoto 6: wit voedster\n\nOnze konijntjes komen veel in handen en zijn daardoor goed tam bij vertrek naar hun nieuwe thuis.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -2750,7 +2757,7 @@
    "description": "Momenteel zijn er meerdere Hangoordwergen/minilops (minilop) beschikbaar! De konijnen verhuizen per koppel, in de combinatie gecastreerde ram + voedster. De rammen worden voor de verhuizing gecastreerd (op een leeftijd van 9 weken). De konijnen groeien buiten op en kunnen dus in de winter buiten verblijven. Alle beschikbare koppels vindt u op onze website, daar is ook alle verkoopinformatie te lezen:\n\nwww.bramsrabbits.nl\n\nOntdek ons unieke verhaal!\n\nBramsRabbits is een hobbyfokkerij van de Nederlandse Hangoordwerg (NHD). De fokkerij is ontstaan uit mijn passie voor konijnen. De konijnen wonen op zorgboerderijen in Krimpen aan de Lek en omgeving (Zuid-Holland), waarbij de dagelijkse verzorging in handen ligt van hulpboeren. Dit zijn mensen die moeite hebben om in de maatschappij mee te kunnen draaien en op de boerderij komen voor dagbesteding. De jonge konijnen worden opgevoed door gezinnen of zorginstellingen in de omgeving van Rotterdam, voor een optimaal socialisatieproces. Voor een deel van de jonge konijnen zoeken we een nieuwe eigenaar.\n\nDe jonge hangoordwergen verhuizen per koppel. De rammen worden voor de verhuizing gecastreerd (op een leeftijd van 9 weken) en alle jonge konijnen worden gevaccineerd. Ook zijn er individuele gecastreerde rammetjes beschikbaar, die kunnen gekoppeld worden aan uw voedster. De foto’s in de advertentie dienen als voorbeeld, het actueel aanbod is altijd op onze website te vinden.\n\nVriendelijke groet,\nBram\n\nwww.bramsrabbits.nl\nUBN nummer: 7017340",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -2779,7 +2786,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
    "price_drop": false,
@@ -2892,7 +2899,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
    "price_drop": false,
@@ -3108,7 +3115,7 @@
    "description": "Soldeer pistool 18V compatibel met Milwaukee 18V accu € 35.00 \n\nInstelbaar van 200 tot 460 graden\n75 WATT\nBinnen enkele seconden op temperatuur.\nZelf instelbaar met geheugen\nDraad 1.0 tot 1.2mm\nZeer handig apparaat\nOveral inzetbaar\nWordt geleverd met één rol draad.\n\n\nLosse rollen beschikbaar voor € 4.95 per stuk\nActie 2 rollen € 8.50\n\nWordt geleverd zonder accu en lader",
    "detail": 2,
    "highest_bid": 35.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [
@@ -3941,7 +3948,7 @@
    "description": "8 in één serie behorend, ingelijste litho’s (steendrukken) met de overall titel \"Pictures from Pickwick\"; door de Engelse kunstenaar Cecil Aldin (1870-1935). \n\nDe tekeningen verbeelden beroemde scènes uit de debuutroman The Posthumous Papers of the Pickwick Club (1836–1837) van Charles Dickens.\n\nInmiddels 125 jaar oude litho’s. Gegarandeerd door mij als verkoper, want een naam hoog te houden.\n\nIn de handgemaakte/gesneden (originele) eiken lijsten. Uitgegeven door Lawrence & Jellicoe / Chapman & Hall ltd Londen, gedrukt door jl goffart, brussel. Achter antiek glas. 1902!\n\nVroeg “edwardiaanse periode” (rond 1900-1910). Chromolithografie.\nHandtekening van aldin staan steeds linksonder of rechtsonder op de litho.\nZeer gedetailleerd en met levendige kleuren waarbij de omringende rand (van de drukplaat) zichtbaar is. De titel van de scène staat steeds onderaan, gecentreerd. De originele eikenhouten lijsten zijn in zeer goede staat voor hun leeftijd. De totale afmeting is steeds 22² x 19² (55 cm x 48 cm).\n\nHet afbeeldingsgebied is schoon (schoongemaakt en ontzuurd) en helder. De kartonnen achterkanten van de frames zijn vernieuwd. Het stro-carton is verwijderd. De kosten daarvan bedroegen alleen al € 320 voor de 8 samen.\n\n Dus doe graag redelijke biedingen. Alleen op marktplaats. Op onderhandse biedingen wordt niet gereageerd. Het liefst ophalen vanwege de kwetsbaarheid, de hoge waarde en het gewicht .\n\nCecil charles windsor aldin (28 april 1870 - 6 january 1935) - born in slough on 28th april 1870, cecil aldin was educated at eastbourne college and solihull grammar school. He studied art at the rca and under frank f. Calderon. Aldin illustrated hundreds of books throughout his lifetime, one of his first major commissions being kiplings jungle stories. At 22, he took on a studio in chelsea and began to obtain regular work and his illustrations were published in many magazines during the 1890s. In 1895 he married, moved to chiswick and became one of a circle of artists who between them formed the london sketch club. As master of the south berkshire hunt, aldin was a keen huntsman and many of his prints depict horses. Unusually, he also carried the horn with harriers, beagles and bassets, and drew animals of all kinds as well as his well-known hunting and coaching scenes, with humour and precision. Cecil aldin painted mainly in water-colour, but he was also famous for being a master of caricature in the drawing of both humans and animals. The quality of his art can be seen in most of his work, particularly in his many famous drawings of his family of dogs. Cecil aldin died in 1935 and his work is now highly collectable. He is regarded as being one of the most original and very best sporting artists of the twentieth century.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-16T22:43:13Z",
    "price_history": [],
@@ -6071,7 +6078,7 @@
    "description": "Uitsluitend nieuw en originele producten!\n\nHeb je vragen of wil je meer informatie? Ik help je graag.\nWhatsApp of bel: 06-10669937\n\nFORMULER VERGELIJKING – VAN MEEST UITGEBREID NAAR MINDER UITGEBREID\n\n1. Formuler Z12 Ultra\n• 4 GB RAM\n• 128 GB opslag\n• 4K + Dolby Vision\n• Wi-Fi 6E\n• Dolby Atmos\n→ Meest complete uitvoering\n\n2. Formuler Z12 Ultra SE\n• 2 GB RAM\n• 64 GB opslag\n• 4K + Dolby Vision\n• Wi-Fi 6E\n• Dolby Atmos\n→ Luxe uitvoering met veel opslag\n\n3. Formuler Z11 Pro Max\n• 4 GB RAM\n• 32 GB opslag\n• 4K beeld\n• Wi-Fi 6\n→ Krachtig en snel model\n\n4. Formuler Z12 Pro\n• 2 GB RAM\n• 16 GB opslag\n• 4K HDR10+\n• Wi-Fi 5\n→ Nieuwere Pro-generatie\n\nKORT SAMENGEVAT:\n\nZ12 Ultra → Meest uitgebreid\nZ12 Ultra SE → Luxe & veel opslag\nZ11 Pro Max → Snel & krachtig\nZ12 Pro → Nieuwere Pro\n\nZ12 Ultra €199\nZ12 Ultra SE €179\nZ12 Pro €165\nZ11 pro max €179",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-17T15:59:16Z",
    "price_history": [],
@@ -11252,7 +11259,7 @@
    "detail": 2,
    "highest_bid": 150.0,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-19T02:34:08Z",
    "price_history": [
     [
@@ -12179,7 +12186,7 @@
    "description": "Te koop aangeboden in Purmerend\n\nDDR4-3200 32GB X 2",
    "detail": 2,
    "highest_bid": 70.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-19T11:39:41Z",
    "price_history": [],
@@ -13459,7 +13466,7 @@
    "description": "HP T540 Home Assistant server – Grip op je energie, je huis slim en zuinig\n\nWil je precies zien wat je zonnepanelen opleveren, wanneer je thuisbatterij laadt en waar je stroom naartoe gaat? Met deze kant-en-klare Home Assistant server heb je binnen een minuut je complete slimme huis en energiebeheer in één overzichtelijk dashboard. Geen abonnement, geen cloud: alles draait lokaal bij jou thuis.\n\nDIRECT KLAAR VOOR GEBRUIK\nAansluiten, ongeveer een minuut wachten en via je telefoon, tablet of laptop naar homeassistant.local:8123. De nieuwste versie van Home Assistant OS is al geïnstalleerd en je ontvangt een duidelijke handleiding. Na een stroomstoring start de server automatisch weer op, zodat je huis altijd blijft werken.\n\nSLIM ENERGIEBEHEER MET ZONNEPANELEN EN THUISBATTERIJ\nPer 1 januari 2027 stopt de salderingsregeling. Zelf opgewekte stroom slim gebruiken wordt dan belangrijker dan ooit. Home Assistant helpt je daarbij:\n\n- Energiedashboard: zie in één oogopslag je opwek, verbruik, teruglevering en stroom van en naar het net, per uur, dag, maand en jaar\n\n- Zonnepanelen koppelen: realtime opbrengst van je omvormer (o.a. SolarEdge, Enphase, Growatt, GoodWe, SMA, afhankelijk van merk en model)\n\n- Thuisbatterij inzien en aansturen: laadniveau, laden en ontladen volgen, en bij ondersteunde batterijen automatisch laden bij zonne-overschot of lage stroomprijs\n\n- Dynamisch energiecontract: toon uurprijzen (o.a. Tibber, Frank Energie, EnergyZero) en laat apparaten automatisch draaien op de goedkoopste momenten\n\n- Slim eigen verbruik: zet wasmachine, boiler, laadpaal of warmtepomp aan wanneer je panelen overschot leveren, in plaats van terug te leveren voor een lage vergoeding\n- Verbruik per apparaat: met slimme stekkers zie je precies welke apparaten stroom slurpen\n- Gas en water: ook zichtbaar via je slimme meter (P1)\n\nDe optionele P1-kabel koppelt je slimme meter direct aan Home Assistant. Zo heb je vanaf dag één inzicht in je stroom- en gasverbruik.\n\nWAAROM DEZE SERVER?\n- Snelle 128 GB NVME SSD: betrouwbaarder en sneller dan de T630, HA green en de Raspberry Pi met microSD-kaart\n- Stil: passief gekoeld, geen ventilator\n- Zuinig: slechts 4 tot 14 watt, kost je enkele euro's per jaar aan stroom\n- Compact: past naast je router of in de meterkast\n- Inclusief Zigbee-coördinator: direct sensoren, stekkers en lampen koppelen\n\nSPECIFICATIES\n- Processor: AMD Ryzen Embedded R1305G (2 cores, 4 threads, 1,5 GHz tot 2,8 GHz boost)\n- Videokaart: AMD Radeon Vega 3\n- Werkgeheugen: 8 GB DDR4-2400\n- Opslag: 128 GB M.2 NVMe SSD\n- Voorzijde: USB-A 3.1, USB-C 3.1, audio-aansluiting\n- Achterzijde: 2x DisplayPort 1.2, 2x USB-A 3.1, 2x USB-A 2.0\n- Netwerk: Gigabit Ethernet\n\nINCLUSIEF\n- HP T540 met Home Assistant OS 18.x voorgeïnstalleerd\n- Zigbee-coördinator met USB-verlengkabel (voorkomt signaalstoring)\n- Stroomadapter\n- Nederlandstalige handleiding/opstart hulp.\n\nUITBREIDEN (OPTIONEEL)\n- P1-kabel voor slimme meter (DSMR 5, 180 cm): €15\n- Zigbee stekker met energiemeting: €",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-19T20:37:04Z",
    "price_history": [
@@ -15514,7 +15521,7 @@
    "description": "-Dubbele cabine\n-Twee schuifdeuren\n-Openslaande deuren achterzijjde\n-Dakdragers\n\n-Zij spiegels beschadigd",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-20T02:19:12Z",
    "price_history": [],
@@ -15636,7 +15643,7 @@
    "description": "Nieuw moederbord te koop, verkeerd aangeschaft!\nNieuwprijs 259,00, ik verkoop hem voor 125,00\n\nWe hebben er twee, allebei nog in verpakking en niet gebruikt.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-20T11:39:14Z",
    "price_history": [
@@ -16884,7 +16891,7 @@
    "posted": "Vandaag",
    "price": null,
    "price_type": "FAST_BID",
-   "reserved": true,
+   "reserved": false,
    "attrs": {
     "type": "SSD",
     "condition": "Gebruikt"
@@ -16892,8 +16899,8 @@
    "description": "Te koop aangeboden: een nette (heeft een aantal kleine krasjes op de achterkant, het scherm is in goede staat,) en zeer snelle Apple iMac 27-inch \n Retina 5K (2019) .\nDankzij de upgrade naar 32GB werkgeheugen en een razendsnelle 1TB Samsung 980 NVMe SSD start deze iMac binnen enkele seconden op en draait hij soepel voor foto- en videobewerking, multitasking en dagelijks gebruik.\n\n Specificaties: \n\n Model: iMac (Retina 5K, 27-inch, 2019)\n\n\n Beeldscherm: 27-inch 5K Retina (5120 x 2880) – helder en zonder dode pixels Processor: Intel Core i5 (6-core) Werkgeheugen: 32GB DDR4 RAM Opslag: 1TB Samsung 980 NVMe SSD (snelle upgrade) Besturingssysteem: Schoon geïnstalleerd met macOS (klaar voor de nieuwe eigenaar) \n Meegeleverd: \n\n\n Originele stroomkabel \n (Let op: wordt geleverd zonder toetsenbord, muis en originele doos.)",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-24T23:54:04Z",
-   "active": false,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
    "first_seen": "2026-11-20T20:19:01Z",
    "price_history": [],
    "price_drop": false,
@@ -17132,7 +17139,7 @@
    "description": "Nog prima werkend Mac Book Pro\n15 Inch 2018\nIntern geheugen 16GB\nOpslag 500 GB\n\nVerdere gegevens staan op de foto.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-20T20:19:01Z",
    "price_history": [],
@@ -17160,7 +17167,7 @@
    "description": "In te stellen op;\n\nTruck\nBus\nBestelbus\nAuto\n\nZGAN weinig gebruikte en goed werkende TomTom Truck Professional 520 met 5\" (13cm) beeldscherm, 16 GB intern geheugen (uitgebreid middels extra 32 GB microSD kaart) met up to date kaart Europa 2026 inclusief Turkije en Griekenland.\n\n4x per jaar gratis kaartupdates via WiFi te downloaden / updaten voor de levensduur van de Tomtom.\n\nTevens zijn de flitspalen ook gratis te updaten!\n\nDoor de TomTom te koppelen middels bluetooth met je smartphone, heb je ook de meest recente en actuele verkeersinformatie realtime gratis in beeld en een carkitfunctie.\n\nKaartdekking;\n\nAlbanië, Andorra, België, Bosnië en Herzegovina, Bulgarije, Cyprus, Denemarken, Duitsland, Estland, Faeröer, Finland, Frankrijk, Gibraltar, Griekenland, Hongarije, IJsland, Ierland, Italië, Kosovo, Kroatië, Letland, Liechtenstein, Litouwen, Luxemburg, Malta, Moldova, Monaco, Montenegro, Nederland, Noorwegen, Oekraïne, Oostenrijk, Polen, Portugal, Republiek Macedonië, Roemenië, Russische Federatie, San Marino, Servië, Slovenië, Slowakije, Spanje, Tsjechische Republiek, Turkije, Vaticaanstad, Verenigd Koninkrijk, Wit-Rusland, Zweden, Zwitserland.\n\nIQ Routes (Intelligent Routing): ja\nALG (Advanced Lane Guidance): ja\nASR (Advanced Speech Recognition):ja\nHNR (House Numbering): ja\n\nInclusief raamhouder, Tomtom 12/24 volt snellader en TomTom opbergtasje",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-20T20:19:01Z",
    "price_history": [
@@ -17315,7 +17322,7 @@
    "description": "Te koop aangeboden: een Ubiquiti UniFi Switch 8 (US-8-150W) met 8 Gigabit Ethernet-poorten, waarvan alle 8 poorten PoE+ (802.3at) ondersteunen met een totaal PoE-budget van 150W. Daarnaast beschikt de switch over 2 SFP-poorten (1Gb) voor glasvezelverbindingen. Deze managed switch is ideaal voor het voeden van UniFi access points, camera's en andere PoE-apparaten. Inclusief stroomkabel. De switch is in prima staat en werkt perfect.\n\nVerzendkosten voor koper.",
    "detail": 2,
    "highest_bid": 80.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-20T20:19:01Z",
    "price_history": [],
@@ -18162,7 +18169,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-21T02:14:05Z",
    "price_history": [
     [
@@ -18250,7 +18257,7 @@
    "description": "Vintage sodim s.a. Brussel",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T11:00:24Z",
    "price_history": [
@@ -18471,14 +18478,14 @@
    "posted": "Vandaag",
    "price": 56.95,
    "price_type": "FIXED",
-   "reserved": false,
+   "reserved": true,
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
    "description": "HP T630 Mini-pc voor Home Assistant | Plug & Play | Vanaf €54 \n\nHP T630 vanaf €54. Inclusief voeding, standaard/voetje* en Nederlandstalige beginnershandleiding. Home Assistant OS is optioneel bij te bestellen.\n\n🏠 Start met Home Assistant zonder gedoe! \n\nOp zoek naar een betaalbare, stille en zuinige mini-pc voor Home Assistant? Of wil je overstappen vanaf een Raspberry Pi of een ander kastje? De HP T630 is een uitstekende keuze! 4GB werkgeheugen is voor de meeste Home Assistant-installaties ruim voldoende.\n\nIk maak iedere T630 schoon, test hem uitgebreid en lever hem werkend af. Kies je voor de Home Assistant-optie, dan staat er al een verse installatie van Home Assistant OS op de SSD. Aansluiten en beginnen maar!\n\n🚚 Snelle verzending: maandag t/m zaterdag vóór 16.00 uur besteld én betaald? Dan wordt je bestelling dezelfde dag verzonden!\n━━━━━━━━━━━━━━━━━━\n⭐ KIES JOUW UITVOERING \n\nAlle uitvoeringen hebben dezelfde processor. Je kiest zelf hoeveel opslag (en eventueel werkgeheugen) je nodig hebt.\n\n🟢 START – 4GB RAM + 32GB SSD \nEen prima instap voor een basisopstelling.\nVergelijkbaar met de Home Assistant Green qua hoeveelheid geheugen en opslag, maar met een x86-processor en uitbreidingsmogelijkheden.\nGeschikt voor onder andere: ✓ Lampen, sensoren en slimme stekkers ✓ Automatiseringen en scènes ✓ Slimme meter (P1), thuisbatterij en warmtepomp\n\nBasis — €54\nMet Home Assistant OS + auto power-on — €60\n\n🔵 START+ – 4GB RAM + 64GB SSD ⭐ AANRADER \nVoor maar €8 meer dan START krijg je een extra datadisk erbij. De 64GB bestaat uit 2 losstaande SSD’s van elk 32GB: handig als extra datadisk of recovery-schijf. De beste keuze voor de meeste gebruikers!\n\nBasis — €62\nMet Home Assistant OS + auto power-on — €68\n\n🟠 PRO – 4GB RAM + 128GB SSD \nVoor wie veel wil bewaren: uitgebreide historie, back-ups en meerdere add-ons. Ruim opslag voor een groeiend smart home.\n\nBasis — €74\nMet Home Assistant OS + auto power-on — €80\n\n🟣 MAX – 8GB RAM + 128GB SSD \nVoor veeleisende gebruikers en uitgebreidere toepassingen.\nInteressant als je meerdere zware add-ons wilt draaien, bijvoorbeeld Frigate voor camerabeelden, Docker, Proxmox of een homelab.\n\nBasis — €88\nMet Home Assistant OS + auto power-on — €94\n━━━━━━━━━━━━━━━━━━\n\n➕ EXTRA OPTIES \n🏠 Home Assistant OS-installatie + auto power-on — €6\n📶 Ingebouwde wifi + Bluetooth — op aanvraag (niet altijd direct beschikbaar)\n🔧 Andere combinaties van geheugen en opslag (bijvoorbeeld 8GB RAM) zijn op aanvraag mogelijk.\n━━━━━━━━━━━━━━━━━━\n\n💪 WAAROM DE HP T630? \n✓ Stil en zuinig – fanless ontwerp, dus zonder ventilator\n✓ Geschikt voor 24/7-gebruik\n✓ Uitbreidbaar – 2 geheugenslots en 2 M.2 SATA-opslagslots\n✓ AMD quad-coreprocessor – geschikt voor veel Home Assistant-integraties\n✓ 6 USB-poorten – handig voor bijvoorbeeld Zigbee- of Z-Wave-dongles\n✓ Compact formaat – past gemakkelijk bij je router\n✓ Veelzijdig – later ook geschikt voor Linux, Docker, Proxmox, Pi-hole, AdGuard Home of een eigen homelab\nJe hoeft dus niet direct een dure of overged",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T11:00:24Z",
    "price_history": [
@@ -18509,7 +18516,7 @@
    "description": "HP T630 Mini-pc voor Home Assistant | Plug & Play | Vanaf €54 \n\nHP T630 vanaf €54. Inclusief voeding, standaard/voetje* en Nederlandstalige beginnershandleiding. Home Assistant OS is optioneel bij te bestellen.\n\n🏠 Start met Home Assistant zonder gedoe! \n\nOp zoek naar een betaalbare, stille en zuinige mini-pc voor Home Assistant? Of wil je overstappen vanaf een Raspberry Pi of een ander kastje? De HP T630 is een uitstekende keuze! 4GB werkgeheugen is voor de meeste Home Assistant-installaties ruim voldoende.\n\nIk maak iedere T630 schoon, test hem uitgebreid en lever hem werkend af. Kies je voor de Home Assistant-optie, dan staat er al een verse installatie van Home Assistant OS op de SSD. Aansluiten en beginnen maar!\n\n🚚 Snelle verzending: maandag t/m zaterdag vóór 16.00 uur besteld én betaald? Dan wordt je bestelling dezelfde dag verzonden!\n━━━━━━━━━━━━━━━━━━\n⭐ KIES JOUW UITVOERING \n\nAlle uitvoeringen hebben dezelfde processor. Je kiest zelf hoeveel opslag (en eventueel werkgeheugen) je nodig hebt.\n\n🟢 START – 4GB RAM + 32GB SSD \nEen prima instap voor een basisopstelling.\nVergelijkbaar met de Home Assistant Green qua hoeveelheid geheugen en opslag, maar met een x86-processor en uitbreidingsmogelijkheden.\nGeschikt voor onder andere: ✓ Lampen, sensoren en slimme stekkers ✓ Automatiseringen en scènes ✓ Slimme meter (P1), thuisbatterij en warmtepomp\n\nBasis — €54\nMet Home Assistant OS + auto power-on — €60\n\n🔵 START+ – 4GB RAM + 64GB SSD ⭐ AANRADER \nVoor maar €8 meer dan START krijg je een extra datadisk erbij. De 64GB bestaat uit 2 losstaande SSD’s van elk 32GB: handig als extra datadisk of recovery-schijf. De beste keuze voor de meeste gebruikers!\n\nBasis — €62\nMet Home Assistant OS + auto power-on — €68\n\n🟠 PRO – 4GB RAM + 128GB SSD \nVoor wie veel wil bewaren: uitgebreide historie, back-ups en meerdere add-ons. Ruim opslag voor een groeiend smart home.\n\nBasis — €74\nMet Home Assistant OS + auto power-on — €80\n\n🟣 MAX – 8GB RAM + 128GB SSD \nVoor veeleisende gebruikers en uitgebreidere toepassingen.\nInteressant als je meerdere zware add-ons wilt draaien, bijvoorbeeld Frigate voor camerabeelden, Docker, Proxmox of een homelab.\n\nBasis — €88\nMet Home Assistant OS + auto power-on — €94\n━━━━━━━━━━━━━━━━━━\n\n➕ EXTRA OPTIES \n🏠 Home Assistant OS-installatie + auto power-on — €6\n📶 Ingebouwde wifi + Bluetooth — op aanvraag (niet altijd direct beschikbaar)\n🔧 Andere combinaties van geheugen en opslag (bijvoorbeeld 8GB RAM) zijn op aanvraag mogelijk.\n━━━━━━━━━━━━━━━━━━\n\n💪 WAAROM DE HP T630? \n✓ Stil en zuinig – fanless ontwerp, dus zonder ventilator\n✓ Geschikt voor 24/7-gebruik\n✓ Uitbreidbaar – 2 geheugenslots en 2 M.2 SATA-opslagslots\n✓ AMD quad-coreprocessor – geschikt voor veel Home Assistant-integraties\n✓ 6 USB-poorten – handig voor bijvoorbeeld Zigbee- of Z-Wave-dongles\n✓ Compact formaat – past gemakkelijk bij je router\n✓ Veelzijdig – later ook geschikt voor Linux, Docker, Proxmox, Pi-hole, AdGuard Home of een eigen homelab\nJe hoeft dus niet direct een dure of overged",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T11:00:24Z",
    "price_history": [
@@ -18523,7 +18530,7 @@
    "price_each": 54.95,
    "price_total": 54.95,
    "metric": 54.95,
-   "deal": false
+   "deal": true
   },
   "mp-m2468270819": {
    "title": "Apple MacBook Air 13-inch Neo - 8GB RAM, 256GB opslag",
@@ -18627,7 +18634,7 @@
    "description": "Nieuwe motor & schuim.\nNieuwe luchtfilter.\nNa de revisie niet gebruikt.\nGereviseerd bij Philips.\n0 uur na revisie! (De machine uren voor de revisie staan nog in het geheugen)\nPraktisch een nieuw apparaat met éen minimaal krasje.\n\nApparaat is voorzien van Rev15 : Hoe weet ik of een Dreamstation voorzien is van nieuw schuim?\n\nDe nieuw geproduceerde en de gereviseerde DreamStations 1 met het nieuwe isolatieschuim zijn volgens Philips te herkennen aan de aanduiding 15 (REV15) of hoger op de product label op het apparaat.\n\nApparaat €95,-\nOptioneel : originele adapter zonder 220v snoer (radio tv ect) €20,-\nverder niets erbij, dus géen tas, reservoir ,slang of masker.\n\nAlle talen instelbaar.\n\n195x160x85mm lbh\n717 gram (apparaat)\n22mm slang aansluiting\n\nVaste lage prijs €95,- per stuk.\nOf met adapter €115,-\nMeerdere op voorraad.\n\nVerzending is mogelijk á €8.95,- NL\n\nTrefwoorden : apneu slaapapneu Löwenstein Resmed Sefam Devilbiss Weinmann Pulox Dreamstation respironics airmini\n\nVenlo Holland\n0031614809587",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T11:00:24Z",
    "price_history": [
@@ -18688,7 +18695,7 @@
    "description": "Te koop aangeboden : GTM 900 hakselaar , zeer degelijke en betrouwbare takkenhakselaar voor dagelijks gebruik!!\nGeen bouwmarktmachine , maar kwaliteit !!!\n\n GTM 900 Mitsubishi Motor Mitsubishi benzine ohv GB 30 , zeer betrouwbaar Grote takkeninvoer , met zelf intrekkend meswals gemiddelde tak dikte ca 8 cm Stevig onderstel op luchtbanden , met gelagerde wielen Draaibare uitvoerpijp ( Ook net vaste uitvoer leverbaar ) De machine is nieuw Prijs € 2795,00 Incl Btw startklaar geleverd !! Kwaliteit kost wat , maar dan heb je ook wat \n Voor meer info UITSLUITEND BELLEN TEL 06 20445200 \n H.o. Rolf Grooten , Sellingerstraat 14 , 9561 TB , Ter Apel",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T11:00:24Z",
    "price_history": [],
@@ -19173,7 +19180,7 @@
    "description": "🚐🚛 7” Android GPS Navigatie – Camper, Caravan, Vrachtwagen & Auto \n\n 🔥 NOVEMBER ACTIE – €10 KORTING OP BEIDE MODELLEN! \n\nOp zoek naar een betrouwbaar en veelzijdig GPS-navigatiesysteem voor uw camper, caravan, vrachtwagen of personenauto?\nBij DRK TECH heeft u keuze uit twee modellen: met of zonder geïntegreerde dashcam.\nBeide modellen beschikken over HERE Europa 2026.Q2 navigatiekaarten, draadloze Apple CarPlay & Android Auto, 2 GB RAM en 32 GB opslag. \n\n🔥 November Actieprijzen \n ✅ DRK-700A – Zonder Dashcam \nNormale prijs: €130\n ACTIEPRIJS: €120 \n\n ✅ DRK-700A-DVR – Met Ingebouwde Dashcam \nNormale prijs: €140\n ACTIEPRIJS: €130 \n\n✔ Alle functies van de DRK-700A\n✔ Extra geïntegreerde dashcam\n✔ Navigatie en camera in één toestel\n\n 💥 Slechts €10 extra voor het model met dashcam! \n\n Actie geldig gedurende november 2026. \n\n🚐🚛 Geschikt voor Verschillende Voertuigen\n✔ Camper & Mobilhome\n✔ Caravan & Campervan\n✔ Vrachtwagen & Truck\n✔ Bestelwagen\n✔ Personenauto\n\n Voertuigafhankelijke routeplanning \nStel afhankelijk van het voertuigprofiel uw hoogte, breedte, lengte, gewicht en aantal assen in.\nDe navigatie kan bij de routeberekening rekening houden met beschikbare informatie over lage bruggen, smalle wegen en gewichtsbeperkingen.\n Volg altijd de officiële verkeersborden en verkeersregels. \n\n🗺️ HERE Europa 2026.Q2 Kaarten \n✔ Navigatie voor circa 50 Europese landen\n✔ Offline navigatie zonder internet\n✔ Gesproken routebegeleiding\n✔ 2D en 3D kaartweergave\n✔ Rijbaanbegeleiding\n✔ Automatische routeherberekening\n✔ Camperplaatsen, campings en parkeerplaatsen\n✔ Tankstations, restaurants en andere POI's\nOnder andere Nederland, België, Duitsland, Frankrijk, Spanje, Italië, Oostenrijk, Zwitserland, Polen, Scandinavië en het Verenigd Koninkrijk.\n\n📱 Draadloze Apple CarPlay & Android Auto \nVerbind uw compatibele smartphone draadloos en gebruik:\n✔ Google Maps & Waze\n✔ Telefoonfuncties\n✔ Muziekapps\n✔ Berichten\n✔ Spraakbediening\n⚙️ Technische Specificaties\n✔ 7 inch HD Touchscreen (18 cm)\n✔ Android Besturingssysteem\n✔ Quad-Core ARM Cortex-A53 Processor\n✔ 2 GB RAM / 32 GB Opslag\n✔ MicroSD ondersteuning tot 256 GB\n✔ Bluetooth & WiFi\n✔ USB-aansluiting\n✔ Draadloze Apple CarPlay & Android Auto\n✔ HERE Europa 2026.Q2 Kaarten\n✔ Ingebouwde Dashcam (alleen DVR-model)\n\n📦 Compleet Geleverd \n✔ 7 inch Android GPS Navigatie\n✔ Auto-oplader\n✔ USB-kabel\n✔ Raamhouder met zuignap\n✔ Zelfklevende dashboardschijf\n✔ Zonneklep\n✔ Beschermhoes\n✔ Backupkaart (herstelkaart)\n\n🔄 Gratis Kaartupdates \nBij DRK TECH ontvangt u gratis beschikbare kaartupdates gedurende de ondersteunde levensduur van uw toestel.\n✔ Geen jaarlijks kaartabonnement\n✔ Persoonlijke downloadlink via Google Drive\n✔ Installatie-instructies\n✔ Persoonlijke ondersteuning\n\n📦 Betaling & Verzending \n✔ Bankoverschrijving mogelijk\n✔ Betaling bij afhalen in overleg\n✔ Verzending vanuit België\n✔ Verzendkosten België: €9,50\n✔ Binnen 24 uur verzonden\n✔ Afhalen mogelijk in Genk (België)\n✔ Ook in het weekend op afspraak\n\n🏪 DRK TECH – Genk, België\n✔ Meer",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T19:15:06Z",
    "price_history": [
@@ -19206,7 +19213,7 @@
    "description": "Te koop aangeboden: een goed onderhouden MacBook Pro uit 2017. Deze laptop is uitgerust met 8GB RAM en 250GB opslagruimte, ideaal voor dagelijks gebruik, studie of werk. De MacBook Pro beschikt over de handige Touch Bar voor snelle toegang tot functies. De laptop verkeert in goede staat met minimale gebruikssporen. Perfect voor wie op zoek is naar een betrouwbare en krachtige Apple laptop.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-21T19:15:06Z",
    "price_history": [],
@@ -20929,7 +20936,7 @@
    "detail": 2,
    "highest_bid": 100.0,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-22T11:24:20Z",
    "price_history": [],
    "price_drop": false,
@@ -20956,7 +20963,7 @@
    "description": "RAM Innodisk 32GB DDR4-2666 SO-DIMM (Laptop RAM) – Nieuw\n\nTe koop: RAM Innodisk 32GB DDR4-2666 SO-DIMM-geheugenmodules, geschikt voor laptops en andere compatibele apparaten.\n2 stuks beschikbaar (Je kunt ze samen kopen of stuk voor stuk)\nPrijs: €140 per stuk\n\nSpecificaties:\nMerk: Innodisk\nModel: M4SI-BGS2OC0K-A\nCapaciteit: 32GB per module\nTechnologie: DDR4\nSnelheid: 2666 MT/s\nFormaat: SO-DIMM (260-pins)\nSpanning: 1,2V\nNon-ECC / Unbuffered\nStaat:\nNieuw, ongebruikt.\nGetest en volledig functioneel bevonden.\nIndustrieel geheugen, ontworpen voor professionele en industriële toepassingen.\nLosse verkoop of aankoop van meerdere modules mogelijk.\n\nBelangrijk: controleer vóór aankoop of het geheugen compatibel is met uw apparaat.\nPrijs: €140 per stuk.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T11:24:20Z",
    "price_history": [
@@ -21791,7 +21798,7 @@
    "description": "Set perfect voor nieuwe bouwers, als start voor zelfbouw PC, of miner. Nieuwe onderdelen, hetzelfde als in de winkel alleen dan goedkoper.\n\n- BIOSTAR TZ590 - BTC DUO\nOngebruikt, nieuw gekocht voor troubleshoot defecte PC, probleem lag ergens anders dus mobo is gloednieuw.\n\n- Intel Core i5 10600K\nProcessor gebruikt gekocht, getest en werkt nog perfect.\n\nOphalen aanbevolen, verzending ook mogelijk.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [
@@ -21824,7 +21831,7 @@
    "description": "Bijna nieuwe Microsoft Surface Laptop 2, refurbished. Ik heb deze laptop gekocht als secundaire gaming laptop, maar helaas kon ik de taal niet volledig naar het Engels wijzigen. Daarom verkoop ik hem. Als je echter vloeiend bent in het Nederlands, dan is deze laptop super cool om te gebruiken en plezier mee te hebben. Volledige specificaties: Intel Core i5 8350U, 8GB DDR4 RAM, 128GB SSD opslag, 13.5-inch scherm (2256 x 1504), zilverkleurig, Windows 11 Pro.",
    "detail": 2,
    "highest_bid": 120.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [
@@ -21857,7 +21864,7 @@
    "description": "Crucial 32GB DDR4-3200 SODIMM RAM 2x16GB CT2K16G4SFRA32A\n\nBeschrijving:\n\nTe koop aangeboden: Crucial 32GB DDR4-3200 laptopgeheugen, bestaande uit 2 modules van 16GB.\n\nIn april 2026 nieuw gekocht en sindsdien slechts zeer licht gebruikt. Het geheugen zat in mijn HP ProBook 450 G5, die nauwelijks gebruikt is. Beide geheugenmodules werkten perfect toen ze uit de laptop zijn gehaald.\n\nSpecificaties:\n\n- Merk: Crucial by Micron\n- Totale capaciteit: 32GB (2x16GB)\n- Type: DDR4 SODIMM\n- Snelheid: 3200MHz\n- CAS-latency: CL22\n- Spanning: 1,2V\n- Modelnummer: CT2K16G4SFRA32A\n- Non-ECC\n\nStaat:\n\n- Zeer goede staat\n- Nauwelijks gebruikt\n- Beide modules worden samen verkocht als één kit\n- Originele verpakking inbegrepen\n\nGeschikt voor compatibele laptops en mini-pc's die een geheugenupgrade naar 32GB ondersteunen.\n\nDe modules zijn zorgvuldig verwijderd en bewaard in de originele verpakking.\n\nVraagprijs: €165 Bieden mag, maar graag serieuze biedingen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [
@@ -21891,7 +21898,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [],
    "price_drop": false,
@@ -22130,7 +22137,7 @@
    "description": "Anchors Away Gill Grunt – €3,50\nBlizzard Chill – €2,25\nBig Bang Trigger Happy – €3,50\nCountdown – €2,50\nDark Slobber Tooth – €9,99\nDune Bug – €5,00\nFire Bone Hot Dog – €65,00\nFryno – €12,50\nHeavy Duty Sprocket – €3,75\nHeavy Metal Duty Sprocket – €49,99\nJolly Bumble Blast – €12,50\nKickoff Countdown – €3,75\nLegendary Zoo Lou – €11,50\nMega Ram Spyro – €1,75\nPhantom Cynder – €6,50\nPlatinum Sheep – €2,25\nPunk Shock – €75,00\nRip Tide – €2,25\nRoller Brawl – €5,50\nScratch – €95,00\nSlobber Tooth – €2,75\nSmolderdash – €7,00\nSpringtime Trigger Happy – €19,99\nSuper Gulp Pop Fizz – €5,00\nThorn Horn Camo – €12,50\nVolcanic Eruptor – €8,50\nWind-Up – €15,00\nZoo Lou – €1,25\n LightCores \nLightCore Flashwing – €12,50\nLightCore Grim Creeper – €15,00\nLightCore Smolderdash – €8,50\nLightCore Warnado – €6,50\nLightCore Wham-Shell – €12,50\nLegendary LightCore Grim Creeper – €25,00\n Inbox / met kaartje of sticker \nFryno Spring Edition inbox – €35,00\nHeavy Duty Sprocket met kaartje – €3,75\nJolly Bumble Blast met kaartje – €12,50\nRoller Brawl met kaartje – €5,50\nScratch met sticker – €99,99\nSlobber Tooth met kaartje – €2,75\nCountdown met kaartje – €2,50\nHyper Beam Prism Break met kaartje – €13,50\nKnockout Terrafin met kaartje – €5,00\n Overige items \nTower of Time Adventure Pack – €13,50\n\nVragen? Stuur me gerust een berichtje! Kijk bij mijn andere advertenties voor nog meer skylanders - KVK-nummer: 93105657 Minimum bestelbedrag is €10,00",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [],
@@ -22187,7 +22194,7 @@
    "description": "Upgrade uw Ford Transit Connect (bouwjaar 2013-2024) met dit geavanceerde Navibob Carplay scherm. Dit multimediasysteem biedt naadloze integratie met Apple CarPlay en Android Auto, waardoor u eenvoudig toegang heeft tot navigatie, muziek, berichten en meer via het grote 9-inch touchscreen. Het systeem is uitgerust met een krachtige 8-core CPU, 4GB RAM en 64GB ROM voor snelle en soepele prestaties. Het scherm wordt geleverd met een passend frame voor een perfecte installatie in uw dashboard. Maak uw ritten comfortabeler en veiliger met dit moderne Carplay systeem.\n\nNooit gemonteerd geweest, dus GLOEDNIEUW\nNieuw prijs €450,- factuur aanwezig\n\nIncl DAB antene en Achteruitrijcamera!\nGaat weg ivm aankoop andere bus, geen tijd gehad om deze op de connect te monteren.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [],
@@ -22248,7 +22255,7 @@
    "description": "Te koop aangeboden: een Samsung DDR5 SODIMM 16GB RAM geheugenmodule. Deze module is ideaal voor het upgraden van laptops of compacte desktops die DDR5 SODIMM geheugen ondersteunen. Het betreft een 16GB module, wat zorgt voor een aanzienlijke prestatieverbetering en snellere multitasking. De module is in uitstekende staat en werkt perfect. Specificaties zijn zichtbaar op de foto's.5600Mhz",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [
@@ -23207,7 +23214,7 @@
    "description": "Dell Pro Plus P3225QE 4K 31,5' met voet\nSchermdiagonaal: 31,5\"\nResolutie: 3840x2160 (4K)\nRefreshrate: 100Hz\nLCD-paneel: IPS\nSoort paneel: LCD\nVideo in: 1x DisplayPort, 1x HDMI, 1x USB 3.2 (Gen1, 5Gb/s) type-C\n\nVan januari 2025\n\nNog onder Basic Suppor: ending on April 28, 2030.\nService tag: 3125D34\nExpress service code: 6594422656\n\nMet bijbehorende voet/standaard",
    "detail": 2,
    "highest_bid": 315.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [],
@@ -23236,7 +23243,7 @@
    "description": "Dell P3223QE 32' 4K monitor, ideaal voor thuiswerken met voet/standaard\n\nSchermdiagonaal: 31,5\"\nResolutie: 3840x2160 (4K)\nRefreshrate: 60Hz\nLCD-paneel: IPS\nSoort paneel: LCD\nVideo in: 1x DisplayPort, 1x HDMI, 1x USB 3.2 (Gen1, 5Gb/s) type-C\n\nGeen dode pixels, met voet/standaard",
    "detail": 2,
    "highest_bid": 260.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-22T19:39:38Z",
    "price_history": [],
@@ -23572,7 +23579,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-23T01:43:14Z",
    "price_history": [],
    "price_drop": false,
@@ -24083,7 +24090,7 @@
    "description": "Diversie modules te koop, zie foto's.\n\nDDR3:\n- 4gb 7,50\n- 2gb 5,-\n- 1gb 3,-\n\nDDR4:\n- 4gb 15,-\n- 8gb 25,-",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-23T12:39:33Z",
    "price_history": [
@@ -24116,7 +24123,7 @@
    "description": "Wegens het upgraden naar een sterkere PC, zet ik bij deze mijn oude PC te koop! Ondanks dat deze gebruikt is, is hij nog steeds sterk genoeg om allerlei leuke spellen op te spelen.\n\nDe PC is helemaal schoongemaakt en Windows 11 Pro is opnieuw geïnstalleerd en geactiveerd\n\nHier zijn alle Specificaties op een rij:\n\nProcessor: AMD Ryzen 5 5600X 6-Core\nVideokaart: NVIDIA GeForce RTX 3060\nGeheugen: 32GB DDR4\nOpslag: 1TB Samsung 970 EVO Plus SSD + 4TB Seagate HDD\nMoederbord: Gigabyte B550 AORUS ELITE V2\nVoeding: be quiet! Pure Power 12 750W\nBehuizing: be quiet! Pure Base 600\nOS: Windows 11 Pro",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-23T12:39:33Z",
    "price_history": [],
@@ -24144,7 +24151,7 @@
    "description": "Te koop aangeboden: een set van twee Corsair Vengeance LPX 8GB DDR4 RAM modules, 2400MHz, 16GB totaal. Zijn getest en werken naar behoren.\n\nVerzenden op eigen risico!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-23T12:39:33Z",
    "price_history": [
@@ -24205,7 +24212,7 @@
    "description": "Te koop: een zo goed als nieuwe Samsung 4GB DDR4 RAM module, ideaal voor het upgraden van uw laptop. Deze geheugenmodule is perfect om de prestaties van uw systeem te verbeteren en is zorgvuldig behandeld. Werkt perfect en is klaar voor installatie.\n\nUit een werkend systeem gehaald wegens een upgrade",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-23T12:39:33Z",
    "price_history": [
@@ -24816,7 +24823,7 @@
    "city": "Veldhoven",
    "seller": "Gijs",
    "source": "marktplaats",
-   "posted": "Eergisteren",
+   "posted": "23 nov 26",
    "price": 30.0,
    "price_type": "MIN_BID",
    "reserved": false,
@@ -24826,7 +24833,7 @@
    "description": "16 gb 4x4gb",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -24849,7 +24856,7 @@
    "city": "Goes",
    "seller": "WP",
    "source": "marktplaats",
-   "posted": "Eergisteren",
+   "posted": "23 nov 26",
    "price": null,
    "price_type": "FAST_BID",
    "reserved": false,
@@ -24859,7 +24866,7 @@
    "description": "Wegens upgrade aangeboden.\n\n1x 8gb DDR4 so-dimm werkgeheugen. Functionerend uit de laptop gehaald met ESD bescherming.\n\nKan worden opgestuurd KK.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -24877,7 +24884,7 @@
    "city": "Velp",
    "seller": "MvO",
    "source": "marktplaats",
-   "posted": "Eergisteren",
+   "posted": "23 nov 26",
    "price": 130.0,
    "price_type": "MIN_BID",
    "reserved": false,
@@ -24887,7 +24894,7 @@
    "description": "Twee stuks Samsung 16GB DDR4 SODIMM 2666MHz RAM geheugenmodules.\n\nDeze modules zijn uitgebreid getest en verkeren in topstaat. Ze worden zorgvuldig verpakt en binnen 24 uur verzonden, indien mogelijk zelfs binnen 4 uur weggebracht voor verzending.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -24925,7 +24932,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
     [
@@ -24938,7 +24945,7 @@
    "price_each": 10.0,
    "price_total": 10.0,
    "metric": 10.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2469177678": {
    "title": "Samsung 8GB DDR4-2666 SODIMM Laptop RAM",
@@ -24991,7 +24998,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
     [
@@ -25004,7 +25011,7 @@
    "price_each": 35.0,
    "price_total": 35.0,
    "metric": 35.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2469030184": {
    "title": "Samsung 16GB DDR4-3200 SO-DIMM (M471A2K43EB1-CWE)",
@@ -25084,7 +25091,7 @@
    "description": "Te koop: een set van twee Corsair Vengeance LPX DDR4 RAM modules, elk 16GB, voor een totaal van 32GB. Deze modules werken op een snelheid van 3200MHz en zijn ideaal voor het upgraden van uw desktop-pc voor betere prestaties in gaming, videobewerking of andere veeleisende toepassingen. De RAM is in uitstekende staat en werkt perfect.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -25117,7 +25124,7 @@
    "description": "Goed werkende DDR4 RAM. 32GB in totaal, 2 sticks van elk 16GB op 3200MHz (zoals te zien in de 2de afbeelding). Heeft altijd goed gewerkt en is nooit overclocked geweest. Ik verkoop deze RAM omdat ik recent naar DDR5 ben overgestapt.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -25150,7 +25157,7 @@
    "description": "Te koop aangeboden: een nette set Patriot Viper Elite II DDR4 werkgeheugen met rode heatspreaders (2 modules). Het geheugen werkt volledig naar behoren en komt uit een rookvrije omgeving. Ideaal voor een budget game pc. Let op: er is geen originele verpakking aanwezig.\n\nDaarnaast bied ik een MSI A520M-A PRO moederbord aan. Dit moederbord heeft bij mij gewerkt, maar heeft lange tijd ongebruikt gelegen. Ik schat de kans dat het nog werkt op 80%, maar kan dit niet garanderen. Vandaar de lage prijs.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -25183,7 +25190,7 @@
    "description": "Te koop aangeboden: na een upgrade heb ik deze geheugen module over. Het betreft een G.Skill Aegis 16GB DDR4-2666 RAM module. De module is uitgebreid getest met Memtest86+ en heeft alle tests zonder fouten doorstaan.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -25216,7 +25223,7 @@
    "description": "Nooit problemen mee gehad.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -25305,7 +25312,7 @@
    "description": "Te koop aangeboden: een set van twee Corsair Vengeance RGB PRO DDR4 RAM modules, elk 8GB, voor een totaal van 16GB.\n\nDeze modules hebben een snelheid van 3600MHz en zijn ideaal voor het upgraden van uw desktop- of gaming-pc.\n\nZe zijn in uitstekende staat en werken perfect.",
    "detail": 2,
    "highest_bid": 95.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -25338,7 +25345,7 @@
    "description": "Nieuwe ongebruikte Formuler Z10 Pro Android OTT mediastreamer. Ondersteunt 4K en HDR, heeft 2GB DDR4 RAM en 16GB opslag. Wordt geleverd met afstandsbediening, TV-kabel, voedingsadapter, afstandsbediening extender en batterijen. Ideaal voor een smart viewing experience.",
    "detail": 2,
    "highest_bid": 45.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -25425,7 +25432,7 @@
    "description": "HP T630 Home Assistant server – Grip op je energie, je huis slim en zuinig\n\nWil je precies zien wat je zonnepanelen opleveren, wanneer je thuisbatterij laadt en waar je stroom naartoe gaat? Met deze kant-en-klare Home Assistant server heb je binnen een minuut je complete slimme huis en energiebeheer in één overzichtelijk dashboard. Geen abonnement, geen cloud: alles draait lokaal bij jou thuis.\n\nDIRECT KLAAR VOOR GEBRUIK\nAansluiten, ongeveer een minuut wachten en via je telefoon, tablet of laptop naar homeassistant.local:8123. De nieuwste versie van Home Assistant OS is al geïnstalleerd en je ontvangt een duidelijke handleiding. Na een stroomstoring start de server automatisch weer op, zodat je huis altijd blijft werken.\n\nSLIM ENERGIEBEHEER MET ZONNEPANELEN EN THUISBATTERIJ\nPer 1 januari 2027 stopt de salderingsregeling. Zelf opgewekte stroom slim gebruiken wordt dan belangrijker dan ooit. Home Assistant helpt je daarbij:\n\n- Energiedashboard: zie in één oogopslag je opwek, verbruik, teruglevering en stroom van en naar het net, per uur, dag, maand en jaar\n\n- Zonnepanelen koppelen: realtime opbrengst van je omvormer (o.a. SolarEdge, Enphase, Growatt, GoodWe, SMA, afhankelijk van merk en model)\n\n- Thuisbatterij inzien en aansturen: laadniveau, laden en ontladen volgen, en bij ondersteunde batterijen automatisch laden bij zonne-overschot of lage stroomprijs\n\n- Dynamisch energiecontract: toon uurprijzen (o.a. Tibber, Frank Energie, EnergyZero) en laat apparaten automatisch draaien op de goedkoopste momenten\n\n- Slim eigen verbruik: zet wasmachine, boiler, laadpaal of warmtepomp aan wanneer je panelen overschot leveren, in plaats van terug te leveren voor een lage vergoeding\n- Verbruik per apparaat: met slimme stekkers zie je precies welke apparaten stroom slurpen\n- Gas en water: ook zichtbaar via je slimme meter (P1)\n\nDe optionele P1-kabel koppelt je slimme meter direct aan Home Assistant. Zo heb je vanaf dag één inzicht in je stroom- en gasverbruik.\n\nWAAROM DEZE SERVER?\n- Snelle 128 GB SSD: betrouwbaarder en sneller dan een Raspberry Pi met microSD-kaart\n- Stil: passief gekoeld, geen ventilator\n- Zuinig: slechts 5 tot 11 watt, kost je enkele euro's per jaar aan stroom\n- Compact: past naast je router of in de meterkast\n- Inclusief Zigbee-coördinator(Chipset EFR32MG21 van siliconlabs dat is dezelfde als in de Sonoff): direct sensoren, stekkers en lampen koppelen\n\nSPECIFICATIES\n- Processor: AMD G-Series GX-420GI, 2,0 GHz quad-core\n- Werkgeheugen: 8 GB DDR4\n- Opslag: 128 GB M.2 SATA SSD\n- Videokaart: AMD Radeon R7E\n- Audio: stereo geluidskaart\n- Beeldschermaansluitingen: 2x DisplayPort\n- USB: 2x USB 3.0, 4x USB 2.0\n- Netwerk: Gigabit Ethernet\n\nINCLUSIEF\n- HP T630 met Home Assistant OS voorgeïnstalleerd\n- Zigbee-coördinator met USB-verlengkabel (Chipset EFR32MG21 van silicon labs dat is dezelfde als in de Sonoff )\n- HP Stroomadapter\n- Nederlandstalige handleiding/instructies\n\nUITBREIDEN (OPTIONEEL)\n- P1-kabel voor slimme meter (DSMR 5, 180 cm): €15\n- Zigbe",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -25458,7 +25465,7 @@
    "description": "verkeerde maat! fout aangekocht !\npassen niet in mijn tacker. bekijk de foto's goed voor de maten en voor welke type tacker. had ik beter mee op moeten letten. enkele dozen zijn er een paar uit. meeste is van Haubold voor de tacker PN 7114 J/A",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -25486,7 +25493,7 @@
    "description": "Sony Interactive Entertainment 1000050116. Platform: PlayStation 5, Kleur van het product: Zwart, Wit, Intern geheugen: 16384 MB. Opslagmedia: SSD, Interne opslagcapaciteit: 1 TB, Leessnelheid: 5500 MB/s. Ethernet LAN, data-overdrachtsnelheden: 10,100,1000 Mbit/s, Ethernet interface type: Gigabit Ethernet, Wi-Fi-standaarden: 802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax). HD type: 8K Ultra HD, Ondersteunde video-modi: 2160p, 4320p, Ingebouwde audio decoders: DTS, DTS 2.0, DTS 5.1, DTS-HD, DTS-HD Master Audio 5.1, Dolby Digital 5.1, Dolby TrueHD. Breedte verpakking: 431 mm, Diepte verpakking: 169 mm, Hoogte verpakking: 359 mm",
    "detail": 2,
    "highest_bid": 650.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -25514,7 +25521,7 @@
    "description": "Aangeboden: \n Siemens S7-1200 PLC + uitbreiding modules \n\n Omschrijving: \n 1x CPU 1214C AC/DC/RLY (6ES7214-1BG40-0XB0) 14xDI + 10xDO + 2xAI \n 3x SM 1223 DC/RLY (6ES7223-1PL32-0xB0) 16xDI + 16xDO \n\n Staat: \n Gebruikt / netjes \n Geheugen gewist / geen wachtwoord",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -25786,7 +25793,7 @@
    "description": "perfecte Sinterklaas of Kerstkadoo voor de kinderen\nmeerdere stuks op voorraad, prijs is per stuk.\n\n10x iPad 2019 32GB Wifi € 99,- p.s.\n10x iPad 2020 32GB Wifi € 125,- p.s.\n5x iPad 2020 128GB Wifi € 159,- p.s.\n\n(Ook beschikbaar de iPad 2019 (7de generatie) voor een prijs van € 99,- staat ook bij mijn andere advertenties voor meer informatie)\n\nApple iPad met een 10.2 inch scherm en een opslag capaciteit van 32GB of 128GB\nDit zijn modellen die nog mee gaan met alle app updates en daardoor ook alle apps en spelletjes kunnen installeren.\nZijn in zeer goede staat!\n\n• iPad 2020\n• 10.2 inch scherm\n• Touch ID\n• 32GB of 128GB\n• Wifi\n• geschikt voor Pencil (Origineel of imitatie)\n• Zeer goede staat\n• iPadOS 26\n\nOptioneel:\n• Hoes bescherming voor en achterkant diverse kleuren € 20,-\n• Kinderhoes met handvat in de kleuren roze, blauw en zwart € 20,-\n• Screenprotector (Glas) € 20,-\n• Lightning oplader compleet (laadblok + Kabel) € 15,-\n• Pencil om te tekenen (imitatie) € 20,-\nCombinatie aanbieding hoes + screenprotector + oplader € 45,-\n\nZie mijn andere advertenties voor meer informatie.\n\nKan afgehaald worden of verstuurd worden met Post NL. (Aangetekend voor € 10,-)",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -26066,7 +26073,7 @@
    "description": "BOOX Note Air4 C – 64 GB met magnetische hoes\n\nVeelzijdige e-reader en digitaal notitieblok met een 10,3-inch kleuren scherm.\n\n- 64 GB opslagruimte\n- Kleurenscherm, prettig voor de ogen\n- Ideaal voor lezen, schrijven, tekenen en notities\n- Werkt met Android en ondersteunt diverse apps\n- Ondersteuning voor een digitale pen\n- Magnetische beschermhoes\n- Slank, licht en stijlvol ontwerp\n\nPerfect voor werk, studie en dagelijks gebruik!",
    "detail": 2,
    "highest_bid": 300.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -26150,7 +26157,7 @@
    "description": "Deze iPad is ideaal voor dagelijks gebruik, zoals internetten, e-mailen, video’s kijken, videobellen, online winkelen, lezen en het gebruiken van diverse apps. Dankzij het ruime 10,2-inch Retina-display is de iPad prettig in gebruik.\n\nSpecificaties\n\nMerk: Apple\nModel: iPad 7e generatie (2019)\nKleur: Space Gray (donkergrijs)\nOpslagcapaciteit: 32 GB\nSchermformaat: 10,2 inch Retina-display\nVerbinding: Wi-Fi\nBesturingssysteem: iPadOS 16\nProcessor: Apple A10 Fusion-chip\nOntgrendeling: Touch ID (vingerafdrukscanner)\nCamera’s: Voor- en achtercamera\nOplaadaansluiting: Lightning\nAudio: Ingebouwde speakers en 3,5 mm koptelefoonaansluiting\n\nStaat van de iPad\n\nDe iPad is gebruikt en wordt aangeboden met de originele verpakking en een extra beschermhoes. Exclusief oplader. Op de foto’s is de staat van de iPad vanuit verschillende hoeken te bekijken.\n\nOverige informatie\n\nHet betreft een Wi-Fi-model zonder simkaartfunctie. De iPad heeft 32 GB interne opslagruimte.\n\nOmdat het een ouder model uit 2019 betreft, ondersteunt deze niet alle nieuwste iPadOS-versies en apps. Houd hier rekening mee bij aankoop!! Batterijconditie onbekend, maar hij moet na aantal uren intensief gebruik aan de lader.\n\nOphalen kan rondom Den Haag/Rotterdam/Zutphen",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -26352,7 +26359,7 @@
    "description": "Witte gaming pc | RTX 4070 | i7-13700K | 32GB DDR5\n\nTe koop: mijn volledig witte gaming-pc met RGB-verlichting. De pc is ongeveer drie jaar oud en heeft een Intel Core i7-13700K, een RTX 4070 AERO OC en 32 GB DDR5-werkgeheugen.\n\nEen mooie combinatie voor wie een pc zoekt om mee te gamen, te multitasken en creatief te werken, met een bijpassende witte uitstraling.\n\nSpecificaties:\n• Processor: Intel Core i7-13700K\n• Videokaart: NVIDIA GeForce RTX 4070 AERO OC – 12 GB\n• Werkgeheugen: 32 GB Corsair DDR5 met RGB\n• Opslag: 2 TB\n• Waterkoeling: NZXT Kraken X53 RGB White\n• Behuizing: witte NZXT Flow met RGB-verlichting\n\nVraagprijs: €1.600\nBieden vanaf €1.300.\n\nAlleen ophalen. Heb je vragen of interesse? Stuur gerust een bericht!",
    "detail": 2,
    "highest_bid": 1550.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -26381,7 +26388,7 @@
    "description": "NVMe M.2 SSD’s – 256GB, 512GB en 1TB – diverse modellen\n\nBeschrijving:\n\nDiverse NVMe M.2 SSD’s beschikbaar voor laptops en desktops met een geschikte M.2-aansluiting. De genoemde lees- en schrijfsnelheden zijn maximale specificaties; de werkelijke snelheid hangt af van het systeem en de gebruiksomstandigheden.\n\n256GB – €32,95\n\n Western Digital PC SN730 \nPCIe 3.0 x4, NVMe\nLezen tot 3.150 MB/s · schrijven tot 2.100 MB/s\n\n512GB – €64,85 per stuk\n\n Western Digital PC SN720 \nLezen tot 3.400 MB/s · schrijven tot 2.400 MB/s\n Samsung PM991a \nLezen tot 3.100 MB/s · schrijven tot 1.800 MB/s\n Kioxia XG6, model KXG6AZNV512G \nLezen tot 3.100 MB/s · schrijven tot 2.800 MB/s\n Toshiba XG4, model THNSN5512GPUK \nLezen tot circa 1.500 MB/s · schrijven tot circa 980 MB/s\n\n1TB\n\n Intel SSD 660p — €118,95 \nLezen tot 1.800 MB/s · schrijven tot 1.800 MB/s\n Samsung 980 — €134,95 \nLezen tot 3.500 MB/s · schrijven tot 3.000 MB/s\n\nStuur een bericht met het model dat je zoekt. Beschikbaarheid kan per model verschillen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [],
@@ -26409,7 +26416,7 @@
    "description": "Samsung galaxy a12, blauw, 32 gb met 4 gb sd-kaart. Zo goed als nieuw, geheel krasvrij. Inclusief wallet-telefoonhoesje.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
@@ -26444,7 +26451,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
     [
@@ -26457,7 +26464,7 @@
    "price_each": 30.0,
    "price_total": 30.0,
    "metric": 30.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2469232011": {
    "title": "Lenovo Chromebook - Perfect voor school of werk!",
@@ -26477,7 +26484,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-24T02:13:04Z",
    "price_history": [
     [
@@ -26627,7 +26634,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
     [
@@ -26659,7 +26666,7 @@
    "description": "Dit zijn twee ram geheugen sticks met een snelheid van 2133 mhz. De rede dat ik deze verkoop is omdat ik een nieuwe pc heb aangeschaft dus deze ram ook niet meer nodig is.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -26694,7 +26701,7 @@
    "description": "Compacte NUC mini PC, zuinig en stil. Hij is zo klein als een boterhamtrommel en verbruikt maar ongeveer 10 watt. Getest en werkend. 20 stuks beschikbaar.\n\n🔹 SPECIFICATIES\n- Processor: Celeron J4005, 2 cores, 2,0 tot 2,7 GHz\n- Geheugen: 8 GB DDR4\n- Opslag: 128 GB SSD (256 GB mogelijk voor €16 extra)\n- Grafisch: UHD 600, 4K-ondersteuning\n- Draadloos: WiFi en Bluetooth ingebouwd\n- Besturingssysteem: schoon gewist, op verzoek geleverd met Windows 10 of Windows 11\n\n🔌 AANSLUITINGEN\n- Voor: 2x USB 3.0 (waarvan 1 laadpoort) en aan/uit-knop\n- Achter: 2x USB 3.0, 2x HDMI (4K, twee schermen tegelijk) en Gigabit netwerk\n- Zijkant: SD-kaartlezer\n\n💡 IDEAAL VOOR\n- Mediaspeler voor Kodi, Plex of Netflix op je tv\n- Home Assistant, Pi-hole of een kleine thuisserver\n- Kassasysteem, informatiescherm of eenvoudige kantoor-pc\n- Internetten, e-mail en YouTube\n\n📦 INCLUSIEF\n- Voedingsadapter\n\n💶 PRIJS (per stuk)\n- 128 GB SSD: €99\n- 256 GB SSD: €115\n\n✅ Zakelijk verkoper, getest\n✅ Ophalen in Haarlem, testen ter plaatse mag\n✅ Verzenden kan in overleg\n\nGroet, Jaap",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -26725,7 +26732,7 @@
    "description": "Dell OptiPlex 3060 SFF: een compacte, betrouwbare zakelijke pc met een 4-core i3 van de 8e generatie en officiële ondersteuning voor Windows 11. Hij is stil, zuinig en stevig gebouwd. Getest en klaar voor gebruik. 8 stuks beschikbaar, dus ideaal om een heel kantoor of klaslokaal mee in te richten.\n\n🔹 SPECIFICATIES\n- Behuizing: Small Form Factor (compact, past makkelijk op of onder je bureau)\n- Processor: Intel Core i3 (8e generatie), 4 cores\n- Geheugen: 8 GB of 16 GB DDR4 (naar keuze)\n- Opslag: 128 GB SSD\n- Grafisch: Intel UHD Graphics 630\n- Besturingssysteem: Windows 11\n\n🔌 AANSLUITINGEN\n- DisplayPort en HDMI: twee schermen tegelijk\n- USB 3.0-poorten voor en achter\n- Gigabit netwerk\n- Koptelefoonaansluiting\n\n💡 IDEAAL VOOR\n- Kantoor-pc of thuiswerkplek met twee schermen\n- Administratie, internetten en Office\n- School, studie of een kassasysteem\n\n📦 INCLUSIEF\n- Voedingskabel\n\n💶 PRIJS (per stuk)\n- 8 GB: €99\n- 16 GB: €149\n\n✅ Zakelijke verkoper, alles is getest\n✅ Testen mag altijd\n✅ Ophalen in Haarlem\n✅ Verzenden kan in overleg\n\nGroet, Jaap",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -26786,7 +26793,7 @@
    "description": "Te koop aangeboden: twee sticks Transcend JetRam DDR5 werkgeheugen van elk 8 GB (in totaal 16 GB).\nDeze modules komen uit mijn eigen game-pc en hebben altijd netjes en probleemloos gedraaid. Een paar maanden geleden heb ik mijn systeem geüpgraded naar 2x 16 GB, waardoor deze set nu overbodig is geworden en weg mag.\n Specificaties: \n\n\n Merk & serie: Transcend JetRam Onderdeelnummer: JM4800ALG-8G Totale capaciteit: 16 GB (2x 8 GB) Type geheugen: DDR5 Snelheid: tot 4800 MT/s (PC5-38400) \nIdeaal als voordelige upgrade of vervanging voor een DDR5-systeem. Werkt naar behoren en is direct beschikbaar.\nOp te halen in overleg of te verzenden (verzendkosten en risico voor koper). Bij interesse of vragen, stuur gerust een bericht!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -26817,7 +26824,7 @@
    "description": "Te koop: een compleet Firich XP PanelPOS PP-9735W all-in-one kassasysteem met een 15.6 inch scherm (1920x1080 resolutie), aangedreven door een Celeron J6412 processor en voorzien van 8GB RAM. Het systeem draait op Windows 10. Dit is een ideaal systeem voor horeca of retail, inclusief een kassalade. Het systeem is pas 1 jaar oud , in goede staat en klaar voor gebruik. De factuur toont de originele aankoop van €1395,-",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [],
@@ -26845,7 +26852,7 @@
    "description": "Uitsluitend nieuw en originele producten!\n\nHeb je vragen of wil je meer informatie? Ik help je graag.\nWhatsApp of bel: 06-10669937\n\nFormuler Z12 Ultra TV Box – BT3 Edition\n\nDe nieuwe benchmark voor een premium streamingervaring\n\nDe box maakt een primeur met Dolby Vision® voor verbluffende HDR-kleuren en Dolby Atmos® voor driedimensionaal surround-geluid.\n\nDaarnaast heb je met 4GB RAM en 128GB intern geheugen een luxueuze, razendsnelle kijkervaring.\n\nHet nieuwe ultra-luxe chassis met opvallende accenten springt meteen in het oog. In de doos zit een vernieuwde, compacte BT3-afstandsbediening met backlight en siliconen cover – slim vormgegeven zodat hij rechtop kan staan op tafel.\n\nUiteraard is de My TV Online 4 app ook beschikbaar in deze TV box, waarmee je de beste streamingervaring beleeft.\n\nMy TV Online 4 – Een Revolutie in Kijkplezier\n\nMet My TV Online 4 bundel je eenvoudig meerdere portals in één afspeellijst, zoek je razendsnel door content met universeel zoeken en beheer je favorieten, herinneringen en opnames overzichtelijk. De interface is intuïtief voor jong en oud en haalt het maximale uit je provider.\n\nEenvoudige Connectiviteit\n\nMaak in een paar stappen verbinding via portal, m3u of API. De Z12 Ultra herkent je lijsten en presenteert zenders, VOD en series overzichtelijk – klaar om direct te kijken.\n\nVoeg Functionaliteit Toe met Android 12\n\nDraait op Android 12 zodat je moeiteloos extra streaming-apps, tools of social media toevoegt via de app-stores.\nWissel snel tussen tv-portals en je favoriete apps zonder gedoe.\n\nKrachtige Specificaties\n\nDe Z12 Ultra is gebouwd voor moderne codecs en hoge bitrates.\nDankzij 4GB RAM blijven zappen en apps soepel. 128GB intern geeft je volop ruimte voor apps, buffers en downloads.\nDolby Vision zorgt voor sprankelende highlights en diepe zwartwaarden; Dolby Atmos levert een meeslepende 3D-soundstage op geschikte soundbars/receivers. Ondersteuning voor 4K60, All HDR en QMS (Quick Media Switching) maakt je setup toekomstbestendig.\n\nLevendige 4K Beeldkwaliteit\n\nKijk in haarscherpe 4K met vloeiende 60fps-weergave.\nHDR-formaten (incl. Dolby Vision) tonen meer detail in zowel schaduw als highlight, zodat films, sport en series zichtbaar tot leven komen.\n\nConnectiviteitsopties voor Elke Situatie\n\nAchterop vind je alles voor een stabiele setup:\n\nHDMI naar je tv of receiver\nRJ45 Ethernet voor vaste, storingsvrije verbinding\nDual-USB (USB 3.0 + USB 2.0) voor opslag of accessoires\nmicroSD-slot voor extra opslag\nOptische S/PDIF voor digitale audio\nAV-uit (jack) en DC-in voeding\nOf je nu bedraad of via wifi werkt: de Z12 Ultra zorgt voor lage latency en hoge betrouwbaarheid.\n\nVerbeterde Bediening met BT3 Afstandsbediening en Cover\n\nDe nieuwe BT3-voice remote met achtergrondverlichting voelt premium aan, staat rechtop op je bureau of tv-meubel en is voorzien van een silicone cover voor extra grip.\nProgrammeer hem met de Formuler-app om ook je tv-functies (power, bron, volume, menu e.d.) te bedienen. Zo heb je met één ",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -26962,7 +26969,7 @@
    "description": "Te koop samsung galaxy tab a11 + 5g, nieuw in doos",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -26995,7 +27002,7 @@
    "description": "Z.g.a.n. E-reader , 6 maanden geleden aangeschaft, maar helaas niets voor mij. Inclusief goede beschermhoes en oplaadkabel. Voor meer vragen kun je contact opnemen.",
    "detail": 2,
    "highest_bid": 130.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -27028,7 +27035,7 @@
    "description": "Ddr5 ram 8gbx2 sk hynix tested with memtest, and working great pickup from amsterdam/shipping also possible any bids from 110 and over will be automatically accepted unless there's another bid",
    "detail": 2,
    "highest_bid": 75.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -27061,7 +27068,7 @@
    "description": "Sony Interactive Entertainment Playstation 5 Slim Digital Edition. Platform: PlayStation 5, Kleur van het product: Zwart, Wit, Intern geheugen: 16384 MB. Opslagmedia: SSD, Interne opslagcapaciteit: 825 GB. Ethernet LAN, data-overdrachtsnelheden: 10,100,1000 Mbit/s, Ethernet interface type: Gigabit Ethernet, Wi-Fi-standaarden: 802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax). HD type: 8K Ultra HD, Ondersteunde video-modi: 2160p, 4320p, Ingebouwde audio decoders: DTS, DTS 2.0, DTS 5.1, DTS-HD, DTS-HD Master Audio 5.1, Dolby Digital 5.1, Dolby Digital Plus,.... Breedte: 358 mm, Diepte: 216 mm, Hoogte: 80 mm\n\n\nValt op 1 hand te tellen hoevaak de playstation hier aan is geweest in een jaar tijd",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [],
@@ -27115,7 +27122,7 @@
    "description": "HP T630 Thin Client / Mini PC, compleet met voet en adapter.\n\nGrote aantallen beschikbaar: 50 stuks op voorraad!\n\nElke T630 wordt geleverd met originele voet en adapter. Alle apparaten zijn gewiped en klaar voor je eigen besturingssysteem (Windows, Linux, ThinPro, home assistant enz.).\n\nIdeaal als:\n\n• Home Assistant server\n• Pi-hole / AdGuard\n• Mediaspeler of kantoor-pc\n• Kiosk- of kassasysteem\n• Zuinige thuisserver\n\nSpecificaties:\n\n• AMD GX-420GI quad-core 2.0 GHz\n• AMD Radeon R7E graphics\n• 2x DisplayPort\n• Gigabit LAN\n• Volledig passief gekoeld, dus stil en zuinig\n\nKeuze uit:\n\n• 4GB RAM – 8GB SSD – €39,95\n• 4GB RAM – 32GB SSD – €49,95\n• 8GB RAM – 32GB SSD – €59,95\n• 8GB RAM – 128GB SSD – €79,95\n• 8GB RAM – 256GB SSD – €99,95\n\nDe HP T520 zowel de HP T620 Thinclient is ook in klein aantal beschikbaar.\n\nInteresse in meerdere stuks? neem contact op voor een staffelprijs.\n\nOphalen in Haarlem of verzenden is beide mogelijk.\n\nZakelijke verkoper, alles is getest\nTesten mag altijd\n\nGroet, Jaap",
    "detail": 2,
    "highest_bid": 59.95,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -27175,7 +27182,7 @@
    "description": "iPhone 11|12|13|14|Reparatie|Emmeloord|Garantie|15%korting\n\n15% Korting combi-deal\n\nMobiele telefoons | Apple iPhone iPad / MacBook/iMac\nSamsung\n\nBeschrijving\nOnderhoud van alle soorten telefoons en alle storingen❗️\nCOMBI DEAL op Scherm & Battery 15% korting.\n\nWaarom moet de telefoon worden onderhouden?\n....\nDit heeft betrekking op verschillende aspecten, waaronder:\nStel je voor dat je op weg bent naar iets belangrijks en dat je kapotte scherm permanent is gestopt,\nLucht, water of stof kan de binnenste laag van het nog werkende kapotte scherm binnendringen.\nHeeft je telefoon last van nootdikte?! Dan moet u de battery onmiddellijk vervangen.\nHeeft het last van irrationele hitte? Dit moet ook worden beoordeeld. Het is mogelijk om te voorkomen dat u extra kosten moet betalen, zoals (dood van de telefoon of onderhoud van het moederbord) door alleen de battery te vervangen.\nDe schade die je nu ziet is klein zal meer schade aanrichten.\nIs je telefoon in het water gevallen? Probeer a.u.b. geen drooggereedschap, dit vergroot het leed, het werkt tijdelijk en dan betaal je hoge kosten,Laten we, nadat we direct in het water zijn gevallen, ernaar kijken en schoonmaken. Het kost niet veel.\nWe werken met internationale certificering, training en ervaring.\n\nKlaar binnen 2 uur.\n\n\n 12 maanden garantie. Onderdelen van topkwaliteit. \nNeem contact met ons op voor meer informatie of om te reserveren.\n\n✔️We garanderen dat je tot wel 70% bespaart op de prijs van de telefoon tijdens ons onderhoud\n\n✔️We werken met internationale certificering, training en ervaring.\n\n✔️parkeren voor de deur!\n\n✔️Klaar terwijl u wacht. ( De meeste reparatie zijn binnen 30 minuten klaar).\n\n✔️De koffie staat altijd klaar!\nWij doen alle soorten iPhone of Android reparaties, Bel ons voor meer informatie :\n\n📱0685133100\n🕜Maandag t/m zaterdag 9:00 tot 18:00\n🕜Vrijdag tot 19:00\n\n📧Info@tempoapple.nl\n\nTempoapple-Emmeloord\n🏢Noordzijde 12D\n8302GL Emmelood\n🌏tempoapple",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [],
@@ -27259,7 +27266,7 @@
    "description": "Nintendo Switch 2022 + 6 Games\nExcelent condition. Has been sitting unused for quite some years.\n\nAccessories included:\n- Blue/red Joy-Cons + original Joy-Con grip\n- Screen protector\n- Original dock\n- HDMI cable\n- Charger\n- Carrying case (Mario theme)\n\nGames\n- Just Dance 2022\n- The Witcher 3: Wild Hunter\n- Dying Light: Platinum Edition\n- Pokémon Legends: Arceus\n- Pokémon Sword\n- Avicci Invector\n\nConsole with 32 GB internal storage, playable in handheld or TV mode.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [
@@ -27292,7 +27299,7 @@
    "description": "Hierbij verkoop ik mijn custom gaming pc. Het systeem is in juni 2023 samengesteld en verkeert in nieuwstaat: hij is nauwelijks gebruikt en ziet er van binnen en buiten top uit.\n\nSpecificaties:\n- Processor: AMD Ryzen 7 5700X\n- Videokaart: MSI Radeon RX 6700 XT MECH 2X 12G\n- Werkgeheugen: Corsair Vengeance LPX (32GB)\n- Opslag: Kingston NV2 2TB M.2 SSD\n- Moederbord: MSI MAG B550 TOMAHAWK MAX WIFI (inclusief wifi en bluetooth)\n- Koeler: be quiet! Pure Rock 2 Black\n- Voeding: be quiet! Pure Power 11 600W\n- Behuizing: MSI MPG GUNGNIR 110R Midi Tower\n\nOverig en voorwaarden:\n- Staat: Zo goed als nieuw, netjes en schoon.\n- Garantie: De fabrieksgarantie is verlopen (aangeschaft juni 2023).\n- Besturingssysteem: Windows 11 geïnstalleerd (schone installatie, klaar voor gebruik).\n- Toebehoren: Inclusief stroomkabel en wifi-antennes voor het moederbord.\n- Ophalen: Bij voorkeur ophalen zodat je hem kunt bekijken. Betaling bij overdracht (via betaalverzoek/Tikkie of contant).\n\nAlleen reageren bij serieuze interesse.",
    "detail": 2,
    "highest_bid": 950.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [],
@@ -27320,7 +27327,7 @@
    "description": "Originele Nintendo Switch, inclusief de console, docking station, originele Joy-Cons, een extra set roze/groene Joy-Cons (met originele doos), en een handige draaghoes. De set wordt geleverd met alle benodigde kabels (HDMI en stroomadapter) en een 32GB SD kaart voor extra opslag. Ideaal voor urenlang speelplezier, zowel thuis als onderweg. De console is in goede staat en werkt perfect.",
    "detail": 2,
    "highest_bid": 155.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T13:42:54Z",
    "price_history": [],
@@ -27400,7 +27407,7 @@
    "city": "Utrecht",
    "seller": "Debbie",
    "source": "marktplaats",
-   "posted": "Gisteren",
+   "posted": "Eergisteren",
    "price": 40.0,
    "price_type": "FIXED",
    "reserved": false,
@@ -27410,7 +27417,7 @@
    "description": "8gb sodimm DDR4 3200mhz 1R×8 van het merk Samsung.\n\nToelichting: Voor zo ver ik weet werken ze gewoon. Alleen liggen ze al een tijdje en ik kan ze niet eerst testen voor de verkoop.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27443,7 +27450,7 @@
    "description": "In de originele doos, inclusief alle accessoires.\nIk heb het op 16-07-2025 gekocht.\nHet werkt perfect, maar ik heb tijdens Black Friday een goede deal kunnen scoren voor een 870E.\nDaarom verkoop ik dit.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27480,7 +27487,7 @@
    "description": "Te koop aangeboden: een set van twee Corsair Vengeance RGB Pro 8GB DDR4 RAM modules, wat neerkomt op een totaal van 16GB. Ze zijn in uitstekende staat en werken perfect. Voorzien van RGB-verlichting. De geheugensnelheid is 3600 MHz.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27513,7 +27520,7 @@
    "description": "Corsair vengeance ram 16gb (2x8gb) ddr4 3600 mhz",
    "detail": 2,
    "highest_bid": 70.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27546,7 +27553,7 @@
    "description": "Deze krachtige gaming PC is uitgerust met een AMD Ryzen 7 3700X 8-Core Processor, 32 GB DDR4 RAM en een AMD Radeon RX 5500 XT videokaart. De opslag bestaat uit een snelle 1TB NVMe SSD (Samsung 970 EVO). Ideaal voor gaming en andere veeleisende taken. De PC is in uitstekende staat en klaar voor gebruik. De gaming PC is te zien op de foto's.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -27574,7 +27581,7 @@
    "description": "Te koop aangeboden: een set van twee Ballistix DDR4 RAM modules, elk 8GB, voor een totaal van 16GB. Deze modules hebben een indrukwekkende snelheid van 4000MHz, ideaal voor gamers en professionals die prestaties eisen. De RAM is zorgvuldig gebruikt en verkeert in uitstekende staat. Perfect voor het upgraden van uw desktop-pc.",
    "detail": 2,
    "highest_bid": 50.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27607,7 +27614,7 @@
    "description": "Aangeboden: één DDR4-geheugenmodule van 16 GB, ECC UDIMM (unbuffered), 2666MHz\n\n Samsung M391A2K43BB1-CTDQ \n\nDe module is afkomstig uit een homeserver die wordt vervangen en werkt volledig naar behoren. Hij is getest met MemTest86 en heeft deze test probleemloos doorstaan.\n\n Let op: dit is unbuffered ECC-geheugen. Het werkt op veel moederborden, maar koop deze module alleen als je specifiek ECC-geheugen zoekt.\n\n Ophalen heeft de voorkeur. \nBij ophalen kunnen we de module desgewenst samen nogmaals testen, zodat je zelf kunt zien dat hij goed werkt. Daarna verwijderen we hem samen uit het systeem en verpak ik hem in een ESD-veilige verpakking.\n\n Verzenden is in overleg ook mogelijk. \nIn dat geval voer ik nog een laatste test uit en stuur ik je een foto van het testresultaat. Daarna verwijder ik de module (met gebruik van ESD-bescherming), doe ik hem in een ESD-veilig zakje en verpak ik hem met bubbeltjesplastic in de verzenddoos.\n\nJe kunt zelf kiezen met welke verzendmethode ik hem verstuur. Ik verstuur uitsluitend met track & trace. De verzendkosten en het risico van verzending zijn altijd voor de koper. Je kunt zelf kiezen of je de zending wilt verzekeren; eventuele verzekeringskosten zijn uiteraard ook voor de koper.\n\n Particuliere verkoop: geen garantie of retour mogelijk. Daarom gaat mijn voorkeur uit naar ophalen en samen testen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27642,7 +27649,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
    "price_drop": false,
@@ -27669,7 +27676,7 @@
    "description": "Hierbij verkoop ik mijn game-pc. Hij is in hele goede staat, altijd netjes gebruikt en werkt nog helemaal top. Kan alle huidige games prima aan op mooie instellingen.\nSpecs:\n• Videokaart: RTX 4060 (8GB)\n• Processor: Intel Core i5 (13e generatie)\n• Werkgeheugen: 32GB RAM\n• Opslag: 1TB SSD (954GB bruikbaar)",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -27695,7 +27702,7 @@
    "description": "Wij zijn 2 mannetjes en zijn 9 weken en mogen daarom naar een nieuw huis. Wij zijn heel nieuwsgierig. Zijn kinderen gewend en laten ons graag aaien.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27728,7 +27735,7 @@
    "description": "HP T630 Mini-pc voor Home Assistant | Plug & Play | Vanaf €54 \n\nHP T630 vanaf €54. Inclusief voeding, standaard/voetje* en Nederlandstalige beginnershandleiding. Home Assistant OS is optioneel bij te bestellen.\n\n🏠 Start met Home Assistant zonder gedoe! \n\nOp zoek naar een betaalbare, stille en zuinige mini-pc voor Home Assistant? Of wil je overstappen vanaf een Raspberry Pi of een ander kastje? De HP T630 is een uitstekende keuze! 4GB werkgeheugen is voor de meeste Home Assistant-installaties ruim voldoende.\n\nIk maak iedere T630 schoon, test hem uitgebreid en lever hem werkend af. Kies je voor de Home Assistant-optie, dan staat er al een verse installatie van Home Assistant OS op de SSD. Aansluiten en beginnen maar!\n\n🚚 Snelle verzending: maandag t/m zaterdag vóór 16.00 uur besteld én betaald? Dan wordt je bestelling dezelfde dag verzonden!\n━━━━━━━━━━━━━━━━━━\n⭐ KIES JOUW UITVOERING \n\nAlle uitvoeringen hebben dezelfde processor. Je kiest zelf hoeveel opslag (en eventueel werkgeheugen) je nodig hebt.\n\n🟢 START – 4GB RAM + 32GB SSD \nEen prima instap voor een basisopstelling.\nVergelijkbaar met de Home Assistant Green qua hoeveelheid geheugen en opslag, maar met een x86-processor en uitbreidingsmogelijkheden.\nGeschikt voor onder andere: ✓ Lampen, sensoren en slimme stekkers ✓ Automatiseringen en scènes ✓ Slimme meter (P1), thuisbatterij en warmtepomp\n\nBasis — €54\nMet Home Assistant OS + auto power-on — €60\n\n🔵 START+ – 4GB RAM + 64GB SSD \n🆕 Nieuw model per 21-11-2026: START+ heeft nu een 64GB opslagdisk! Voor maar €15 meer dan START heb je dubbel zoveel opslag, met meer ruimte voor historie en back-ups.\nHet eerdere model: de 64GB bestaat uit 2 losstaande SSD’s van elk 32GB: handig als extra datadisk of recovery-schijf.\n\nBasis — €69\nMet Home Assistant OS + auto power-on — €75\n\n🟠 PRO – 4GB RAM + 128GB SSD ⭐ AANRADER \nVoor wie veel wil bewaren: uitgebreide historie, back-ups en meerdere add-ons. Ruim opslag voor een groeiend smart home. De beste keuze voor de meeste gebruikers!\n\nBasis — €74\nMet Home Assistant OS + auto power-on — €80\n\n🟣 MAX – 8GB RAM + 128GB SSD \nVoor veeleisende gebruikers en uitgebreidere toepassingen.\nInteressant als je meerdere zware add-ons wilt draaien, bijvoorbeeld Frigate voor camerabeelden, Docker, Proxmox of een homelab.\n\nBasis — €88\nMet Home Assistant OS + auto power-on — €94\n━━━━━━━━━━━━━━━━━━\n\n➕ EXTRA OPTIES \n🏠 Home Assistant OS-installatie + auto power-on — €6\n📶 Ingebouwde wifi + Bluetooth — op aanvraag (niet altijd direct beschikbaar)\n🔧 Andere combinaties van geheugen en opslag (bijvoorbeeld 8GB RAM) zijn op aanvraag mogelijk.\n━━━━━━━━━━━━━━━━━━\n\n💪 WAAROM DE HP T630? \n✓ Stil en zuinig – fanless ontwerp, dus zonder ventilator\n✓ Geschikt voor 24/7-gebruik\n✓ Uitbreidbaar – 2 geheugenslots en 2 M.2 SATA-opslagslots\n✓ AMD quad-coreprocessor – geschikt voor veel Home Assistant-integraties\n✓ 6 USB-poorten – handig voor bijvoorbeeld Zigbee- of Z-Wave-dongles\n✓ Compact formaat – past gemakkelijk bij je router\n✓ Veelzijdig – later ook g",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27815,7 +27822,7 @@
    "description": "Bij deze bied ik mijn Asus ROG Xbox Ally X aan. Ik verkoop de handheld vanwege overstap naar console.\n\nSpecificaties:\n- Krachtige AMD Ryzen AI Z2 Extreme-processor\n- 7 inch Full HD-scherm met 120Hz en VRR\n- 24GB LPDDR5X-geheugen\n- 1TB SSD\n- Windows 11, waardoor je al je favoriete games op verschillende platforms kan spelen (steam, gog, origin, epic, microsoft store etc)\n\nDoor de Xbox Full Screen Experience lijkt en werkt de UI identiek aan een Xbox console.\n\nStaat: Zo goed als nieuw, weinig gebruikt\nInclusief originele ROG travelcase, speciaal ontworpen voor de Xbox Ally X. Garantie tot 15-10-2027. Factuur en doos aanwezig.\n\nBij interesse of vragen stuur gerust een berichtje.\n\nBieden mag, maar graag serieus en realistisch. Nieuwprijs van de set bedraagt op dit moment €1100.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -27843,7 +27850,7 @@
    "description": "ASUS STRIX-GT960-DC20C-2GD5\n\nVideochipGeForce GTX 960\n2GB GDDR5 geheugen\n\nWerkend uit de PC gehaald",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -27871,7 +27878,7 @@
    "description": "Te koop aangeboden: een set van twee Kingston HyperX Genesis DDR3 RAM-modules, elk met een capaciteit van 8GB, wat neerkomt op een totaal van 16GB. Deze geheugenmodules zijn ideaal voor het upgraden van uw desktop- of laptopcomputer om de prestaties te verbeteren, vooral bij multitasking of het draaien van geheugenintensieve applicaties. De modules zijn in uitstekende staat en werken perfect. Ze zijn zorgvuldig behandeld en komen uit een rookvrije omgeving. Een betrouwbare keuze voor wie op zoek is naar snelle en stabiele DDR3-geheugen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27908,7 +27915,7 @@
    "description": "Te koop: Gigabyte NVIDIA GeForce GTX 1070 Ti WINDFORCE 2X met 8GB GDDR5 geheugen. De videokaart is slechts korte tijd gebruikt, verkeert in goede staat en werkt volledig naar behoren. Geschikt voor 1080p-gaming en als upgrade voor een bestaande desktop-pc. Bij interesse of vragen kunt u gerust een bericht sturen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -27942,7 +27949,7 @@
    "description": "Tablet in goede staat oplaadkabel zit erbij geen stekker met hoesje ophalen geen koeriersdiensten",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -27971,7 +27978,7 @@
    "description": "Te koop aangeboden: een medion desktop pc. Niet bekend of deze werkt, er zit geen geheugen in.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -28004,7 +28011,7 @@
    "description": "Te koop uitstekend werkende iMac desktop met ingebouwde retina scherm.\nGeheugen 8GB. Opslag 1TB.\nBesturingssysteem: macOS Ventura 13.7.8 .\nVoor overige details van de computer: zie de foto's.\nHet scherm heeft, als de computer aan staat, wat verticale strepen. (zie foto).\nDe Mac is prima te gebruiken voor dagelijks gebruik.\nToetsenbord en muis zijn niet aanwezig, die heb ik meegenomen naar mijn nieuwe laptop.\nBreng een leuk bod uit dan mag je hem op komen halen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28032,7 +28039,7 @@
    "description": "Deze MacBook Pro is in uitstekende staat, zo goed als nieuw en heeft geen schade. Wordt geleverd met de originele oplader en een zwarte hoes van het merk THULE\n\n\nBelangrijkste specificaties\n\n• Model-ID: MacBookPro16,3.\n• Processor: 1,4-GHz quad-core Intel Core i5 (of optioneel 1,7-GHz Core i7).\n• Scherm: 13,3-inch Retina-display met True Tone (2560 × 1600 pixels).\n• Geheugen & Opslag: 8 GB of 16 GB werkgeheugen en een SSD van 256 GB tot 2 TB.\n• Poorten & Toetsenbord: Twee Thunderbolt 3 (USB-C) poorten aan de linkerkant, een koptelefoonaansluiting en een Magic Keyboard met Touch Bar en Touch ID.\n• Oplader: Een 61W USB-C-lichtnetadapter met USB-C-oplaadkabel.\n• Afmetingen: 1,56 × 30,41 × 21,24 cm en een gewicht van 1,4 kg.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28060,7 +28067,7 @@
    "description": "Te koop mijn Apple iMac uit eind 2015 met 21,5-inch Retina 4K-scherm en 500 GB SSD. Inclusief een werkend draadloos toetsenbord en een werkende draadloze Apple Magic Mouse.\nProcessor: 3,1 GHz quad-core Intel Core i5Werkgeheugen: 8 GBOpslag: 500 GB SSDBesturingssysteem: macOS Monterey 12.7.6\nVraagprijs €175 voor de complete set. Op te halen in Scherpenzeel",
    "detail": 2,
    "highest_bid": 100.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -28094,7 +28101,7 @@
    "description": "Deze is amper gebruikt. Ik kan er helaas niet aan wennen en wil graag een boek in handen. Het is wel super praktisch.\nEr zitten 2 hoesjes bij en de doos met oplaadkabel. De kindle is roze.\n\n\n\nAmazon Kindle Paperwhite Signature Edition. Beeldschermdiagonaal: 17,8 cm (7\"), Technologie: E Paper. Ondersteunde documentformaten: AZW, AZW3, DOC, DOCX, EPUB, HTML, MOBI, PDF, RTF, TXT, Ondersteund audioformaat: AAX, Ondersteund beeldformaat: BMP, GIF, JPEG, PNG. Interne opslagcapaciteit: 32 GB, Intern geheugen: 32 GB. USB-connectortype: USB Type-C. Kleur van het product: Zwart, Roze",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28122,7 +28129,7 @@
    "description": "Ik gebruik hem niet meer, dus hij moet weg. Hij is snel, stil en ziet er met 7 ARGB-fans en een 360 mm-waterkoeler goed uit.\n\n• Intel Core i7-14700KF\n• Gigabyte RTX 5060 AORUS Elite 8 GB\n• 32 GB Kingston FURY Beast RGB DDR5-6000\n• 1 TB Crucial P310 NVMe Gen4 SSD\n• ASUS ROG Strix B760-F Gaming WiFi\n• Corsair Nautilus 360 RS ARGB-waterkoeler\n• NZXT C850 Gold, volledig modulair\n• Corsair FRAME 4000D RS ARGB, 7 fans in totaal\n\n✅ Schoon geïnstalleerd en klaar voor gebruik\n✅ Nieuwste BIOS met Intels fix voor de bekende problemen met 13e/14e-generatie i7's\n✅ Windows 11 pro geactiveerd\nJe kunt hem ter plekke zien draaien.",
    "detail": 2,
    "highest_bid": 1175.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28150,7 +28157,7 @@
    "description": "Deze Apple iPad is in uitstekende staat en functioneert perfect.\nIk verkoop de iPad omdat ik samen met m’n partner een nieuwe heb gekocht. Perfect als sinterklaas of kerstkado.\n\nIdeaal voor studie, werk of entertainment. Wordt geleverd zonder accessoires.\n\nAfmetingen en gewicht2\nWi‑Fi-modellen\nHoogte: 250,6 mm\nBreedte: 174,1 mm\nDiepte: 7,5 mm\nGewicht: 490 gram\nWi‑Fi + Cellular-modellen",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -28183,7 +28190,7 @@
    "description": "Te koop aangeboden: een zo goed als nieuwe Samsung Galaxy Tab A8 met 32GB opslag en Wi-Fi functionaliteit. Deze tablet is ideaal voor dagelijks gebruik, zoals browsen, films kijken en lichte games. De tablet is zorgvuldig gebruikt en verkeert in uitstekende staat, zonder noemenswaardige gebruikssporen. Wordt geleverd inclusief een beschermhoes.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -28333,7 +28340,7 @@
    "description": "Te koop: een gloednieuwe YC-08P tablet, nog in de originele verpakking. Deze tablet wordt geleverd met een bijpassende hoes en oplader, waardoor je direct aan de slag kunt. Ideaal voor dagelijks gebruik, surfen op het internet, e-mails checken of lichte taken uitvoeren. De tablet is ongebruikt en verkeert in perfecte staat. Garantie 12 maanden.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [
@@ -28535,7 +28542,7 @@
    "description": "Wegens beëindigen hobby\n\nGame PC bestaande uit de volgende onderdelen\n\n- NZXT H6 flow behuizing\n- AMD 9800x3d\n- Nvidia Rtx4070\n- Samsung 990 PRO 2tb m.2\n- G.Skill DDR5 Trident Z Neo RGB 2x16GB 6000MHz CL30\n- Gigabyte B850 AORUS ELITE WIFI7\n- Arctic liquid freezer III pro 360mm AIO waterkoeling\n- 2x NZXT 140mm RGB DUO (bottom)\n- 3x NZXT 120mm RGB DUO (front)\n- Corsair CX750 750W ATX24\nCorsair 850watt voeding\n\nEvt tegen meer prijs nog leverbaar;\n\n- Razer naga v2 pro\n- Razer Blackwidow TKL\n- 34” ultrawide MSI Gaming monitor (MSI)\n- 27” QHD Gaming monitor (LG of MSI)\n- Steelseries Arctis Pro Wireless headset\n\nMeer foto’s kunnen op aanvraag verzonden worden. Bieden naar waarde, onzin biedingen ga ik niet op reageren.",
    "detail": 2,
    "highest_bid": 1600.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28597,7 +28604,7 @@
    "description": "Specificaties van alle vier de USB-sticks:\n- 32 GB\n- USB Type-A 3.2 Gen1, 170 MB/s lezen en 146 MB/s schrijven\n- Gloednieuw nog in gesloten verpakking, verzegeld\n- PIN-protected: 7-15 cijfers\n- AES-XTS 256-bit hardware encrypted\n- FIPS 140-2 Level 3 validated\n- NLNCSA DEP-V\n- NATO Restricted\n- Water en stof resistent; IP57 certified\n- Werkt met Windows, macOS, Linux, ChromeOS, Android, Citrix en VMWare.\n\nDeze USB sticks zijn ideaal voor omgevingen waar dataoverdracht plaats moet vinden, maar waarbij de veiligheid van de data de hoogste prioriteit heeft.\n\nIk ben me bewust van de waarde van deze vier producten (kun je vinden bij webshops wat de nieuwwaarde ongeveer is), dus doe een goed bod voor de USB-sticks en ze zijn voor jou. Bij voorkeur gezamenlijke aankoop, maar individueel is ook mogelijk.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28625,7 +28632,7 @@
    "description": "Krachtige gaming pc met een Intel Core i7-6700K processor, 32GB RAM en een NVIDIA GeForce RTX 2060 videokaart. Ideaal voor de meeste moderne games op hoge instellingen. De pc is goed onderhouden en werkt perfect. Perfect voor zowel gaming als productiviteit.",
    "detail": 2,
    "highest_bid": 350.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-24T23:54:04Z",
    "price_history": [],
@@ -28798,7 +28805,7 @@
    "city": "Amsterdam",
    "seller": "HobbyMP",
    "source": "marktplaats",
-   "posted": "Gisteren",
+   "posted": "Eergisteren",
    "price": 45.0,
    "price_type": "MIN_BID",
    "reserved": false,
@@ -28808,7 +28815,7 @@
    "description": "Hoi! Ik verkoop dit setje werkgeheugen van Micron (2x 8GB, dus 16GB totaal). Perfect als je je laptop of mini-PC wat sneller wilt maken.\nDe belangrijkste specs:\n\n• Merk: Micron\n• Capaciteit: 16GB (2x 8GB)\n• Type: DDR4 SO-DIMM (voor laptops / mini-PC's)\n• Snelheid: 3200MHz",
    "detail": 2,
    "highest_bid": 40.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T08:32:56Z",
    "price_history": [
@@ -28842,7 +28849,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T08:32:56Z",
    "price_history": [
     [
@@ -28874,7 +28881,7 @@
    "description": "Wegens een upgrade bied ik hierbij mijn DDR5 werkgeheugen aan. Het gaat om een betrouwbare dual-channel kit van Transcend met een totale capaciteit van 16GB. De sticks zijn twee jaar gebruikt, hebben altijd in een goed gekoelde pc gezeten en werken perfect.\n\nSpecificaties:\n​Merk: Transcend (JetRam reeks)\n​Capaciteit: 16 GB (2 modules van 8GB)\n​Geheugentype: DDR5 UDIMM\n​Snelheid: 4800 MHz (PC5-4800B)\n​Modelnummer: JM4800ALG-8G\n\nStuur gerust een berichtje bij interesse of vragen!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T08:32:56Z",
    "price_history": [
@@ -28963,7 +28970,7 @@
    "description": "Te koop aangeboden: Apple iPad 8e generatie uit 2020 met 32GB opslag in de kleur Space Gray.\n\nDe iPad verkeert in goede staat en werkt naar behoren.\n\nSpecificaties:\n\n- 10,2 inch Retina-display\n- 32GB opslag\n- Kleur: Space Gray\n- iPadOS 26.7.3\n- Batterijconditie: 86%\n- Slechts 117 laadcycli\n- Camera's, touchscreen en overige functies werken goed\n- iCloud vrij\n\nBieden kan via Marktplaats. Voor vragen kun je een bericht sturen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T08:32:56Z",
    "price_history": [],
@@ -28992,7 +28999,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T08:32:56Z",
    "price_history": [],
    "price_drop": false,
@@ -29037,7 +29044,7 @@
    "city": "Roosendaal",
    "seller": "HW",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": 25.0,
    "price_type": "FIXED",
    "reserved": false,
@@ -29047,7 +29054,7 @@
    "description": "Kingston 8GB DDR4 laptopgeheugen (KCP426SS6/8).\n\n 8GB, DDR4-2666 (PC4-21300), SO-DIMM 260-pin 1,2V, non-ECC \nPast in vrijwel alle laptops en mini-pc's met DDR4-geheugen.\nGebruikt, getest en werkend.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29070,7 +29077,7 @@
    "city": "Roosendaal",
    "seller": "HW",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": 55.0,
    "price_type": "FIXED",
    "reserved": false,
@@ -29080,7 +29087,7 @@
    "description": "Samsung 16GB DDR4 laptopgeheugen (M471A2K43EB1-CWE).\n\n 16GB, DDR4-3200 (PC4-25600), SO-DIMM 260-pin 1,2V, non-ECC, 2Rx8 Productiedatum 2022 \nPast in vrijwel alle laptops en mini-pc's met DDR4-geheugen. Werkt ook in systemen met 2400 of 2666 MHz; hij past zich automatisch aan.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29094,7 +29101,7 @@
    "price_each": 55.0,
    "price_total": 55.0,
    "metric": 55.0,
-   "deal": false
+   "deal": true
   },
   "mp-m2470104873": {
    "title": "Samsung 32GB (2x16GB) DDR4 3200MHz SODIMM Laptop Geheugen",
@@ -29103,7 +29110,7 @@
    "city": "Amersfoort",
    "seller": "Marcel",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": null,
    "price_type": "FAST_BID",
    "reserved": false,
@@ -29111,7 +29118,7 @@
    "description": "Te koop aangeboden: een set van twee Samsung SODIMM geheugenmodules van elk 16GB, wat neerkomt op een totaal van 32GB DDR4 werkgeheugen. Specificaties: 3200 MT/s (PC4-25600S), 260-pin, 1.2V, CL22. Ideaal om een trage laptop of notebook weer een flinke snelheidsboost te geven. Alleen op te halen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29129,7 +29136,7 @@
    "city": "Lelystad",
    "seller": "The Mad Viking",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": null,
    "price_type": "FAST_BID",
    "reserved": false,
@@ -29139,7 +29146,7 @@
    "description": "Te koop aangeboden: een set van twee Corsair SO-DIMM geheugenmodules van elk 512MB (totaal 1GB). Type CMXSD512-2700LL. Ideaal als upgrade of vervanging voor oudere laptops die DDR SO-DIMM geheugen gebruiken. Modules verkeren in goede en werkende staat.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29157,7 +29164,7 @@
    "city": "Zwolle",
    "seller": "Marie",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": null,
    "price_type": "FAST_BID",
    "reserved": false,
@@ -29165,7 +29172,7 @@
    "description": "Te koop:\n2 Stuks Royemai DDR4 21300S PC4 2666 8GB SODIMM, DDR4-2666MHz PC4-21300 CL19 2Rx8 1.2V Non-ECC 260 Pin Laptop Memory Module Ram.\n\nTotaal dus 16GB ram.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29183,7 +29190,7 @@
    "city": "Oostdijk",
    "seller": "Bennie",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": 60.0,
    "price_type": "FIXED",
    "reserved": false,
@@ -29193,7 +29200,7 @@
    "description": "Samsung 16GB 2x 8GB DDR4 3200MHz SODIMM laptop geheugen modules.\n\nZie foto.\n\nVaste prijs voor de set exclusief 3 euro verzendkosten.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29216,7 +29223,7 @@
    "city": "Zwolle",
    "seller": "Marie",
    "source": "marktplaats",
-   "posted": "Vandaag",
+   "posted": "Gisteren",
    "price": null,
    "price_type": "FAST_BID",
    "reserved": false,
@@ -29224,7 +29231,7 @@
    "description": "Micron 8gb 1rx8 pc4-2400t-sa1-11 sodimm geheugen ddr4-19200 260pins. Geschikt voor de meeste ddr4 laptops.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29252,7 +29259,7 @@
    "description": "Te koop aangeboden: een nette set Kingston FURY Beast DDR4 RAM-geheugen bestaande uit 2 sticks van elk 16GB (totaal 32GB) met een snelheid van 3200MHz. Het geheugen komt uit 2024 en is ongeveer een jaar lang zorgvuldig gebruikt. Werkt nog honderd procent naar behoren en is ideaal voor het upgraden van een gaming-desktop.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29285,7 +29292,7 @@
    "description": "Lenovo Legion 5 Pro 16ACH6H – RTX 3060 – For Parts or Repair\n\nSelling my Lenovo Legion 5 Pro 16ACH6H (2021), with charger, suitable for spare parts or for someone with experience repairing gaming laptops. (without ssd)\n\nSpecifications:\n\n- Model: Lenovo Legion 5 Pro 16ACH6H\n- Graphics card: NVIDIA GeForce RTX 3060\n- RAM: 16GB DDR4 (2 × 8GB)\n- Display: 16-inch screen\n- Lenovo Legion Pro gaming laptop\n\nCondition and issue:\n\nThe laptop suddenly stopped working while I was gaming. The system partially froze, and after forcing it to shut down, it never turned on again.\n\nCurrent symptoms:\n\n- Power and charging LEDs turn on.\n- Rear Y-shaped lighting also turns on.\n- Fans do not spin.\n- No image on the screen.\n- The laptop does not appear to boot.\n\nThe laptop has been checked by two repair shops, but no definitive diagnosis has been provided and the issue remains unresolved.\n\nSelling as-is, for parts or repair. The motherboard and other components have not been confirmed to be fully functional.\n\nCould be useful for repair technicians, laptop enthusiasts or anyone looking for original Lenovo Legion spare parts.\n\n350 € but price negotiable.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29311,7 +29318,7 @@
    "description": "Te koop aangeboden: 2 originele Samsung DDR4 RAM-geheugenmodules.\nSpecificaties:\n16 GB totaal (2x 8 GB)\nDDR4\n3200 MHz\nPC4-25600\nCL22\n1.2V\n288-pin DIMM\nModel: M378A1G44AB0-CWE\nIdeaal voor het uitbreiden van een desktop-pc.\nWorden verkocht als set van 2 geheugenmodules.",
    "detail": 2,
    "highest_bid": 50.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29339,7 +29346,7 @@
    "description": "Te koop aangeboden: een set van twee Micron SO-DIMM geheugenmodules van elk 8GB, wat neerkomt op een totale capaciteit van 16GB. Het betreft DDR4 geheugen met een snelheid van 3200 MT/s (PC4-3200AA), configuratie 1Rx8, en werkt op een voltage van 1.2V. Ideaal om de prestaties van uw laptop of compatibel systeem te upgraden. Modules verkeren in uitstekende staat.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29372,7 +29379,7 @@
    "description": "Te koop aangeboden: een fantastische en krachtige gaming desktop PC. Deze computer is uitgerust met sfeervolle rode RGB-verlichting, een glazen zijpaneel en een krachtige GeForce RTX videokaart waar helaas wat mis mee is heb er zelf geen verstand van moet zo snel mogelijk weg uit m’n kamer, Game PC i7 6700 GTX 1070TI 16GB DDR4 500GB SSD 1TB HDD RGB",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29400,7 +29407,7 @@
    "description": "- Raspberry Pi 4 model B 4GB RAM\n- Metalen behuizing met ventilatiegaten voor Raspberry Pi 4B Zwart\n- Originele Raspberry Pi Foundation 4 B Voeding Zwart\n- Heatsink set 4 stuks\n\nTwee dagen gebruikt, werkt prima.\n\nVoor mijn toepassing (grote database en niet efficiënt front-end voor website) was de cpu niet krachtig genoeg per core, ik overweeg nu een minipc om zeker te zijn. De heatsink is gemonteerd (behalve de 4de die overbodig is).\n\nOorspronkelijke prijs voor de hele set was 136,74 EUR, ik bied de set aan voor de helft van de prijs: 68,37 EUR.\n\nBeschrijving van de winkel voor de Raspberry Pi 4 4GB\n\nHoewel de Pi 4 op het vorige model lijk zijn er een aantal zeer belangrijke upgrades doorgevoerd. Een van de belangrijkste onderdelen in de Raspberry Pi 4 is de Broadcom BCM2711 SoC. Deze bestaat uit vier 1,5 GHz 64-bit ARM Cortex-A72 CPU-kernen en zou een mooie prestatieverbetering moeten bieden over de Cortex-A53 CPU in de Raspberry Pi 3 (het is tot drie keer sneller). Het is nu ook voor het eerst mogelijk om de hoeveelheid RAM te kiezen. Opties zijn: 2 GB, 4 GB of zelfs 8 GB RAM. Ter referentie, de Raspberry Pi 3 kwam alleen met 1 GB RAM, wat een beetje aan de magere kant is voor normaal gebruik. De Raspberry Pi 4 model B 4GB komt nu met 2 Micro HDMI aansluitingen waar je elk een 4K monitor op aan kunt sluiten.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29433,7 +29440,7 @@
    "description": "HP ZBook\n\ni9 9880H\n48GB DDR4\nQuadro rtx 3000\n240GB M.2\n1TB M.2\nThunderbolt\n\nGoeie staat, komt met oplader en laptoptas\n\nkoelpasta vervangen met hoge kwaliteit MX7 koelpasta",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29461,7 +29468,7 @@
    "description": "4 X BANKJE--- VAN 8 GB\n\nBEKIJK DE FOTO S GOED\n\nVERSCHILENDE NUMMERING\n\nBIEDEN PER STUK OF ALLE 4\n\nKIJK OOK IS BIJ MN ANDERE ADVERTENTIES",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29489,7 +29496,7 @@
    "description": "GEHEUGENS\n\nX P G\n8 GB PER BANKJE\nMET VERLICHTING\n\nBIEDEN\n\nKIJK OOK BIJ MN ANDERE ADV",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29518,7 +29525,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29531,7 +29538,7 @@
    "price_each": 15.0,
    "price_total": 15.0,
    "metric": 15.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2470108868": {
    "title": "4GB DDR4 2400MHz desktopgeheugen – 6 stuks beschikbaar",
@@ -29551,7 +29558,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29564,7 +29571,7 @@
    "price_each": 12.0,
    "price_total": 12.0,
    "metric": 12.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2470108412": {
    "title": "16GB (4x4GB) Samsung DDR4 2666MHz desktopgeheugen",
@@ -29584,7 +29591,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29597,7 +29604,7 @@
    "price_each": 40.0,
    "price_total": 40.0,
    "metric": 40.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2470108130": {
    "title": "Crucial 8GB (2x4GB) DDR4 2400MHz SODIMM Mac Compatible",
@@ -29617,7 +29624,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29650,7 +29657,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29663,7 +29670,7 @@
    "price_each": 45.0,
    "price_total": 45.0,
    "metric": 45.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2470107351": {
    "title": "Gaming PC | Ryzen 5 5600X | 32GB DDR4 | ASUS X570-E",
@@ -29683,7 +29690,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -29711,7 +29718,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29724,7 +29731,7 @@
    "price_each": 45.0,
    "price_total": 45.0,
    "metric": 45.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2470106301": {
    "title": "ASUS ROG STRIX X570-E GAMING | AM4 | WiFi 6 | PCIe 4.0",
@@ -29744,7 +29751,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -29772,7 +29779,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -29800,7 +29807,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29813,7 +29820,7 @@
    "price_each": 30.0,
    "price_total": 30.0,
    "metric": 30.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2461961081": {
    "title": "nieuwe laptop voor sint/kerst kado?",
@@ -29833,7 +29840,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -29861,7 +29868,7 @@
    "description": "Te koop: mooie Apple iMac 24 inch uit 2021 in de kleur groen. De iMac is volledig werkend, verkeert in nette staat en wordt compleet geleverd met bijpassend Apple toetsenbord, Magic Mouse en originele voedingsadapter.\n\nDankzij de Apple M1-chip werkt de iMac snel en soepel. Ideaal voor thuiswerken, internetten, administratie, studie, foto’s bewerken en dagelijks gebruik.\n\nSpecificaties:\n\nModel: Apple iMac 24 inch (2021)\nProcessor: Apple M1-chip met 8-core CPU\nWerkgeheugen: 8 GB RAM\nOpslag: 256 GB SSD\nBeeldscherm: 24 inch Retina 4,5K (4480 × 2520)\nKleur: Groen\nBesturingssysteem: macOS Sequoia 15.6.1\n\nInclusief:\n\nApple iMac 24 inch\nOrigineel Apple Magic Keyboard in bijpassende kleur\nApple Magic Mouse\nOriginele Apple voedingsadapter en kabels\n\nDe iMac ziet er netjes uit en werkt naar behoren. Op de foto’s is de werkende iMac en de staat van het apparaat goed te zien.\n\nAlleen ophaleb, zodat je de iMac eventueel ter plekke kunt bekijken en testen.\n\nIk ga alleen in op serieuze biedingen.",
    "detail": 2,
    "highest_bid": 500.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29889,7 +29896,7 @@
    "description": "Gaming, Pc!\n\nWindows 11 home,\nGame ready stuurprogramma,\nCPU, AMD Ryzen 7 5700X 8-core Processor\nRAM, 32.0 GB\nOpslag, SSD 1,8 GB\n'Grafisch kaart,\nNVIDIA GeForce RTX 5060\n\nDezen pc is in goede staat heeft een beetje stof opgelopen door de twee jaar dit is makkelijk t schoonmaken!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -29919,7 +29926,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -29946,7 +29953,7 @@
    "description": "Te koop aangeboden: een nette en goed functionerende Acer Aspire 7 (A715-71G) laptop. Deze laptop is uitgerust met een Intel Core i5-7300HQ processor, 8 GB werkgeheugen en een helder 15 inch scherm. Ideaal voor dagelijks gebruik, studie of lichte gaming dankzij de aanwezige videokaart. De laptop verkeert in gebruikte staat en wordt geleverd met Windows 10 Home.\n\nGaat weg in verband met een nieuwe laptop vh werk en is dus overbodig.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -29978,7 +29985,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -29991,7 +29998,7 @@
    "price_each": 25.0,
    "price_total": 25.0,
    "metric": 25.0,
-   "deal": true
+   "deal": false
   },
   "mp-m2470000279": {
    "title": "Samsung Galaxy Tab A11+ 5G - Zo goed als nieuw met hoes",
@@ -30011,7 +30018,7 @@
    "description": "Te koop aangeboden: een zo goed als nieuwe Samsung Galaxy Tab A11+ 5G tablet. De tablet verkeert in uitstekende staat en heeft geen beschadigingen. Inclusief originele doos, oplaadkabel en een stijlvolle rode beschermhoes. Perfect voor media, werk en onderweg dankzij de snelle 5G ondersteuning.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30044,7 +30051,7 @@
    "description": "Sony Interactive Entertainment PlayStation 5 Slim Digital. Platform: PlayStation 5, Kleur van het product: Zwart, Wit, Intern geheugen: 16384 MB. Opslagmedia: SSD, Interne opslagcapaciteit: 1 TB, Leessnelheid: 5500 MB/s. Ethernet LAN, data-overdrachtsnelheden: 10,100,1000 Mbit/s, Ethernet interface type: Gigabit Ethernet, Wi-Fi-standaarden: 802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax). HD type: 8K Ultra HD, Ondersteunde video-modi: 2160p, 4320p, Ingebouwde audio decoders: DTS, DTS 2.0, DTS 5.1, DTS-HD, DTS-HD Master Audio 5.1, Dolby Digital 5.1, Dolby Digital Plus,.... Breedte verpakking: 431 mm, Diepte verpakking: 1131 mm, Hoogte verpakking: 359 mm\n\n\nExtra losse controller rood nieuw\nEn een charging dock nog nieuw in de doos.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30073,7 +30080,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -30100,7 +30107,7 @@
    "description": "Rasalas 8gb 1rx8 pc3l-12800s ddr3l 1600mhz sodimm ddr3 1600 ram 1.35 V cl11 204-pin pc3 12800 laptop geheugen",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30129,7 +30136,7 @@
    "description": "Te koop aangeboden: een nette Nikon D3100 spiegelreflexcamera in goede staat. De camera is weinig gebruikt en werkt volledig naar behoren. Ideaal voor zowel beginnende als iets gevorderde fotografen die op zoek zijn naar een betrouwbare instapmodel spiegelreflexcamera. De originele doos is in de loop der tijd helaas verloren gegaan, maar de set wordt compleet geleverd met maar liefst 2 accu's, een acculader, een 8 GB geheugenkaart en een handige cameratas. Zo kun je direct op pad om mooie foto's te maken!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30162,7 +30169,7 @@
    "description": "Hierbij verkoop ik mijn Samsung Galaxy Tab A9+. De tablet verkeert in uitstekende, zo goed als nieuwe staat en komt inclusief de originele verpakking. Ideaal voor multimedia, studie of dagelijks gebruik. Werkt perfect en heeft een helder groot scherm. Hier zitten wel paar kleine krasjes in",
    "detail": 2,
    "highest_bid": 95.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30195,7 +30202,7 @@
    "description": "Ik heb een ipad air 3rd generation met 64gb geheugen te koop. Ipad is in zeer goede staat, geen schades of bijzonderheden, werkt nog perfect. Inclusief doos en lader.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30228,7 +30235,7 @@
    "description": "Te koop: mijn MacBook Pro 14 inch met M1 Pro. Ik ben overgestapt op een nieuwer model, dus deze mag naar een nieuwe eigenaar. Nog steeds een supersnelle laptop voor werk, studie en foto- of videobewerking.\n\nSpecificaties\n\nApple M1 Pro (8-core CPU, 14-core GPU)\n16 GB werkgeheugen\n512 GB SSD\n14,2\" Liquid Retina XDR-scherm (120 Hz ProMotion)\nKleur: Space Gray\nQWERTY-toetsenbord met verlichting en Touch ID\nPoorten: 3x Thunderbolt 4 (USB-C), HDMI, SD-kaartsleuf, MagSafe 3 en koptelefoonaansluiting\nModel MKGP3N/A (A2442)\n\nBatterij\n\nConditie: Normaal\nMaximale capaciteit: 90% (screenshot staat bij de foto’s)\n\nStaat\n\nZo goed als nieuw, geen krassen op het scherm. Ik heb hem altijd netjes gebruikt.\n\nWat krijg je erbij\n\nOriginele doos\nUSB-C-lader 67W (niet de originele, die is een tijd terug vervangen)\nUSB-C-naar-MagSafe 3-kabel\nRecent aangeschafte Incase Hardshell Dots 14\" (transparant), beschermt tegen krassen en deuken (adviesprijs € 59,95)\n\nOphalen in Hengelo, dan kun je hem ter plekke testen.\n\nSerieuze biedingen zijn welkom, maar geen ruilvoorstellen. Vragen? Stuur gerust een bericht!",
    "detail": 2,
    "highest_bid": 700.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30256,7 +30263,7 @@
    "description": "Te koop: zo goed als nieuwe ipad pro 11 inch, november 2023, 4th generation, 256 gb plus magic keyboard. M2 chip, 8-core cpu, 10-core gpu.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30284,7 +30291,7 @@
    "description": "Te koop aangeboden: NVIDIA GeForce RTX 4060 Ti 8GB videokaart van het merk INNO3D in een stijlvolle witte uitvoering. Deze krachtige gaming GPU is voorzien van een efficiënte dual-fan koeling en ondersteunt moderne technologieën zoals NVIDIA DLSS 3 en Ray Tracing voor optimale gameprestaties. De kaart werkt absoluut perfect en ziet er nog zo goed als nieuw uit. Omdat ik ben overstapt op een andere videokaart mag deze weg. Let op: de videokaart is destijds verkregen via een samengesteld PC-systeem en wordt geleverd zonder de originele verpakking. Ophalen of verzenden in overleg.",
    "detail": 2,
    "highest_bid": 280.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30305,14 +30312,14 @@
    "posted": "Vandaag",
    "price": 135.0,
    "price_type": "MIN_BID",
-   "reserved": false,
+   "reserved": true,
    "attrs": {
     "condition": "Refurbished"
    },
    "description": "Hierbij verkoop ik een HP ProDesk 400 G5 7EM44ET\n- Intel core i5 9500T\n- 256gb M.2 SSD\n- 8gb RAM\n- WIndows 11 Pro\n- inclusief stroomkabel (uiteraard)\n\nEr zijn er momenteel nog 2 beschikbaar, prijs is per stuk.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30345,7 +30352,7 @@
    "description": "hierbij verkoop ik mijn ipad omdat ik hem niet meer gebruik.\napparaat werkt nog prima en heeft geen schade.\n\nje krijgt de roze hoes en het toetsenbord erbij\ndoe een mooi bod en je mag hem gelijk ophalen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30378,7 +30385,7 @@
    "description": "Te koop aangeboden: HP ProLiant ML110 G6 tower server. Betrouwbare server, ideaal voor een thuislab, kleine onderneming of hobbyproject. Het systeem is gebruikt maar verkeert in nette staat. Inclusief optische drive en handige hot-swappable onderdelen in de behuizing. Wordt verkocht zoals afgebeeld.\n\nStuur een berichtje voor vragen :)",
    "detail": 2,
    "highest_bid": 50.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30411,7 +30418,7 @@
    "description": "Selling my HUAWEI MateBook D 14 (2020) in good working condition.\n\nSuitable for studying, office work, browsing, and daily use.\n\n🖥️ 14-inch display\n⌨️ Original English & Russian keyboard (factory layout, no stickers)\n⚙️ AMD Ryzen 7 3700U processor\n🪟 Windows 11 Home\n💾 8 GB RAM\n💿 512 GB SSD\n🔌 No charger included (charges via standard USB-C)\n\nPlease note: there are faint sticker marks on the lid, and the battery is quite worn (best used plugged in or for shorter sessions). This is already reflected in the price.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30444,7 +30451,7 @@
    "description": "Apple iMac 21,5 inch | Intel i5 | 8GB | 1TB | Complete set!\nTe koop aangeboden: nette Apple iMac 21,5 inch, inclusief origineel Apple-toetsenbord en Apple Magic Mouse.\nEen stijlvolle all-in-one computer met het tijdloze aluminium design van Apple. Ideaal voor thuisgebruik, internetten, administratie, e-mailen en het beheren van foto's.\n Specificaties: \n\n\n Apple iMac 21,5 inch (Late 2015) Intel Core i5 Quad-Core 2,8 GHz 8 GB werkgeheugen 1 TB opslagruimte macOS Monterey Ingebouwde webcam, microfoon en luidsprekers Wifi en Bluetooth 4 USB-aansluitingen 2 Thunderbolt-aansluitingen SD-kaartlezer Ethernet-aansluiting \n Wordt compleet geleverd met: \n\n\n Apple iMac Origineel draadloos Apple-toetsenbord Apple Magic Mouse Voedingskabel \nDe iMac verkeert in nette staat met enkele lichte gebruikssporen.\nEen mooie, complete Apple-computer voor een aantrekkelijke prijs.\nBij interesse of vragen stuur gerust een bericht. Een serieus bod is welkom!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30477,7 +30484,7 @@
    "description": "iMac 24 inch (2021)\nM1 Chip 8GB\nHD 256GB\nOriginele muis en toetsenbord\n\nBieden vanaf € 600,00",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30505,7 +30512,7 @@
    "description": "Te koop aangeboden: Samsung Galaxy Tab A9 met 64GB opslagcapaciteit. De tablet verkeert in uitstekende staat en werkt volledig naar behoren. Ideaal voor multimedia, surfen op het web en dagelijks gebruik. Inclusief helder scherm en handige functies. Perfect voor zowel thuisgebruik als onderweg.\n\nAlle zijn voorzien van nieuwe screenprotectors.\n\nEr zijn nog 3 stuk te koop. Vraagprijs is €40 per tablet. Voor €100 mag je ze alledrie hebben. Ik heb ook nog wel 3 beschermhoezen erbij in de kleuren roze, blauw en zwart.\n\nOphalen kan in Assen, maar ook in Noordhorn.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30534,7 +30541,7 @@
    "description": "Hierbij verkoop ik mijn iPhone 11 Pro met 128GB opslagruimte.\n\nDe telefoon werkt helemaal goed en functioneert zoals het hoort.\nDe batterijconditie is nog maar liefst 96%, wat erg netjes is voor een iPhone van dit model.\nEr zijn wel wat gebruikerssporen aanwezig. De zijkanten/buitenkant zijn duidelijk beschadigd, voor de rest is het scherm 8 maanden nieuw en helemaal perfect.\nEr zitten geen deuken in.\nHet oplaad gat moet wel even schoongemaakt worden, daardoor laad hij niet perfect op!\n\nSpecificaties:\n- iPhone 11 Pro\n- 128GB opslagruimte\n- 96% batterijconditie\n- Werkt volledig naar behoren\n- Enkele beschadigingen aan de buitenkant\n- vies oplaadgat\n\nDe telefoon mag weg voor een mooi bod!\n\nBij interesse of vragen stuur gerust een berichtje.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30567,7 +30574,7 @@
    "description": "Te koop i phone 8 zonder krassen deukjes of beschadigingen. Telefoon zonder abonnement en simlock vrij.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30601,7 +30608,7 @@
    "description": "Toebehoren:\n\n- Nikon D700 body\n- Speed light flash SB-600\n- AF nikkor 28mm F2.8\n- AF nikkor 50mm F1.8\n- AF Tamron 70 - 300mm F4-5.6\n- Sandisk CF kaart 32gb\n- 2 accu’s + charger MH-18h\n- Card reader\n- Gekleurde halsband\n- Lens dop en body klep\n\nIn gebruikte staat, maar alles werkt nog perfect. Maak zelf alleen nog maar foto’s met analoge camera’s. Dus wil deze mooie volledige set graag voor een goede prijs doorgeven aan iemand die hier graag mee aan de slag wil!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30629,7 +30636,7 @@
    "description": "Full-screen 4K UHD Android-tv U43H7C (43 inch), Groot kijkvlak, haarscherp beeld.\n\nAndroid TV Duizenden apps, waaronder de Ziggo Go, Kijk, Videoland en meer;\nChromecast Built-in Eenvoudig streamen vanaf je smartphone;\nNetflix Je favoriete films en series met een druk op de afstandsbediening;\n\nHDR10 Zeer realistisch beeld;\nDolby Audio Zeer realistische geluidssensatie met 3D surround;\n64-bits CPU Snelle decodering, korte responstijd;\n8 GB eMMC Veel opslagruimte voor meer apps;\nSpraakbediening Eenvoudig te gebruiken, real-time respons;",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30658,7 +30665,7 @@
    "description": "Intel i5 4690 quad core @ 3,5GHz-3,9GHz\nCrucial mx100 128GB\nSeagate Barracuda 1TB\nCrucial ballistix 2x 4gb ddr3 pc3 12800\nGigabyte Geforce gtx 1660ti Windforce OC 6G\nAsus h97m-e micro-atx\nSeasonic M12II 80+ bronze evo edition 520w\nBitFenix Comrade\n\nVereist een nieuwe windows install",
    "detail": 2,
    "highest_bid": 75.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30686,7 +30693,7 @@
    "description": "iPhone 16 Pro Max 256GB – Desert Titanium (goud).\n\nVerkeert in zeer goede staat en is volledig krasvrij. Altijd netjes mee omgegaan. Batterijconditie is 83% en de originele doos is aanwezig.\n\nVraagprijs €700. Bij een serieus bod mag hij direct weg!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30714,7 +30721,7 @@
    "description": "Te koop: een zo goed als nieuwe macbook air 13, mei 2025, uitgerust met de krachtige apple m4-chip, 16 gb werkgeheugen en een ruime opslagcapaciteit van 512 gb ssd.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30735,14 +30742,14 @@
    "posted": "Vandaag",
    "price": null,
    "price_type": "FAST_BID",
-   "reserved": false,
+   "reserved": true,
    "attrs": {
     "condition": "Zo goed als nieuw"
    },
    "description": "Zwarte iPhone 16 Pro met 128 GB opslagruimte. De telefoon gaat weg in verband met de overstap naar een ander model.\n\nHet toestel verkeert in goede staat en werkt volledig naar behoren. Aan de zijkanten zitten lichte gebruikssporen en op het scherm zijn enkele oppervlakkige krasjes zichtbaar (zie foto’s). Daarnaast zit er een heel klein barstje aan de onderzijde van een van de cameralenzen; dit zit buiten het beeldveld van de lens zelf en heeft geen invloed op de kwaliteit van de foto’s.\n\nSpecificaties & extra’s:\n• Model: iPhone 16 Pro\n• Kleur: Zwart\n• Opslag: 128 GB\n• Batterijconditie: 83%\n• Inclusief: Originele doos en zwart hoesje (zoals afgebeeld op de foto’s)",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30771,7 +30778,7 @@
    "description": "Nog mooie iphone 16 roze. Geen beschadigingen, alleen wat normale gebruikssporen.",
    "detail": 2,
    "highest_bid": 300.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30800,7 +30807,7 @@
    "description": "!Missende onderdelen! \n(en ook een mogelijk kapotte dvd drive maar dat kan een los kabeltje zijn geweest)\n\nook een belangrijke notitie is dat ik de PC niet meer kan testen vanwege de missende componenten maar hij functioneerde helemaal normaal voordat ze eruit zijn gehaald.\n\n Bevat: \n\n\n RAM: 16GB DDR3 (verdeeld onder 2 sticks) Processor: Intel Core i5-6400 (integrated graphics) Moederbord: Waarschijnlijk de originele PM17-DD maar ik kan het niet met zekerheid zeggen. Processor cooler 1 exhaust ventilator schroefjes: Ik ben er als het goed is geen kwijt geraakt toen ik hem uit elkaar haalde. \n\n En natuurlijk in de behuizing: (hier werkte ongeveer alles behalve de dvd knop)\n voorkant: \n\n\n 2 x USB 3.0 HP 7-in-1 Media Card Reader-Supports SD, SDHC, SDXC, Memory Stick, Memory Stick Select, Memory Stick PRO, Memory Stick MagicGate een koptelefoon port \n\n achterkant: \n\n\n 2 HDMI 2 x USB 2.0 2 x USB 3.0 Ethernet (heb geen specs kunnen vinden) \n\n Wat er mist: \n\n\n PSU (Power Supply) SSD of HDD (storage) Graphische kaart (niet perse nodig maar kan je wel bijvoegen) \n\nDeze computer is al redelijk oud, is gebruikt door mijn oma voor het bewerken van foto's, en daarna door mij voor gamen. De missende onderdelen komen doordat ik recent een upgrade heb gedaan waardoor ik de PSU en de SSD eruit moest halen voor mijn nieuwe PC.\n\nIk ben verder gewoon bereikbaar voor vragen zolang ik thuis ben.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30826,7 +30833,7 @@
    "description": "iPhone 14 blauw klein barstje in de achterkant maar voorderest niks mis mee + privacy beschermlaag + hoesje Batterij 92%\n\nEvt ruilbaar voor iPhone 16 256 GB met toebetaling",
    "detail": 2,
    "highest_bid": 125.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30855,7 +30862,7 @@
    "description": "Hierbij verkoop ik mijn Apple iPhone 16 Pro Max in gebruikte staat. De telefoon vertoont duidelijke gebruikerssporen en lichte beschadigingen aan de behuizing en het scherm, zoals te zien is op de foto's. Het toestel functioneert verder nog naar behoren. Ideaal voor iemand die handig is of op zoek is naar een krachtige telefoon voor eensteigerprijs. Neem gerust contact op bij vragen.",
    "detail": 2,
    "highest_bid": 300.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30883,7 +30890,7 @@
    "description": "Hp probook 650 g5 | i5-8365u | 16gb ram | 256gb ssd | zeer nette staat",
    "detail": 2,
    "highest_bid": 135.0,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -30917,7 +30924,7 @@
    "description": "Perfect functionerende iMac 27-inch late 2013.\nSchone installatie Os Catalina.\nFusion drive actief.\nProcessor intel i5 Geh. 16Gb\nLichte beschadiging rechter bovenkant beeldscherm. (zie foto)\nZit in de zwarte rand, niet in beeld.\nInclusief originele verpakking, toetsenbord en muis. (zie foto)\nWordt niet verstuurd, moet worden opgehaald.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30945,7 +30952,7 @@
    "description": "Gezocht Gaming Laptop voor zware 3d animaties\nLiefst in zo goed mogelijke 16gb ddr5 een rtx4060 of hoger een amd 7 of hoger. Heeft u iets stuur dan gerust een berichtje mijn budget light rond de 700 euro. Mvg Leon in de buurt van Kapellen",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -30975,7 +30982,7 @@
    "detail": 2,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
    "price_drop": false,
@@ -31002,7 +31009,7 @@
    "description": "Te koop aangeboden:\nApple Watch SE (2e generatie) in nette en goed werkende staat.\nDe smartwatch is altijd zorgvuldig gebruikt en functioneert volledig naar behoren. Voorzien van de laatste veiligheidsupdate 26.6.2. Ideaal voor het bijhouden van sportactiviteiten, gezondheid, notificaties en dagelijkse activiteiten.\n\nSpecificaties:\n• Apple Watch SE 2e generatie, 32 GB\n• Kleur: Sterrenlicht\n• Kastkleur/formaat: Aluminium, 40 mm\n• GPS\n• Batterijconditie: 82%; gaat gehele dag mee\n• Waterdicht\n• Inclusief originele oplader\n• Inclusief originele verpakking\n\n\nStaat:\n• Technisch 100% in orde\n• Scherm: geen zichtbare gebruikssporen of krassen\n• Behuizing: geen zichtbare gebruikssporen\nReset naar fabriek instellingen uitgevoerd.\n\nVraagprijs: € 80,00\n\nBij voorkeur ophalen tegen contante betaling.\nMogelijk verzending tegen extra kosten en risico van koper. Vooraf betalen.\nBij interesse graag een bericht sturen.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -31019,8 +31026,8 @@
    "deal": false
   },
   "mp-m2470085629": {
-   "title": "Apple TV HD - 32GB - Inclusief afstandsbediening",
-   "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/mediaspelers/m2470085629-apple-tv-hd-32gb-inclusief-afstandsbediening",
+   "title": "Apple TV HD (A1625)- 32GB - Inclusief afstandsbediening",
+   "url": "https://www.marktplaats.nl/v/audio-tv-en-foto/mediaspelers/m2470085629-apple-tv-hd-a1625-32gb-inclusief-afstandsbediening",
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9bb30a01-4404-403b-ad38-51af8a908b53?rule=ecg_mp_eps$_82.jpg",
    "city": "Oegstgeest",
    "seller": "David",
@@ -31035,7 +31042,7 @@
    "description": "Te koop aangeboden: een nette Apple TV HD (4e generatie) inclusief de originele Siri Remote en stroomkabel. Het apparaat verkeert in gebruikte staat met lichte krasjes op de behuizing, maar werkt nog volledig naar behoren. Ideaal om al je favoriete streamingdiensten zoals Netflix, Disney+, en Videoland eenvoudig naar je televisie te streamen. Teruggezet naar fabrieksinstellingen en klaar voor een nieuwe eigenaar.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -31063,7 +31070,7 @@
    "description": "Te koop aangeboden: Acer Chromebook 311 C733.\n\nDe Chromebook werkt prima en is ideaal voor internetten, e-mailen, schoolwerk, documenten en andere dagelijkse werkzaamheden.\n\nSpecificaties:\n\nModel: Acer Chromebook 311 C733 (N18Q5)\nBesturingssysteem: ChromeOS\nInclusief oplader\nCompact en makkelijk mee te nemen\nAutomatische ChromeOS-updates tot juni 2029\n\nStaat:\nDe Chromebook heeft normale gebruikssporen. Zie foto’s voor de uiterlijke staat.\n\nDe Chromebook wordt verkocht inclusief oplader.\n\nMag weg voor €75. Bieden mag, maar graag serieuze biedingen!",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -31096,7 +31103,7 @@
    "description": "Hierbij verkoop ik mijn gebruikte Samsung Galaxy J6 in de kleur zwart. De telefoon werkt nog naar behoren en is gereset naar de fabrieksinstellingen, klaar voor een nieuwe eigenaar. Er zijn gebruikssporen zichtbaar op de behuizing, maar het scherm is nog netjes. Inclusief Android besturingssysteem.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -31124,7 +31131,7 @@
    "description": "Te koop als set: een ASUS X79-DELUXE met Intel Core i7-4960X Extreme Edition, 32 GB Kingston HyperX Genesis en een Arctic Freezer i32 . Destijds een high-end Intel-platform, nu een mooie basis voor een retrobuild, een tweede pc of een Linux-hobbyproject. De originele dozen en alle bijbehorende accessoires van het moederbord zijn aanwezig.\n Wat zit erbij? \n\n ASUS X79-DELUXE – ATX-moederbord met Intel X79-chipset, socket LGA2011, PCIe 3.0, SATA en USB 3.0. Intel Core i7-4960X Extreme Edition – 6 cores, 12 threads en een basiskloksnelheid van 3,6 GHz. 32 GB Kingston HyperX Genesis DDR3-1866 – 8 modules van 4 GB, gemonteerd op het moederbord. Arctic Freezer i32 – torenkoeler met ventilator. Originele moederbordaccessoires – onder andere het I/O-schild, de wifi-antenne, de SLI-bruggen, de handleiding en de support-dvd. \n Waar kun je de set nog goed voor gebruiken? \n\n Retro- of budgetgaming – combineer de set met een losse videokaart voor oudere pc-games en lichtere games. Linux-homelab of thuisserver – bijvoorbeeld voor bestandsdeling, Docker-containers of een paar lichte virtuele machines. De 32 GB RAM en de meerdere SATA-aansluitingen komen daarbij goed van pas. Tweede werk-pc – voor dagelijks gebruik, fotobewerking en eenvoudige 1080p-videomontage. X79-restauratie – interessant als je een high-end pc uit die generatie wilt herbouwen, inclusief de originele accessoires en verpakkingen. \nDe processor en koeler worden elk in hun eigen originele doos verpakt . Het moederbord gaat met het RAM gemonteerd in de originele ASUS-doos , samen met de accessoires. Voor beeld is een losse videokaart nodig.\n\n Bij interesse bij voorkeur reageren op werkdagen tussen 09.00 en 18.00 uur a.u.b. In het weekend kan een reactie wat langer op zich laten wachten.",
    "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
@@ -31155,10 +31162,10 @@
     "type": "Binnencamera",
     "condition": "Nieuw"
    },
-   "description": "Te koop aangeboden: een gloednieuwe kuus. C1 mini camera in originele verpakking. Deze uiterst compacte micro camera (zo groot als een 1 euro munt) filmt haarscherp in 1920x1080p hd kwaliteit. Ideaal",
-   "detail": null,
+   "description": "Te koop aangeboden: een gloednieuwe KUUS. C1 mini camera in originele verpakking. Deze uiterst compacte micro camera (zo groot als een 1 euro munt) filmt haarscherp in 1920x1080p HD kwaliteit. Ideaal voor binnenshuis, beveiliging of onderweg. Beschikt over nachtvisie en ondersteunt SD-kaarten tot 32GB. Werkt zonder wifi en is eenvoudig in gebruik.",
+   "detail": 2,
    "highest_bid": null,
-   "last_seen": "2026-11-25T19:15:27Z",
+   "last_seen": "2026-11-26T03:34:16Z",
    "active": true,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [],
@@ -31187,7 +31194,7 @@
    "detail": null,
    "highest_bid": null,
    "last_seen": "2026-11-25T19:15:27Z",
-   "active": true,
+   "active": false,
    "first_seen": "2026-11-25T19:15:27Z",
    "price_history": [
     [
@@ -31200,6 +31207,938 @@
    "price_each": 200.0,
    "price_total": 200.0,
    "metric": 200.0,
+   "deal": false
+  },
+  "mp-m2470137573": {
+   "title": "2x SK Hynix 8GB DDR4 2400MHz SODIMM Laptop Geheugen",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470137573-2x-sk-hynix-8gb-ddr4-2400mhz-sodimm-laptop-geheugen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d87b6362-1b47-4aff-8766-982c5caeff63?rule=ecg_mp_eps$_82.jpg",
+   "city": "Blaricum",
+   "seller": "Martin van Haeften",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een set van twee SK Hynix 8GB DDR4 RAM modules (totaal 16GB). Het geheugen komt uit een Dell laptop en verkeert in uitstekende en werkende staat. Specificaties: 8GB per stick, PC4-2400T (2400MHz), SODIMM voor laptops. Ideaal om je laptop te upgraden voor betere prestaties en multitasking.",
+   "detail": 2,
+   "highest_bid": 40.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470132971": {
+   "title": "Samsung 16GB DDR4-2666 SODIMM laptop geheugen",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470132971-samsung-16gb-ddr4-2666-sodimm-laptop-geheugen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/723d189d-a9ec-411e-b175-1c45ea25c9b2?rule=ecg_mp_eps$_82.jpg",
+   "city": "Budel",
+   "seller": "Timothy Voss",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 55.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Samsung 16GB DDR4-2666 SODIMM (M471A2K43DB1-CTD), 2Rx8 PC4-2666V.\n\nVerzending als brievenbuspakje, ophalen in Pelt kan ook.\n\nGetest en werkend, geen problemen.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     55.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 55.0,
+   "price_total": 55.0,
+   "metric": 55.0,
+   "deal": true
+  },
+  "mp-m2470130122": {
+   "title": "Kingston 16GB DDR4-2400 SODIMM laptop geheugen 2Rx8",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470130122-kingston-16gb-ddr4-2400-sodimm-laptop-geheugen-2rx8",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7681e01a-316c-4495-9418-bc6cb2961f71?rule=ecg_mp_eps$_82.jpg",
+   "city": "Budel",
+   "seller": "Timothy Voss",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 55.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Kingston 16GB DDR4-2400 SODIMM (9995703-013.A00G, HP), 2Rx8 PC4-2400T, SK hynix chips. Werkt ook in 2666/3200 laptops op 2400.\n\nVerzending als brievenbuspakje, ophalen in Pelt kan ook.\n\nGetest en werkend, geen problemen.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     55.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 55.0,
+   "price_total": 55.0,
+   "metric": 55.0,
+   "deal": true
+  },
+  "mp-m2470161250": {
+   "title": "Corsair Vengeance LPX 32GB DDR4 3200MHz Geheugen (2x16GB)",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470161250-corsair-vengeance-lpx-32gb-ddr4-3200mhz-geheugen-2x16gb",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/27e81375-9140-4c6c-ac96-db6b69dd1b91?rule=ecg_mp_eps$_82.jpg",
+   "city": "Rotterdam",
+   "seller": "Mark",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 200.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een set van Corsair Vengeance LPX DDR4 RAM-geheugen. Het betreft 32GB (bestaande uit 2 sticks van 16GB) met een snelheid van 3200MHz. De modules verkeren in uitstekende staat en werken volledig naar behoren. Ideaal om je desktop pc te upgraden voor betere prestaties en gaming.",
+   "detail": 2,
+   "highest_bid": 150.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     200.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 200.0,
+   "price_total": 200.0,
+   "metric": 200.0,
+   "deal": false
+  },
+  "mp-m2470133070": {
+   "title": "i7-5820k x99 pro 8gb 3200mh",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/processors/m2470133070-i7-5820k-x99-pro-8gb-3200mh",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e917d25a-7022-4ca6-8a76-aa46cba77e2c?rule=ecg_mp_eps$_82.jpg",
+   "city": "Heerhugowaard",
+   "seller": "Marcus",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 150.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "De onderdelen zijn getest en werken allemaal.Het moederbord wordt geleverd met het I/O-shield. Er zitten geen SATA-kabels of originele doos bij.\nEr zit een i7 5820k 8gb ddr4 3200mh watercool ASUS X99 Pro moederbord.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     150.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 150.0,
+   "price_total": 150.0,
+   "metric": 150.0,
+   "deal": false
+  },
+  "mp-m2470117715": {
+   "title": "SK Hynix 8GB DDR4 SO-DIMM RAM 2133MHz laptop geheugen",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470117715-sk-hynix-8gb-ddr4-so-dimm-ram-2133mhz-laptop-geheugen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2ed01816-b75c-4b66-8c9e-921a32c03bd1?rule=ecg_mp_eps$_82.jpg",
+   "city": "Sappemeer",
+   "seller": "geertjan hiddinga",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 15.0,
+   "price_type": "FIXED",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een goed werkende SK Hynix 8GB DDR4 laptop geheugenmodule (SO-DIMM). Specificaties: 8GB capaciteit, PC4-2133P (2133 MHz), type DDR4. Ideaal om de snelheid en multitasking van je laptop te upgraden. Verkeert in nette, gebruikte staat en is uitvoerig getest.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     15.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 15.0,
+   "price_total": 15.0,
+   "metric": 15.0,
+   "deal": true
+  },
+  "mp-m2470164172": {
+   "title": "laptop hp probook 450_i5",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/windows-laptops/m2470164172-laptop-hp-probook-450-i5",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4749ef44-29c2-464d-96d2-0b42186d964b?rule=ecg_mp_eps$_82.jpg",
+   "city": "Lelystad",
+   "seller": "Lelystad0320",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 85.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {},
+   "description": "Goedwerkend snel laptop windows 11 webcam 240gb ssd 8gb ddr4 hdmi usb cd dvd goed batterij plus oplader bevat normale gebruikers sporen",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     85.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 85.0,
+   "price_total": 85.0,
+   "metric": 85.0,
+   "deal": false
+  },
+  "mp-m2470160266": {
+   "title": "Kingston 8GB DDR4 3200MHz RAM Geheugenmodule - NIEUW",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470160266-kingston-8gb-ddr4-3200mhz-ram-geheugenmodule-nieuw",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/fc597413-708b-4638-b866-a867929b2a62?rule=ecg_mp_eps$_82.jpg",
+   "city": "Blaricum",
+   "seller": "MH035",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 45.0,
+   "price_type": "FIXED",
+   "reserved": false,
+   "attrs": {
+    "condition": "Nieuw"
+   },
+   "description": "Te koop aangeboden: een gloednieuwe Kingston 8GB DDR4 RAM geheugenmodule (KCP432NS6/8). Het geheugen bevindt zich nog in de originele, ongeopende verpakking en is ideaal voor het upgraden van een desktop pc. Specificaties: 8 GB capacity, DDR4 type, geschikt voor desktop en een snelheid van 3200 MHz. Betrouwbare kwaliteit van Kingston.\n\nVerzending mogelijk!",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     45.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 45.0,
+   "price_total": 45.0,
+   "metric": 45.0,
+   "deal": true
+  },
+  "mp-m2470160056": {
+   "title": "Samsung 8GB DDR4 2133MHz Server RAM Geheugenmodule",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470160056-samsung-8gb-ddr4-2133mhz-server-ram-geheugenmodule",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a327daf5-b1e5-4e71-a175-b729e6fd7fc6?rule=ecg_mp_eps$_82.jpg",
+   "city": "Blaricum",
+   "seller": "MH035",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 25.0,
+   "price_type": "FIXED",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een betrouwbare Samsung 8GB DDR4 RAM geheugenmodule (M391A1K43DB0-CPB0) met een snelheid van 2133 MHz. Deze module is speciaal geschikt voor servers of desktops en verkeert in uitstekende, werkende staat. Ideaal voor het upgraden van uw computersysteem.\n\nVerzending is geen probleem!",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     25.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 25.0,
+   "price_total": 25.0,
+   "metric": 25.0,
+   "deal": true
+  },
+  "mp-m2470158870": {
+   "title": "SK Hynix 8GB DDR4 3200 mhz SO-DIMM",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470158870-sk-hynix-8gb-ddr4-3200-mhz-so-dimm",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6a64f71a-5d2c-4967-8d77-1e6f3e7ae85c?rule=ecg_mp_eps$_82.jpg",
+   "city": "Brielle",
+   "seller": "Rolf",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "SK Hynix\n8GB DDR4 3200 mhz SO-DIMM\n\nConfiguratie: 1Rx8 (1,2 V, doorgaans CL22",
+   "detail": 2,
+   "highest_bid": 20.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470155647": {
+   "title": "Gigabyte B550 Gaming X Moederbord",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/moederborden/m2470155647-gigabyte-b550-gaming-x-moederbord",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/aaf4494e-3eb6-414e-99b9-c81197faa26e?rule=ecg_mp_eps$_82.jpg",
+   "city": "Brummen",
+   "seller": "Jermain Jeths",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Gigabyte b550 gaming x moederbord aangeboden. Ik doe hem weg vanwege upgrade van moederbord.",
+   "detail": 2,
+   "highest_bid": 55.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470153718": {
+   "title": "Lenovo V530S desktop | i5 | 16 GB RAM | 256 GB SSD | 24\" LED",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/desktop-pc-s/m2470153718-lenovo-v530s-desktop-i5-16-gb-ram-256-gb-ssd-24-led",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ee7206ea-f1a7-4523-b389-a008f79bf687?rule=ecg_mp_eps$_82.jpg",
+   "city": "Zevenbergen",
+   "seller": "Azin",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 129.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Lenovo V530S-07ICB desktop:\n\nKenmerken:\n. CPU: Intel Core i5-8400 2.80GHz\n. RAM: 16 GB DDR4\n. SSD: 2566 GB SSD\n. Scherm: 24\" LED LG, Full HD\n. Poorten : 1X DSP , 1X HDMI 8X USB , VGA , LAN , Audio in , Microfoon in\n. Toetsenbord en muis\n. Voorzien van Windows 11 Pro - 25H2\n\nCompacte en krachtige Lenovo Desktop. Perfect voor studenten, kantoorwerk, thuisgebruik, werkt snel en betrouwbaar.\n\nVoor meer informatie kunt u mij altijd een bericht sturen.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     129.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 129.0,
+   "price_total": 129.0,
+   "metric": 129.0,
+   "deal": false
+  },
+  "mp-m2470152888": {
+   "title": "16GB (2x8GB) DDR4 SODIMM Laptop RAM",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470152888-16gb-2x8gb-ddr4-sodimm-laptop-ram",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/d22eaebd-b3aa-47b4-8661-a749232b9685?rule=ecg_mp_eps$_82.jpg",
+   "city": "Houten",
+   "seller": "Jop",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": true,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een set van twee Kingston SODIMM DDR4 RAM-latjes van elk 8GB, wat neerkomt op een totaal van 16GB geheugen. Ideaal om de prestaties van je laptop te upgraden. Het geheugen werkt op 1.2V. De set verkeert in goede en werkende staat.",
+   "detail": 2,
+   "highest_bid": 40.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470151151": {
+   "title": "Corsair Vengeance RGB (4x16GB) DDR4 3600MHz CL16",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470151151-corsair-vengeance-rgb-4x16gb-ddr4-3600mhz-cl16",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/5a86349d-2101-498a-9f71-15e1618de1b1?rule=ecg_mp_eps$_82.jpg",
+   "city": "Eindhoven",
+   "seller": "MZ Schilderwerken",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een set van vier Corsair Vengeance DDR4 geheugenmodules van elk 16GB, wat neerkomt op een totale capaciteit van 64GB. Het geheugen werkt op een snelheid van 3600MHz en verkeert in uitstekende, werkende staat. Ideaal voor het upgraden van een krachtige desktop pc voor gaming of zware taken. Ik verkoop ze omdat ik naar ddr5 ben overstapen. Ophalen heeft voorkeur.",
+   "detail": 2,
+   "highest_bid": 160.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470150684": {
+   "title": "ASUS Prime B360M-K Moederbord + Intel i3-8100+Ram,LGA1151",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/moederborden/m2470150684-asus-prime-b360m-k-moederbord-intel-i3-8100-ram-lga1151",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/8fc6184b-75ff-4da2-a701-bde642d33d68?rule=ecg_mp_eps$_82.jpg",
+   "city": "Putten",
+   "seller": "VanAlles",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 100.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Aangeboden: \n𝗧𝗲 𝗸𝗼𝗼𝗽.\nASUS Prime B360M-K-moederbord met Intel Core i3-8100, 4 GB DDR4 RAM en Intel stockkoeler.\n\n𝗣𝗿𝗶𝗷𝘀:\n€100.\n\n𝗦𝗽𝗲𝗰𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗲𝘀.\nMoederbord: ASUS Prime B360M-K.\nProcessor: Intel Core i3-8100 (3,60 GHz).\nGeheugen: 4 GB DDR4 RAM.\nKoeler: Intel stockkoeler inbegrepen.\nSocket: LGA1151.\nFormaat: micro-ATX.\n\n𝗔𝗮𝗻𝘀𝗹𝘂𝗶𝘁𝗶𝗻𝗴𝗲𝗻:\nVGA / DVI.\nUSB 3.1\nGigabit LAN.\n6 × SATA 3.\n1 × PCIe 3.0 x16 @ x16.\n2 × PCIe 3.0 x1 @ x1.\n1 × M.2-slot voor SSD.\n\n𝗧𝗲 𝗸𝗼𝗼𝗽 𝘇𝗼𝗮𝗹𝘀 𝗵𝗲𝘁 𝗶𝘀.\nGebruikt.\n\nOphalen of verzenden.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     100.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 100.0,
+   "price_total": 100.0,
+   "metric": 100.0,
+   "deal": false
+  },
+  "mp-m2470149135": {
+   "title": "Dell Latitude 5440 | i5-1345U | 32GB RAM | 512GB SSD | Touch",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/windows-laptops/m2470149135-dell-latitude-5440-i5-1345u-32gb-ram-512gb-ssd-touch",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/deffa260-c049-4787-9909-6f24f2f71cba?rule=ecg_mp_eps$_82.jpg",
+   "city": "Leiderdorp",
+   "seller": "Micheal",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Dell Latitude 5440 | i5-1345U vPro | 32GB RAM | 512GB SSD | Touchscreen | Win11 Pro\n\nAangeboden : Zeer nette en krachtige zakelijke laptop. Ideaal voor werk, studie, thuiswerken, programmeren en multitasking. Gaat weg wegens aanschaf van een nieuwe laptop.\n\n• ⁠• Intel Core i5-1345U vPro (13e generatie) • 32 GB DDR4 RAM • 512 GB NVMe SSD • 14” Full HD Touchscreen (1920x1080) • Windows 11 Pro / 26H2 • Verlicht toetsenbord • IR-camera met Windows Hello gezichtsherkenning • Wi‑Fi 6E & Bluetooth • Thunderbolt 4 / USB‑C • HDMI & RJ45 netwerkaansluiting • Smart Card Reader • Accu in uitstekende conditie (Excellent) • Inclusief originele Dell 100W USB‑C oplader\n\nDe laptop werkt perfect en is direct gebruiksklaar. Geen BIOS- of supervisorwachtwoord aanwezig. Ook niet gekoppeld aan Intune, Autopilot of ander bedrijfsbeheer.\nDe Dell Latitude-serie staat bekend om zijn uitstekende bouwkwaliteit, betrouwbaarheid en lange levensduur.\n\nVraagprijs: €650",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470143627": {
+   "title": "Corsair Vengeance RGB Pro 16GB (2x8GB) DDR4 3200MHz",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/ram-geheugen/m2470143627-corsair-vengeance-rgb-pro-16gb-2x8gb-ddr4-3200mhz",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/fb18cdd4-0e92-4a7c-b337-3bae7bc1e42f?rule=ecg_mp_eps$_82.jpg",
+   "city": "Badhoevedorp",
+   "seller": "Michel",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": 110.0,
+   "price_type": "FIXED",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een set van twee Corsair Vengeance RGB Pro DDR4 geheugenmodules van elk 8GB, wat neerkomt op een totaal van 16GB. Het geheugen werkt op een snelheid van 3200MHz en is voorzien van stijlvolle RGB-verlichting die volledig naar wens in te stellen is via Corsair iCUE software. De set verkeert in uitstekende staat en werkt volledig naar behoren. Inclusief originele verpakking. Perfect voor het upgraden van je gaming pc of desktop.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     110.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 110.0,
+   "price_total": 110.0,
+   "metric": 110.0,
+   "deal": false
+  },
+  "mp-m2470143605": {
+   "title": "gevraagd Asus H110I-PLUS ITX / andere mini ITX",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/moederborden/m2470143605-gevraagd-asus-h110i-plus-itx-andere-mini-itx",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e330fd8c-2dd7-4bf8-a5b4-eda211a786ed?rule=ecg_mp_eps$_82.jpg",
+   "city": "Bolsward",
+   "seller": "Bijlsma",
+   "source": "marktplaats",
+   "posted": "Gisteren",
+   "price": null,
+   "price_type": "SEE_DESCRIPTION",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "gezocht , mini itx moederbord ,\nMag ook een andere zijn als hij maar LGA 1151 is , met\n6e of 7e generatie intel.\n\nAndere mini ITX mag ook , maar dan compleet met CPU (minimaal DDR4 , of DDR5 ) AMD of Intel maakt niet uit.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470112472": {
+   "title": "Dodge RAM Dodge RAM 2010 Yountimer Crewcab Rambox Android ca",
+   "url": "https://www.marktplaats.nl/v/auto-s/bestelauto-s/m2470112472-dodge-ram-dodge-ram-2010-yountimer-crewcab-rambox-android-ca",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/96e8a4bb-228f-4de4-880d-51eef01c8822?rule=ecg_mp_eps$_82.jpg",
+   "city": "Wapse",
+   "seller": "remco",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {},
+   "description": "2025/2026\nNieuwe gastank 120ltr\nNieuwe radiateur en thermostaat\nNieuwe remklauwen achter plus Nieuwe remblokken\n1 Nieuwe remklauw voor en nieuwe remblokken voor\nAndere achteras (oude was kapot gelopen)\nNieuwe remblokken voor\n16 Nieuwe bougies\nElke 10 duizend beurt\n4x Nieuwe banden\nNieuwe dynamo looprol en multiriem\nAutomaatbak gespoeld\nDiffrentielen Nieuwe olie\nSpruitstukken gevlakt en nieuwe bouten in de kop\nNieuwe Stuurkogel.links\n2x Nieuwe trekarmen achter\nNieuwe veren achten (verzwaarde)\nNieuwe schokbrekers achter\nNieuwe radio met groot scherm\n\nachterbank is er nu uit,die komt bij de verkoop er weer in tenzij anders gewenst\nkm 335.000 oplopend\n3500 kilo trekgewicht op kenteken\nauto gaat weg ivm aanschaf andere auto\ngaat om een marge auto",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470117605": {
+   "title": "Samsung Galaxy A55 5G - 256GB - Awesome Navy",
+   "url": "https://www.marktplaats.nl/v/telecommunicatie/mobiele-telefoons-samsung/m2470117605-samsung-galaxy-a55-5g-256gb-awesome-navy",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b4812967-15f9-4f10-94cd-3f3833d9e64c?rule=ecg_mp_eps$_82.jpg",
+   "city": "Sint-Maartensdijk",
+   "seller": "Gijs",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 170.0,
+   "price_type": "MIN_BID",
+   "reserved": true,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een nette Samsung Galaxy A55 5G (SM-A556B/DS) in de kleur Awesome Navy.\n\n\n\n\n 256 GB opslag, 8 GB RAM Dual SIM, simlockvrij Nieuwste software: Android 16 / One UI 8 Alle functies getest met het Samsung-testmenu: scherm, touch, camera's, luidsprekers, microfoon en sensoren werken goed Teruggezet naar fabrieksinstellingen, niet gekoppeld aan een Google- of Samsung-account \n\nDe telefoon draait op de nieuwste software en is volledig getest: alle functies zoals het krasvrije scherm, touch, camera's, luidsprekers, microfoon en sensoren werken uitstekend.\n\nHet toestel is teruggezet naar de fabrieksinstellingen en niet gekoppeld aan een account.\n\nOp de randen zijn lichte gebruikssporen zichtbaar (zie laatste foto rechtsonder), maar met een hoesje zie je hier niets meer van. Het betreft een los toestel zonder doos of lader.\n\nOphalen kan in Sint-Maartensdijk of verzenden in overleg.",
+   "detail": 2,
+   "highest_bid": 160.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     170.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 170.0,
+   "price_total": 170.0,
+   "metric": 170.0,
+   "deal": false
+  },
+  "mp-m2470141251": {
+   "title": "ASUS Geforce GTX 1060 6GB OC edition",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/videokaarten/m2470141251-asus-geforce-gtx-1060-6gb-oc-edition",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/12c24908-db1f-45b7-9c97-de33981e406b?rule=ecg_mp_eps$_82.jpg",
+   "city": "Winterswijk",
+   "seller": "Knockels",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 120.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "ASUS GeForce GTX 1060 6GB OC Edition videokaart.\n\nDe videokaart heeft niet heel lang in mijn pc gezeten. Vanwege een upgrade van mijn pc is de videokaart vervangen en mag deze plaatsmaken voor een nieuwe eigenaar.\n\nDe kaart is schoon, goed onderhouden en verkeert in nette staat . Ideaal voor iemand die op zoek is naar een betaalbare videokaart voor gaming of dagelijks gebruik.\n\n Specificaties: \n\n Model: ASUS GeForce GTX 1060 OC Edition Geheugen: 6GB GDDR5 Uitvoering: Overclocked (OC)",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     120.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 120.0,
+   "price_total": 120.0,
+   "metric": 120.0,
+   "deal": false
+  },
+  "mp-m2470163936": {
+   "title": "Apple iPhone 7 - Zilver - 64 GB - Gebruikt",
+   "url": "https://www.marktplaats.nl/v/telecommunicatie/mobiele-telefoons-apple-iphone/m2470163936-apple-iphone-7-zilver-64-gb-gebruikt",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/904cc750-54e0-407c-b46e-425d16aeada6?rule=ecg_mp_eps$_82.jpg",
+   "city": "Beverwijk",
+   "seller": "Scut 3am",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 65.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Hierbij verkoop ik een gebruikte Apple iPhone 8 in de kleur zilver. De telefoon heeft wat gebruikerssporen op de behuizing, maar werkt nog naar behoren. Ideaal als reserve toestel of voor dagelijks gebruik. Wordt geleverd zonder oplader.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     65.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 65.0,
+   "price_total": 65.0,
+   "metric": 65.0,
+   "deal": false
+  },
+  "mp-m2470139767": {
+   "title": "MSI AMD Radeon RX 480 8gb versie",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/videokaarten/m2470139767-msi-amd-radeon-rx-480-8gb-versie",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/3da165b4-9f7b-43cd-93f9-a1829f2d62b7?rule=ecg_mp_eps$_82.jpg",
+   "city": "Lippenhuizen",
+   "seller": "van der Laan",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 60.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Gaat weg vanwege een upgrade, twee maanden geleden werkend weggezet.\n\nVideokaart interessant voor 1080p games. Is een paar jaar geleden opnieuw van paste voorzien.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     60.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 60.0,
+   "price_total": 60.0,
+   "metric": 60.0,
+   "deal": false
+  },
+  "mp-m2470130615": {
+   "title": "Gaming PC – GTX 1080 | Intel i5-11400F | 16GB RAM | 1TB SSD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/nas/m2470130615-gaming-pc-gtx-1080-intel-i5-11400f-16gb-ram-1tb-ssd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/a799ad67-0924-4c37-9a06-d401b14da970?rule=ecg_mp_eps$_82.jpg",
+   "city": "Amersfoort",
+   "seller": "Hamza Kadir Mahmutoğulları",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: een mooie zwarte gaming-pc\n\nSpecificaties:\n\n Videokaart: NVIDIA GeForce GTX 1080 8GB Processor: Intel Core i5-11400F Werkgeheugen: 16GB RAM Opslag: 1TB SSD",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470124111": {
+   "title": "Dell Latitude 5400 - i5 / 8GB / 512GB SSD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/windows-laptops/m2470124111-dell-latitude-5400-i5-8gb-512gb-ssd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/39935834-bde4-4dec-a9d1-01ba4b52b538?rule=ecg_mp_eps$_82.jpg",
+   "city": "Emmen",
+   "seller": "meemsx",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 199.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "Nette Dell Latitude 5400 laptop met lichte gebruikssporen. Ideaal voor school, studie, werk en dagelijks gebruik. Specificaties: Intel Core i5-8365U processor, 8 GB werkgeheugen, 512 GB opslag, 14 inch scherm, Windows 11, Intel UHD Graphics 620. Uitstekende batterijconditie van bijna 95%, aantoonbaar met batterijrapport. Ik doe hem weg omdat ik graag een macbook wil. Inclusief oplader.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     199.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 199.0,
+   "price_total": 199.0,
+   "metric": 199.0,
+   "deal": false
+  },
+  "mp-m2470115771": {
+   "title": "Samsung Galaxy A54 5G - 256GB - zwart",
+   "url": "https://www.marktplaats.nl/v/telecommunicatie/mobiele-telefoons-samsung/m2470115771-samsung-galaxy-a54-5g-256gb-zwart",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b16a8d2b-68a3-4c5c-b55a-cdb5fef5724b?rule=ecg_mp_eps$_82.jpg",
+   "city": "Arnhem",
+   "seller": "Mariska Rietbergen",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 185.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: Samsung Galaxy A54 5G in de kleur zwart. Dit betreft de uitvoering met 256GB opslagcapaciteit en 8GB werkgeheugen. Ideale smartphone met een prachtig scherm, uitstekende camera's en snelle 5G-ondersteuning. Zonder simlock en klaar voor gebruik.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     185.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 185.0,
+   "price_total": 185.0,
+   "metric": 185.0,
+   "deal": false
+  },
+  "mp-m2470125743": {
+   "title": "Iphone 16",
+   "url": "https://www.marktplaats.nl/v/telecommunicatie/mobiele-telefoons-apple-iphone/m2470125743-iphone-16",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/12aec4a9-a8c6-427e-95b8-39cc115ff745?rule=ecg_mp_eps$_82.jpg",
+   "city": "Burgum",
+   "seller": "ytsjehietkamp",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": true,
+   "attrs": {
+    "condition": "Gebruikt"
+   },
+   "description": "2 jaar oude iphone 16 batterijcapaciteit 90% gebruikssporen aan de zijkanten",
+   "detail": 2,
+   "highest_bid": 350.0,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470124843": {
+   "title": "MSI GEFORCE 5060 TI 16GB SHADOW 2X OC PLUS BULK",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/videokaarten/m2470124843-msi-geforce-5060-ti-16gb-shadow-2x-oc-plus-bulk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/836d883a-9da7-4b69-8e42-1aa537d4d6c4?rule=ecg_mp_eps$_82.jpg",
+   "city": "Tilburg",
+   "seller": "Younes.R",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": null,
+   "price_type": "FAST_BID",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Videokaart van nvidia, ongeveer 2 maanden gebruikt. Werkt perfect!",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [],
+   "price_drop": false,
+   "brand": null,
+   "price_each": null,
+   "price_total": null,
+   "metric": null,
+   "deal": false
+  },
+  "mp-m2470123521": {
+   "title": "Amazon Kindle Oasis (10e generatie) - 32 GB",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/e-readers/m2470123521-amazon-kindle-oasis-10e-generatie-32-gb",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/b998dc7b-6007-4f88-8fe9-340c2aac2997?rule=ecg_mp_eps$_82.jpg",
+   "city": "Harderwijk",
+   "seller": "Erika",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 145.0,
+   "price_type": "FIXED",
+   "reserved": false,
+   "attrs": {
+    "condition": "Zo goed als nieuw"
+   },
+   "description": "Te koop aangeboden: een in zeer goede staat verkerende Amazon Kindle Oasis (10e generatie) met een opslagcapaciteit van 32 GB.\n\n​De Kindle Oasis staat bekend om zijn hoogwaardige aluminium behuizing, het scherpe 7-inch e-ink scherm met instelbare kleurtemperatuur (warm licht voor 's avonds) en de fijne fysieke bladerknoppen.\n\n​Kenmerken:\n​Model: Kindle Oasis 10e generatie (S9G29R / Wifi)\n​Opslag: 32 GB (ruimte voor duizenden boeken en luisterboeken)\n​Scherm: 7 inch met 300 ppi en aanpasbare schermverlichting (van wit naar warm geel)\n​Waterbestendig: Ja (IPX8)\n​Staat: E-reader werkt perfect, het scherm is netjes en krasvrij. Batterijduur is uitstekend.\n​Inclusief:\n​Kindle Oasis 32 GB\n​Beschermhoes (KWMobile) – Let op: de harde kunststof hoek van het hoesje heeft een scheurtje (zie foto), maar de hoes beschermt de e-reader nog prima.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     145.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 145.0,
+   "price_total": 145.0,
+   "metric": 145.0,
+   "deal": false
+  },
+  "mp-m2470146778": {
+   "title": "iMac 27\" Late 2012 i7 3.4GHz 32GB RAM 1TB SSD",
+   "url": "https://www.marktplaats.nl/v/computers-en-software/apple-desktops/m2470146778-imac-27-late-2012-i7-3-4ghz-32gb-ram-1tb-ssd",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/02ed6903-2095-4bb4-a6b5-4515d48814d7?rule=ecg_mp_eps$_82.jpg",
+   "city": "Drempt",
+   "seller": "Hans Enter",
+   "source": "marktplaats",
+   "posted": "Vandaag",
+   "price": 100.0,
+   "price_type": "MIN_BID",
+   "reserved": false,
+   "attrs": {
+    "type": "SSD",
+    "condition": "Gebruikt"
+   },
+   "description": "Te koop aangeboden: Apple iMac 27-inch (Late 2012). Deze desktop is uitgerust met een Intel Core i7 processor van 3,4 GHz, met 32 GB RAM werkgeheugen en een 1 TB Fusion drive. Het scherm bevindt zich in uitstekende staat en heeft geen enkele kras. Inclusief originele doos en toetsenbord. Let op: de bijgeleverde Magic Trackpad werkt helaas niet omdat er een voetje/balletje aan de onderkant ontbreekt.",
+   "detail": 2,
+   "highest_bid": null,
+   "last_seen": "2026-11-26T03:34:16Z",
+   "active": true,
+   "first_seen": "2026-11-26T03:34:16Z",
+   "price_history": [
+    [
+     "2026-11-26T03:34:16Z",
+     100.0
+    ]
+   ],
+   "price_drop": false,
+   "brand": null,
+   "price_each": 100.0,
+   "price_total": 100.0,
+   "metric": 100.0,
    "deal": false
   }
  }
